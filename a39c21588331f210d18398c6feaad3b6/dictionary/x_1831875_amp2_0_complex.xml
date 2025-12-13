@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e7a198583317e10d18398c6feaad358" label="Complex" max_length="40" name="x_1831875_amp2_0_complex" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Number of Facilities" max_length="40" name="num_facilities" type="integer"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element label="FMC Code" max_length="40" name="fmc_code" type="string"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="Complex name" max_length="40" name="complex_name" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
+        <element label="Campus" max_length="32" name="campus" reference="x_1831875_amp2_0_campus" type="reference"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Complex Code" max_length="40" name="complex_code" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total SqFt" max_length="40" name="sqft_total" type="integer"/>
+        <index name="index">
+            <element name="campus"/>
+        </index>
+        <index name="index2">
+            <element name="facility"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

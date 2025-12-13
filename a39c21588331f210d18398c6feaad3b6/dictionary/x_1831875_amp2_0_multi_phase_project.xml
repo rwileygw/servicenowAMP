@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a3b6329083713610d18398c6feaad31e" label="Multi-phase Project" max_length="40" name="x_1831875_amp2_0_multi_phase_project" type="collection">
+        <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="Created from project" max_length="32" name="created_from_project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
+        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="Status" max_length="32" name="status" reference="x_1831875_amp2_0_project_status" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Overall Priority Score" max_length="38" name="overall_priority_score" type="decimal"/>
+        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="Multi-phase ID" max_length="40" name="multi_phase_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

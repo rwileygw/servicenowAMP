@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="34e6e2ac8339f610d18398c6feaad346" label="Scoring Criteria" max_length="40" name="x_1831875_amp2_0_scoring_criteria" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Context" max_length="40" name="context" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AMP" sequence="0" value="amp"/>
+                <element inactive_on_update="false" label="Minor Construction" sequence="1" value="minor_construction"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Algorithm" max_length="40" name="algorithm" type="string"/>
+        <element label="Criteria code" max_length="40" name="criteria_code" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <element label="Weight" max_length="40" name="weight" type="decimal"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="DELETE">
+        <access_method>btree</access_method>
+        <col_name_string>fiscal_year,fmc,complex,project_status,priority_score</col_name_string>
+        <index_col_name>d354a6d4837df210d18398c6feaad363,5f54a6d4837df210d18398c6feaad36e,1354a6d4837df210d18398c6feaad369,9754a6d4837df210d18398c6feaad35d,d754a6d4837df210d18398c6feaad37a</index_col_name>
+        <logical_table_name>x_1831875_amp2_0_project_package</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-12 03:12:19</sys_created_on>
+        <sys_id>0efaad4d83f17e10d18398c6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_index_x_1831875_amp2_0_project_package_fiscal_year_fmc_complex_project_status_priority_score</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-12-12 03:12:19</sys_updated_on>
+        <table display_value="Project Package" name="x_1831875_amp2_0_project_package">de865e9883b9f210d18398c6feaad348</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <file_path/>
+        <instance_id>3c44a752db860e54ebdd2a591396193f</instance_id>
+        <instance_name>dev267493</instance_name>
+        <name>sys_index_x_1831875_amp2_0_project_package_fiscal_year_fmc_complex_project_status_priority_score</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index"><sys_index action="INSERT_OR_UPDATE"><access_method>btree</access_method><col_name_string>fiscal_year,fmc,complex,project_status,priority_score</col_name_string><index_col_name>d354a6d4837df210d18398c6feaad363,5f54a6d4837df210d18398c6feaad36e,1354a6d4837df210d18398c6feaad369,9754a6d4837df210d18398c6feaad35d,d754a6d4837df210d18398c6feaad37a</index_col_name><logical_table_name>x_1831875_amp2_0_project_package</logical_table_name><sys_class_name>sys_index</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-12-12 03:12:19</sys_created_on><sys_id>0efaad4d83f17e10d18398c6feaad32a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1831875_amp2_0_project_package</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_index_x_1831875_amp2_0_project_package_fiscal_year_fmc_complex_project_status_priority_score</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-12-12 03:12:19</sys_updated_on><table display_value="Project Package" name="x_1831875_amp2_0_project_package">de865e9883b9f210d18398c6feaad348</table><unique_index>false</unique_index></sys_index></record_update>]]></payload>
+        <payload_hash>-318932787</payload_hash>
+        <record_name>Project Package: Fiscal Year, FMC, Complex, Project status, Priority</record_name>
+        <reverted_from/>
+        <source>af9c21588331f210d18398c6feaad3bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-12 03:12:19</sys_created_on>
+        <sys_id>d6faad4d83f17e10d18398c6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b108b8c720000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-12-12 03:12:19</sys_updated_on>
+        <type>Indexes</type>
+        <update_guid>dafaad4d6df17e10ded2f6065c6d4d30</update_guid>
+        <update_guid_history>dafaad4d6df17e10ded2f6065c6d4d30:-318932787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-12 03:16:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_index">sys_index</sys_db_object>
+        <sys_id>207750dd39d84b4d84231069dc03aa21</sys_id>
+        <sys_metadata>0efaad4d83f17e10d18398c6feaad32a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_index_x_1831875_amp2_0_project_package_fiscal_year_fmc_complex_project_status_priority_score</sys_update_name>
+        <sys_update_version display_value="sys_index_x_1831875_amp2_0_project_package_fiscal_year_fmc_complex_project_status_priority_score">d6faad4d83f17e10d18398c6feaad332</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-12-12 03:16:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

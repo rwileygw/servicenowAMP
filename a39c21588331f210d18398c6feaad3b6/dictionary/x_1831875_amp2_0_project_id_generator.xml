@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ace38b483b57a10d18398c6feaad3ff" label="Project ID Generator" max_length="40" name="x_1831875_amp2_0_project_id_generator" type="collection">
+        <element label="FY" max_length="40" name="fy" type="string"/>
+        <element label="Last Seq" max_length="40" name="last_seq" type="integer"/>
+        <element label="Reserved by" max_length="32" name="reserved_by" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="reserved"/>
+                <element inactive_on_update="false" label="Used" sequence="2" value="used"/>
+            </choice>
+        </element>
+        <element label="Key" max_length="40" name="key" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Last value" max_length="40" name="last_value" type="integer"/>
+        <element label="Phase suffix" max_length="40" name="phase_suffix" type="string"/>
+        <element label="Fiscal year" max_length="40" name="fiscal_year" type="string"/>
+        <index name="index">
+            <element name="reserved_by"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

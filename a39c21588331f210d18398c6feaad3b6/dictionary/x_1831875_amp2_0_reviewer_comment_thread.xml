@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51daab5c83f93610d18398c6feaad375" label="Reviewer Comment Thread" max_length="40" name="x_1831875_amp2_0_reviewer_comment_thread" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Opened on" max_length="40" name="opened_on" type="glide_date_time"/>
+        <element label="Closed on" max_length="40" name="closed_on" type="string"/>
+        <element label="Closed" max_length="40" name="closed" type="boolean"/>
+        <element label="Thread type" max_length="40" name="thread_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NEPA" sequence="2" value="nepa"/>
+                <element inactive_on_update="false" label="CWIP" sequence="3" value="cwip"/>
+                <element inactive_on_update="false" label="General" sequence="1" value="general"/>
+                <element inactive_on_update="false" label="Approval" sequence="0" value="approval"/>
+            </choice>
+        </element>
+        <element label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

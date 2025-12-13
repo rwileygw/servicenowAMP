@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd062fd883b93610d18398c6feaad377" label="Projects ROL import" max_length="40" name="x_1831875_amp2_0_projects_rol_import" type="collection">
+        <element label="Result" max_length="40" name="result" type="string"/>
+        <element label="Source ID" max_length="40" name="source_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Complex" max_length="40" name="complex" type="string"/>
+        <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element label="Priority rank" max_length="40" name="priority_rank" type="string"/>
+        <element label="Error message" max_length="2000" name="error_message" type="string"/>
+        <element label="Fiscal year" max_length="40" name="fiscal_year" type="string"/>
+        <element label="Output type" max_length="40" name="output_type" type="string"/>
+        <element label="Estimated cost" max_length="40" name="estimated_cost" type="string"/>
+        <element label="Import status" max_length="40" name="import_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Error" sequence="3" value="error"/>
+                <element inactive_on_update="false" label="Mapped" sequence="1" value="mapped"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Created" sequence="2" value="created"/>
+            </choice>
+        </element>
+        <element label="Project title" max_length="40" name="project_title" type="string"/>
+        <element label="Project package" max_length="40" name="project_package" type="string"/>
+        <element label="Import batch" max_length="40" name="import_batch" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

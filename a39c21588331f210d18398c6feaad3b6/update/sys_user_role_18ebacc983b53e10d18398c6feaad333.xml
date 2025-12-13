@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1831875_amp2_0.bundle_member_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>bundle_member_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-11 22:36:39</sys_created_on>
+        <sys_id>18ebacc983b53e10d18398c6feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0.bundle_member_user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_18ebacc983b53e10d18398c6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-11 22:36:39</sys_updated_on>
+    </sys_user_role>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="618ad35483393610d18398c6feaad3d7" label="Estimated Cost Line" max_length="40" name="x_1831875_amp2_0_estimated_cost_line" type="collection">
+        <element label="Cost category" max_length="40" name="cost_category" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Estimated cost" max_length="38" name="estimated_cost" type="decimal"/>
+        <element label="Phase" max_length="40" name="phase" type="string"/>
+        <element label="Project" max_length="40" name="project" type="string"/>
+        <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

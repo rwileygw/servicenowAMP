@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="962d2c8983f53e10d18398c6feaad369" label="Approval Decision Log" max_length="40" name="x_1831875_amp2_0_approval_log" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Comments" max_length="40" name="comments" type="journal"/>
+        <element label="Decision date" max_length="40" name="decision_date" type="glide_date_time"/>
+        <element label="Notifications sent" max_length="40" name="notifications_sent" type="boolean"/>
+        <element label="Next state" max_length="32" name="next_state" reference="x_1831875_amp2_0_project_status" type="reference"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Decision" max_length="40" name="decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deferred" sequence="2" value="deferred"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+            </choice>
+        </element>
+        <element label="Role" max_length="40" name="role" type="string"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="next_state"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

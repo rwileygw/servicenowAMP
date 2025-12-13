@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1598a47c83717a10d18398c6feaad3f3" label="CWIP Requirement Rules" max_length="40" name="x_1831875_amp2_0_cwip_rules" type="collection">
+        <element label="Action" max_length="40" name="action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GenerateDoc" sequence="2" value="generatedoc"/>
+                <element inactive_on_update="false" label="Warn" sequence="0" value="warn"/>
+                <element inactive_on_update="false" label="Block" sequence="1" value="block"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Threshold amount" max_length="38" name="threshold_amount" type="decimal"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Rule Code" max_length="40" name="rule_code" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
