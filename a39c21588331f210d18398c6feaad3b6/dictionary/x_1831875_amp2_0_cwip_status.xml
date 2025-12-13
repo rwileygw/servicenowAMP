@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8f4c622083b9f610d18398c6feaad3ef" label="CWIP Status" max_length="40" name="x_1831875_amp2_0_cwip_status" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Active" max_length="40" name="active" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

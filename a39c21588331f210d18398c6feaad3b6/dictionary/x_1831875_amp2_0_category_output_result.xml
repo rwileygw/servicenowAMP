@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd2d9f5c83393610d18398c6feaad397" label="Category Output Result" max_length="40" name="x_1831875_amp2_0_category_output_result" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Result Label" max_length="255" name="result_label" type="string"/>
+        <element label="Output Type" max_length="255" name="output_type_label" type="string"/>
+        <element label="Result Code" max_length="40" name="result_code" type="string"/>
+        <element label="Output Code" max_length="40" name="output_type_code" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Display Order" max_length="40" name="display_order" type="integer"/>
+        <element label="Category Label" max_length="255" name="category_label" type="string"/>
+        <element label="FY End" max_length="40" name="fy_end" type="integer"/>
+        <element label="Category Code" max_length="40" name="category_code" type="string"/>
+        <element label="FY Start" max_length="40" name="fy_start" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

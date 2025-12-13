@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>evt_mgmt.impact_filter_services_ready</name>
+        <read_roles/>
+        <suffix>x_1831875_amp2_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-09 19:29:27</sys_created_on>
+        <sys_id>dadd619c8371f210d18398c6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>evt_mgmt.impact_filter_services_ready</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_properties_dadd619c8371f210d18398c6feaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-09 19:29:27</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=dadd619c8371f210d18398c6feaad317"/>
+</record_update>

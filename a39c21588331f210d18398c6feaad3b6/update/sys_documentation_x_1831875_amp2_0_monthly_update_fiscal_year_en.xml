@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fiscal_year" label="Fiscal year" language="en" table="x_1831875_amp2_0_monthly_update">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fiscal_year</element>
+            <help/>
+            <hint/>
+            <label>Fiscal year</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_monthly_update</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 04:46:41</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Fiscal year</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_documentation_x_1831875_amp2_0_monthly_update_fiscal_year_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 04:46:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

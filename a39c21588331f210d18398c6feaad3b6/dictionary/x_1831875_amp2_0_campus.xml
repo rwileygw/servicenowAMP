@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5049158183317e10d18398c6feaad39a" label="Campus" max_length="40" name="x_1831875_amp2_0_campus" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="ZIP Code" max_length="40" name="zip" type="string"/>
+        <element label="Campus Name" max_length="40" name="campus_name" type="string"/>
+        <element label="Longitude" max_length="38" name="longitude" type="decimal"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Campus Code" max_length="40" name="campus_code" type="string"/>
+        <element label="Latitude" max_length="38" name="latitude" type="decimal"/>
+        <element label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
+        <index name="index">
+            <element name="complex"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
