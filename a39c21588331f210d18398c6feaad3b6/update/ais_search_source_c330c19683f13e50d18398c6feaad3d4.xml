@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_1831875_amp2_0_amp_outputs</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>AMP Outputs</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:18:00</sys_created_on>
+        <sys_id>c330c19683f13e50d18398c6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP Outputs</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>ais_search_source_c330c19683f13e50d18398c6feaad3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:18:00</sys_updated_on>
+    </ais_search_source>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1831875_amp2_0.SpaceUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Server-side helper fpr Space table. This is the SpaceUtils script include and holds callable settings and rules.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>SpaceUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var SpaceUtils = Class.create();
+SpaceUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getBuildingAndFacility: function() {
+        var floorId = this.getParameter('sysparm_floor');
+        var result = {};
+
+        if (floorId) {
+            var floorRec = new GlideRecordSecure('floor'); // Replace with your floor table
+            if (floorRec.get(floorId)) {
+                result.building = floorRec.building.toString();
+
+                if (floorRec.building) {
+                    var buildingRec = floorRec.building.getRefRecord();
+                    if (buildingRec.isValidRecord()) {
+                        result.facility = buildingRec.facility.toString();
+                    }
+                }
+            }
+        }
+        return JSON.stringify(result);
+    }
+
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 02:51:54</sys_created_on>
+        <sys_id>c22f2e1d83b17250d18398c6feaad31c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SpaceUtils</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_include_c22f2e1d83b17250d18398c6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 02:55:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

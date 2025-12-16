@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d983218583b17e10d18398c6feaad3ab" label="Fiscal Year" max_length="40" name="x_1831875_amp2_0_fiscal_year" type="collection">
+    <element db_object_id="d983218583b17e10d18398c6feaad3ab" label="Fiscal Year" max_length="40" name="x_1831875_amp2_0_fiscal_year" text_index="true" type="collection">
+        <element label="FY" max_length="40" name="fy" type="string"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Code" max_length="40" name="code" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>

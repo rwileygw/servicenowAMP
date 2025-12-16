@@ -1,5 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="b55f55c583717e10d18398c6feaad34b" sys_domain="global" table="x_1831875_amp2_0_building" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>2b6bda9d83bd3250d18398c6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>e36bda9d83bd3250d18398c6feaad3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>af6bda9d83bd3250d18398c6feaad3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_built</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>6b6bda9d83bd3250d18398c6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>floor</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>276bda9d83bd3250d18398c6feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>ef6bda9d83bd3250d18398c6feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>ab6bda9d83bd3250d18398c6feaad3f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary_use</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>676bda9d83bd3250d18398c6feaad3f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>construction_type</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>236bda9d83bd3250d18398c6feaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_spaces</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>eb6bda9d83bd3250d18398c6feaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stories</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>a76bda9d83bd3250d18398c6feaad3f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>636bda9d83bd3250d18398c6feaad3f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 01:22:31</sys_created_on>
+            <sys_id>2f6bda9d83bd3250d18398c6feaad3f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_building" sys_domain="global" view="Default view">b55f55c583717e10d18398c6feaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 01:22:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

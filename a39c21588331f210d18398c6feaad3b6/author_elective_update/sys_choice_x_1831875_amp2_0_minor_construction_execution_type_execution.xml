@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="execution" table="x_1831875_amp2_0_minor_construction_execution_type" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>execution</element>
+            <name>x_1831875_amp2_0_minor_construction_execution_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 23:45:45</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>execution</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_minor_construction_execution_type_execution</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 23:45:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>execution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single-Phase</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_minor_construction_execution_type</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 23:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 23:45:45</sys_updated_on>
+            <value>single_phase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>execution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Multi-Phase</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_minor_construction_execution_type</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 23:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 23:45:45</sys_updated_on>
+            <value>multi_phase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>execution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Design</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_minor_construction_execution_type</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 23:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 23:45:45</sys_updated_on>
+            <value>design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>execution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Design / Build</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_minor_construction_execution_type</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 23:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 23:45:45</sys_updated_on>
+            <value>design_build</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

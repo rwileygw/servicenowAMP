@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Identity" section_id="5081cc9e83b5fa50d18398c6feaad3e2" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Project_Input_Form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc.label</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>49a96daa83753290d18398c6feaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility.facility_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c5a96daa83753290d18398c6feaad3ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex.complex_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>45a96daa83753290d18398c6feaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building.building_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c1a96daa83753290d18398c6feaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility.city</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>41a96daa83753290d18398c6feaad3b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>cda96daa83753290d18398c6feaad3b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region.region</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>4da96daa83753290d18398c6feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c9a96daa83753290d18398c6feaad3b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_id</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>49a96daa83753290d18398c6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_id.complex_id</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c5a96daa83753290d18398c6feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building.building_number</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>45a96daa83753290d18398c6feaad3b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility.state</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c1a96daa83753290d18398c6feaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc_priority</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>41a96daa83753290d18398c6feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_status</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>cda96daa83753290d18398c6feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Identity</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 16:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5081cc9e83b5fa50d18398c6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 16:43:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Project Input Form" name="Project_Input_Form">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

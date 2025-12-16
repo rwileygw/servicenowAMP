@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="29a8e58e83397a50d18398c6feaad3bb" label="AMP Outputs" max_length="40" name="x_1831875_amp2_0_amp_outputs" text_index="true" type="collection">
+        <element label="Output Type" max_length="32" name="output_type" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
+        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="Fiscal Year" max_length="32" name="fiscal_year" reference="x_1831875_amp2_0_fiscal_year" type="reference"/>
+        <element label="Result" max_length="32" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
+        <element label="Category" max_length="32" name="category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
+            <element name="complex"/>
+        </index>
+        <index name="index3">
+            <element name="fiscal_year"/>
+        </index>
+        <index name="index4">
+            <element name="fmc"/>
+        </index>
+        <index name="index5">
+            <element name="output_type"/>
+        </index>
+        <index name="index6">
+            <element name="result"/>
+        </index>
+        <index name="index7">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

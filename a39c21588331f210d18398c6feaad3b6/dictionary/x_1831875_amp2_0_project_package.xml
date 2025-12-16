@@ -1,54 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="de865e9883b9f210d18398c6feaad348" label="Project Package" max_length="40" name="x_1831875_amp2_0_project_package" type="collection">
+    <element db_object_id="de865e9883b9f210d18398c6feaad348" label="Project Package" max_length="40" name="x_1831875_amp2_0_project_package" text_index="true" type="collection">
         <element label="Is Multi-phase" max_length="40" name="is_multi_phase" type="boolean"/>
         <element label="FMC Priority" max_length="40" name="fmc_priority" type="integer"/>
         <element label="Output Type" max_length="40" name="output_type" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element audit="true" label="current round" max_length="40" name="current_round" type="integer"/>
-        <element label="Complex" max_length="40" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="Complex" max_length="40" name="complex" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Builder Suggestion" max_length="40" name="builder_suggestion" reference="x_1831875_amp2_0_builder_suggested_project" type="reference"/>
+        <element label="Mission Critical Flag" max_length="40" name="mission_critical_flag" type="string"/>
         <element label="Child" max_length="40" name="child" type="string"/>
         <element label="Special Initiative" max_length="40" name="special_initiative" reference="x_1831875_amp2_0_special_initiative" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element audit="true" label="created from rol" max_length="40" name="created_from_rol" type="boolean"/>
         <element audit="true" label="created from minor const" max_length="40" name="created_from_minor_const" type="boolean"/>
-        <element label="FMC" max_length="40" name="fmc" type="string"/>
-        <element label="Project ID" max_length="40" name="project_id" type="string"/>
+        <element label="System Classification" max_length="40" name="system_classification" type="string"/>
+        <element label="Year Built" max_length="32" name="year_built" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_building" type="reference"/>
+        <element label="Complex ID" max_length="32" name="complex_id" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="Project ID" max_length="40" name="project_id" read_only="true" type="string"/>
         <element label="Actual Cost" max_length="38" name="actual_cost" type="decimal"/>
         <element label="CWIP Status" max_length="40" name="cwip_status" reference="x_1831875_amp2_0_cwip_status" type="reference"/>
         <element label="Category" max_length="40" name="category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element audit="true" label="is archived" max_length="40" name="is_archived" type="boolean"/>
         <element audit="true" label="is deleted" max_length="40" name="is_deleted" type="boolean"/>
         <element label="Project Status" max_length="40" name="project_status" reference="x_1831875_amp2_0_project_status" type="reference"/>
+        <element label="Asset Category" max_length="32" name="asset_category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element label="OMB Priority" max_length="40" name="omb_priority" type="integer"/>
+        <element label="Project Title" max_length="1000" name="short_description" type="string"/>
+        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
         <element label="NEPA Status" max_length="40" name="nepa_status" reference="x_1831875_amp2_0_nepa_status" type="reference"/>
         <element label="Parent Multi-phase" max_length="40" name="parent_multi_phase" reference="x_1831875_amp2_0_multi_phase_project" type="reference"/>
         <element label="Estimated Cost" max_length="38" name="estimated_cost" type="decimal"/>
         <element label="Result" max_length="40" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="Region" max_length="32" name="region" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Fiscal Year" max_length="40" name="fiscal_year" type="integer"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
         <element label="Priority" max_length="38" name="priority_score" type="decimal"/>
         <element label="Parent" max_length="40" name="parent" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Floor" max_length="32" name="floor" reference="x_1831875_amp2_0_floor" type="reference"/>
+        <element choice="1" label="Project Classification" max_length="40" name="project_class" type="choice">
+            <choice/>
+        </element>
+        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="Gross SqFt" max_length="32" name="gross_sqft" reference="x_1831875_amp2_0_facility" type="reference"/>
         <index name="index">
-            <element name="complex"/>
+            <element name="asset_category"/>
         </index>
         <index name="index2">
-            <element name="fiscal_year"/>
+            <element name="building"/>
         </index>
         <index name="index3">
-            <element name="fmc"/>
+            <element name="complex"/>
         </index>
         <index name="index4">
-            <element name="parent_multi_phase"/>
+            <element name="complex_id"/>
         </index>
         <index name="index5">
-            <element name="priority_score"/>
+            <element name="facility"/>
         </index>
         <index name="index6">
-            <element name="project_status"/>
+            <element name="fiscal_year"/>
         </index>
         <index name="index7">
+            <element name="floor"/>
+        </index>
+        <index name="index8">
+            <element name="fmc"/>
+        </index>
+        <index name="index9">
+            <element name="gross_sqft"/>
+        </index>
+        <index name="index10">
+            <element name="parent_multi_phase"/>
+        </index>
+        <index name="index11">
+            <element name="priority_score"/>
+        </index>
+        <index name="index12">
+            <element name="project_status"/>
+        </index>
+        <index name="index13">
+            <element name="region"/>
+        </index>
+        <index name="index14">
+            <element name="space"/>
+        </index>
+        <index name="index15">
+            <element name="status"/>
+        </index>
+        <index name="index16">
             <element name="sys_class_name"/>
+        </index>
+        <index name="index17">
+            <element name="year_built"/>
         </index>
     </element>
 </database>

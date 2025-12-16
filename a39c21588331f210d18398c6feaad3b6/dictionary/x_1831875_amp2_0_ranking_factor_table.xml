@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2208e22e83717290d18398c6feaad354" label="Ranking Factor Table" max_length="40" name="x_1831875_amp2_0_ranking_factor_table" type="collection">
+        <element label="Ranking Factor Description" max_length="400" name="ranking_factor_description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Ranking Factor ID" max_length="40" name="ranking_factor_id" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

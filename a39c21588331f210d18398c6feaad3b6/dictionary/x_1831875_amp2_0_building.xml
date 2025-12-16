@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="615f55c583717e10d18398c6feaad36f" label="Building" max_length="40" name="x_1831875_amp2_0_building" type="collection">
+    <element db_object_id="615f55c583717e10d18398c6feaad36f" label="Building" max_length="40" name="x_1831875_amp2_0_building" text_index="true" type="collection">
         <element label="Construction Type" max_length="40" name="construction_type" type="string"/>
         <element label="Building Name" max_length="40" name="building_name" type="string"/>
         <element label="Nuvolo Building" max_length="40" name="nuvolo_building" type="string"/>

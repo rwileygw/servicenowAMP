@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>CMDB Location</column_label>
+        <column_label>CMN Location</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 03:22:45</sys_created_on>
-        <sys_name>CMDB Location</sys_name>
+        <sys_name>CMN Location</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_facility_cmdb_location</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-12 02:10:04</sys_updated_on>
+        <sys_updated_on>2025-12-13 05:16:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

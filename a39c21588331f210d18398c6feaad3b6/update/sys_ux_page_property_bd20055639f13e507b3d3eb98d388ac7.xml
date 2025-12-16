@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="AMP2.0">7120055661f13e505e996ae427841cda</page>
+        <required_translations>[ {
+  "message" : "New AMP Outputs",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Approval Decision Log",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Builder Suggested Project",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Builder Work Item Mapping",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Building",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Bundle",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Bundle ID Generator",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Bundle Member",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New CWIP Requirement Rules",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New CWIP Status",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Campus",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Category Output Result",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Complex",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Document Generator Output",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Estimated Cost Line",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New FMC List",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New FY Summary",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Facility",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Facility Background Data",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Facility Investment Plan",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Fiscal Year",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Floor",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Minor Construction",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Monthly Update Log",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Multi-phase Project",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New NEPA Requirement Rules",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New NEPA Status",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Output History ",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project Archive",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project Data",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project ID Generator",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project Package",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project Relationship",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project Status",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Projects ROL import",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New RPIE Lookup",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Real Property Table Parent",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Reviewer Comment Archive",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Reviewer Comment Thread",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Score Audit",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Scoring Criteria",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Settings",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Space",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Special Initiatives",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New State Codes",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New System Classification",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:17:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>bd20055639f13e507b3d3eb98d388ac7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_page_property_bd20055639f13e507b3d3eb98d388ac7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:17:53</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1831875_amp2_0.7120055661f13e505e996ae427841cda.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Project Package"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_project_package","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_project_package","canCreate":true}}},{"label":{"translatable":true,"message":"New Approval Decision Log"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_approval_log","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_approval_log","canCreate":true}}},{"label":{"translatable":true,"message":"New Builder Suggested Project"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_builder_suggested_project","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_builder_suggested_project","canCreate":true}}},{"label":{"translatable":true,"message":"New Builder Work Item Mapping"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_builder_work_item_map","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_builder_work_item_map","canCreate":true}}},{"label":{"translatable":true,"message":"New Building"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_building","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_building","canCreate":true}}},{"label":{"translatable":true,"message":"New Bundle"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_bundle","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_bundle","canCreate":true}}},{"label":{"translatable":true,"message":"New Bundle ID Generator"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_bundle_id_generator","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_bundle_id_generator","canCreate":true}}},{"label":{"translatable":true,"message":"New Bundle Member"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_bundle_member","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_bundle_member","canCreate":true}}},{"label":{"translatable":true,"message":"New Campus"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_campus","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_campus","canCreate":true}}},{"label":{"translatable":true,"message":"New Category Output Result"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_category_output_result","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_category_output_result","canCreate":true}}},{"label":{"translatable":true,"message":"New Complex"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_complex","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_complex","canCreate":true}}},{"label":{"translatable":true,"message":"New CWIP Requirement Rules"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_cwip_rules","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_cwip_rules","canCreate":true}}},{"label":{"translatable":true,"message":"New CWIP Status"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_cwip_status","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_cwip_status","canCreate":true}}},{"label":{"translatable":true,"message":"New Document Generator Output"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_doc_output","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_doc_output","canCreate":true}}},{"label":{"translatable":true,"message":"New Estimated Cost Line"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_estimated_cost_line","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_estimated_cost_line","canCreate":true}}},{"label":{"translatable":true,"message":"New Facility"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_facility","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_facility","canCreate":true}}},{"label":{"translatable":true,"message":"New Facility Background Data"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_facility_background_data","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_facility_background_data","canCreate":true}}},{"label":{"translatable":true,"message":"New Facility Investment Plan"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_facility_investment_plan","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_facility_investment_plan","canCreate":true}}},{"label":{"translatable":true,"message":"New AMP Outputs"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_amp_outputs","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_amp_outputs","canCreate":true}}},{"label":{"translatable":true,"message":"New Project Data"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_pds","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_pds","canCreate":true}}},{"label":{"translatable":true,"message":"New FMC List"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_fmc_list","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_fmc_list","canCreate":true}}},{"label":{"translatable":true,"message":"New Floor"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_floor","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_floor","canCreate":true}}},{"label":{"translatable":true,"message":"New Space"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_space","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_space","canCreate":true}}},{"label":{"translatable":true,"message":"New State Codes"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_state_codes","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_state_codes","canCreate":true}}},{"label":{"translatable":true,"message":"New Fiscal Year"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_fiscal_year","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_fiscal_year","canCreate":true}}},{"label":{"translatable":true,"message":"New Minor Construction"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_minor_construction_import","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_minor_construction_import","canCreate":true}}},{"label":{"translatable":true,"message":"New Multi-phase Project"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_multi_phase_project","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_multi_phase_project","canCreate":true}}},{"label":{"translatable":true,"message":"New NEPA Status"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_nepa_status","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_nepa_status","canCreate":true}}},{"label":{"translatable":true,"message":"New NEPA Requirement Rules"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_nepa_rules","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_nepa_rules","canCreate":true}}},{"label":{"translatable":true,"message":"New Project Relationship"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_project_relation","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_project_relation","canCreate":true}}},{"label":{"translatable":true,"message":"New Project Status"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_project_status","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_project_status","canCreate":true}}},{"label":{"translatable":true,"message":"New System Classification"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_system_classification","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_system_classification","canCreate":true}}},{"label":{"translatable":true,"message":"New Special Initiatives"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_special_initiative","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_special_initiative","canCreate":true}}},{"label":{"translatable":true,"message":"New Scoring Criteria"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_scoring_criteria","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_scoring_criteria","canCreate":true}}},{"label":{"translatable":true,"message":"New Monthly Update Log"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_monthly_update","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_monthly_update","canCreate":true}}},{"label":{"translatable":true,"message":"New Score Audit"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_score_audit","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_score_audit","canCreate":true}}},{"label":{"translatable":true,"message":"New Projects ROL import"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_projects_rol_import","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_projects_rol_import","canCreate":true}}},{"label":{"translatable":true,"message":"New Real Property Table Parent"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_real_property_table_parent","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_real_property_table_parent","canCreate":true}}},{"label":{"translatable":true,"message":"New RPIE Lookup"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_rpie_lookup","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_rpie_lookup","canCreate":true}}},{"label":{"translatable":true,"message":"New Reviewer Comment Archive"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_reviewer_comment","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_reviewer_comment","canCreate":true}}},{"label":{"translatable":true,"message":"New Reviewer Comment Thread"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_reviewer_comment_thread","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_reviewer_comment_thread","canCreate":true}}},{"label":{"translatable":true,"message":"New Project ID Generator"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_project_id_generator","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_project_id_generator","canCreate":true}}},{"label":{"translatable":true,"message":"New FY Summary"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_fy_summary","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_fy_summary","canCreate":true}}},{"label":{"translatable":true,"message":"New Project Archive"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_project_archive","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_project_archive","canCreate":true}}},{"label":{"translatable":true,"message":"New Output History "},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_output_history","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_output_history","canCreate":true}}},{"label":{"translatable":true,"message":"New Settings"},"routeInfo":{"route":"record","fields":{"table":"x_1831875_amp2_0_settings","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1831875_amp2_0_settings","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd20055639f13e507b3d3eb98d388ac7"/>
+</record_update>

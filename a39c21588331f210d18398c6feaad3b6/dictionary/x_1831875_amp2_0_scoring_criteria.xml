@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="34e6e2ac8339f610d18398c6feaad346" label="Scoring Criteria" max_length="40" name="x_1831875_amp2_0_scoring_criteria" type="collection">
+    <element db_object_id="34e6e2ac8339f610d18398c6feaad346" label="Scoring Criteria" max_length="40" name="x_1831875_amp2_0_scoring_criteria" text_index="true" type="collection">
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Context" max_length="40" name="context" type="choice">
             <choice>

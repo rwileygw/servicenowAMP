@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="cmdb_location" label="CMDB Location" language="en" table="x_1831875_amp2_0_facility">
+    <sys_documentation element="cmdb_location" label="CMN Location" language="en" table="x_1831875_amp2_0_facility">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>cmdb_location</element>
             <help/>
             <hint/>
-            <label>CMDB Location</label>
+            <label>CMN Location</label>
             <language>en</language>
             <name>x_1831875_amp2_0_facility</name>
-            <plural/>
+            <plural>CMN Locations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-10 03:22:45</sys_created_on>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_name>CMDB Location</sys_name>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>CMN Location</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_documentation_x_1831875_amp2_0_facility_cmdb_location_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-12 02:10:04</sys_updated_on>
+            <sys_updated_on>2025-12-13 05:16:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

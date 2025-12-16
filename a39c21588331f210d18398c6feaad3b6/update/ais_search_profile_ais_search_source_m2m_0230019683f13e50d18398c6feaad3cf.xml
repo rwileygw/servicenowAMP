@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="amp20 Search Profile">7d200556b5f13e50f38a4cd9b733f0d9</profile>
+        <search_source display_value="Bundle Member">8230019683f13e50d18398c6feaad3ca</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:17:56</sys_created_on>
+        <sys_id>0230019683f13e50d18398c6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amp20 Search Profile.Bundle Member</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_0230019683f13e50d18398c6feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:17:56</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1831875_amp2_0.AutoPopulateUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script Include for Space &amp; Project Business rules to set fields when floor or facility changes.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AutoPopulateUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AutoPopulateUtils = Class.create();
+AutoPopulateUtils.prototype = {
+    /**
+     * Populates fields on the current record by walking a relationship chain.
+     * @param {GlideRecord} current - The current record in the BR
+     * @param {string} triggerField - Field name that triggers the update
+     * @param {Array} chain - Array of { field: 'ref_field', alias: 'target_field' }
+     */
+    populateFromChain: function(current, triggerField, chain) {
+        if (current[triggerField].changes()) {
+            var startRec = current[triggerField].getRefRecord();
+            if (startRec.isValidRecord()) {
+                var currentRec = startRec;
+                chain.forEach(function(step) {
+                    if (currentRec.isValidRecord() && currentRec[step.field]) {
+                        current[step.alias] = currentRec[step.field];
+                        currentRec = currentRec[step.field].getRefRecord();
+                    }
+                });
+            }
+        }
+    },
+
+    type: 'AutoPopulateUtils'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 03:37:15</sys_created_on>
+        <sys_id>a2887a5983357250d18398c6feaad3a4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AutoPopulateUtils</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_include_a2887a5983357250d18398c6feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 04:27:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

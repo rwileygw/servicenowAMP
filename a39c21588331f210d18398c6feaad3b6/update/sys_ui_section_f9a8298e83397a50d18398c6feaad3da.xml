@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f9a8298e83397a50d18398c6feaad3da" sys_domain="global" table="x_1831875_amp2_0_amp_outputs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fiscal_year.fy</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>f44aedc283797a50d18398c6feaad3c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc.label</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>744aedc283797a50d18398c6feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex.complex_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>f04aedc283797a50d18398c6feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category.category_label</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>704aedc283797a50d18398c6feaad3cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>output_type.output_type_label</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>fc4aedc283797a50d18398c6feaad3cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result.result_label</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:43:08</sys_created_on>
+            <sys_id>7c4aedc283797a50d18398c6feaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_amp_outputs" sys_domain="global" view="Default view">f9a8298e83397a50d18398c6feaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:43:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1831875_amp2_0_amp_outputs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 05:36:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9a8298e83397a50d18398c6feaad3da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_amp_outputs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_f9a8298e83397a50d18398c6feaad3da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 05:36:07</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

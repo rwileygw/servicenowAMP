@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="18272b1083f93610d18398c6feaad320" label="Minor Construction Import" max_length="40" name="x_1831875_amp2_0_minor_construction_import" type="collection">
+    <element db_object_id="18272b1083f93610d18398c6feaad320" label="Minor Construction" max_length="40" name="x_1831875_amp2_0_minor_construction_import" text_index="true" type="collection">
         <element label="Status" max_length="40" name="status" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Project package" max_length="40" name="project_package" type="string"/>
@@ -7,13 +7,21 @@
         <element label="Import status" max_length="40" name="import_status" type="string"/>
         <element label="Error message" max_length="40" name="error_message" type="string"/>
         <element label="Estimated cost" max_length="40" name="estimated_cost" type="string"/>
+        <element label="Builder Suggestions" max_length="32" name="builder_suggestions" reference="x_1831875_amp2_0_builder_suggested_project" type="reference"/>
         <element label="Asset reference" max_length="40" name="asset_reference" type="string"/>
         <element label="Project title" max_length="40" name="project_title" type="string"/>
         <element label="Source ID" max_length="40" name="source_id" type="string"/>
         <element label="Facility" max_length="40" name="facility" type="string"/>
+        <element label="RPIE" max_length="32" name="rpie" reference="x_1831875_amp2_0_rpie_lookup" type="reference"/>
         <element label="Fiscal year" max_length="40" name="fiscal_year" type="string"/>
         <element label="Import batch" max_length="40" name="import_batch" type="string"/>
         <index name="index">
+            <element name="builder_suggestions"/>
+        </index>
+        <index name="index2">
+            <element name="rpie"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

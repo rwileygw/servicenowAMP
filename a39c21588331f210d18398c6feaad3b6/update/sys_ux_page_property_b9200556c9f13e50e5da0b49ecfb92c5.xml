@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>routeConfigId</name>
+        <page display_value="AMP2.0">7120055661f13e505e996ae427841cda</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:17:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b9200556c9f13e50e5da0b49ecfb92c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>routeConfigId</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_page_property_b9200556c9f13e50e5da0b49ecfb92c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:17:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1831875_amp2_0.7120055661f13e505e996ae427841cda.root.routeConfigId</unique_name>
+        <value>76a302f10b131010a8b1c96237673a61</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9200556c9f13e50e5da0b49ecfb92c5"/>
+</record_update>
