@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="44c3efd083b93610d18398c6feaad367" label="Builder Suggested Project" max_length="40" name="x_1831875_amp2_0_builder_suggested_project" type="collection">
+    <element db_object_id="44c3efd083b93610d18398c6feaad367" label="Builder Suggested Project" max_length="40" name="x_1831875_amp2_0_builder_suggested_project" text_index="true" type="collection">
         <element label="Priority score" max_length="38" name="priority_score" type="decimal"/>
         <element label="Source system" max_length="40" name="source_system" type="choice">
             <choice>
@@ -10,9 +10,10 @@
         </element>
         <element label="Source ID" max_length="40" name="source_id" type="string"/>
         <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element label="Minor Construction" max_length="32" name="minor_construction" reference="x_1831875_amp2_0_minor_construction_import" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Estimated cost" max_length="38" name="estimated_cost" type="decimal"/>
-        <element label="Project package" max_length="40" name="project_package" type="string"/>
+        <element label="Project package" max_length="32" name="project_package" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Complex" max_length="40" name="complex" type="string"/>
         <element label="Status" max_length="40" name="status" type="choice">
             <choice>
@@ -24,6 +25,9 @@
         <element label="Suggested fiscal year" max_length="40" name="suggested_fiscal_year" type="integer"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <index name="index">
+            <element name="minor_construction"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>

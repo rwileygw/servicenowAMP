@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="41bc2714833d3610d18398c6feaad31c" label="Monthly Update Log" max_length="40" name="x_1831875_amp2_0_monthly_update" type="collection">
+    <element db_object_id="41bc2714833d3610d18398c6feaad31c" label="Monthly Update Log" max_length="40" name="x_1831875_amp2_0_monthly_update" text_index="true" type="collection">
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Actual cost" max_length="40" name="actual_cost" type="currency"/>
         <element label="Import source" max_length="40" name="import_source" type="string"/>

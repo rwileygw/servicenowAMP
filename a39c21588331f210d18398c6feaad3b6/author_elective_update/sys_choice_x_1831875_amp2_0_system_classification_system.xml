@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="system" table="x_1831875_amp2_0_system_classification" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>system</element>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>system</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_system_classification_system</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FOUNDATIONS</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>foundations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PLUMBING</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>plumbing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INTERIOR CONSTRUCTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>interior_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EXTERIOR CONSTRUCTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>exterior_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ELECTRICAL</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>electrical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FIRE PROTECTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>fire_protection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SITE IMPROVEMENTS</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>site_improvements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INTERIOR FINISHES</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>interior_finishes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HVAC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>hvac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROOFING</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>roofing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STAIRS</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>stairs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SITE ELECTRICAL UTILITIES</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>site_electrical_utilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SITE CIVIL / MECHANICAL UTILITIES</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>site_civil_mechanical_utilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EQUIPMENT</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUPERSTRUCTURE</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>superstructure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONVEYING</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>conveying</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FURNISHINGS</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>furnishings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPECIAL CONSTRUCTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>special_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BASEMENT CONSTRUCTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>basement_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WATERFRONT STRUCTURES</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>waterfront_structures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WATERFRONT UTILITIES</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>waterfront_utilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COASTAL PROTECTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>coastal_protection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTHER SITE CONSTRUCTION</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>other_site_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SITE PREPARATIONS</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_system_classification</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 18:38:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 18:38:05</sys_updated_on>
+            <value>site_preparations</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

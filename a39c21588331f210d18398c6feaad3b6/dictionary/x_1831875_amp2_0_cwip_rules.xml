@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1598a47c83717a10d18398c6feaad3f3" label="CWIP Requirement Rules" max_length="40" name="x_1831875_amp2_0_cwip_rules" type="collection">
+    <element db_object_id="1598a47c83717a10d18398c6feaad3f3" label="CWIP Requirement Rules" max_length="40" name="x_1831875_amp2_0_cwip_rules" text_index="true" type="collection">
         <element label="Action" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GenerateDoc" sequence="2" value="generatedoc"/>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="82011f9583797250d18398c6feaad3ae" sys_domain="global" table="x_1831875_amp2_0_facility" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2011f9583797250d18398c6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">fa49135083393610d18398c6feaad307</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca011f9583797250d18398c6feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="Facility Details" display_value="Facility Details" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">ca011f9583797250d18398c6feaad335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a011f9583797250d18398c6feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="Location" display_value="Location" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">8a011f9583797250d18398c6feaad337</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e011f9583797250d18398c6feaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="Contacts" display_value="Contacts" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">42011f9583797250d18398c6feaad3a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a011f9583797250d18398c6feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="Integrations" display_value="Integrations" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">4a011f9583797250d18398c6feaad3aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca011f9583797250d18398c6feaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_facility" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">82011f9583797250d18398c6feaad3ae</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1831875_amp2_0_facility" sys_domain="global" view="Default view">c2011f9583797250d18398c6feaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1831875_amp2_0_facility</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82011f9583797250d18398c6feaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_facility</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_82011f9583797250d18398c6feaad3ae</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 05:16:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

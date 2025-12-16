@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a54e30de83b13e50d18398c6feaad3aa" label="Project Data" max_length="40" name="x_1831875_amp2_0_pds" text_index="true" type="collection">
+        <element label="Action" max_length="40" name="action" type="string"/>
+        <element label="Project ID" max_length="40" name="project_id" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Complex ID" max_length="40" name="complex_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Project Title" max_length="40" name="project_title" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

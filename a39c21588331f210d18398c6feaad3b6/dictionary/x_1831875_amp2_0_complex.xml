@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4e7a198583317e10d18398c6feaad358" label="Complex" max_length="40" name="x_1831875_amp2_0_complex" type="collection">
+    <element db_object_id="4e7a198583317e10d18398c6feaad358" label="Complex" max_length="40" name="x_1831875_amp2_0_complex" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Number of Facilities" max_length="40" name="num_facilities" type="integer"/>
         <element label="Notes" max_length="2000" name="notes" type="string"/>
         <element label="Priority" max_length="40" name="priority" type="integer"/>
-        <element label="FMC Code" max_length="40" name="fmc_code" type="string"/>
+        <element label="FMC Code" max_length="32" name="fmc_code" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
         <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Complex name" max_length="40" name="complex_name" type="string"/>
         <element label="Region" max_length="40" name="region" type="string"/>
@@ -16,6 +16,7 @@
         <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Total SqFt" max_length="40" name="sqft_total" type="integer"/>
+        <element label="Complex ID" max_length="40" name="complex_id" type="string"/>
         <index name="index">
             <element name="campus"/>
         </index>

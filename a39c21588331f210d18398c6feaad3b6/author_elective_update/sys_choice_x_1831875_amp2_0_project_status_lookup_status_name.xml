@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status_name" table="x_1831875_amp2_0_project_status_lookup" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status_name</element>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status_name</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_project_status_lookup_status_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proposed by Site Rep</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>proposed_by_site_rep</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proposed by FMC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>proposed_by_fmc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved by OMI Chief</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>approved_by_omi_chief</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted by HQ</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>accepted_by_hq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved by Facility Council</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>approved_by_facility_council</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Funds</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>awaiting_funds</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funds Transferred from HQ</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>funds_transferred_from_hq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Procurement</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>in_procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out to Bid</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>out_to_bid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awarded</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>awarded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deferment Requested</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>deferment_requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deletion Requested</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>deletion_requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>canceled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deleted</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_status_lookup</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <value>deleted</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

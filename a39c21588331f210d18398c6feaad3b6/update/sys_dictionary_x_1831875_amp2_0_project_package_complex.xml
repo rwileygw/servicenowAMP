@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1831875_amp2_0_complex">x_1831875_amp2_0_complex</reference>
+        <reference display_value="" name="x_1831875_amp2_0_facility">x_1831875_amp2_0_facility</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_complex</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-12 02:59:46</sys_updated_on>
+        <sys_updated_on>2025-12-15 16:47:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

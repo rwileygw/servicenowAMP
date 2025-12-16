@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="a427efdc83b93610d18398c6feaad3df" sys_domain="global" table="x_1831875_amp2_0_minor_construction_import" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>builder_suggestions</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 03:56:38</sys_created_on>
+            <sys_id>a8e1990683357a50d18398c6feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_minor_construction_import" sys_domain="global" view="Default view">a427efdc83b93610d18398c6feaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 03:56:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

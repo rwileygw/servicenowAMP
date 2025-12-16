@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9785e6688339f610d18398c6feaad330" label="FMC List" max_length="40" name="x_1831875_amp2_0_fmc_list" type="collection">
+    <element db_object_id="9785e6688339f610d18398c6feaad330" label="FMC List" max_length="40" name="x_1831875_amp2_0_fmc_list" text_index="true" type="collection">
+        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="FMC Severity Index" max_length="40" name="fmc_severity_index" type="string"/>
         <element label="Nuvolo reference" max_length="40" name="nuvolo_reference" type="string"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Label" max_length="255" name="label" type="string"/>
+        <element label="FMC" max_length="255" name="label" type="string"/>
         <element label="Region" max_length="40" name="region" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Code" max_length="40" name="code" type="string"/>
         <element label="Notes" max_length="2000" name="notes" type="string"/>
         <index name="index">
+            <element name="complex"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

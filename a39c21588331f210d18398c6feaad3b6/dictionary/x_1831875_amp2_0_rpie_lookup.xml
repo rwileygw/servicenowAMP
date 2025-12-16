@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="568ee83083f17a10d18398c6feaad3d8" label="RPIE Lookup" max_length="40" name="x_1831875_amp2_0_rpie_lookup" type="collection">
+    <element db_object_id="568ee83083f17a10d18398c6feaad3d8" label="RPIE Lookup" max_length="40" name="x_1831875_amp2_0_rpie_lookup" text_index="true" type="collection">
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Source code" max_length="40" name="source_code" type="string"/>
         <element label="Transform rule" max_length="40" name="transform_rule" type="script_plain"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Minor Construction" max_length="40" name="minor_construction" type="string"/>
         <element label="Criteria code" max_length="32" name="criteria_code" reference="x_1831875_amp2_0_scoring_criteria" type="reference"/>
         <element label="AMP Field" max_length="40" name="amp_field" type="string"/>
         <index name="index">
             <element name="criteria_code"/>
         </index>
         <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>
