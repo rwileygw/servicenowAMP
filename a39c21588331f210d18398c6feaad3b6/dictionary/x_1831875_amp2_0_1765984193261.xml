@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="222fb53e83f9f290d18398c6feaad3d0" extends="sys_import_set_row" label="RPV Room Data" max_length="40" name="x_1831875_amp2_0_1765984193261" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Id" label="Complex Id" max_length="40" name="u_complex_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Common Name" label="Common Name" max_length="40" name="u_common_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Allocation Ratio" label="Floor Allocation Ratio" max_length="40" name="u_floor_allocation_ratio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comment" label="Comment" max_length="40" name="u_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vacant?" label="Vacant?" max_length="40" name="u_vacant_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Nickname" label="Complex Nickname" max_length="40" name="u_complex_nickname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Functionality Flag" label="Functionality Flag" max_length="40" name="u_functionality_flag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Service Area" label="Building Service Area" max_length="40" name="u_building_service_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tenant Area" label="Tenant Area" max_length="40" name="u_tenant_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Name" label="Complex Name" max_length="40" name="u_complex_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ownership" label="Ownership" max_length="40" name="u_ownership" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Number (Onsite)" label="Room Number (Onsite)" max_length="40" name="u_room_number__onsite_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip Code" label="Zip Code" max_length="40" name="u_zip_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sustainment Requirement" label="Sustainment Requirement" max_length="40" name="u_sustainment_requirement" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Allocation" label="Floor Allocation" max_length="40" name="u_floor_allocation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Amenity And Service Area" label="Building Amenity And Service Area" max_length="40" name="u_building_ame_d_service_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Number (Plans)" label="Room Number (Plans)" max_length="40" name="u_room_number__plans_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Percent Use" label="Percent Use" max_length="40" name="u_percent_use" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSA SDM Room Name" label="GSA SDM Room Name" max_length="40" name="u_gsa_sdm_room_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ACF" label="ACF" max_length="40" name="u_acf" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Amenity Area" label="Building Amenity Area" max_length="40" name="u_building_amenity_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Occupant Area" label="Occupant Area" max_length="40" name="u_occupant_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Space Type" label="Space Type" max_length="40" name="u_space_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prop ID" label="Prop ID" max_length="40" name="u_prop_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rentable Area" label="Rentable Area" max_length="40" name="u_rentable_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FAC Desc" label="FAC Desc" max_length="40" name="u_fac_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Predom Use Type" label="Predom Use Type" max_length="40" name="u_predom_use_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SUC" label="SUC" max_length="40" name="u_suc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Name" label="Property Name" max_length="40" name="u_property_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Area" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Predominant Use" label="Predominant Use" max_length="40" name="u_predominant_use" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Primary Occupant" label="Primary Occupant" max_length="40" name="u_primary_occupant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Nickname" label="Property Nickname" max_length="40" name="u_property_nickname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Service Area" label="Floor Service Area" max_length="40" name="u_floor_service_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FY" label="FY" max_length="40" name="u_fy" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Level" label="Floor Level" max_length="40" name="u_floor_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tenant Ancillary Area" label="Tenant Ancillary Area" max_length="40" name="u_tenant_ancillary_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Usable  Area" label="Floor Usable  Area" max_length="40" name="u_floor_usable__area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FAC Code" label="FAC Code" max_length="40" name="u_fac_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Allocation Ratio" label="Building Allocation Ratio" max_length="40" name="u_building_allocation_ratio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UOM" label="UOM" max_length="40" name="u_uom" type="string"/>
+    </element>
+</database>
