@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>RPV Room Data Report (RPV Room Data)</display>
+        <filter/>
+        <name>RPV Room Data Report</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-18 04:27:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba85fc8747bdb2506ca043ff336d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RPV Room Data Report (RPV Room Data)</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_report_source_ba85fc8747bdb2506ca043ff336d432f</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-18 04:27:11</sys_updated_on>
+        <table>x_1831875_amp2_0_rpv_room_data</table>
+    </sys_report_source>
+</record_update>

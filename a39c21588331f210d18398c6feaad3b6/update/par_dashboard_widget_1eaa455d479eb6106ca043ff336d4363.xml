@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">8d35748747bdb2506ca043ff336d4398</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1831875_amp2_0_prop_inventory","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"Property Address","columns":"property_id,property_name,address_line_1,city,state,county_code,latitude,longitude,property_status,permanently_removed_from_service,lease_no,payment_frequency,annualized_rent,monthly_amount,multi_property_designation,start_date,date_acquired,contract_execution_date,end_date,final_end_date,cancellation_deadline,renewal_deadline,tax_escalation_date,operating_cost_escalation_date,renewal_option_years_remaining,right_to_terminate,days_to_cancel,termination_option,date_termination_available,vendor,vendor_alias,vendor_category,vendor_poc,delegation_authority,lease_authority_indicator_frpp_code,fixed,leasehold_improvement,omb_a_11_scoring,material_status,gsf,usable,rentable,common,size_uom,size_value,design_capacity_usf,capacity_used_usf,total_acreage,realty_specialist,can_determine_federal_count,can_determine_contractor_count,full_time,part_time,contractors,teleworker,detailees,funded_vacancies,interns,military,other,partners,summer,unassigned,installation_id,installation_name,acquisition_cost,utilization_level,date_entered,foia_exemption,statutory_citation,replacement_value,repair_needs,operating_cost,maintenance_cost,sustainability_rating,property_status_date,report_of_excess_accepted_date,report_of_excess_submitted_date,historical_category,reporting_agency_frpp,mission_dependency,congressional_districts,restrictions,report_to_gsa,fasab_category,outgrant,date_constructed,field_office,collocated_field_office,gsa_exclusion,total_capitalized,net_book_value,accumulated_depreciation,capitalized_historic,estimated_capital_expenditure,year_reported_underutilized,height,county,sys_created_by,predominant_usage,predominant_usage_code,primary_occupant,program_identifying_code,region","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"limit":500}</component_props>
+        <h>13</h>
+        <name>Property Inventory to Project</name>
+        <stored_component display_value="Property Inventory to Project">87b84195479eb6106ca043ff336d4369</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-06 16:01:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1eaa455d479eb6106ca043ff336d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property Inventory to Project</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_1eaa455d479eb6106ca043ff336d4363</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-06 16:01:01</sys_updated_on>
+        <visualization/>
+        <w>49</w>
+        <widget_props/>
+        <x>0</x>
+        <y>83</y>
+    </par_dashboard_widget>
+</record_update>

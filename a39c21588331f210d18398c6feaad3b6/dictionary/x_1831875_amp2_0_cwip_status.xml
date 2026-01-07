@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8f4c622083b9f610d18398c6feaad3ef" label="CWIP Status" max_length="40" name="x_1831875_amp2_0_cwip_status" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" type="string"/>
         <element label="Code" max_length="40" name="code" type="string"/>
         <element label="CWIP Letter Status" max_length="40" name="cwip_letter_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
                 <element inactive_on_update="false" label="Not Submitted" sequence="0" value="not_submitted"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
                 <element inactive_on_update="false" label="Returned" sequence="2" value="returned"/>
             </choice>
         </element>
-        <element label="Description" max_length="40" name="description" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="CWIP Status" max_length="40" name="cwip_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Needs Letter" sequence="1" value="needs_letter"/>
                 <element inactive_on_update="false" label="Does not qualify" sequence="0" value="does_not_qualify"/>
+                <element inactive_on_update="false" label="Needs Letter" sequence="1" value="needs_letter"/>
                 <element inactive_on_update="false" label="Qualifies" sequence="2" value="qualifies"/>
             </choice>
         </element>
-        <element label="Active" max_length="40" name="active" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Visual Indicator of Flag" max_length="40" name="visual_indicator_of_flag" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Needs Letter - Yellow" sequence="1" value="needs_letter_yellow"/>
                 <element inactive_on_update="false" label="Qualifies - Green" sequence="0" value="qualifies_green"/>
+                <element inactive_on_update="false" label="Needs Letter - Yellow" sequence="1" value="needs_letter_yellow"/>
                 <element inactive_on_update="false" label="Does Not Qualify - Red" sequence="2" value="does_not_qualify_red"/>
             </choice>
         </element>
-        <element label="Label" max_length="40" name="label" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

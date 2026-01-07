@@ -11,10 +11,12 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-10 16:19:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Final End Date</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_documentation_x_1831875_amp2_0_1765383573823_u_final_end_date_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

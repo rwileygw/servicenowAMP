@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="fc60819a83f13e50d18398c6feaad380" sys_domain="global" table="x_1831875_amp2_0_pds" version="3" view="workspace-amp20-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc_choice</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 17:31:07</sys_created_on>
+            <sys_id>f7b56e1b878e7e90fd6c0f280cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_pds" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">fc60819a83f13e50d18398c6feaad380</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 17:31:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_name</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 17:31:07</sys_created_on>
+            <sys_id>37b56e1b878e7e90fd6c0f280cbb3546</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_pds" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">fc60819a83f13e50d18398c6feaad380</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 17:31:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -8,14 +36,15 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>fc60819a83f13e50d18398c6feaad380</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1831875_amp2_0_pds</sys_name>
             <sys_overrides/>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_section_fc60819a83f13e50d18398c6feaad380</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

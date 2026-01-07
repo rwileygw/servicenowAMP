@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="aabbf1fe83b9f290d18398c6feaad317" extends="sys_import_set_row" label="FMC Lookup Table" max_length="40" name="x_1831875_amp2_0_1765983292778" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="40" name="u_county" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height1" label="Height1" max_length="40" name="u_height1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Collocated Field Office" label="Collocated Field Office" max_length="40" name="u_collocated_field_office" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Anticipated Disposal Method" label="Anticipated Disposal Method" max_length="40" name="u_anticipated_disposal_method" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Legal Interest" label="Legal Interest" max_length="40" name="u_legal_interest" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Canidate for Sale" label="Canidate for Sale" max_length="40" name="u_canidate_for_sale" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report of Excess Accepted Date" label="Report of Excess Accepted Date" max_length="40" name="u_report_of_ex__accepted_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Part Time" label="Part Time" max_length="40" name="u_part_time" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition Cost" label="Acquisition Cost" max_length="40" name="u_acquisition_cost" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Congressional Districts" label="Congressional Districts" max_length="40" name="u_congressional_districts" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSA Exclusion" label="GSA Exclusion" max_length="40" name="u_gsa_exclusion" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Outgrant" label="Outgrant" max_length="40" name="u_outgrant" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Constructed" label="Date Constructed" max_length="40" name="u_date_constructed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Date" label="Disposal Date" max_length="40" name="u_disposal_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report to GSA" label="Report to GSA" max_length="40" name="u_report_to_gsa" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rural Acreage" label="Rural Acreage" max_length="40" name="u_rural_acreage" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lease No" label="Lease No" max_length="40" name="u_lease_no" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cancellation Deadline" label="Cancellation Deadline" max_length="40" name="u_cancellation_deadline" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Summer" label="Summer" max_length="40" name="u_summer" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Designation" label="Multi-Property Designation" max_length="40" name="u_multi_property_designation" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Payment Frequency" label="Payment Frequency" max_length="40" name="u_payment_frequency" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Statutory Citation" label="Statutory Citation" max_length="40" name="u_statutory_citation" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Id" label="Complex Id" max_length="40" name="u_complex_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Capacity Used" label="Capacity Used" max_length="40" name="u_capacity_used" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor POC" label="Vendor POC" max_length="40" name="u_vendor_poc" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Start Date" label="Start Date" max_length="40" name="u_start_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Termination Option" label="Termination Option" max_length="40" name="u_termination_option" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip" label="Zip" max_length="40" name="u_zip" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition Method" label="Acquisition Method" max_length="40" name="u_acquisition_method" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Utilization Level" label="Utilization Level" max_length="40" name="u_utilization_level" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property ID" label="Property ID" max_length="40" name="u_property_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Alias" label="Vendor Alias" max_length="40" name="u_vendor_alias" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Name1" label="Installation Name1" max_length="40" name="u_installation_name1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Type" label="Property Type" max_length="40" name="u_property_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=FOIA Exemption" label="FOIA Exemption" max_length="40" name="u_foia_exemption" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address Line 1" label="Address Line 1" max_length="40" name="u_address_line_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reporting Bureau" label="Reporting Bureau" max_length="40" name="u_reporting_bureau" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Method" label="Disposal Method" max_length="40" name="u_disposal_method" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Urban Acreage" label="Urban Acreage" max_length="40" name="u_urban_acreage" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Design Capacity" label="Design Capacity" max_length="40" name="u_design_capacity" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Realty Specialist" label="Realty Specialist" max_length="40" name="u_realty_specialist" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Code" label="Disposal Code" max_length="40" name="u_disposal_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO" label="RMO" max_length="40" name="u_rmo" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source of Space" label="Source of Space" max_length="40" name="u_source_of_space" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Can Determine Federal Count" label="Can Determine Federal Count" max_length="40" name="u_can_determine_federal_count" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report of Excess Submitted Date" label="Report of Excess Submitted Date" max_length="40" name="u_report_of_ex_submitted_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Renewal Option Years Remaining" label="Renewal Option Years Remaining" max_length="40" name="u_renewal_opti_ears_remaining" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating Cost Escalation Date" label="Operating Cost Escalation Date" max_length="40" name="u_operating_co_scalation_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=FASAB Category" label="FASAB Category" max_length="40" name="u_fasab_category" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Size Value" label="Size Value" max_length="40" name="u_size_value" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Project" label="Project" max_length="40" name="u_project" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Name" label="Installation Name" max_length="40" name="u_installation_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fixed" label="Fixed" max_length="40" name="u_fixed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=County Code" label="County Code" max_length="40" name="u_county_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO Alias" label="RMO Alias" max_length="40" name="u_rmo_alias" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Status" label="Property Status" max_length="40" name="u_property_status" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO1" label="RMO1" max_length="40" name="u_rmo1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Can Determine Contractor Count" label="Can Determine Contractor Count" max_length="40" name="u_can_determin_ntractor_count" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio" label="Portfolio" max_length="40" name="u_portfolio" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Field Office" label="Field Office" max_length="40" name="u_field_office" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor" label="Vendor" max_length="40" name="u_vendor" type="string"/>
+    <element db_object_id="aabbf1fe83b9f290d18398c6feaad317" extends="sys_import_set_row" label="FMC Lookup Table - Import" max_length="40" name="x_1831875_amp2_0_1765983292778" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accumulated Depreciation" label="Accumulated Depreciation" max_length="40" name="u_accumulated_depreciation" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contract Execution Date" label="Contract Execution Date" max_length="40" name="u_contract_execution_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Lease" label="Multi-Property Lease" max_length="40" name="u_multi_property_lease" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height" label="Height" max_length="40" name="u_height" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition Cost" label="Acquisition Cost" max_length="40" name="u_acquisition_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition Method" label="Acquisition Method" max_length="40" name="u_acquisition_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address Line 1" label="Address Line 1" max_length="40" name="u_address_line_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Address Line 2" label="Address Line 2" max_length="40" name="u_address_line_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Design Capacity UOM" label="Design Capacity UOM" max_length="40" name="u_design_capacity_uom" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lease Authority Indicator FRPP Code" label="Lease Authority Indicator FRPP Code" max_length="40" name="u_lease_author_ator_frpp_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Renewal Deadline" label="Renewal Deadline" max_length="40" name="u_renewal_deadline" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Restrictions" label="Restrictions" max_length="40" name="u_restrictions" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Capitalized" label="Total Capitalized" max_length="40" name="u_total_capitalized" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Acquired" label="Date Acquired" max_length="40" name="u_date_acquired" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Anticipated Disposal Method" label="Anticipated Disposal Method" max_length="40" name="u_anticipated_disposal_method" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Anticipated Disposal Year" label="Anticipated Disposal Year" max_length="40" name="u_anticipated_disposal_year" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Funded Vacancies" label="Funded Vacancies" max_length="40" name="u_funded_vacancies" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation ID1" label="Installation ID1" max_length="40" name="u_installation_id1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Right to Terminate" label="Right to Terminate" max_length="40" name="u_right_to_terminate" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Days To Cancel" label="Days To Cancel" max_length="40" name="u_days_to_cancel" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Name" label="Property Name" max_length="40" name="u_property_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Year Reported Underutilized" label="Year Reported Underutilized" max_length="40" name="u_year_reported_underutilized" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Usable SF" label="Usable SF" max_length="40" name="u_usable_sf" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Time" label="Full Time" max_length="40" name="u_full_time" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other" label="Other" max_length="40" name="u_other" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reporting Agency FRPP" label="Reporting Agency FRPP" max_length="40" name="u_reporting_agency_frpp" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recipient" label="Recipient" max_length="40" name="u_recipient" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Historical Category" label="Historical Category" max_length="40" name="u_historical_category" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sustainability Rating" label="Sustainability Rating" max_length="40" name="u_sustainability_rating" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Leasehold Improvement" label="Leasehold Improvement" max_length="40" name="u_leasehold_improvement" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Military" label="Military" max_length="40" name="u_military" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Termination Available" label="Date Termination Available" max_length="40" name="u_date_termination_available" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Category" label="Vendor Category" max_length="40" name="u_vendor_category" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposition Value" label="Disposition Value" max_length="40" name="u_disposition_value" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Proceeds" label="Net Proceeds" max_length="40" name="u_net_proceeds" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Status Date" label="Property Status Date" max_length="40" name="u_property_status_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Object Class" label="Object Class" max_length="40" name="u_object_class" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSF" label="GSF" max_length="40" name="u_gsf" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Delegation Authority" label="Delegation Authority" max_length="40" name="u_delegation_authority" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Estimated Capital Expenditure" label="Estimated Capital Expenditure" max_length="40" name="u_estimated_ca_al_expenditure" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Book Value" label="Net Book Value" max_length="40" name="u_net_book_value" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=End Date" label="End Date" max_length="40" name="u_end_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Replacement Value" label="Replacement Value" max_length="40" name="u_replacement_value" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Name" label="Complex Name" max_length="40" name="u_complex_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bureau/Line Office" label="Bureau/Line Office" max_length="40" name="u_bureau_line_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cancellation Deadline" label="Cancellation Deadline" max_length="40" name="u_cancellation_deadline" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Canidate for Sale" label="Canidate for Sale" max_length="40" name="u_canidate_for_sale" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Can Determine Federal Count" label="Can Determine Federal Count" max_length="40" name="u_can_determine_federal_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Can Determine Contractor Count" label="Can Determine Contractor Count" max_length="40" name="u_can_determin_ntractor_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Capacity Used" label="Capacity Used" max_length="40" name="u_capacity_used" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Capitalized Historic" label="Capitalized Historic" max_length="40" name="u_capitalized_historic" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Final End Date" label="Final End Date" max_length="40" name="u_final_end_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Utilization Percent" label="Utilization Percent" max_length="40" name="u_utilization_percent" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Escalation Date" label="Tax Escalation Date" max_length="40" name="u_tax_escalation_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unassigned" label="Unassigned" max_length="40" name="u_unassigned" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Partners" label="Partners" max_length="40" name="u_partners" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Entered" label="Date Entered" max_length="40" name="u_date_entered" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Acreage" label="Total Acreage" max_length="40" name="u_total_acreage" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mission Dependency" label="Mission Dependency" max_length="40" name="u_mission_dependency" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=OMB A-11 Scoring" label="OMB A-11 Scoring" max_length="40" name="u_omb_a_11_scoring" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Code" label="Org Code" max_length="40" name="u_org_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation ID" label="Installation ID" max_length="40" name="u_installation_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Collocated Field Office" label="Collocated Field Office" max_length="40" name="u_collocated_field_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Id" label="Complex Id" max_length="40" name="u_complex_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Name" label="Complex Name" max_length="40" name="u_complex_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Congressional Districts" label="Congressional Districts" max_length="40" name="u_congressional_districts" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Contractors" label="Contractors" max_length="40" name="u_contractors" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contract Execution Date" label="Contract Execution Date" max_length="40" name="u_contract_execution_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County Code" label="County Code" max_length="40" name="u_county_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Acquired" label="Date Acquired" max_length="40" name="u_date_acquired" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Constructed" label="Date Constructed" max_length="40" name="u_date_constructed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Entered" label="Date Entered" max_length="40" name="u_date_entered" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Termination Available" label="Date Termination Available" max_length="40" name="u_date_termination_available" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Days To Cancel" label="Days To Cancel" max_length="40" name="u_days_to_cancel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Delegation Authority" label="Delegation Authority" max_length="40" name="u_delegation_authority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Design Capacity" label="Design Capacity" max_length="40" name="u_design_capacity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Design Capacity UOM" label="Design Capacity UOM" max_length="40" name="u_design_capacity_uom" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Detailees" label="Detailees" max_length="40" name="u_detailees" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Code" label="Disposal Code" max_length="40" name="u_disposal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Date" label="Disposal Date" max_length="40" name="u_disposal_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposal Method" label="Disposal Method" max_length="40" name="u_disposal_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disposition Value" label="Disposition Value" max_length="40" name="u_disposition_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=End Date" label="End Date" max_length="40" name="u_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Estimated Capital Expenditure" label="Estimated Capital Expenditure" max_length="40" name="u_estimated_ca_al_expenditure" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FASAB Category" label="FASAB Category" max_length="40" name="u_fasab_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Field Office" label="Field Office" max_length="40" name="u_field_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Final End Date" label="Final End Date" max_length="40" name="u_final_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fixed" label="Fixed" max_length="40" name="u_fixed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FOIA Exemption" label="FOIA Exemption" max_length="40" name="u_foia_exemption" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Time" label="Full Time" max_length="40" name="u_full_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Funded Vacancies" label="Funded Vacancies" max_length="40" name="u_funded_vacancies" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSA Exclusion" label="GSA Exclusion" max_length="40" name="u_gsa_exclusion" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSF" label="GSF" max_length="40" name="u_gsf" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height" label="Height" max_length="40" name="u_height" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height1" label="Height1" max_length="40" name="u_height1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Historical Category" label="Historical Category" max_length="40" name="u_historical_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation ID" label="Installation ID" max_length="40" name="u_installation_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation ID1" label="Installation ID1" max_length="40" name="u_installation_id1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Name" label="Installation Name" max_length="40" name="u_installation_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Name1" label="Installation Name1" max_length="40" name="u_installation_name1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Leasehold Improvement" label="Leasehold Improvement" max_length="40" name="u_leasehold_improvement" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lease Authority Indicator FRPP Code" label="Lease Authority Indicator FRPP Code" max_length="40" name="u_lease_author_ator_frpp_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lease No" label="Lease No" max_length="40" name="u_lease_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Legal Interest" label="Legal Interest" max_length="40" name="u_legal_interest" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Material Status" label="Material Status" max_length="40" name="u_material_status" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bureau/Line Office" label="Bureau/Line Office" max_length="40" name="u_bureau_line_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Military" label="Military" max_length="40" name="u_military" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mission Dependency" label="Mission Dependency" max_length="40" name="u_mission_dependency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Designation" label="Multi-Property Designation" max_length="40" name="u_multi_property_designation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Lease" label="Multi-Property Lease" max_length="40" name="u_multi_property_lease" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Book Value" label="Net Book Value" max_length="40" name="u_net_book_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Proceeds" label="Net Proceeds" max_length="40" name="u_net_proceeds" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Object Class" label="Object Class" max_length="40" name="u_object_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OMB A-11 Scoring" label="OMB A-11 Scoring" max_length="40" name="u_omb_a_11_scoring" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating Cost Escalation Date" label="Operating Cost Escalation Date" max_length="40" name="u_operating_co_scalation_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Code" label="Org Code" max_length="40" name="u_org_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Outgrant" label="Outgrant" max_length="40" name="u_outgrant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Partners" label="Partners" max_length="40" name="u_partners" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Part Time" label="Part Time" max_length="40" name="u_part_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Payment Frequency" label="Payment Frequency" max_length="40" name="u_payment_frequency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio" label="Portfolio" max_length="40" name="u_portfolio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Project" label="Project" max_length="40" name="u_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property ID" label="Property ID" max_length="40" name="u_property_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Name" label="Property Name" max_length="40" name="u_property_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Status" label="Property Status" max_length="40" name="u_property_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Status Date" label="Property Status Date" max_length="40" name="u_property_status_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Type" label="Property Type" max_length="40" name="u_property_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Realty Specialist" label="Realty Specialist" max_length="40" name="u_realty_specialist" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recipient" label="Recipient" max_length="40" name="u_recipient" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Renewal Deadline" label="Renewal Deadline" max_length="40" name="u_renewal_deadline" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Renewal Option Years Remaining" label="Renewal Option Years Remaining" max_length="40" name="u_renewal_opti_ears_remaining" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Replacement Value" label="Replacement Value" max_length="40" name="u_replacement_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reporting Agency FRPP" label="Reporting Agency FRPP" max_length="40" name="u_reporting_agency_frpp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reporting Bureau" label="Reporting Bureau" max_length="40" name="u_reporting_bureau" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report of Excess Submitted Date" label="Report of Excess Submitted Date" max_length="40" name="u_report_of_ex_submitted_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report of Excess Accepted Date" label="Report of Excess Accepted Date" max_length="40" name="u_report_of_ex__accepted_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report to GSA" label="Report to GSA" max_length="40" name="u_report_to_gsa" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Restrictions" label="Restrictions" max_length="40" name="u_restrictions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Right to Terminate" label="Right to Terminate" max_length="40" name="u_right_to_terminate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO" label="RMO" max_length="40" name="u_rmo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO1" label="RMO1" max_length="40" name="u_rmo1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RMO Alias" label="RMO Alias" max_length="40" name="u_rmo_alias" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rural Acreage" label="Rural Acreage" max_length="40" name="u_rural_acreage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Size Value" label="Size Value" max_length="40" name="u_size_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source of Space" label="Source of Space" max_length="40" name="u_source_of_space" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Start Date" label="Start Date" max_length="40" name="u_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Statutory Citation" label="Statutory Citation" max_length="40" name="u_statutory_citation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Summer" label="Summer" max_length="40" name="u_summer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sustainability Rating" label="Sustainability Rating" max_length="40" name="u_sustainability_rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Escalation Date" label="Tax Escalation Date" max_length="40" name="u_tax_escalation_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Termination Option" label="Termination Option" max_length="40" name="u_termination_option" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Acreage" label="Total Acreage" max_length="40" name="u_total_acreage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Capitalized" label="Total Capitalized" max_length="40" name="u_total_capitalized" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unassigned" label="Unassigned" max_length="40" name="u_unassigned" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Urban Acreage" label="Urban Acreage" max_length="40" name="u_urban_acreage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Usable SF" label="Usable SF" max_length="40" name="u_usable_sf" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Utilization Level" label="Utilization Level" max_length="40" name="u_utilization_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Utilization Percent" label="Utilization Percent" max_length="40" name="u_utilization_percent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor" label="Vendor" max_length="40" name="u_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Alias" label="Vendor Alias" max_length="40" name="u_vendor_alias" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Category" label="Vendor Category" max_length="40" name="u_vendor_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor POC" label="Vendor POC" max_length="40" name="u_vendor_poc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Year Reported Underutilized" label="Year Reported Underutilized" max_length="40" name="u_year_reported_underutilized" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip" label="Zip" max_length="40" name="u_zip" type="string"/>
     </element>
 </database>

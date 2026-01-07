@@ -1,22 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4e7a198583317e10d18398c6feaad358" label="Complex" max_length="40" name="x_1831875_amp2_0_complex" text_index="true" type="collection">
+    <element attributes="hasLabels=true" db_object_id="4e7a198583317e10d18398c6feaad358" label="Complex" max_length="40" name="x_1831875_amp2_0_complex" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Number of Facilities" max_length="40" name="num_facilities" type="integer"/>
-        <element label="Notes" max_length="2000" name="notes" type="string"/>
-        <element label="Priority" max_length="40" name="priority" type="integer"/>
-        <element label="FMC Code" max_length="32" name="fmc_code" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
-        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element label="Complex name" max_length="40" name="complex_name" type="string"/>
-        <element label="Region" max_length="40" name="region" type="string"/>
-        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
-        <element label="Campus" max_length="32" name="campus" reference="x_1831875_amp2_0_campus" type="reference"/>
         <element label="Address" max_length="40" name="address" type="string"/>
-        <element label="Complex Code" max_length="40" name="complex_code" type="string"/>
-        <element label="Description" max_length="4000" name="description" type="string"/>
-        <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Total SqFt" max_length="40" name="sqft_total" type="integer"/>
+        <element label="Campus" max_length="32" name="campus" reference="x_1831875_amp2_0_campus" type="reference"/>
         <element label="Complex ID" max_length="40" name="complex_id" type="string"/>
+        <element choice="2" label="Complex name" max_length="100" name="complex_name" type="string">
+            <choice>
+                <element dependent_value="NWC" inactive_on_update="false" label="1187 MAIN STREET" value="1187 MAIN STREET"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="19 Morin Way" value="19 Morin Way"/>
+                <element dependent_value="AKR" inactive_on_update="false" label="AKR - Anchorage Field Office" value="AKR - Anchorage Field Office"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Auke Bay Laboratory" value="Auke Bay Laboratory"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Burley Creek Hatchery" value="Burley Creek Hatchery"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Carlson Lane Lease" value="Carlson Lane Lease"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Church Street Office - Woods Hole" value="Church Street Office - Woods Hole"/>
+                <element dependent_value="HC" inactive_on_update="false" label="David Taylor Warehouse - Annapolis" value="David Taylor Warehouse - Annapolis"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="Galveston Laboratory" value="Galveston Laboratory"/>
+                <element dependent_value="OLE" inactive_on_update="false" label="Gibson Cove Facility" value="Gibson Cove Facility"/>
+                <element dependent_value="GAR" inactive_on_update="false" label="Greater Atlantic Reg. Fish. Office - Gloucester" value="Greater Atlantic Reg. Fish. Office - Gloucester"/>
+                <element dependent_value="HC" inactive_on_update="false" label="Habitat Conservation Office - Ann Arbor" value="Habitat Conservation Office - Ann Arbor"/>
+                <element dependent_value="HC" inactive_on_update="false" label="Habitat Conservation Office - Annapolis" value="Habitat Conservation Office - Annapolis"/>
+                <element dependent_value="PIC" inactive_on_update="false" label="Kewalo Research Facility" value="Kewalo Research Facility"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Kodiak Fisheries Research Center" value="Kodiak Fisheries Research Center"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="Lafayette Laboratory" value="Lafayette Laboratory"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Little Port Walter" value="Little Port Walter"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Manchester Research Station" value="Manchester Research Station"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Milford Biological Laboratory" value="Milford Biological Laboratory"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Mukilteo Research Station" value="Mukilteo Research Station"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Narragansett Laboratory" value="Narragansett Laboratory"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="NEFSC - Woods Hole Laboratory" value="NEFSC - Woods Hole Laboratory"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Newport Research Station" value="Newport Research Station"/>
+                <element dependent_value="OLE" inactive_on_update="false" label="NMFS Enforcement Office - Ketchikan" value="NMFS Enforcement Office - Ketchikan"/>
+                <element dependent_value="OLE" inactive_on_update="false" label="NMFS Enforcement Office - Neptune" value="NMFS Enforcement Office - Neptune"/>
+                <element dependent_value="OLE" inactive_on_update="false" label="NMFS Enforcement Office - New Bedford" value="NMFS Enforcement Office - New Bedford"/>
+                <element dependent_value="OLE" inactive_on_update="false" label="NMFS Enforcement Office - Niceville" value="NMFS Enforcement Office - Niceville"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="North Bonneville Research Lab" value="North Bonneville Research Lab"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="NWFSC Montlake Laboratory" value="NWFSC Montlake Laboratory"/>
+                <element dependent_value="PIC" inactive_on_update="false" label="Pac. Isl. Fisheries Science Center - IRC" value="Pac. Isl. Fisheries Science Center - IRC"/>
+                <element dependent_value="SWC" inactive_on_update="false" label="Pacific Grove Laboratory" value="Pacific Grove Laboratory"/>
+                <element dependent_value="PIR" inactive_on_update="false" label="Pacific Islands Regional Office - Honolulu" value="Pacific Islands Regional Office - Honolulu"/>
+                <element dependent_value="PIR" inactive_on_update="false" label="Pago Plaza Field Office" value="Pago Plaza Field Office"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="Panama City Laboratory" value="Panama City Laboratory"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="Pascagoula Laboratory" value="Pascagoula Laboratory"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Pasco Research Station" value="Pasco Research Station"/>
+                <element dependent_value="PIC" inactive_on_update="false" label="PIFSC Dole Street Lab" value="PIFSC Dole Street Lab"/>
+                <element dependent_value="NWC" inactive_on_update="false" label="Pt Adams Research Station" value="Pt Adams Research Station"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="Remote Sensing Unit Pascagoula Lab" value="Remote Sensing Unit Pascagoula Lab"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Sandy Hook Laboratory" value="Sandy Hook Laboratory"/>
+                <element dependent_value="SWC" inactive_on_update="false" label="Santa Cruz Lababoratory" value="Santa Cruz Lababoratory"/>
+                <element dependent_value="SEC" inactive_on_update="false" label="SEFSC - Miami Laboratory" value="SEFSC - Miami Laboratory"/>
+                <element dependent_value="SER" inactive_on_update="false" label="SER-HCD Field Office - Baton Rouge" value="SER-HCD Field Office - Baton Rouge"/>
+                <element dependent_value="SER" inactive_on_update="false" label="SER-PRD Field Office - Boqueron" value="SER-PRD Field Office - Boqueron"/>
+                <element dependent_value="MB" inactive_on_update="false" label="SILVER SPRING METRO CENTER" value="SILVER SPRING METRO CENTER"/>
+                <element dependent_value="SER" inactive_on_update="false" label="Southeast Regional Office - St. Petersburg" value="Southeast Regional Office - St. Petersburg"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="St. George" value="St. George"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="St. Paul" value="St. Paul"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="St. Paul Combine Building" value="St. Paul Combine Building"/>
+                <element dependent_value="GAR" inactive_on_update="false" label="Statistics Office - Portland" value="Statistics Office - Portland"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Subport Operations Base - Juneau" value="Subport Operations Base - Juneau"/>
+                <element dependent_value="SWC" inactive_on_update="false" label="SWFSC La Jolla Laboratory" value="SWFSC La Jolla Laboratory"/>
+                <element dependent_value="NEC" inactive_on_update="false" label="Technology Park Offices - Falmouth" value="Technology Park Offices - Falmouth"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Ted Stevens Marine Research Institute" value="Ted Stevens Marine Research Institute"/>
+                <element dependent_value="AKC" inactive_on_update="false" label="Western Regional Center" value="Western Regional Center"/>
+            </choice>
+        </element>
+        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
+        <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="FMC" max_length="32" name="fmc_code" type="string"/>
+        <element label="FMC Complex" max_length="32" name="fmc_complex" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element active="false" label="FMC Complex ID" max_length="32" name="fmc_complex_id" type="string"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Number of Facilities" max_length="40" name="num_facilities" type="integer"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Relevant  PPAs" max_length="250" name="relevant_ppas" type="string"/>
+        <element label="Total SqFt" max_length="40" name="sqft_total" type="integer"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="campus"/>
         </index>
@@ -24,6 +84,15 @@
             <element name="facility"/>
         </index>
         <index name="index3">
+            <element name="fmc_code"/>
+        </index>
+        <index name="index4">
+            <element name="fmc_complex"/>
+        </index>
+        <index name="index5">
+            <element name="fmc_complex_id"/>
+        </index>
+        <index name="index6">
             <element name="sys_class_name"/>
         </index>
     </element>

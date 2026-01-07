@@ -5,7 +5,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:33</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>8f50815a83f13e50d18398c6feaad3f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -19,7 +18,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:33</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>cb50c15a83f13e50d18398c6feaad322</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -33,7 +31,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:33</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>4b50c15a83f13e50d18398c6feaad343</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -47,7 +44,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:33</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>c750c15a83f13e50d18398c6feaad34c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -62,14 +58,15 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 21:18:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>8b50015a83f13e50d18398c6feaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1831875_amp2_0_campus</sys_name>
             <sys_overrides/>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_form_sections_8b50015a83f13e50d18398c6feaad389</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

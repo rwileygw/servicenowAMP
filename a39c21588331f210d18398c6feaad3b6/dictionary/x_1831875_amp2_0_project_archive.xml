@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="830a840d83313e10d18398c6feaad39d" label="Project Archive" max_length="40" name="x_1831875_amp2_0_project_archive" text_index="true" type="collection">
+        <element label="Archived by" max_length="40" name="archived_by" type="string"/>
+        <element label="Archived on" max_length="40" name="archived_on" type="string"/>
         <element label="Project ref" max_length="32" name="project_ref" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Reason" max_length="40" name="reason" type="string"/>
-        <element label="Archived on" max_length="40" name="archived_on" type="string"/>
-        <element label="Archived by" max_length="40" name="archived_by" type="string"/>
         <element label="Snapshot" max_length="40" name="snapshot" type="document_id"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="project_ref"/>
         </index>

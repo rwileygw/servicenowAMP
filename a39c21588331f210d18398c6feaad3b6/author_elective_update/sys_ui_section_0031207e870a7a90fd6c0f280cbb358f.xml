@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="0031207e870a7a90fd6c0f280cbb358f" sys_domain="global" table="x_1831875_amp2_0_fmc_lookup_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_1</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-29 18:37:07</sys_created_on>
+            <sys_id>8fa1ec7e870a7a90fd6c0f280cbb3599</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1831875_amp2_0_fmc_lookup_table" sys_domain="global" view="Default view">0031207e870a7a90fd6c0f280cbb358f</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-29 18:37:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-29 18:35:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>0031207e870a7a90fd6c0f280cbb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_fmc_lookup_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_0031207e870a7a90fd6c0f280cbb358f</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-29 18:35:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_0031207e870a7a90fd6c0f280cbb358f</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="0031207e870a7a90fd6c0f280cbb358f" sys_domain="global" table="x_1831875_amp2_0_fmc_lookup_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_glide_list_1</element><position>0</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2025-12-29 18:37:07</sys_created_on><sys_id>8fa1ec7e870a7a90fd6c0f280cbb3599</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1831875_amp2_0_fmc_lookup_table" sys_domain="global" view="Default view">0031207e870a7a90fd6c0f280cbb358f</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2025-12-29 18:37:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1831875_amp2_0_fmc_lookup_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2025-12-29 18:35:00</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>0031207e870a7a90fd6c0f280cbb358f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1831875_amp2_0_fmc_lookup_table</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ui_section_0031207e870a7a90fd6c0f280cbb358f</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2025-12-29 18:35:00</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>198332319</payload_hash>
+        <record_name>FMC Lookup Table</record_name>
+        <reverted_from/>
+        <source>8fb90baa47b132506ca043ff336d4397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-29 18:37:07</sys_created_on>
+        <sys_id>87a1ec7e870a7a90fd6c0f280cbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b6b66567f0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-29 18:37:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0fa1ec7ec30a7a900a971b5809ca2d9b</update_guid>
+        <update_guid_history>0fa1ec7ec30a7a900a971b5809ca2d9b:198332319,2c31a07e250a7a9009147d7e04941260:-638734675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-29 18:39:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>119ac0176067449e8fbf84c0238fb551</sys_id>
+        <sys_metadata>0031207e870a7a90fd6c0f280cbb358f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="FMC Lookup Table">a37bd67a473d72506ca043ff336d4388</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_0031207e870a7a90fd6c0f280cbb358f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_0031207e870a7a90fd6c0f280cbb358f">87a1ec7e870a7a90fd6c0f280cbb359c</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-29 18:39:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</catalog_item>
+        <catalog_variable>IO:2bbd22fa87c6ba90fd6c0f280cbb3584</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 04:54:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e20f267e87c6ba90fd6c0f280cbb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>complex_name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e20f267e87c6ba90fd6c0f280cbb35fc</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 04:54:46</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Create a Project UI Policy">bcbe6e3e87c6ba90fd6c0f280cbb356c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>complex_name</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

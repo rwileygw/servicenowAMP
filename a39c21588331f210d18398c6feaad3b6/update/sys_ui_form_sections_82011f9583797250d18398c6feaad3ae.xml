@@ -5,7 +5,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>c2011f9583797250d18398c6feaad3b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -19,7 +18,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>ca011f9583797250d18398c6feaad3b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -33,7 +31,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>8a011f9583797250d18398c6feaad3bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -47,7 +44,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>4e011f9583797250d18398c6feaad3c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -61,7 +57,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>0a011f9583797250d18398c6feaad3ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -75,7 +70,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>ca011f9583797250d18398c6feaad3d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -90,14 +84,15 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-13 05:16:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>82011f9583797250d18398c6feaad3ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1831875_amp2_0_facility</sys_name>
             <sys_overrides/>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_form_sections_82011f9583797250d18398c6feaad3ae</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

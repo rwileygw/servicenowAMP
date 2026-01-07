@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_rpv_room_data" version="2" view="RPTd294344747bdb2506ca043ff336d43c4">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fmc</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complex_name</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complex_id</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fac_code</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fac_desc</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fy</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>common_name</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>functionality_flag</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complex_nickname</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>latitude</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>longitude</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>occupant_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ownership</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>percent_use</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>predom_use_type</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>predominant_use</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>primary_occupant</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>prop_id</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>property_name</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>property_nickname</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>acf</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_allocation_ratio</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_amenity_and_service_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_amenity_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_service_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>floor_allocation</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>floor_allocation_ratio</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>floor_level</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>floor_service_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>floor_usable_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gsa_sdm_room_name</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rentable_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>room_number_onsite</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>room_number_plans</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>38</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>suc</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>39</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>space_type</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>40</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sustainment_requirement</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>41</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>42</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tenant_ancillary_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>43</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tenant_area</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>44</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>uom</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>45</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>46</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>de94344747bdb2506ca043ff336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>47</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d294344747bdb2506ca043ff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vacant</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>48</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>d694344747bdb2506ca043ff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>zip_code</element>
+            <list_id display_value="x_1831875_amp2_0_rpv_room_data" element="NULL" name="x_1831875_amp2_0_rpv_room_data" parent="NULL" relationship="NULL" sys_domain="global" view="1694344747bdb2506ca043ff336d43cf">5e94344747bdb2506ca043ff336d43dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>49</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_id>da94344747bdb2506ca043ff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1831875_amp2_0_rpv_room_data</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-18 04:22:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e94344747bdb2506ca043ff336d43dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_rpv_room_data</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1831875_amp2_0_rpv_room_data_RPTd294344747bdb2506ca043ff336d43c4</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-18 04:22:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptd294344747bdb2506ca043ff336d43c4" name="RPTd294344747bdb2506ca043ff336d43c4">1694344747bdb2506ca043ff336d43cf</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

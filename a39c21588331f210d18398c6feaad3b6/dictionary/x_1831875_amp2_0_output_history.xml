@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e138671483f93610d18398c6feaad31a" label="Output History " max_length="40" name="x_1831875_amp2_0_output_history" text_index="true" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
-        <element label="Recorded on" max_length="40" name="recorded_on" type="glide_date_time"/>
         <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
-        <element label="Result" max_length="32" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Recorded on" max_length="40" name="recorded_on" type="glide_date_time"/>
+        <element label="Result" max_length="32" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="category"/>
         </index>

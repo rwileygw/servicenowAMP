@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a3b6329083713610d18398c6feaad31e" label="Multi-phase Project" max_length="40" name="x_1831875_amp2_0_multi_phase_project" text_index="true" type="collection">
-        <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
-        <element label="Title" max_length="255" name="title" type="string"/>
-        <element label="Created from project" max_length="32" name="created_from_project" reference="x_1831875_amp2_0_project_package" type="reference"/>
-        <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
         <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
-        <element label="Status" max_length="32" name="status" reference="x_1831875_amp2_0_project_status" type="reference"/>
+        <element label="Created from project" max_length="32" name="created_from_project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
-        <element label="Overall Priority Score" max_length="38" name="overall_priority_score" type="decimal"/>
         <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
         <element label="Multi-phase ID" max_length="40" name="multi_phase_id" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Overall Priority Score" max_length="38" name="overall_priority_score" type="decimal"/>
+        <element label="Status" max_length="32" name="status" reference="x_1831875_amp2_0_project_status" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
+        <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
         <index name="index">
+            <element name="complex"/>
+        </index>
+        <index name="index2">
+            <element name="created_from_project"/>
+        </index>
+        <index name="index3">
+            <element name="fmc"/>
+        </index>
+        <index name="index4">
+            <element name="status"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3a38aea08379f610d18398c6feaad301" label="Settings" max_length="40" name="x_1831875_amp2_0_settings" text_index="true" type="collection">
-        <element default="1" label="Weight - Utilization" max_length="40" name="weight_utilization" type="integer"/>
-        <element default="1" label="Weight - Performance" mandatory="true" max_length="40" name="weight_performance" type="integer"/>
-        <element default="1.0" label="Scale Factor" max_length="38" name="scale_factor" type="decimal"/>
-        <element default="3" label="Weight - Criticality" mandatory="true" max_length="40" name="weight_criticality" type="integer"/>
-        <element label="Min Score" max_length="40" name="min_score" type="integer"/>
-        <element default="2" label="Weight - Condition" mandatory="true" max_length="40" name="weight_condition" type="integer"/>
         <element default="1000" label="Max Score" max_length="255" name="max_score" type="integer"/>
+        <element label="Min Score" max_length="40" name="min_score" type="integer"/>
         <element label="Name" max_length="40" name="name" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element default="1" label="Weight - Maintenance Cost" mandatory="true" max_length="40" name="weight_maintenance_cost" type="integer"/>
-        <element default="1" label="Weight - Age" mandatory="true" max_length="40" name="weight_age" type="integer"/>
-        <element default="1" label="Weight - Reliability" mandatory="true" max_length="255" name="weight_reliability" type="integer"/>
-        <element label="Version" max_length="40" name="version" type="string"/>
         <element label="Notes" max_length="40" name="notes" type="journal"/>
+        <element default="1.0" label="Scale Factor" max_length="38" name="scale_factor" type="decimal"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Version" max_length="40" name="version" type="string"/>
+        <element default="1" label="Weight - Age" mandatory="true" max_length="40" name="weight_age" type="integer"/>
+        <element default="2" label="Weight - Condition" mandatory="true" max_length="40" name="weight_condition" type="integer"/>
+        <element default="3" label="Weight - Criticality" mandatory="true" max_length="40" name="weight_criticality" type="integer"/>
+        <element default="1" label="Weight - Maintenance Cost" mandatory="true" max_length="40" name="weight_maintenance_cost" type="integer"/>
+        <element default="1" label="Weight - Performance" mandatory="true" max_length="40" name="weight_performance" type="integer"/>
+        <element default="1" label="Weight - Reliability" mandatory="true" max_length="255" name="weight_reliability" type="integer"/>
+        <element default="1" label="Weight - Utilization" max_length="40" name="weight_utilization" type="integer"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

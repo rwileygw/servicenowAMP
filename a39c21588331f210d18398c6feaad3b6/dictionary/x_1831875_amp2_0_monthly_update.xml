@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="41bc2714833d3610d18398c6feaad31c" label="Monthly Update Log" max_length="40" name="x_1831875_amp2_0_monthly_update" text_index="true" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Actual cost" max_length="40" name="actual_cost" type="currency"/>
-        <element label="Import source" max_length="40" name="import_source" type="string"/>
-        <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
-        <element label="Month" max_length="40" name="month" type="integer"/>
-        <element label="Update text" max_length="40" name="update_text" type="journal"/>
-        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
-        <element label="Updated by" max_length="32" name="updated_by" reference="sys_user" type="reference"/>
-        <element label="Reporting month" max_length="40" name="reporting_month" type="glide_date"/>
-        <element label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Reviewed" sequence="2" value="reviewed"/>
-                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
-                <element inactive_on_update="false" label="Late" sequence="1" value="late"/>
-            </choice>
-        </element>
-        <element label="Estimated cost" max_length="38" name="estimated_cost_to_complete" type="currency"/>
         <element label="Attachments" max_length="40" name="attachments" type="file_attachment"/>
+        <element label="Estimated cost" max_length="38" name="estimated_cost_to_complete" type="currency"/>
+        <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
+        <element label="Import source" max_length="40" name="import_source" type="string"/>
+        <element label="Month" max_length="40" name="month" type="integer"/>
         <element label="Overall status" max_length="40" name="overall_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Delayed" sequence="2" value="delayed"/>
                 <element inactive_on_update="false" label="On Track" sequence="0" value="on_track"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="At Risk" sequence="1" value="at_risk"/>
+                <element inactive_on_update="false" label="Delayed" sequence="2" value="delayed"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
             </choice>
         </element>
         <element label="Percent Complete" max_length="40" name="percent_complete" type="integer"/>
-        <element label="Updated on" max_length="40" name="updated_on" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Reporting month" max_length="40" name="reporting_month" type="glide_date"/>
         <element label="Spend to date" max_length="38" name="spend_to_date" type="decimal"/>
+        <element label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Late" sequence="1" value="late"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="2" value="reviewed"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Updated by" max_length="32" name="updated_by" reference="sys_user" type="reference"/>
+        <element label="Updated on" max_length="40" name="updated_on" type="string"/>
+        <element label="Update text" max_length="40" name="update_text" type="journal"/>
         <index name="index">
             <element name="project"/>
         </index>

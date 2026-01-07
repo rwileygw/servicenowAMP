@@ -6,10 +6,12 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status_name</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_choice_x_1831875_amp2_0_project_status_lookup_status_name</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
@@ -28,10 +30,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>proposed_by_site_rep</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,10 +49,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>proposed_by_fmc</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -66,10 +68,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>approved_by_omi_chief</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,10 +87,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>accepted_by_hq</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,10 +106,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>approved_by_facility_council</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -123,10 +125,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>awaiting_funds</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -142,10 +144,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>funds_transferred_from_hq</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -161,10 +163,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>in_procurement</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -180,10 +182,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>out_to_bid</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -199,10 +201,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>awarded</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -218,10 +220,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>completed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -237,10 +239,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>deferment_requested</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -256,10 +258,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>deletion_requested</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -275,10 +277,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>canceled</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -294,10 +296,10 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 21:35:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 21:35:44</sys_updated_on>
+            <u_realm/>
             <value>deleted</value>
         </sys_choice>
     </sys_choice>

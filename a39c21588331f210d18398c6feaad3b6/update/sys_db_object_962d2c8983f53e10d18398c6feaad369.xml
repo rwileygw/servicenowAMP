@@ -9,8 +9,6 @@
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <filter_extension/>
-        <is_df_table>false</is_df_table>
         <is_extendable>true</is_extendable>
         <label>Approval Decision Log</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -23,11 +21,13 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-11 22:42:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>962d2c8983f53e10d18398c6feaad369</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Approval Decision Log</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_db_object_962d2c8983f53e10d18398c6feaad369</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

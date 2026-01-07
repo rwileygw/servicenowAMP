@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_group">
+    <pa_dashboards_group action="INSERT_OR_UPDATE">
+        <groups/>
+        <name>AMP Workspace</name>
+        <order/>
+        <role_override>true</role_override>
+        <roles/>
+        <sys_class_name>pa_dashboards_group</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 16:54:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>15b3918b874afa90fd6c0f280cbb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP Workspace</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>pa_dashboards_group_15b3918b874afa90fd6c0f280cbb3581</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 16:54:47</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards_group>
+</record_update>

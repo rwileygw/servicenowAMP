@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sc_cat_item>
+        <sc_catalog display_value="">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 16:55:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cfad09ea83f5fe50d18398c6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Create a Project</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_cfad09ea83f5fe50d18398c6feaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-16 16:55:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sc_cat_item_catalog_cfad09ea83f5fe50d18398c6feaad307</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sc_cat_item><sc_catalog display_value="">742ce428d7211100f2d224837e61036d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-16 16:55:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>cfad09ea83f5fe50d18398c6feaad307</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Catalog.Create a Project</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sc_cat_item_catalog_cfad09ea83f5fe50d18398c6feaad307</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-16 16:55:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>295672540</payload_hash>
+        <record_name>Technical Catalog.Create a Project</record_name>
+        <reverted_from/>
+        <source>019f2272470abe906ca043ff336d430a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 04:57:08</sys_created_on>
+        <sys_id>9d9f2272470abe906ca043ff336d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b6d9dfc2e0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 04:57:08</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>dd9f22729c0abe90a6222bb06eaf6a49</update_guid>
+        <update_guid_history>dd9f22729c0abe90a6222bb06eaf6a49:295672540,88d80a36bbb97250cbc582f21519fdd7:0,575e2136a2b572506e7c4c028df2b554:740381113,68c34fea9971325076712ae9695b1f58:100877544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2025-12-29 23:57:08">d99f2272470abe906ca043ff336d434c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-30 04:57:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>025b3dbad6124760804d055d4ff35900</sys_id>
+        <sys_metadata>cfad09ea83f5fe50d18398c6feaad307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Create a Project</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_cfad09ea83f5fe50d18398c6feaad307</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_cfad09ea83f5fe50d18398c6feaad307">9d9f2272470abe906ca043ff336d434a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-30 04:57:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="71d5688183b53e10d18398c6feaad33e" label="Project Relationship" max_length="40" name="x_1831875_amp2_0_project_relation" text_index="true" type="collection">
-        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Child" max_length="32" name="child" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Notes" max_length="40" name="notes" type="string"/>
         <element label="Parent" max_length="32" name="parent" reference="x_1831875_amp2_0_project_package" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Child" max_length="32" name="child" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Relation type" max_length="40" name="relation_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Phase of" sequence="0" value="phase_of"/>
@@ -12,6 +10,8 @@
                 <element inactive_on_update="false" label="Related to" sequence="2" value="related_to"/>
             </choice>
         </element>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="child"/>
         </index>

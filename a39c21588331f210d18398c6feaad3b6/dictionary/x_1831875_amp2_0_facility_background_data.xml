@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8bf9ab9883f93610d18398c6feaad39e" label="Facility Background Data" max_length="40" name="x_1831875_amp2_0_facility_background_data" text_index="true" type="collection">
-        <element label="Source" max_length="40" name="source" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Background text" max_length="2000" name="background_text" type="string"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Last updated" max_length="40" name="last_updated" type="glide_date_time"/>
+        <element label="Source" max_length="40" name="source" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="facility"/>
         </index>

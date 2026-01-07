@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a7fa4a5d4756f6106ca043ff336d43aa" label="Asset Piriority Index" max_length="40" name="x_1831875_amp2_0_asset_piriority_index" type="collection">
+        <element label="Asset Priority ID" max_length="40" name="asset_priority_id" type="integer"/>
+        <element label="Asset Priority Name" max_length="150" name="asset_priority_name" type="string"/>
+        <element label="Asset Priority Value" max_length="40" name="asset_priority_value" type="integer"/>
+    </element>
+</database>

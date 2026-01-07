@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b3cc422a833d3290d18398c6feaad3ad" label="Project Status Lookup" max_length="40" name="x_1831875_amp2_0_project_status_lookup" type="collection">
-        <element label="Status ID" max_length="40" name="status_id" type="string"/>
         <element label="List Order" max_length="40" name="list_order" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Status ID" max_length="40" name="status_id" type="string"/>
         <element label="Status Name" max_length="100" name="status_name" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Awarded" sequence="9" value="awarded"/>
-                <element inactive_on_update="false" label="In Procurement" sequence="7" value="in_procurement"/>
-                <element inactive_on_update="false" label="Canceled" sequence="13" value="canceled"/>
-                <element inactive_on_update="false" label="Deferment Requested" sequence="11" value="deferment_requested"/>
-                <element inactive_on_update="false" label="Awaiting Funds" sequence="5" value="awaiting_funds"/>
-                <element inactive_on_update="false" label="Accepted by HQ" sequence="3" value="accepted_by_hq"/>
                 <element inactive_on_update="false" label="Proposed by Site Rep" sequence="0" value="proposed_by_site_rep"/>
                 <element inactive_on_update="false" label="Proposed by FMC" sequence="1" value="proposed_by_fmc"/>
-                <element inactive_on_update="false" label="Deletion Requested" sequence="12" value="deletion_requested"/>
-                <element inactive_on_update="false" label="Completed" sequence="10" value="completed"/>
-                <element inactive_on_update="false" label="Out to Bid" sequence="8" value="out_to_bid"/>
-                <element inactive_on_update="false" label="Funds Transferred from HQ" sequence="6" value="funds_transferred_from_hq"/>
-                <element inactive_on_update="false" label="Deleted" sequence="14" value="deleted"/>
-                <element inactive_on_update="false" label="Approved by Facility Council" sequence="4" value="approved_by_facility_council"/>
                 <element inactive_on_update="false" label="Approved by OMI Chief" sequence="2" value="approved_by_omi_chief"/>
+                <element inactive_on_update="false" label="Accepted by HQ" sequence="3" value="accepted_by_hq"/>
+                <element inactive_on_update="false" label="Approved by Facility Council" sequence="4" value="approved_by_facility_council"/>
+                <element inactive_on_update="false" label="Awaiting Funds" sequence="5" value="awaiting_funds"/>
+                <element inactive_on_update="false" label="Funds Transferred from HQ" sequence="6" value="funds_transferred_from_hq"/>
+                <element inactive_on_update="false" label="In Procurement" sequence="7" value="in_procurement"/>
+                <element inactive_on_update="false" label="Out to Bid" sequence="8" value="out_to_bid"/>
+                <element inactive_on_update="false" label="Awarded" sequence="9" value="awarded"/>
+                <element inactive_on_update="false" label="Completed" sequence="10" value="completed"/>
+                <element inactive_on_update="false" label="Deferment Requested" sequence="11" value="deferment_requested"/>
+                <element inactive_on_update="false" label="Deletion Requested" sequence="12" value="deletion_requested"/>
+                <element inactive_on_update="false" label="Canceled" sequence="13" value="canceled"/>
+                <element inactive_on_update="false" label="Deleted" sequence="14" value="deleted"/>
             </choice>
         </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

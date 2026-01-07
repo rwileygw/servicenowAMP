@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ad11694d83717e10d18398c6feaad3a6" label="Space" max_length="40" name="x_1831875_amp2_0_space" text_index="true" type="collection">
-        <element label="Space ID / Room #" max_length="40" name="space_id" type="string"/>
-        <element label="Space Type" max_length="40" name="space_type" type="string"/>
-        <element label="Notes" max_length="2000" name="notes" type="string"/>
-        <element label="Primary Occupant" max_length="40" name="primary_occupant" type="string"/>
-        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
-        <element label="Status" max_length="40" name="status" type="string"/>
-        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element label="Square Footage" max_length="40" name="sqft" type="integer"/>
         <element label="Asset Tag" max_length="40" name="asset_tag" type="string"/>
-        <element label="Space Name / Use" max_length="40" name="name" type="string"/>
-        <element label="Nuvolo Space" max_length="40" name="nuvolo_space" type="string"/>
-        <element label="Floor" max_length="32" name="floor" reference="x_1831875_amp2_0_floor" type="reference"/>
+        <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_building" type="reference"/>
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
         <element label="Contact" max_length="40" name="contact" type="string"/>
         <element label="Created from Import" max_length="40" name="created_from_import" type="boolean"/>
-        <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_building" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="Floor" max_length="32" name="floor" reference="x_1831875_amp2_0_floor" type="reference"/>
+        <element label="Space Name / Use" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Nuvolo Space" max_length="40" name="nuvolo_space" type="string"/>
+        <element label="Primary Occupant" max_length="40" name="primary_occupant" type="string"/>
+        <element label="Space ID / Room #" max_length="40" name="space_id" type="string"/>
+        <element label="Space Type" max_length="40" name="space_type" type="string"/>
+        <element label="Square Footage" max_length="40" name="sqft" type="integer"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
-            <element name="floor"/>
+            <element name="building"/>
         </index>
         <index name="index2">
+            <element name="facility"/>
+        </index>
+        <index name="index3">
+            <element name="floor"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>

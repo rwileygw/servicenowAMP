@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d983218583b17e10d18398c6feaad3ab" label="Fiscal Year" max_length="40" name="x_1831875_amp2_0_fiscal_year" text_index="true" type="collection">
-        <element label="FY" max_length="40" name="fy" type="string"/>
-        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
-        <element label="Code" max_length="40" name="code" type="string"/>
-        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
-        <element label="Display Order" max_length="40" name="display_order" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Display Order" max_length="40" name="display_order" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="FY" max_length="40" name="fy" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

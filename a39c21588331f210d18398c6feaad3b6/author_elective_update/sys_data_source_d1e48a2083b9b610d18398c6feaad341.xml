@@ -85,10 +85,12 @@
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
         <file_path/>
         <instance_id>3c44a752db860e54ebdd2a591396193f</instance_id>
         <instance_name>dev267493</instance_name>
         <name>sys_data_source_d1e48a2083b9b610d18398c6feaad341</name>
+        <order/>
         <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:d1e48a2083b9b610d18398c6feaad341/fmc lookup table template.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
 
  // Add your code here to insert data to import_set_table 
@@ -120,6 +122,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-17 15:06:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
         <sys_id>304daf489b7143ac94ab6dcf7369f4a4</sys_id>
         <sys_metadata>d1e48a2083b9b610d18398c6feaad341</sys_metadata>
@@ -128,6 +131,7 @@
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
         <sys_update_name>sys_data_source_d1e48a2083b9b610d18398c6feaad341</sys_update_name>

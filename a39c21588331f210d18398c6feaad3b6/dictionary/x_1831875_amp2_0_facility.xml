@@ -1,57 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="de499f1083393610d18398c6feaad3f4" label="Facility" max_length="40" name="x_1831875_amp2_0_facility" text_index="true" type="collection">
-        <element label="Facility Code" max_length="40" name="facility_code" type="string"/>
-        <element label="Num Buildings" max_length="40" name="num_buildings" type="integer"/>
-        <element label="Longitude" max_length="38" name="geocode_long" type="decimal"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Asset Count" max_length="40" name="asset_count" type="integer"/>
+        <element label="Building" max_length="32" name="building" reference="cmn_building" type="reference"/>
         <element label="City" max_length="40" name="city" type="string"/>
+        <element label="CMN Location" max_length="40" name="cmdb_location" type="string"/>
+        <element label="Complex" max_length="40" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
+        <element label="Complex Code" max_length="20" name="complex_code" type="string"/>
+        <element label="Complex Name" max_length="40" name="complex_name" type="string"/>
+        <element label="Facility Code" max_length="40" name="facility_code" type="string"/>
+        <element label="Facility Name" max_length="255" name="facility_name" type="string"/>
+        <element label="Facility Type" max_length="40" name="facility_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lab" sequence="0" value="lab"/>
+                <element inactive_on_update="false" label="Admin" sequence="1" value="admin"/>
+                <element inactive_on_update="false" label="Warehouse" sequence="2" value="warehouse"/>
+            </choice>
+        </element>
+        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="Latitude" max_length="38" name="geocode_lat" type="decimal"/>
+        <element label="Longitude" max_length="38" name="geocode_long" type="decimal"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Num Buildings" max_length="40" name="num_buildings" type="integer"/>
+        <element label="Nuvolo Facility" max_length="40" name="nuvolo_facility" type="string"/>
+        <element label="Contact Name" max_length="40" name="primary_contact" type="string"/>
+        <element label="Contact Email" max_length="40" name="primary_contact_email" type="string"/>
+        <element label="Contact Phone" max_length="40" name="primary_contact_phone" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Site background" max_length="40" name="site_background" type="string"/>
+        <element label="Legacy Source ID" max_length="40" name="source_system_id" type="string"/>
+        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
         <element label="Gross SqFt" max_length="40" name="sqft" type="integer"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="State code" max_length="40" name="state_code" type="string"/>
-        <element label="Facility Type" max_length="40" name="facility_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Warehouse" sequence="2" value="warehouse"/>
-                <element inactive_on_update="false" label="Admin" sequence="1" value="admin"/>
-                <element inactive_on_update="false" label="Lab" sequence="0" value="lab"/>
-            </choice>
-        </element>
-        <element label="CMN Location" max_length="40" name="cmdb_location" type="string"/>
         <element label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Decommissioned" sequence="2" value="decommissioned"/>
-                <element inactive_on_update="false" label="Idle" sequence="1" value="idle"/>
                 <element inactive_on_update="false" label="Operational" sequence="0" value="operational"/>
+                <element inactive_on_update="false" label="Idle" sequence="1" value="idle"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="2" value="decommissioned"/>
             </choice>
         </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Year Built" max_length="40" name="year_constructed" type="integer"/>
-        <element label="Notes" max_length="2000" name="notes" type="string"/>
-        <element label="Legacy Source ID" max_length="40" name="source_system_id" type="string"/>
-        <element label="Nuvolo Facility" max_length="40" name="nuvolo_facility" type="string"/>
-        <element label="Facility Name" max_length="255" name="facility_name" type="string"/>
-        <element label="Complex" max_length="40" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
-        <element label="Address" max_length="40" name="address" type="string"/>
-        <element label="ZIP Code" max_length="40" name="zip" type="string"/>
-        <element label="Site background" max_length="40" name="site_background" type="string"/>
-        <element label="Complex Name" max_length="40" name="complex_name" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Building" max_length="32" name="building" reference="cmn_building" type="reference"/>
         <element label="Last Renovation" max_length="40" name="year_renovation" type="integer"/>
-        <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Contact Phone" max_length="40" name="primary_contact_phone" type="string"/>
-        <element label="Latitude" max_length="38" name="geocode_lat" type="decimal"/>
-        <element label="Contact Email" max_length="40" name="primary_contact_email" type="string"/>
-        <element label="Contact Name" max_length="40" name="primary_contact" type="string"/>
-        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
-        <element label="Asset Count" max_length="40" name="asset_count" type="integer"/>
-        <element label="Region" max_length="40" name="region" type="string"/>
-        <element label="Complex Code" max_length="20" name="complex_code" type="string"/>
-        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
+        <element label="ZIP Code" max_length="40" name="zip" type="string"/>
         <index name="index">
             <element name="building"/>
         </index>
         <index name="index2">
-            <element name="space"/>
+            <element name="complex"/>
         </index>
         <index name="index3">
+            <element name="fmc"/>
+        </index>
+        <index name="index4">
+            <element name="space"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>

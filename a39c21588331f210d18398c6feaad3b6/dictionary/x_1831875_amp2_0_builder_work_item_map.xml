@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cfb1303c83f17a10d18398c6feaad3b4" label="Builder Work Item Mapping" max_length="40" name="x_1831875_amp2_0_builder_work_item_map" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" type="string"/>
         <element label="AMP Field" max_length="40" name="amp_field" type="string"/>
         <element label="Builder code" max_length="40" name="builder_code" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Active" max_length="40" name="active" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Transform" max_length="40" name="transform" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>

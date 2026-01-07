@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a54e30de83b13e50d18398c6feaad3aa" label="Project Data" max_length="40" name="x_1831875_amp2_0_pds" text_index="true" type="collection">
         <element label="Action" max_length="40" name="action" type="string"/>
-        <element label="Project ID" max_length="40" name="project_id" type="string"/>
         <element label="City" max_length="40" name="city" type="string"/>
-        <element label="Complex ID" max_length="40" name="complex_id" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Complex ID" max_length="40" name="complex_id" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="fmcISNOTEMPTY" reference_qual_condition="fmcISNOTEMPTY" type="reference"/>
+        <element dependent="fmc" dependent_on_field="fmc" label="Complex name" max_length="32" name="complex_name" reference_qual="fmcISNOTEMPTY" reference_qual_condition="fmcISNOTEMPTY" type="string" use_dependent_field="true"/>
+        <element dependent="fmc_choice" dependent_on_field="fmc_choice" label="FMC" max_length="40" name="fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="fmc_choiceSAMEASfmc_choice" reference_qual_condition="fmc_choiceSAMEASfmc_choice" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="FMC" max_length="40" name="fmc_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NEC" sequence="0" value="NEC"/>
+                <element inactive_on_update="false" label="NWC" sequence="1" value="NWC"/>
+                <element inactive_on_update="false" label="AKC" sequence="2" value="AKC"/>
+                <element inactive_on_update="false" label="SWC" sequence="3" value="SWC"/>
+                <element inactive_on_update="false" label="SEC" sequence="4" value="SEC"/>
+                <element inactive_on_update="false" label="SIP" sequence="5" value="SIP"/>
+                <element inactive_on_update="false" label="GAR" sequence="6" value="GAR"/>
+                <element inactive_on_update="false" label="OHC" sequence="7" value="OHC"/>
+                <element inactive_on_update="false" label="OLE" sequence="8" value="OLE"/>
+                <element inactive_on_update="false" label="AKR" sequence="9" value="AKR"/>
+                <element inactive_on_update="false" label="WCR" sequence="10" value="WCR"/>
+                <element inactive_on_update="false" label="SER" sequence="11" value="SER"/>
+                <element inactive_on_update="false" label="PIC" sequence="12" value="PIC"/>
+                <element inactive_on_update="false" label="PIR" sequence="13" value="PIR"/>
+            </choice>
+        </element>
+        <element label="Project ID" max_length="40" name="project_id" type="string"/>
         <element label="Project Title" max_length="40" name="project_title" type="string"/>
+        <element label="Property ID" max_length="32" name="property_id" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element label="Property name" max_length="32" name="property_name" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element label="Region" max_length="32" name="region" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Status" max_length="40" name="status" type="string"/>
-        <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
+            <element name="complex_name"/>
+        </index>
+        <index name="index2">
+            <element name="property_id"/>
+        </index>
+        <index name="index3">
+            <element name="property_name"/>
+        </index>
+        <index name="index4">
+            <element name="region"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>

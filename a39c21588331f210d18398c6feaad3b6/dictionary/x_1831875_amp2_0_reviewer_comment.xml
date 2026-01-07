@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="97dba350833d3610d18398c6feaad3c6" label="Reviewer Comment Archive" max_length="40" name="x_1831875_amp2_0_reviewer_comment" text_index="true" type="collection">
+        <element label="Archived" max_length="255" name="archived" type="boolean"/>
+        <element label="Archived on" max_length="40" name="archived_on" type="glide_date_time"/>
+        <element label="Comment by" max_length="32" name="comment_by" reference="sys_user" type="reference"/>
+        <element label="Comment on" max_length="40" name="comment_on" type="glide_date_time"/>
+        <element label="Comment text" max_length="40" name="comment_text" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Resolution status" max_length="40" name="resolution_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
                 <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
                 <element inactive_on_update="false" label="Resolved" sequence="1" value="resolved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
             </choice>
         </element>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Comment by" max_length="32" name="comment_by" reference="sys_user" type="reference"/>
-        <element label="Archived" max_length="255" name="archived" type="boolean"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Thread" max_length="40" name="thread" type="string"/>
-        <element label="Comment text" max_length="40" name="comment_text" type="string"/>
-        <element label="Comment on" max_length="40" name="comment_on" type="glide_date_time"/>
-        <element label="Archived on" max_length="40" name="archived_on" type="glide_date_time"/>
-        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <index name="index">
             <element name="comment_by"/>
         </index>

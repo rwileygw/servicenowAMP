@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f792efdc83793610d18398c6feaad3a6" label="FY Summary" max_length="40" name="x_1831875_amp2_0_fy_summary" text_index="true" type="collection">
-        <element label="Multi-phase project count" max_length="255" name="multi_phase_project_count" type="integer"/>
-        <element label="Last aggregated" max_length="40" name="last_aggregated" type="string"/>
-        <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
-        <element label="Denied project count" max_length="40" name="denied_project_count" type="integer"/>
         <element label="Category" max_length="40" name="category" type="string"/>
-        <element label="Project count" max_length="40" name="project_count" type="integer"/>
         <element label="Complex" max_length="40" name="complex" type="string"/>
+        <element label="Denied project count" max_length="40" name="denied_project_count" type="integer"/>
         <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
         <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element label="Last aggregated" max_length="40" name="last_aggregated" type="string"/>
+        <element label="Multi-phase project count" max_length="255" name="multi_phase_project_count" type="integer"/>
+        <element label="Project count" max_length="40" name="project_count" type="integer"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
+        <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

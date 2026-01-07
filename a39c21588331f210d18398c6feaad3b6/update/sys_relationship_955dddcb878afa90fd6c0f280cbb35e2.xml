@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1831875_amp2_0_project_package</basic_apply_to>
+        <basic_query_from>x_1831875_amp2_0_fmc_lookup_table</basic_query_from>
+        <insert_callback/>
+        <name>AMP Project Data</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+	current.addQuery('fmc_code', parent.getUniqueValue());
+	current.addQuery('complex','!=','');
+	current.addQuery('complex_id', '');
+
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 17:39:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>955dddcb878afa90fd6c0f280cbb35e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP Project Data</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_relationship_955dddcb878afa90fd6c0f280cbb35e2</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 17:39:50</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=955dddcb878afa90fd6c0f280cbb35e2"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>955dddcb878afa90fd6c0f280cbb35e2</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 17:39:50</sys_created_on>
+        <sys_id>e12ed98b878afa90fd6c0f280cbb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 17:39:50</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

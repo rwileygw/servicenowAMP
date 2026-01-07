@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9e6bd27a473d72506ca043ff336d4373" label="RPIE Crosswalk" max_length="40" name="x_1831875_amp2_0_rpie_crosswalk" type="collection">
+        <element label="ActualCost" max_length="40" name="actualcost" type="string"/>
+        <element label="Area(SF)" max_length="40" name="area_sf" type="string"/>
+        <element label="BCI" max_length="40" name="bci" type="string"/>
+        <element label="BldgName" max_length="40" name="bldgname" type="string"/>
+        <element label="Building PRV" max_length="40" name="building_prv" type="string"/>
+        <element label="Category Code" max_length="40" name="category_code" type="string"/>
+        <element label="CBF/MM comment" max_length="40" name="cbf_mm_comment" type="string"/>
+        <element label="Component" max_length="40" name="component" type="string"/>
+        <element label="CompType" max_length="40" name="comptype" type="string"/>
+        <element label="CSCI" max_length="40" name="csci" type="string"/>
+        <element label="FCI" max_length="40" name="fci" type="string"/>
+        <element label="FiscalYear" max_length="40" name="fiscalyear" type="string"/>
+        <element label="InstallationCode" max_length="40" name="installationcode" type="string"/>
+        <element label="InstallDate" max_length="40" name="installdate" type="string"/>
+        <element label="LatestInspDate" max_length="40" name="latestinspdate" type="string"/>
+        <element label="Line Office" max_length="40" name="line_office" type="string"/>
+        <element label="MatEquipType" max_length="40" name="matequiptype" type="string"/>
+        <element label="ORG_NAME" max_length="40" name="org_name" type="string"/>
+        <element label="Org path" max_length="40" name="org_path" type="string"/>
+        <element label="Qty" max_length="40" name="qty" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="RPIE Tag 2" max_length="40" name="rpie_tag_2" type="string"/>
+        <element label="RPIE Tag(s)" max_length="40" name="rpie_tag_s" type="string"/>
+        <element label="SCI" max_length="40" name="sci" type="string"/>
+        <element label="Section Name" max_length="40" name="section_name" type="string"/>
+        <element label="SEC_ID" max_length="40" name="sec_id" type="string"/>
+        <element label="System" max_length="40" name="system" type="string"/>
+        <element label="Unit of Measure" max_length="40" name="unit_of_measure" type="string"/>
+        <element label="UoM" max_length="40" name="uom" type="string"/>
+        <element label="WorkItemID" max_length="40" name="workitemid" type="string"/>
+        <element label="Work Item Description" max_length="40" name="work_item_description" type="string"/>
+        <element label="Work Item Status" max_length="40" name="work_item_status" type="string"/>
+        <element label="Year Built" max_length="40" name="year_built" type="string"/>
+    </element>
+</database>

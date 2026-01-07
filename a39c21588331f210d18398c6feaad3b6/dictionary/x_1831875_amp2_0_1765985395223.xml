@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="37b346fe833df290d18398c6feaad3b7" extends="sys_import_set_row" label="Amp2 0 1765985395223" max_length="40" name="x_1831875_amp2_0_1765985395223" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 6 Descr" label="Org Level 6 Descr" max_length="40" name="u_org_level_6_descr" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 5 Code" label="Org Level 5 Code" max_length="40" name="u_org_level_5_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 4 Descr" label="Org Level 4 Descr" max_length="40" name="u_org_level_4_descr" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 7 Descr" label="Org Level 7 Descr" max_length="40" name="u_org_level_7_descr" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee Count" label="Employee Count" max_length="40" name="u_employee_count" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 3 Code" label="Org Level 3 Code" max_length="40" name="u_org_level_3_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 6 Code" label="Org Level 6 Code" max_length="40" name="u_org_level_6_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 7 Code" label="Org Level 7 Code" max_length="40" name="u_org_level_7_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Short Name" label="Org Short Name" max_length="40" name="u_org_short_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 3 Code" label="Org Level 3 Code" max_length="40" name="u_org_level_3_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 3 Descr" label="Org Level 3 Descr" max_length="40" name="u_org_level_3_descr" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 5 Descr" label="Org Level 5 Descr" max_length="40" name="u_org_level_5_descr" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 4 Code" label="Org Level 4 Code" max_length="40" name="u_org_level_4_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 4 Descr" label="Org Level 4 Descr" max_length="40" name="u_org_level_4_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 5 Code" label="Org Level 5 Code" max_length="40" name="u_org_level_5_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 5 Descr" label="Org Level 5 Descr" max_length="40" name="u_org_level_5_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 6 Code" label="Org Level 6 Code" max_length="40" name="u_org_level_6_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 6 Descr" label="Org Level 6 Descr" max_length="40" name="u_org_level_6_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 7 Code" label="Org Level 7 Code" max_length="40" name="u_org_level_7_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Level 7 Descr" label="Org Level 7 Descr" max_length="40" name="u_org_level_7_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Org Short Name" label="Org Short Name" max_length="40" name="u_org_short_name" type="string"/>
     </element>
 </database>

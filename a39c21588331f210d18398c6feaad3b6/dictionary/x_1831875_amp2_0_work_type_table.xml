@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="152a62e283b17290d18398c6feaad3bc" label="Work Type Table" max_length="40" name="x_1831875_amp2_0_work_type_table" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Recommendation" max_length="40" name="recommendation" type="string"/>
         <element label="Definition" max_length="40" name="definition" type="string"/>
+        <element label="Recommendation" max_length="40" name="recommendation" type="string"/>
+        <element label="System" max_length="40" name="system" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Work Type" max_length="40" name="work_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Capital Improvement" sequence="2" value="capital_improvement"/>
-                <element inactive_on_update="false" label="Sustainability" sequence="4" value="sustainability"/>
                 <element inactive_on_update="false" label="Preventative Maintenance" sequence="0" value="preventative_maintenance"/>
-                <element inactive_on_update="false" label="Environmental / Compliance" sequence="3" value="environmental_compliance"/>
                 <element inactive_on_update="false" label="Corrective Maintenance" sequence="1" value="corrective_maintenance"/>
+                <element inactive_on_update="false" label="Capital Improvement" sequence="2" value="capital_improvement"/>
+                <element inactive_on_update="false" label="Environmental / Compliance" sequence="3" value="environmental_compliance"/>
+                <element inactive_on_update="false" label="Sustainability" sequence="4" value="sustainability"/>
             </choice>
         </element>
-        <element label="System" max_length="40" name="system" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

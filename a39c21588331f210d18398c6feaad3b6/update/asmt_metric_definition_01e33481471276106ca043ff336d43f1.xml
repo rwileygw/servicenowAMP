@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>3. Serious Environmental Compliance (8)</display>
+        <metric display_value="Ranking Factors">41e33481471276106ca043ff336d43d2</metric>
+        <normalization_input>0</normalization_input>
+        <order>2</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:43:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>01e33481471276106ca043ff336d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3. Serious Environmental Compliance (8)</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>asmt_metric_definition_01e33481471276106ca043ff336d43f1</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:43:04</sys_updated_on>
+        <unselected_image/>
+        <value>8</value>
+    </asmt_metric_definition>
+</record_update>

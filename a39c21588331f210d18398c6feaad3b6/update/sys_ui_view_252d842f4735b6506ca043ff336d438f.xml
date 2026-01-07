@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>complex_reference</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-19 14:47:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>252d842f4735b6506ca043ff336d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complex Reference</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ui_view_252d842f4735b6506ca043ff336d438f</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-19 14:47:12</sys_updated_on>
+        <title>Complex Reference</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

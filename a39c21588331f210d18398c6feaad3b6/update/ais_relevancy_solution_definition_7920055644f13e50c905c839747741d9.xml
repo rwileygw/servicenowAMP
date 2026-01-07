@@ -20,13 +20,14 @@
         <sys_class_name>ais_relevancy_solution_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>7920055644f13e50c905c839747741d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ais_relevancy_4f6a0a5f91bb8110f8777453a087678e</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>ais_relevancy_solution_definition_7920055644f13e50c905c839747741d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

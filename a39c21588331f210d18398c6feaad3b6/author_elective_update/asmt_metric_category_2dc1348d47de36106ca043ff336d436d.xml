@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="Project Maturity">61c1348d47de36106ca043ff336d4368</metric_type>
+        <name>Project Maturity</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:33:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2dc1348d47de36106ca043ff336d436d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Project Maturity</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>asmt_metric_category_2dc1348d47de36106ca043ff336d436d</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:33:49</sys_updated_on>
+        <table>change_request</table>
+        <total_metrics>5</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=2dc1348d47de36106ca043ff336d436d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>asmt_metric_category_2dc1348d47de36106ca043ff336d436d</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter/><metric_type display_value="Project Maturity">61c1348d47de36106ca043ff336d4368</metric_type><name>Project Maturity</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-05 19:33:49</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>2dc1348d47de36106ca043ff336d436d</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Project Maturity</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>asmt_metric_category_2dc1348d47de36106ca043ff336d436d</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-05 19:33:49</sys_updated_on><table>change_request</table><total_metrics>5</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=2dc1348d47de36106ca043ff336d436d"/></record_update>]]></payload>
+        <payload_hash>1694187571</payload_hash>
+        <record_name>Project Maturity</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:33:49</sys_created_on>
+        <sys_id>7dc1fc8d47de36106ca043ff336d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b8fa6c38f0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:33:49</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>71c1fc8d31de36101cc6ebcf351cdfa1</update_guid>
+        <update_guid_history>71c1fc8d31de36101cc6ebcf351cdfa1:1694187571,e9c1fc8d3cde3610b3d305208d89219b:827135346,65c1fc8d6ade36103b79c140abc83b96:-39916879,edc1fc8dc8de36107d82ceba03d99990:-906969104,61c1fc8d5bde361069306c3150750c8b:-1774021329,a1c1348d05de36100856a1c8fe22db70:281226498</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-05 14:52:12">bef57805471276106ca043ff336d430e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:52:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>1ec48db6a6dd40f388b588c724f245d1</sys_id>
+        <sys_metadata>2dc1348d47de36106ca043ff336d436d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Maturity</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_2dc1348d47de36106ca043ff336d436d</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_2dc1348d47de36106ca043ff336d436d">7dc1fc8d47de36106ca043ff336d43a1</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:52:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

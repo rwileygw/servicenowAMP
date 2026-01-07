@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="Project Scoring">f8e37cc947de36106ca043ff336d4316</metric_type>
+        <name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:43:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3ce33481471276106ca043ff336d43a2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>asmt_metric_category_3ce33481471276106ca043ff336d43a2</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:43:19</sys_updated_on>
+        <table>change_request</table>
+        <total_metrics>2</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=3ce33481471276106ca043ff336d43a2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>asmt_metric_category_3ce33481471276106ca043ff336d43a2</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter/><metric_type display_value="Project Scoring">f8e37cc947de36106ca043ff336d4316</metric_type><name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-05 19:43:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>3ce33481471276106ca043ff336d43a2</sys_id><sys_mod_count>16</sys_mod_count><sys_name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>asmt_metric_category_3ce33481471276106ca043ff336d43a2</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-05 19:43:19</sys_updated_on><table>change_request</table><total_metrics>2</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=3ce33481471276106ca043ff336d43a2"/></record_update>]]></payload>
+        <payload_hash>1407658779</payload_hash>
+        <record_name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:43:19</sys_created_on>
+        <sys_id>7cf3f481471276106ca043ff336d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b8faf746c0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:43:19</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>70f3f481431276108d6e78ba6385ec0c</update_guid>
+        <update_guid_history>70f3f481431276108d6e78ba6385ec0c:1407658779,f0f3f4812512761004a82a7cf3783f02:-2020256292,60f3b481a51276103f37b97d7034cbec:-1153204067,ecf3b4817b1276109dd8bad8c72dffd5:-286151842,24f3b4810e127610e86f2f68d8c7f8cc:580900383,68f3b481a01276104acacad8fa995bc2:1447952608,58f3b4817612761081096b641a822eb8:-1979962463,81e334816312761053d0797ccd497dd4:-1112910238,0de33481d7127610cc5634141529f9ce:-1979962463,85e33481b61276104c816cd05db51fc9:1447952608,01e334812f127610ca82e1901fd84cc4:580900383,89e334810d1276105d8a4e2b85754dbe:-286151842,05e334812a127610b72e23fc88e639b9:-1153204067,8de334819d127610d6b1ee51a68dc5b3:-2020256292,09e334810b1276109b77f37e6f89ccae:1407658779,49e33481d4127610fa9ec8bbae82eba8:540606554,34e33481361276108f543aab277bd0a4:-929870291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-05 14:52:20">b006f845471276106ca043ff336d4342</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 19:52:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>0eef3e1c198747ec8a5f642afd984b84</sys_id>
+        <sys_metadata>3ce33481471276106ca043ff336d43a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ranking Factors (Check the ONE box below that identifies the primary intent of the project.)</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_3ce33481471276106ca043ff336d43a2</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_3ce33481471276106ca043ff336d43a2">7cf3f481471276106ca043ff336d430c</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 19:52:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

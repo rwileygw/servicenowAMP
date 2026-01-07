@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="change_risk_asmt">
+    <change_risk_asmt action="DELETE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule/>
+        <chat_survey>false</chat_survey>
+        <condition/>
+        <default_filter/>
+        <delete_business_rule/>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field/>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table/>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Project Maturity</name>
+        <not_show_intro_note>false</not_show_intro_note>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>question</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <sample_metric/>
+        <scale_factor>1</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <survey_owners>3d87fd701becb6140d690f67624bcb0a</survey_owners>
+        <sys_class_name>change_risk_asmt</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:34:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7fbf3805475276106ca043ff336d4350</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Project Maturity</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>change_risk_asmt_7fbf3805475276106ca043ff336d4350</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:35:15</sys_updated_on>
+        <table>change_request</table>
+        <url/>
+        <user_field/>
+        <user_field_business_rule/>
+    </change_risk_asmt>
+    <sys_translated_text action="DELETE" query="documentkey=7fbf3805475276106ca043ff336d4350"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>change_risk_asmt_7fbf3805475276106ca043ff336d4350</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="change_risk_asmt"><change_risk_asmt action="INSERT_OR_UPDATE"><active>true</active><allow_public>false</allow_public><allow_retake>false</allow_retake><anonymize>false</anonymize><business_rule/><chat_survey>false</chat_survey><condition/><default_filter/><delete_business_rule/><description/><disable_ui_action/><display_all_filters>false</display_all_filters><display_field/><duration>1970-01-15 00:00:00</duration><enable_ui_action/><end_note/><enforce_condition>false</enforce_condition><evaluation_method>assessment</evaluation_method><filter_condition/><filter_table/><introduction/><job/><live_feed>false</live_feed><name>Project Maturity</name><not_show_intro_note>false</not_show_intro_note><notify_if_overdue>false</notify_if_overdue><notify_user>true</notify_user><one_click_survey>false</one_click_survey><overdue_notify_user/><portal_pagination>question</portal_pagination><publish_state>published</publish_state><roles/><sample_metric/><scale_factor>1</scale_factor><schedule_period>0</schedule_period><schedule_type>on_demand</schedule_type><scoring_type>percent</scoring_type><signature/><source_table/><survey_owners>3d87fd701becb6140d690f67624bcb0a</survey_owners><sys_class_name>change_risk_asmt</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-05 20:34:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>7fbf3805475276106ca043ff336d4350</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Project Maturity</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>change_risk_asmt_7fbf3805475276106ca043ff336d4350</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-05 20:35:15</sys_updated_on><table>change_request</table><url/><user_field/><user_field_business_rule/></change_risk_asmt><sys_translated_text action="delete_multiple" query="documentkey=7fbf3805475276106ca043ff336d4350"/></record_update>]]></payload>
+        <payload_hash>-48473181</payload_hash>
+        <record_name>Project Maturity</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:35:15</sys_created_on>
+        <sys_id>6ddffc05475276106ca043ff336d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b8fdf01e30000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:35:15</sys_updated_on>
+        <type>Change Risk Assessment</type>
+        <update_guid>61dffc056f527610c2dd0a6f6c08cc7f</update_guid>
+        <update_guid_history>61dffc056f527610c2dd0a6f6c08cc7f:-48473181,09dff48544527610f7acf5de3fe1f3b6:-956962730,b3bf3805b452761000a88fcafe6dff53:1845208430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-05 15:36:58">ba304d85475276106ca043ff336d4315</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:36:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="change_risk_asmt">change_risk_asmt</sys_db_object>
+        <sys_id>181c361f109d4b449c2760db42f5ee84</sys_id>
+        <sys_metadata>7fbf3805475276106ca043ff336d4350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Maturity</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>change_risk_asmt_7fbf3805475276106ca043ff336d4350</sys_update_name>
+        <sys_update_version display_value="change_risk_asmt_7fbf3805475276106ca043ff336d4350">6ddffc05475276106ca043ff336d437f</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:36:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="07daa88183f53e10d18398c6feaad3ea" label="Bundle" max_length="40" name="x_1831875_amp2_0_bundle" text_index="true" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Projects" max_length="40" name="projects" type="string"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
-        <element label="Summary" max_length="40" name="summary" type="journal"/>
-        <element label="FY" max_length="40" name="fy" type="string"/>
         <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element label="FY" max_length="40" name="fy" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Projects" max_length="40" name="projects" type="string"/>
+        <element label="Summary" max_length="40" name="summary" type="journal"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

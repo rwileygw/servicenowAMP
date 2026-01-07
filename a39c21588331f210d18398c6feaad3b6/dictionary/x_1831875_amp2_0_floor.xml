@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a860ed8983717e10d18398c6feaad3fd" label="Floor" max_length="40" name="x_1831875_amp2_0_floor" text_index="true" type="collection">
-        <element label="Level Name" max_length="40" name="level_name" type="string"/>
-        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_building" type="reference"/>
+        <element label="Floor Number" max_length="40" name="floor_number" type="string"/>
+        <element label="Level Name" max_length="40" name="level_name" type="string"/>
         <element label="Notes" max_length="2000" name="notes" type="string"/>
         <element label="Number of Spaces" max_length="40" name="num_spaces" type="integer"/>
-        <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_building" type="reference"/>
+        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
         <element label="Square Footage" max_length="255" name="sqft" type="integer"/>
-        <element label="Floor Number" max_length="40" name="floor_number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
+            <element name="building"/>
+        </index>
+        <index name="index2">
+            <element name="space"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

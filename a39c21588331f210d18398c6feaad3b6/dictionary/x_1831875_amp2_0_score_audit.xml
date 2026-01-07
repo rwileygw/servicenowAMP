@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c844510e83357a50d18398c6feaad38b" label="Score Audit" max_length="40" name="x_1831875_amp2_0_score_audit" text_index="true" type="collection">
-        <element label="Score" max_length="38" name="score" type="decimal"/>
-        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
-        <element label="Context" max_length="40" name="context" type="string"/>
         <element label="Breakdown" max_length="40" name="breakdown" type="string"/>
-        <element label="Settings used" max_length="40" name="settings_used" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Run Time" max_length="40" name="run_time" type="glide_date_time"/>
+        <element label="Context" max_length="40" name="context" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Raw Score" max_length="38" name="raw_score" type="decimal"/>
+        <element label="Run Time" max_length="40" name="run_time" type="glide_date_time"/>
+        <element label="Score" max_length="38" name="score" type="decimal"/>
+        <element label="Settings used" max_length="40" name="settings_used" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="project"/>
         </index>

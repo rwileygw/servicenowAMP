@@ -1,0 +1,4163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="property_id" table="x_1831875_amp2_0_project_package" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>property_id</element>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:19:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>property_id</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_project_package_property_id</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:19:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BIOLOGICAL PIER MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>0CTE0050001</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:33:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:34:06</sys_updated_on>
+            <u_realm/>
+            <value>0CTE0050001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>0NJE0270001</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:43:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:44:03</sys_updated_on>
+            <u_realm/>
+            <value>0NJE0270001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEAWATER SYSTEM FOR THE JJH LAB SANDY HOOK HIGHLANDS NJ</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>0NJE0270002</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:43:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:44:00</sys_updated_on>
+            <u_realm/>
+            <value>0NJE0270002</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS POLE BARN COVERED TEST AREA BUILDING NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>0ORW0540001</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:45:18</sys_updated_on>
+            <u_realm/>
+            <value>0ORW0540001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC BURLEY CREEK OZONE SYSTEM INCLUDING SHED PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>0WAW1420001</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:22:40</sys_updated_on>
+            <u_realm/>
+            <value>0WAW1420001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LENA POINT JUNEAU AK SITE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000004</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:05</sys_updated_on>
+            <u_realm/>
+            <value>14000004</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC BUILDING SANTA CRUZ CA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000161</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:21:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:22:05</sys_updated_on>
+            <u_realm/>
+            <value>14000161</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC CAPTAIN R. BARRY FISHER BLDG NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14000178</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:44:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:45:10</sys_updated_on>
+            <u_realm/>
+            <value>14000178</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK 2 BULKHEAD WALL 2 MSL PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14000497</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:35:13</sys_updated_on>
+            <u_realm/>
+            <value>14000497</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK 1 PIERS BULKHEAD WALL 6 MSL PANAMA CITY</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14000498</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:34:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:35:11</sys_updated_on>
+            <u_realm/>
+            <value>14000498</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK WAREHOUSE OFFICE (WATTS) PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000511</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:14:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:14:23</sys_updated_on>
+            <u_realm/>
+            <value>14000511</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC PILOT PLANT SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000521</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:17:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:17:11</sys_updated_on>
+            <u_realm/>
+            <value>14000521</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14000568</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:24:20</sys_updated_on>
+            <u_realm/>
+            <value>14000568</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14000569</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:24:20</sys_updated_on>
+            <u_realm/>
+            <value>14000569</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>COMBINE SHOP LAND MERGED INTO TRACT 50 B</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000826</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:27:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:28:40</sys_updated_on>
+            <u_realm/>
+            <value>14000826</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>FUR SEAL REEF ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000837</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:12</sys_updated_on>
+            <u_realm/>
+            <value>14000837</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ZAPADNI TOLSTOI ROOKERY LAND TRACT 38</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000838</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:29:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:14</sys_updated_on>
+            <u_realm/>
+            <value>14000838</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>LUKANIN-KITOVI FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000839</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:29:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000839</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NORTHEAST POINT ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000840</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000840</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>POLOVINA ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000841</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000841</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS STAFF QUARTERS LAND</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000842</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:35:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000842</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>GARCO BUILDING LAND MERGED INTO TRACT 50 B</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000843</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:36:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000843</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LAB BUILDING LAND MERGED INTO TRACT 50 B</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000844</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:36:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000844</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ZAPADNI ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000848</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:49:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:50:01</sys_updated_on>
+            <u_realm/>
+            <value>14000848</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>EAST FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000849</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:50:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:50:14</sys_updated_on>
+            <u_realm/>
+            <value>14000849</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>EAST ROOKERY- SOUTH JOINT USE AREA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000850</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:55:27</sys_updated_on>
+            <u_realm/>
+            <value>14000850</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>EAST ROOKERY- JOINT USE AREA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000851</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:55:37</sys_updated_on>
+            <u_realm/>
+            <value>14000851</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>EAST ROOKERY- WEST JOINT USE AREA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000852</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:55:51</sys_updated_on>
+            <u_realm/>
+            <value>14000852</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NORTH FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000853</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:55:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:56:06</sys_updated_on>
+            <u_realm/>
+            <value>14000853</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>STARAYA/ NORTH ROOKERY - JOINT USE AREA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000854</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:56:16</sys_updated_on>
+            <u_realm/>
+            <value>14000854</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>STARAYA ARTIL ROOKERY JOINT USE AREA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000855</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:56:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:56:30</sys_updated_on>
+            <u_realm/>
+            <value>14000855</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>SEAL PROCESSING PLANT LAND</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000856</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 16:00:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 16:00:59</sys_updated_on>
+            <u_realm/>
+            <value>14000856</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>COTTAGE C - OLD DISPENSARY LAND</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000857</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 16:01:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 16:01:20</sys_updated_on>
+            <u_realm/>
+            <value>14000857</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PUMP HOUSE TO FEDERAL INSTALLATIONS AND TOWN SITE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000858</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:36:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000858</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TWO USCG LORAN STATION TO NWS OFFICE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000859</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:37:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000859</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>WATERLINE EASEMENT TO NWS OFFICE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000860</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:37:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:13</sys_updated_on>
+            <u_realm/>
+            <value>14000860</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>WATERLINE EASEMENT IN TRACT 50 TO NMFS BLDGS</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000861</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:39:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:12</sys_updated_on>
+            <u_realm/>
+            <value>14000861</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>POWERLINE EASEMENT NMFS FACILITIES TO USCG</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000862</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:39:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:12</sys_updated_on>
+            <u_realm/>
+            <value>14000862</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>POWERLINE EASEMENT BETWEEN TRACTS 43 AND 39</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000863</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:39:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:12</sys_updated_on>
+            <u_realm/>
+            <value>14000863</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD TO LUKANIN ROOKERY (TRACT 45,T35S,R131W,SM)</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000864</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:39:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:40:12</sys_updated_on>
+            <u_realm/>
+            <value>14000864</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD TO REEF ROOKERY (TRACT 39,T35S,R132W,SM)</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000865</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:05</sys_updated_on>
+            <u_realm/>
+            <value>14000865</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD TO NORTHEAST POINT ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000866</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:40:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:05</sys_updated_on>
+            <u_realm/>
+            <value>14000866</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD ACCESS EASEMENT</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000867</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:40:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:05</sys_updated_on>
+            <u_realm/>
+            <value>14000867</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD ACCESS TO TELEGRAPH HILL BORROW PIT</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000868</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:40:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000868</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD TO FRESH WATER PUMP SITE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000869</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:41:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000869</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ROAD TO LAKE HILLS BORROW PIT</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000870</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:41:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000870</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWNSITE TO ST PAUL AIRPORT (POLOVINA TURNPIKE)</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000871</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:41:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000871</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>SOUTH ROAD TO THE POLOVINA FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000872</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000872</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>MIDDLE ROAD TO THE POLOVINA FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000873</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:41:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000873</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NORTH ROAD TO THE POLOVINA FUR SEAL ROOKERY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000874</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:42:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000874</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>EAST ROAD TO ZAPADNI-TOLSTOI ROOKERIES</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000875</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:42:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:06</sys_updated_on>
+            <u_realm/>
+            <value>14000875</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>MIDDLE ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000876</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:07</sys_updated_on>
+            <u_realm/>
+            <value>14000876</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>WEST ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000877</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:31</sys_updated_on>
+            <u_realm/>
+            <value>14000877</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOLSTOI POINT ACCESS TO ZAPADNI - TOLSTOI ROOKERIES</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000878</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:44:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:30</sys_updated_on>
+            <u_realm/>
+            <value>14000878</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWS OFFICE/HOUSING UAIB (TRACT 41,T35S,R131W,SM)</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000879</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:44:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:30</sys_updated_on>
+            <u_realm/>
+            <value>14000879</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>H - FUEL LINES</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000880</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 16:01:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:55:08</sys_updated_on>
+            <u_realm/>
+            <value>14000880</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>I - FRESH WATER LINE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000881</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:55:23</sys_updated_on>
+            <u_realm/>
+            <value>14000881</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>H-POWER LINE TO WATER PUMPS</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000882</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:55:49</sys_updated_on>
+            <u_realm/>
+            <value>14000882</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>T - EAST ROOKERY RD.</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000883</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:55:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:56:01</sys_updated_on>
+            <u_realm/>
+            <value>14000883</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>U - ZAPADNI RD</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000884</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:56:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:56:56</sys_updated_on>
+            <u_realm/>
+            <value>14000884</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>V- ZAPADNI ROOKERY ROAD</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000885</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:57:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:57:45</sys_updated_on>
+            <u_realm/>
+            <value>14000885</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>W - ZAPADNI DOCK RD.</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000886</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:57:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:58:14</sys_updated_on>
+            <u_realm/>
+            <value>14000886</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>X - BORROW/SANITARY FILL RD.</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000887</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:57:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:58:07</sys_updated_on>
+            <u_realm/>
+            <value>14000887</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Y - STARAYA ARTIL RD.</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000888</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:58:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:58:34</sys_updated_on>
+            <u_realm/>
+            <value>14000888</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>R - VEHICLE BONEYARD</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000889</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:58:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:58:50</sys_updated_on>
+            <u_realm/>
+            <value>14000889</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS STAFF QTRS (TR47),</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000908</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:45:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:30</sys_updated_on>
+            <u_realm/>
+            <value>14000908</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>GARCO BLDG (TR49)</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000909</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:45:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14000909</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OFFICE BLDG (TR48),-NMFS LAB/OFFICE BUILDING</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000910</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14000910</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>SEAL SKIN PROCESSING PLANT</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000912</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:58:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:59:01</sys_updated_on>
+            <u_realm/>
+            <value>14000912</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>COTTAGE C (FORMERLY COTTAGE M) - OLD DISPENSARY</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14000913</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:59:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:59:12</sys_updated_on>
+            <u_realm/>
+            <value>14000913</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC SOUTH BLDG SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000954</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:17:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:44:07</sys_updated_on>
+            <u_realm/>
+            <value>14000954</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC OFFICE BUILDING TSMRI JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000969</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:25:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:05</sys_updated_on>
+            <u_realm/>
+            <value>14000969</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC LABORATORY BUILDING TSMRI JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000970</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:25:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:05</sys_updated_on>
+            <u_realm/>
+            <value>14000970</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC FILTER BUILDING TSMRI JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000971</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:25:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:06</sys_updated_on>
+            <u_realm/>
+            <value>14000971</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WET WELL BUILDING TSMRI JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000972</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:26:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:06</sys_updated_on>
+            <u_realm/>
+            <value>14000972</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC EASEMENT SANTA CRUZ CA SITE</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000984</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:29:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:30</sys_updated_on>
+            <u_realm/>
+            <value>14000984</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS RECONSTRUCTED SOUTH DOCK PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14000993</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:14:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:31</sys_updated_on>
+            <u_realm/>
+            <value>14000993</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS RECONSTRUCTED MIDDLE DOCK PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001011</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:45:31</sys_updated_on>
+            <u_realm/>
+            <value>14001011</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEAL POOL EXHIBIT WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>14001036</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:15:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:16:36</sys_updated_on>
+            <u_realm/>
+            <value>14001036</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS GALVESTON, TX - BOAT BARN</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001054</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:54:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:54:57</sys_updated_on>
+            <u_realm/>
+            <value>14001054</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NEW LAB STORAGE BUILDING NARRAGANSETT RI</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>14001119</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:51:33</sys_updated_on>
+            <u_realm/>
+            <value>14001119</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY REPLACEMENT BLDG PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001137</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:16:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:16:33</sys_updated_on>
+            <u_realm/>
+            <value>14001137</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS GALVESTON, TX TURTLE SICK BAY</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001167</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:54:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:54:55</sys_updated_on>
+            <u_realm/>
+            <value>14001167</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TSMRI WAREHOUSE JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001174</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:26:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:06</sys_updated_on>
+            <u_realm/>
+            <value>14001174</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #1 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001177</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:45:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14001177</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #2 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001178</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:46:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14001178</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #3 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001179</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:46:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14001179</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #4 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001180</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14001180</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #5 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001181</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:46:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:47:59</sys_updated_on>
+            <u_realm/>
+            <value>14001181</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #6 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001182</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:47:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:48:00</sys_updated_on>
+            <u_realm/>
+            <value>14001182</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>TOWER #7 &amp; WALKWAY</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001190</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:48:00</sys_updated_on>
+            <u_realm/>
+            <value>14001190</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC FRESH WATER WELL 5 PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14001191</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:24:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:24:20</sys_updated_on>
+            <u_realm/>
+            <value>14001191</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AQUA CELL BUILDING GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001208</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:55:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:55:52</sys_updated_on>
+            <u_realm/>
+            <value>14001208</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC LABORATORY SEAWATER SYSTEM SANTA CRUZ</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001265</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:30:02</sys_updated_on>
+            <u_realm/>
+            <value>14001265</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC NOOKSACK POLE BUILDING 22 MANCHESTER-PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14001268</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:00:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:00:36</sys_updated_on>
+            <u_realm/>
+            <value>14001268</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEAWATER SYSTEM GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001269</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:55:52</sys_updated_on>
+            <u_realm/>
+            <value>14001269</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC MANCHESTER TIDELANDS PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>14001314</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:00:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:00:52</sys_updated_on>
+            <u_realm/>
+            <value>14001314</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>SW FISHERIES SCIENCE CENTER BUILDING LA JOLLA CA</dependent_value>
+            <element>property_id</element>
+            <hint>SWC</hint>
+            <inactive>false</inactive>
+            <label>14001344</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:01:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 15:41:06</sys_updated_on>
+            <u_realm/>
+            <value>14001344</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS MODULAR OFFICE BUILDING PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001458</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:35:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:35:36</sys_updated_on>
+            <u_realm/>
+            <value>14001458</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC RESTROOM BUILDING MANCHESTER-PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001473</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:01:14</sys_updated_on>
+            <u_realm/>
+            <value>14001473</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS MUKILTEO WA RESEARCH STATION</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001474</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:01:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:03:05</sys_updated_on>
+            <u_realm/>
+            <value>14001474</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TIDELANDS SHORELANDS MUKILTEO WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001475</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:02:54</sys_updated_on>
+            <u_realm/>
+            <value>14001475</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS RESEARCH STATION ROAD ACCESS MUKILTEO WA SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001476</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:02:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:02:24</sys_updated_on>
+            <u_realm/>
+            <value>14001476</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PIER MUKILTEO WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001479</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:02:39</sys_updated_on>
+            <u_realm/>
+            <value>14001479</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NARRAGANSETT RI MODULAR OFFICE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>14001540</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:51:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:52:42</sys_updated_on>
+            <u_realm/>
+            <value>14001540</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC KEN CHEW HATCHERY RESEARCH BUILDING MANCHESTER-PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001542</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:01:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:01:26</sys_updated_on>
+            <u_realm/>
+            <value>14001542</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BUILDING 9 POWER &amp; GENERATOR MANCHESTER-PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001543</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:01:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:01:35</sys_updated_on>
+            <u_realm/>
+            <value>14001543</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TRACT 2 PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001588</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:16:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:21:49</sys_updated_on>
+            <u_realm/>
+            <value>14001588</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TRACT 3 PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>14001589</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:21:45</sys_updated_on>
+            <u_realm/>
+            <value>14001589</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLE TRACT A 0.07 TIDELANDS KETCHIKAN AK SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001663</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:59:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:59:43</sys_updated_on>
+            <u_realm/>
+            <value>14001663</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLE TRACT B 0.30 BOTTOMLANDS KETCHIKAN AK SIT</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001664</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 02:59:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 02:59:58</sys_updated_on>
+            <u_realm/>
+            <value>14001664</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLE OFFICE BUILDING AND STORAGE KETCHIKAN AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001666</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:00:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:00:31</sys_updated_on>
+            <u_realm/>
+            <value>14001666</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLE PIER KETCHIKAN AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001667</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 03:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 03:01:17</sys_updated_on>
+            <u_realm/>
+            <value>14001667</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NEFSC BULKHEAD WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001714</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:21:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:22:12</sys_updated_on>
+            <u_realm/>
+            <value>14001714</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC MOORING PILES &amp; CONNECTIONS PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001767</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:01:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:01:46</sys_updated_on>
+            <u_realm/>
+            <value>14001767</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WET LAB ANNEX LENA POINT-JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001820</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:26:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:06</sys_updated_on>
+            <u_realm/>
+            <value>14001820</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WASTE WATER TREATMENT PLANT LENA PT-JUNEAU AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>14001821</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:26:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:27:06</sys_updated_on>
+            <u_realm/>
+            <value>14001821</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS COVE CABIN JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14001822</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:22:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:22:21</sys_updated_on>
+            <u_realm/>
+            <value>14001822</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC AUKE CREEK HATCHERY JUNEAU(BAY/CAKE) AK</dependent_value>
+            <element>property_id</element>
+            <hint>AKC</hint>
+            <inactive>false</inactive>
+            <label>AKW12921</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:19:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:25:21</sys_updated_on>
+            <u_realm/>
+            <value>AKW12921</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS HATCHERY WEIR JUNEAU(AUKE BAY/CAKE) AK SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW12927</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:20:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:20:30</sys_updated_on>
+            <u_realm/>
+            <value>AKW12927</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS FACILITY KODIAK(GIBSON COVE) AK SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13301</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:20:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:20:45</sys_updated_on>
+            <u_realm/>
+            <value>AKW13301</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLE WAREHOUSE BLDG KODIAK(GIBSON COVE) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13302</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:21:12</sys_updated_on>
+            <u_realm/>
+            <value>AKW13302</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK KODIAK(GIBSON COVE) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13304</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:21:35</sys_updated_on>
+            <u_realm/>
+            <value>AKW13304</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC MAIN BLDG JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13402</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:22:39</sys_updated_on>
+            <u_realm/>
+            <value>AKW13402</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WOOD METAL SHOP JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13403</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:22:59</sys_updated_on>
+            <u_realm/>
+            <value>AKW13403</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC WET LAB BLDG JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13404</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:23:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:23:59</sys_updated_on>
+            <u_realm/>
+            <value>AKW13404</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC CARETAKER HOUSE JUNEAU(LITTLE PORT WALTER</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13405</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:24:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:24:21</sys_updated_on>
+            <u_realm/>
+            <value>AKW13405</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BIRD HOUSE JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13406</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:24:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:24:50</sys_updated_on>
+            <u_realm/>
+            <value>AKW13406</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC WEIR CABIN JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13407</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:24:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:25:08</sys_updated_on>
+            <u_realm/>
+            <value>AKW13407</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13408</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:25:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:26:01</sys_updated_on>
+            <u_realm/>
+            <value>AKW13408</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC WEIR PANABODE JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13410</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:26:19</sys_updated_on>
+            <u_realm/>
+            <value>AKW13410</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS FLOAT &amp; RAMP JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13411</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:26:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:26:41</sys_updated_on>
+            <u_realm/>
+            <value>AKW13411</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BOARD WALKS JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13412</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:26:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:26:56</sys_updated_on>
+            <u_realm/>
+            <value>AKW13412</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS FISH WEIR JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13414</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:27:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:27:37</sys_updated_on>
+            <u_realm/>
+            <value>AKW13414</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS FLOATING HATCHERY JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13416</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:28:01</sys_updated_on>
+            <u_realm/>
+            <value>AKW13416</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS HOLDING POND JUNEAU(LITTLE PORT WALTER) AK</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13417</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:28:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:28:20</sys_updated_on>
+            <u_realm/>
+            <value>AKW13417</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC GENERATOR BLDG JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13420</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:28:51</sys_updated_on>
+            <u_realm/>
+            <value>AKW13420</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC TAG FEED BLDG JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13422</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:29:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:29:13</sys_updated_on>
+            <u_realm/>
+            <value>AKW13422</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AKC MAIN WAREHOUSE JUNEAU(LITTLE PORT WALTER)</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKW13424</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:29:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:29:33</sys_updated_on>
+            <u_realm/>
+            <value>AKW13424</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC MCL MONTEREY CA SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAW07401</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:30:20</sys_updated_on>
+            <u_realm/>
+            <value>CAW07401</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC MCL LAB GRANITE CANYON MONTEREY CA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAW07402</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:30:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:30:35</sys_updated_on>
+            <u_realm/>
+            <value>CAW07402</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC WATER STORAGE TANK MONTEREY CA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAW07403</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:30:56</sys_updated_on>
+            <u_realm/>
+            <value>CAW07403</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SWFSC SANTA CRUZ CA SITE</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAW23201</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:31:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:31:10</sys_updated_on>
+            <u_realm/>
+            <value>CAW23201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NEW MAIN LABORATORY BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00501</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:14</sys_updated_on>
+            <u_realm/>
+            <value>CTE00501</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS ANNEX OLD LABORATORY BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00502</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:36:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:14</sys_updated_on>
+            <u_realm/>
+            <value>CTE00502</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PUMPHOUSE OLD WORKSHOP BUILDING 3 MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00503</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:36:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:14</sys_updated_on>
+            <u_realm/>
+            <value>CTE00503</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TANK FARM BUILDING 4 MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00504</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:37:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:14</sys_updated_on>
+            <u_realm/>
+            <value>CTE00504</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS OLD WORKSHOP BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00505</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:37:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:14</sys_updated_on>
+            <u_realm/>
+            <value>CTE00505</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TIN GARAGE MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00506</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:38:45</sys_updated_on>
+            <u_realm/>
+            <value>CTE00506</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK HOUSE BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00508</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:38:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00508</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS GARAGE STORAGE BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00509</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:39:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00509</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DIRECTOR RESIDENCE MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00510</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:39:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00510</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY MILFORD CT SITE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00511</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:39:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00511</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS CHEMICAL STORAGE BUILDING MILFORD CT</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00512</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00512</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PARCEL 02 MILFORD CT SITE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00513</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:40:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00513</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PARCEL 03 MILFORD CT SITE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00514</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:40:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00514</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PARCEL 04 MILFORD CT SITE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>CTE00515</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:40:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:35</sys_updated_on>
+            <u_realm/>
+            <value>CTE00515</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEFSC KEY BISCAYNE FL SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00201</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:41:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:41:28</sys_updated_on>
+            <u_realm/>
+            <value>FLM00201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEFSC MAIN BUILDING KEY BISCAYNE FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00202</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:41:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:33</sys_updated_on>
+            <u_realm/>
+            <value>FLM00202</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEFSC SEA WATER SETTLING TANK KEY BISCAYNE FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00203</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:42:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00203</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS SEFSC STATISTICS BUILDING KEY BISCAYNE FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00205</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:42:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00205</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY BUILDING 1 PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00301</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00301</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PAINT AND OIL STORAGE BUILDING PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00303</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00303</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BOAT HOUSE STORAGE PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00304</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:43:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00304</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS GEAR STORAGE BUILDING PANAMA CITY FL</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00305</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:43:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00305</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY PANAMA CITY FL SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>FLM00306</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 05:44:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 05:44:34</sys_updated_on>
+            <u_realm/>
+            <value>FLM00306</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS MAIN LABORATORY BUILDING WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01001</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:22:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:24:37</sys_updated_on>
+            <u_realm/>
+            <value>MAE01001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS AQUARIUM/MAINTENANCE BUILDING WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01002</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:24:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:25:01</sys_updated_on>
+            <u_realm/>
+            <value>MAE01002</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS COTTAGE WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01003</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:25:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:25:21</sys_updated_on>
+            <u_realm/>
+            <value>MAE01003</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LAND WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01008</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:32:27</sys_updated_on>
+            <u_realm/>
+            <value>MAE01008</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS PIER WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01010</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:31:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:32:29</sys_updated_on>
+            <u_realm/>
+            <value>MAE01010</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS CHEMICAL STORAGE BUILDING WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01011</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:32:31</sys_updated_on>
+            <u_realm/>
+            <value>MAE01011</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WAREHOUSE WOODS HOLE MA</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>MAE01012</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:32:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:34:21</sys_updated_on>
+            <u_realm/>
+            <value>MAE01012</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00104</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:32:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:34:13</sys_updated_on>
+            <u_realm/>
+            <value>MSM00104</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DOCK PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00105</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:41:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:42:59</sys_updated_on>
+            <u_realm/>
+            <value>MSM00105</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS RECONSTRUCTED N DOCK &amp; BULKHEAD PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00109</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:41:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:42:59</sys_updated_on>
+            <u_realm/>
+            <value>MSM00109</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS DELMAS WAREHOUSE PASCAGOULA MS</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00111</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:41:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:42:59</sys_updated_on>
+            <u_realm/>
+            <value>MSM00111</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS ALPO PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00112</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:42:59</sys_updated_on>
+            <u_realm/>
+            <value>MSM00112</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TRACT 1 DOCK EXP PASCAGOULA MS SITE</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>MSM00113</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:42:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:42:59</sys_updated_on>
+            <u_realm/>
+            <value>MSM00113</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC AQUACULTURE LAB SITE NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05401</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:45:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:45:43</sys_updated_on>
+            <u_realm/>
+            <value>ORW05401</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC AQUACULTURE LAB NAL (950) NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05402</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:45:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:47:58</sys_updated_on>
+            <u_realm/>
+            <value>ORW05402</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC RESEARCH SUPPORT FAC RSF 951 NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05403</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:48:02</sys_updated_on>
+            <u_realm/>
+            <value>ORW05403</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC SEAWATER RACEWAY NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05405</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:48:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:48:22</sys_updated_on>
+            <u_realm/>
+            <value>ORW05405</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC EMERGENCY GENERATOR SHED NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05406</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:48:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:48:51</sys_updated_on>
+            <u_realm/>
+            <value>ORW05406</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC CONVERTED AFSC WET LAB NEWPORT OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05407</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:48:54</sys_updated_on>
+            <u_realm/>
+            <value>ORW05407</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05501</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:15</sys_updated_on>
+            <u_realm/>
+            <value>ORW05501</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC MAIN STATION BLDG HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05502</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:49:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:15</sys_updated_on>
+            <u_realm/>
+            <value>ORW05502</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC GENERATOR BLDG HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05506</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:15</sys_updated_on>
+            <u_realm/>
+            <value>ORW05506</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC 4-BAY GARAGE HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05507</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:49:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:16</sys_updated_on>
+            <u_realm/>
+            <value>ORW05507</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC LABORATORY HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05509</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:16</sys_updated_on>
+            <u_realm/>
+            <value>ORW05509</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC MARINA SHOP HAMMOND (PT ADAMS) OR</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>ORW05510</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:50:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:50:39</sys_updated_on>
+            <u_realm/>
+            <value>ORW05510</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS MAIN LAB BUILDING NARRAGANSETT RI</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>RIE00201</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:52:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:52:42</sys_updated_on>
+            <u_realm/>
+            <value>RIE00201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LABORATORY NARRAGANSETT RI SITE</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>RIE00206</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:52:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:52:42</sys_updated_on>
+            <u_realm/>
+            <value>RIE00206</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS STORAGE BUILDING NARRAGANSETT RI</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>RIE00211</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:53:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:53:29</sys_updated_on>
+            <u_realm/>
+            <value>RIE00211</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS CHEMICAL STORAGE BUILDING NARRAGANSETT RI</dependent_value>
+            <element>property_id</element>
+            <hint>NEC</hint>
+            <inactive>false</inactive>
+            <label>RIE00212</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:53:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:53:27</sys_updated_on>
+            <u_realm/>
+            <value>RIE00212</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BUILDING 307 RESEARCH LAB/OFFICE GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00202</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:55:52</sys_updated_on>
+            <u_realm/>
+            <value>TXC00202</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BUILDING 305 RESEARCH LAB/OFFICES GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00203</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:56:55</sys_updated_on>
+            <u_realm/>
+            <value>TXC00203</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BUILDING 301 SEA WATER LABORATORY GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00204</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:56:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:56:55</sys_updated_on>
+            <u_realm/>
+            <value>TXC00204</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BUILDING 302 RESEARCH LAB/OFFICES GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00205</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:56:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:56:55</sys_updated_on>
+            <u_realm/>
+            <value>TXC00205</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS BUILDING 306 SCIENTIFIC LABS/OFFICES GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00207</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:57:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:58:56</sys_updated_on>
+            <u_realm/>
+            <value>TXC00207</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS LAB LAND=8.5/LAGOON LANDS=140 GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00210</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:57:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:58:56</sys_updated_on>
+            <u_realm/>
+            <value>TXC00210</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS TURTLE FACILITY BUILDING GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00213</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:57:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:58:56</sys_updated_on>
+            <u_realm/>
+            <value>TXC00213</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS WET LABORATORY BUILDING GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00216</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:58:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:58:56</sys_updated_on>
+            <u_realm/>
+            <value>TXC00216</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS CENTRAL PLANT/MAINTENANCE ARCHIVE BUILDING GALVESTON TX</dependent_value>
+            <element>property_id</element>
+            <hint>SEC</hint>
+            <inactive>false</inactive>
+            <label>TXC00217</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 14:58:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 14:58:56</sys_updated_on>
+            <u_realm/>
+            <value>TXC00217</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC MANCHESTER PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW04501</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:02:02</sys_updated_on>
+            <u_realm/>
+            <value>WAW04501</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BLDG 1 2 3 MAIN LAB SHOP PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW04502</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:04:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:04:42</sys_updated_on>
+            <u_realm/>
+            <value>WAW04502</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BLDG 6 PATHOLOGY LAB OFFICES PORT ORCHARD</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW04503</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:04:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:04:58</sys_updated_on>
+            <u_realm/>
+            <value>WAW04503</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BLDG 8 WAREHOUSE PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW04504</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:07:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:07:14</sys_updated_on>
+            <u_realm/>
+            <value>WAW04504</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BLDG 12 SALTWATER LAB PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW04516</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:07:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:07:32</sys_updated_on>
+            <u_realm/>
+            <value>WAW04516</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NWFSC BLDG 14 FISH (FLUME) PORT ORCHARD WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW04517</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:07:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:07:45</sys_updated_on>
+            <u_realm/>
+            <value>WAW04517</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC LAB SITE SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WAW05201</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:18:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:19:15</sys_updated_on>
+            <u_realm/>
+            <value>WAW05201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC WEST BLDG SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05202</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05202</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC EAST BLDG SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05203</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05203</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC LIBRARY SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05204</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:20:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05204</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC BEHAVIOR LAB SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05206</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:21:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05206</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC HAZMAT STORAGE BLDG SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05208</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:21:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05208</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC TOWER BLDG SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05209</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:21:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:21:55</sys_updated_on>
+            <u_realm/>
+            <value>WAW05209</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA</dependent_value>
+            <element>property_id</element>
+            <hint>NWC</hint>
+            <inactive>false</inactive>
+            <label>WAW05210</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 15:22:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 15:22:10</sys_updated_on>
+            <u_realm/>
+            <value>WAW05210</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

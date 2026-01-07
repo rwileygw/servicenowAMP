@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d047d45683f9fa50d18398c6feaad321" label="System Classification" max_length="40" name="x_1831875_amp2_0_system_classification" text_index="true" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="System" max_length="40" name="system" type="choice">
             <choice>
-                <element inactive_on_update="false" label="INTERIOR CONSTRUCTION" sequence="2" value="interior_construction"/>
-                <element inactive_on_update="false" label="STAIRS" sequence="10" value="stairs"/>
-                <element inactive_on_update="false" label="BASEMENT CONSTRUCTION" sequence="18" value="basement_construction"/>
-                <element inactive_on_update="false" label="HVAC" sequence="8" value="hvac"/>
-                <element inactive_on_update="false" label="FURNISHINGS" sequence="16" value="furnishings"/>
                 <element inactive_on_update="false" label="FOUNDATIONS" sequence="0" value="foundations"/>
-                <element inactive_on_update="false" label="SITE IMPROVEMENTS" sequence="6" value="site_improvements"/>
-                <element inactive_on_update="false" label="SUPERSTRUCTURE" sequence="14" value="superstructure"/>
-                <element inactive_on_update="false" label="OTHER SITE CONSTRUCTION" sequence="22" value="other_site_construction"/>
-                <element inactive_on_update="false" label="ELECTRICAL" sequence="4" value="electrical"/>
-                <element inactive_on_update="false" label="SITE CIVIL / MECHANICAL UTILITIES" sequence="12" value="site_civil_mechanical_utilities"/>
-                <element inactive_on_update="false" label="WATERFRONT UTILITIES" sequence="20" value="waterfront_utilities"/>
-                <element inactive_on_update="false" label="FIRE PROTECTION" sequence="5" value="fire_protection"/>
-                <element inactive_on_update="false" label="EQUIPMENT" sequence="13" value="equipment"/>
-                <element inactive_on_update="false" label="COASTAL PROTECTION" sequence="21" value="coastal_protection"/>
-                <element inactive_on_update="false" label="EXTERIOR CONSTRUCTION" sequence="3" value="exterior_construction"/>
-                <element inactive_on_update="false" label="SITE ELECTRICAL UTILITIES" sequence="11" value="site_electrical_utilities"/>
-                <element inactive_on_update="false" label="WATERFRONT STRUCTURES" sequence="19" value="waterfront_structures"/>
                 <element inactive_on_update="false" label="PLUMBING" sequence="1" value="plumbing"/>
-                <element inactive_on_update="false" label="ROOFING" sequence="9" value="roofing"/>
-                <element inactive_on_update="false" label="SPECIAL CONSTRUCTION" sequence="17" value="special_construction"/>
+                <element inactive_on_update="false" label="INTERIOR CONSTRUCTION" sequence="2" value="interior_construction"/>
+                <element inactive_on_update="false" label="EXTERIOR CONSTRUCTION" sequence="3" value="exterior_construction"/>
+                <element inactive_on_update="false" label="ELECTRICAL" sequence="4" value="electrical"/>
+                <element inactive_on_update="false" label="FIRE PROTECTION" sequence="5" value="fire_protection"/>
+                <element inactive_on_update="false" label="SITE IMPROVEMENTS" sequence="6" value="site_improvements"/>
                 <element inactive_on_update="false" label="INTERIOR FINISHES" sequence="7" value="interior_finishes"/>
+                <element inactive_on_update="false" label="HVAC" sequence="8" value="hvac"/>
+                <element inactive_on_update="false" label="ROOFING" sequence="9" value="roofing"/>
+                <element inactive_on_update="false" label="STAIRS" sequence="10" value="stairs"/>
+                <element inactive_on_update="false" label="SITE ELECTRICAL UTILITIES" sequence="11" value="site_electrical_utilities"/>
+                <element inactive_on_update="false" label="SITE CIVIL / MECHANICAL UTILITIES" sequence="12" value="site_civil_mechanical_utilities"/>
+                <element inactive_on_update="false" label="EQUIPMENT" sequence="13" value="equipment"/>
+                <element inactive_on_update="false" label="SUPERSTRUCTURE" sequence="14" value="superstructure"/>
                 <element inactive_on_update="false" label="CONVEYING" sequence="15" value="conveying"/>
+                <element inactive_on_update="false" label="FURNISHINGS" sequence="16" value="furnishings"/>
+                <element inactive_on_update="false" label="SPECIAL CONSTRUCTION" sequence="17" value="special_construction"/>
+                <element inactive_on_update="false" label="BASEMENT CONSTRUCTION" sequence="18" value="basement_construction"/>
+                <element inactive_on_update="false" label="WATERFRONT STRUCTURES" sequence="19" value="waterfront_structures"/>
+                <element inactive_on_update="false" label="WATERFRONT UTILITIES" sequence="20" value="waterfront_utilities"/>
+                <element inactive_on_update="false" label="COASTAL PROTECTION" sequence="21" value="coastal_protection"/>
+                <element inactive_on_update="false" label="OTHER SITE CONSTRUCTION" sequence="22" value="other_site_construction"/>
                 <element inactive_on_update="false" label="SITE PREPARATIONS" sequence="23" value="site_preparations"/>
             </choice>
         </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

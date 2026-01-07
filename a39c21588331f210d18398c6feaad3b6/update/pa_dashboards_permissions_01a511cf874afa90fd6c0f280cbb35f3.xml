@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="AMP Projects">ff93dd4b874afa90fd6c0f280cbb3587</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>workspace_user</identity>
+        <read>true</read>
+        <role display_value="workspace_user" name="workspace_user">3bf8d5b65344130084acddeeff7b122b</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 17:02:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>01a511cf874afa90fd6c0f280cbb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace_user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_01a511cf874afa90fd6c0f280cbb35f3</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 17:02:39</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

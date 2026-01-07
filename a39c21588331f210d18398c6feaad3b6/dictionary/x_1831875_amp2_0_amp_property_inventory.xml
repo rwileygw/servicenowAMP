@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b161ebe47f972506ca043ff336d4320" extends="sys_import_set_row" label="AMP_Property Inventory" max_length="40" name="x_1831875_amp2_0_amp_property_inventory" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Please note that the Inventory Report is under review and should be finallized soon with the exception of rent." label="Please note that the Inventory Report is under review and should be finallized s" max_length="113" name="u_please_note__ption_of_rent_" type="string"/>
+    </element>
+</database>

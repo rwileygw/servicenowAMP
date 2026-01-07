@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2026-01-07 04:37:32">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 16:54:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f7d3958b874afa90fd6c0f280cbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_portal_page_f7d3958b874afa90fd6c0f280cbb3546</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 16:54:55</sys_updated_on>
+        <title>New Tab 1</title>
+        <user/>
+        <view>new_tab_1_141</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">f7d3958b874afa90fd6c0f280cbb3546</page>
+                <summary>FMC</summary>
+                <sys_created_by>ryann.wiley</sys_created_by>
+                <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                <sys_id>44455d4f874afa90fd6c0f280cbb3547</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>ryann.wiley</sys_updated_by>
+                <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>10455d4f874afa90fd6c0f280cbb3549</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>4c455d4f874afa90fd6c0f280cbb3548</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>88455d4f874afa90fd6c0f280cbb3548</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>94455d4f874afa90fd6c0f280cbb3549</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>FMC</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>cc455d4f874afa90fd6c0f280cbb3547</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>77fd0103874afa90fd6c0f280cbb354a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-12-30 12:00:57">44455d4f874afa90fd6c0f280cbb3547</portal_section>
+                        <sys_created_by>ryann.wiley</sys_created_by>
+                        <sys_created_on>2025-12-30 17:00:57</sys_created_on>
+                        <sys_id>d0455d4f874afa90fd6c0f280cbb3549</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ryann.wiley</sys_updated_by>
+                        <sys_updated_on>2025-12-30 17:00:57</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

@@ -1,38 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fd128a3a833df290d18398c6feaad346" extends="sys_import_set_row" label="Archibus Work Orders" max_length="40" name="x_1831875_amp2_0_1765984960330" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Request Closed" label="Date Work Request Closed" max_length="40" name="u_date_work_request_closed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Order Code" label="Work Order Code" max_length="40" name="u_work_order_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Craftspersons Notes" label="Craftspersons Notes" max_length="40" name="u_craftspersons_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AA" label="AA" max_length="40" name="u_aa" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AB" label="AB" max_length="40" name="u_ab" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AC" label="AC" max_length="40" name="u_ac" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AD" label="AD" max_length="40" name="u_ad" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AE" label="AE" max_length="40" name="u_ae" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AF" label="AF" max_length="40" name="u_af" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AG" label="AG" max_length="40" name="u_ag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AH" label="AH" max_length="40" name="u_ah" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=All Work Requests" label="All Work Requests" max_length="40" name="u_all_work_requests" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Property ID" label="Building Property ID" max_length="40" name="u_building_property_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Completed" label="Date Work Completed" max_length="40" name="u_date_work_completed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Requested by" label="Requested by" max_length="40" name="u_requested_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Request Priority" label="Work Request Priority" max_length="40" name="u_work_request_priority" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Order Created" label="Date Work Order Created" max_length="40" name="u_date_work_order_created" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority Label" label="Priority Label" max_length="40" name="u_priority_label" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date to Perform" label="Date to Perform" max_length="40" name="u_date_to_perform" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Labor" label="Cost of Labor" max_length="40" name="u_cost_of_labor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Completed by" label="Completed by" max_length="40" name="u_completed_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Code" label="Complex Code" max_length="40" name="u_complex_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Labor" label="Cost of Labor" max_length="40" name="u_cost_of_labor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Parts" label="Cost of Parts" max_length="40" name="u_cost_of_parts" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Tools" label="Cost of Tools" max_length="40" name="u_cost_of_tools" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Craftspersons Notes" label="Craftspersons Notes" max_length="40" name="u_craftspersons_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Escalation for Completion Occurs" label="Date Escalation for Completion Occurs" max_length="40" name="u_date_escalat_pletion_occurs" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date to Perform" label="Date to Perform" max_length="40" name="u_date_to_perform" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Completed" label="Date Work Completed" max_length="40" name="u_date_work_completed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Order Created" label="Date Work Order Created" max_length="40" name="u_date_work_order_created" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Requested" label="Date Work Requested" max_length="40" name="u_date_work_requested" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Work Request Closed" label="Date Work Request Closed" max_length="40" name="u_date_work_request_closed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Equipment Code" label="Equipment Code" max_length="40" name="u_equipment_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Code" label="Floor Code" max_length="40" name="u_floor_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=G" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="40" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=I" label="I" max_length="40" name="u_i" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=J" label="J" max_length="40" name="u_j" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=K" label="K" max_length="40" name="u_k" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L" label="L" max_length="40" name="u_l" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=M" label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=N" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=O" label="O" max_length="40" name="u_o" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization ID" label="Organization ID" max_length="40" name="u_organization_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Costs" label="Other Costs" max_length="40" name="u_other_costs" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=P" label="P" max_length="40" name="u_p" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PM Procedure" label="PM Procedure" max_length="40" name="u_pm_procedure" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PM Schedule Code" label="PM Schedule Code" max_length="40" name="u_pm_schedule_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Costs" label="Other Costs" max_length="40" name="u_other_costs" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Escalation for Completion Occurs" label="Date Escalation for Completion Occurs" max_length="40" name="u_date_escalat_pletion_occurs" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Request Code" label="Work Request Code" max_length="40" name="u_work_request_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Code" label="Floor Code" max_length="40" name="u_floor_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Description" label="Work Description" max_length="40" name="u_work_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Code" label="Room Code" max_length="40" name="u_room_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rgn/Prgm/Div/Office ID" label="Rgn/Prgm/Div/Office ID" max_length="40" name="u_rgn_prgm_div_office_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Equipment Code" label="Equipment Code" max_length="40" name="u_equipment_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Problem Location" label="Problem Location" max_length="40" name="u_problem_location" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Tools" label="Cost of Tools" max_length="40" name="u_cost_of_tools" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=ROS" label="ROS" max_length="40" name="u_ros" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Code" label="Complex Code" max_length="40" name="u_complex_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Cost" label="Total Cost" max_length="40" name="u_total_cost" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization ID" label="Organization ID" max_length="40" name="u_organization_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost of Parts" label="Cost of Parts" max_length="40" name="u_cost_of_parts" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Primary Work Description" label="Primary Work Description" max_length="40" name="u_primary_work_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority Label" label="Priority Label" max_length="40" name="u_priority_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Problem Location" label="Problem Location" max_length="40" name="u_problem_location" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Problem Type" label="Problem Type" max_length="40" name="u_problem_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Team Code" label="Work Team Code" max_length="40" name="u_work_team_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Q" label="Q" max_length="40" name="u_q" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=R" label="R" max_length="40" name="u_r" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Requested by" label="Requested by" max_length="40" name="u_requested_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rgn/Prgm/Div/Office ID" label="Rgn/Prgm/Div/Office ID" max_length="40" name="u_rgn_prgm_div_office_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Code" label="Room Code" max_length="40" name="u_room_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ROS" label="ROS" max_length="40" name="u_ros" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=S" label="S" max_length="40" name="u_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=T" label="T" max_length="40" name="u_t" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Cost" label="Total Cost" max_length="40" name="u_total_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=U" label="U" max_length="40" name="u_u" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=V" label="V" max_length="40" name="u_v" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=W" label="W" max_length="40" name="u_w" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Description" label="Work Description" max_length="40" name="u_work_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Order Code" label="Work Order Code" max_length="40" name="u_work_order_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Request Code" label="Work Request Code" max_length="40" name="u_work_request_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Request Priority" label="Work Request Priority" max_length="40" name="u_work_request_priority" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Request Status" label="Work Request Status" max_length="40" name="u_work_request_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Team Code" label="Work Team Code" max_length="40" name="u_work_team_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X" label="X" max_length="40" name="u_x" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Y" label="Y" max_length="40" name="u_y" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Z" label="Z" max_length="40" name="u_z" type="string"/>
     </element>
 </database>

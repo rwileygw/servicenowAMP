@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Trigger instantly when the user changes floor or facility &amp; uses g_form.getReference() to fetch related records already available in the form context then updates dependent fields immediately, no save required to see changes.</description>
+        <field>complex</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>FMC_Complex &amp; FMC Fields- Client</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') return;
+
+    // Get the fmc record
+    g_form.getReference('FMC', function(FMCRec) {
+        if (!FMCRec) return;
+
+        // Set complex from fmc
+        if (fmcRec.complex) {
+            g_form.setValue('complex', fmcRec.complex);
+
+                }
+            });
+        }
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-18 19:42:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1c27805747f536506ca043ff336d43fc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FMC_Complex &amp; FMC Fields- Client</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_client_1c27805747f536506ca043ff336d43fc</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-18 19:45:49</sys_updated_on>
+        <table>x_1831875_amp2_0_project_package</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_script_client_1c27805747f536506ca043ff336d43fc</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Trigger instantly when the user changes floor or facility &amp;amp; uses g_form.getReference() to fetch related records already available in the form context then updates dependent fields immediately, no save required to see changes.&lt;/description&gt;&lt;field&gt;complex&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;FMC_Complex &amp;amp; FMC Fields- Client&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') return;
+
+    // Get the fmc record
+    g_form.getReference('FMC', function(FMCRec) {
+        if (!FMCRec) return;
+
+        // Set complex from fmc
+        if (fmcRec.complex) {
+            g_form.setValue('complex', fmcRec.complex);
+
+                }
+            });
+        }
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ryann.wiley&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-18 19:42:25&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;1c27805747f536506ca043ff336d43fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;FMC_Complex &amp;amp; FMC Fields- Client&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AMP2.0" source="x_1831875_amp2_0"&gt;a39c21588331f210d18398c6feaad3b6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="AMP2.0"&gt;a39c21588331f210d18398c6feaad3b6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1c27805747f536506ca043ff336d43fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ryann.wiley&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-18 19:45:49&lt;/sys_updated_on&gt;&lt;table&gt;x_1831875_amp2_0_project_package&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2115655503</payload_hash>
+        <record_name>FMC_Complex &amp; FMC Fields- Client</record_name>
+        <reverted_from/>
+        <source>8fb90baa47b132506ca043ff336d4397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-18 19:45:49</sys_created_on>
+        <sys_id>0ee7045747f536506ca043ff336d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b32ff47990000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-18 19:45:49</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>02e704579af536500ce191e3bfa864d3</update_guid>
+        <update_guid_history>02e704579af536500ce191e3bfa864d3:2115655503,75d70457fcf53650186d431f5c36a1dd:549393413,14278057eff53650773166a79bfa5cff:-287216408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 22:29:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0f808aa5374248008d65d40331bc1000</sys_id>
+        <sys_metadata>1c27805747f536506ca043ff336d43fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FMC_Complex &amp; FMC Fields- Client</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_script_client_1c27805747f536506ca043ff336d43fc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1c27805747f536506ca043ff336d43fc">0ee7045747f536506ca043ff336d43d3</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 22:29:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

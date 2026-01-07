@@ -5,8 +5,6 @@
         <columns>sys_created_on,sys_created_by,sys_updated_on,sys_updated_by,sys_mod_count</columns>
         <condition/>
         <configuration display_value="AMP2.0_menu_config">7220c55683f13e50d18398c6feaad359</configuration>
-        <enable_infinite_scroll>false</enable_infinite_scroll>
-        <fixed_query/>
         <group_by_column/>
         <groups/>
         <hide_cell_filter>false</hide_cell_filter>
@@ -52,7 +50,6 @@
         <highlight_content_color/>
         <highlight_content_pattern/>
         <list_attributes/>
-        <live_updates>off</live_updates>
         <max_characters>4000</max_characters>
         <order>50</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
@@ -60,14 +57,15 @@
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>9b20095683f13e50d18398c6feaad3f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_list_9b20095683f13e50d18398c6feaad3f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

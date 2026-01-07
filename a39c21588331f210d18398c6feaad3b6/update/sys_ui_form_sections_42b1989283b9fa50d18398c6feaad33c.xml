@@ -5,21 +5,32 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-16 18:57:23</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>41a96daa83753290d18398c6feaad383</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">42b1989283b9fa50d18398c6feaad33c</sys_ui_form>
-            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">74a96daa83753290d18398c6feaad37b</sys_ui_section>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>01a96daa83753290d18398c6feaad38b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">42b1989283b9fa50d18398c6feaad33c</sys_ui_form>
+            <sys_ui_section caption="Estimated Funds" display_value="Estimated Funds" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">01a96daa83753290d18398c6feaad37e</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:45:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 17:54:46</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>4ab1989283b9fa50d18398c6feaad342</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
@@ -31,44 +42,28 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_created_on>2025-12-15 17:54:46</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>01a96daa83753290d18398c6feaad38b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>c2b1989283b9fa50d18398c6feaad344</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">42b1989283b9fa50d18398c6feaad33c</sys_ui_form>
-            <sys_ui_section caption="Estimated Funds" display_value="Estimated Funds" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">01a96daa83753290d18398c6feaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:45:47</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 17:54:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c2b1989283b9fa50d18398c6feaad344</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">42b1989283b9fa50d18398c6feaad33c</sys_ui_form>
-            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 18:11:16</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>237594de83b9fa50d18398c6feaad3f5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">42b1989283b9fa50d18398c6feaad33c</sys_ui_form>
             <sys_ui_section caption="Project Classification" display_value="Project Classification" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">237594de83b9fa50d18398c6feaad399</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:45:47</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1831875_amp2_0_project_package</name>
@@ -76,14 +71,15 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-15 17:54:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>42b1989283b9fa50d18398c6feaad33c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1831875_amp2_0_project_package</sys_name>
             <sys_overrides/>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_form_sections_42b1989283b9fa50d18398c6feaad33c</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

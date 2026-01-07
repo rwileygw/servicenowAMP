@@ -9,8 +9,6 @@
         <create_access>false</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <filter_extension/>
-        <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>Amp2 0 1765985395223</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -19,15 +17,17 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">b93b65b6f13322108bb2efdbde054ca9</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">a9663c414c3030001b32b3c299db1854</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-17 15:29:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>37b346fe833df290d18398c6feaad3b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Amp2 0 1765985395223</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_db_object_37b346fe833df290d18398c6feaad3b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

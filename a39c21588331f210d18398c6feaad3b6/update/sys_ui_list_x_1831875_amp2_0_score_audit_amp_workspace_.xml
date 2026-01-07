@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_score_audit" version="2" view="AMP_Workspace_">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>breakdown</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>21b27af647fd72506ca043ff336d43d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>context</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>29b27af647fd72506ca043ff336d43d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>2db27af647fd72506ca043ff336d43d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>raw_score</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>21b27af647fd72506ca043ff336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>run_time</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>25b27af647fd72506ca043ff336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>score</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>29b27af647fd72506ca043ff336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>settings_used</element>
+            <list_id display_value="x_1831875_amp2_0_score_audit" element="NULL" name="x_1831875_amp2_0_score_audit" parent="NULL" relationship="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">adb27af647fd72506ca043ff336d43ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_id>2db27af647fd72506ca043ff336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1831875_amp2_0_score_audit</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>adb27af647fd72506ca043ff336d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_score_audit</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1831875_amp2_0_score_audit_AMP_Workspace_</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="AMP Workspace " name="AMP_Workspace_">28f17e7647fd72506ca043ff336d436e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

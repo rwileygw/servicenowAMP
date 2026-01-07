@@ -5,15 +5,16 @@
         <sys_class_name>sys_ux_screen_type</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b920055658f13e508024951c111f60ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Notification tray</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_screen_type_b920055658f13e508024951c111f60ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-12-15 21:17:39</sys_updated_on>
     </sys_ux_screen_type>
-    <sys_translated_text action="delete_multiple" query="documentkey=b920055658f13e508024951c111f60ce"/>
 </record_update>

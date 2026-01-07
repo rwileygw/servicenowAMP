@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Justification" section_id="f32c18c9475e36106ca043ff336d43e9" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="workspace-amp20-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 20:36:45</sys_created_on>
+            <sys_id>5dc9cad94756f6106ca043ff336d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:36:45</sys_updated_on>
+            <text>&lt;p&gt;*For Project Description, place special emphasis on problem, impact, solution, and deficiencies corrected.&lt;/p&gt;
+&lt;p&gt;*For Project Need/Benefit, place emphasis on needs, benefits gained, and clearly support the selected Ranking Factor and Severity Index. Note: If this is a Ranking Factor "Energy &amp;amp; Sustainable Building Capital Improvement" scored project with a full Return on Investment (ROI) within five (5) years, show all ROI calculations in this section . Energy &amp;amp; Sustainable Building Capital Improvement Projects with a fully documented ROI within five (5) years will receive an additional 50 points during project scoring.&lt;/p&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5dc9cad94756f6106ca043ff336d439a</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 20:36:45</sys_created_on>
+            <sys_id>95c9cad94756f6106ca043ff336d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Justification" display_value="Project Justification" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">f32c18c9475e36106ca043ff336d43e9</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:36:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 20:36:45</sys_created_on>
+            <sys_id>9dc9cad94756f6106ca043ff336d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Justification" display_value="Project Justification" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">f32c18c9475e36106ca043ff336d43e9</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_need_benefit</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 20:36:45</sys_created_on>
+            <sys_id>95c9cad94756f6106ca043ff336d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Justification" display_value="Project Justification" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">f32c18c9475e36106ca043ff336d43e9</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Justification</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-05 17:59:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f32c18c9475e36106ca043ff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_f32c18c9475e36106ca043ff336d43e9</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-05 17:59:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

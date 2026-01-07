@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="78cb280583f53e10d18398c6feaad3d0" extends="x_1831875_amp2_0_bundle" label="Bundle Member" max_length="40" name="x_1831875_amp2_0_bundle_member" text_index="true" type="collection">
+        <element label="Bundle" max_length="32" name="bundle" reference="x_1831875_amp2_0_bundle" type="reference"/>
         <element label="Data Rollup" max_length="40" name="data_rollup" type="string"/>
         <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
-        <element label="Bundle" max_length="32" name="bundle" reference="x_1831875_amp2_0_bundle" type="reference"/>
         <element label="Role" max_length="40" name="role" type="string"/>
+        <index name="index">
+            <element name="bundle"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
     </element>
 </database>

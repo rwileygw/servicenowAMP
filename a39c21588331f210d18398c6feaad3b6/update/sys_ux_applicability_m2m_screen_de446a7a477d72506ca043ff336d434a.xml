@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app amp20">b220c55683f13e50d18398c6feaad349</applicability>
+        <order>0</order>
+        <screen display_value="Home default">bd20055639f13e50efdd337e05b7bac3</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-17 17:52:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de446a7a477d72506ca043ff336d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_de446a7a477d72506ca043ff336d434a</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-17 17:52:06</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

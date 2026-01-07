@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1831875_amp2_0_project_package" version="2" view="AMP_Workspace_">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Project Package - AMP Workspace " name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">a59b54448752b2d0fd6c0f280cbb35de</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.complex_name</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 15:22:56</sys_created_on>
+            <sys_id>619b54448752b2d0fd6c0f280cbb35df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 15:22:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Project Package - AMP Workspace " name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">a59b54448752b2d0fd6c0f280cbb35de</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.complex_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 15:22:56</sys_created_on>
+            <sys_id>659b54448752b2d0fd6c0f280cbb35df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 15:22:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Project Package - AMP Workspace " name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">a59b54448752b2d0fd6c0f280cbb35de</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.property_name</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 15:22:56</sys_created_on>
+            <sys_id>699b54448752b2d0fd6c0f280cbb35df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 15:22:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Project Package - AMP Workspace " name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">a59b54448752b2d0fd6c0f280cbb35de</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.property_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 15:22:56</sys_created_on>
+            <sys_id>6d9b54448752b2d0fd6c0f280cbb35df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 15:22:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Project Package - AMP Workspace </calculated_name>
+            <filter/>
+            <name>x_1831875_amp2_0_project_package</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 15:22:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a59b54448752b2d0fd6c0f280cbb35de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project Package - AMP Workspace </sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_related_x_1831875_amp2_0_project_package_AMP_Workspace_</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 15:22:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="AMP Workspace " name="AMP_Workspace_">28f17e7647fd72506ca043ff336d436e</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

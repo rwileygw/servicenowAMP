@@ -2,7 +2,7 @@
     <element db_object_id="be60262683317290d18398c6feaad318" label="BUILDER Fac Code" max_length="40" name="x_1831875_amp2_0_builder_fac_code" type="collection">
         <element label="BUILDER Fac Code" max_length="40" name="builder_fac_code" type="string"/>
         <element label="Fac Code Description" max_length="40" name="fac_code_description" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

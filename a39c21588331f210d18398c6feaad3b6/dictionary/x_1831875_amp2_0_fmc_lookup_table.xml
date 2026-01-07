@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="a37bd67a473d72506ca043ff336d4388" label="FMC Lookup Table" max_length="40" name="x_1831875_amp2_0_fmc_lookup_table" read_roles="x_1831875_amp2_0.admin" type="collection">
+        <element label="Acquisition Method" max_length="40" name="acquisition_method" type="string"/>
+        <element label="Address Line 1" max_length="40" name="address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
+        <element label="Bureau/Line Office" max_length="40" name="bureau_line_office" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Complex Id" max_length="40" name="complex_id" reference="x_1831875_amp2_0_project_package" type="string"/>
+        <element label="Complex Name" max_length="40" name="complex_name" reference="x_1831875_amp2_0_project_package" type="string"/>
+        <element display="true" label="FMC" max_length="40" name="fmc" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="FMC choice" max_length="32" name="fmc_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NEC" sequence="0" value="NEC"/>
+                <element inactive_on_update="false" label="NWC" sequence="1" value="NWC"/>
+                <element inactive_on_update="false" label="AKC" sequence="2" value="AKC"/>
+                <element inactive_on_update="false" label="SWC" sequence="3" value="SWC"/>
+                <element inactive_on_update="false" label="SEC" sequence="4" value="SEC"/>
+                <element inactive_on_update="false" label="SIP" sequence="5" value="SIP"/>
+                <element inactive_on_update="false" label="GAR" sequence="6" value="GAR"/>
+                <element inactive_on_update="false" label="OHC" sequence="7" value="OHC"/>
+                <element inactive_on_update="false" label="OLE" sequence="8" value="OLE"/>
+                <element inactive_on_update="false" label="AKR" sequence="9" value="AKR"/>
+                <element inactive_on_update="false" label="WCR" sequence="10" value="WCR"/>
+                <element inactive_on_update="false" label="SER" sequence="11" value="SER"/>
+                <element inactive_on_update="false" label="PIC" sequence="12" value="PIC"/>
+                <element inactive_on_update="false" label="PIR" sequence="13" value="PIR"/>
+            </choice>
+        </element>
+        <element label="GroupID" max_length="40" name="groupid" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Installation ID" max_length="40" name="installation_id" type="string"/>
+        <element label="Installation Name" max_length="40" name="installation_name" type="string"/>
+        <element label="Legal Interest" max_length="40" name="legal_interest" type="string"/>
+        <element label="Portfolio" max_length="40" name="portfolio" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Property ID" max_length="40" name="property_id" reference="x_1831875_amp2_0_project_package" type="string"/>
+        <element label="Property Name" max_length="40" name="property_name" reference="x_1831875_amp2_0_project_package" type="string"/>
+        <element label="Property Type" max_length="40" name="property_type" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Reporting Bureau" max_length="40" name="reporting_bureau" type="string"/>
+        <element label="RMO" max_length="40" name="rmo" type="string"/>
+        <element label="Source of Space" max_length="40" name="source_of_space" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element active="false" attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Complex" max_length="1024" name="u_glide_list_1" reference="x_1831875_amp2_0_complex" type="glide_list"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="fmc_choice"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
+            <element name="property_id"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -2,17 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_1831875_amp2_0_complex" version="2" view="workspace-amp20-0">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Complex - Workspace AMP20 0" name="x_1831875_amp2_0_complex" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">5350455a83f13e50d18398c6feaad3dd</list_id>
+            <list_id display_value="Complex - Workspace AMP20 0" name="x_1831875_amp2_0_complex" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">7ec696f28746ba90fd6c0f280cbb35c0</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_1831875_amp2_0_campus.complex</related_list>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.u_glide_list_1</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 21:18:34</sys_created_on>
-            <sys_id>df50455a83f13e50d18398c6feaad3dd</sys_id>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:08:50</sys_created_on>
+            <sys_id>3ac696f28746ba90fd6c0f280cbb35c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-15 21:18:34</sys_updated_on>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-30 03:08:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Complex - Workspace AMP20 0" name="x_1831875_amp2_0_complex" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">7ec696f28746ba90fd6c0f280cbb35c0</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1831875_amp2_0_project_package.fmc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:08:50</sys_created_on>
+            <sys_id>3ec696f28746ba90fd6c0f280cbb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-30 03:08:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Complex - Workspace AMP20 0" name="x_1831875_amp2_0_complex" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">7ec696f28746ba90fd6c0f280cbb35c0</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_1831875_amp2_0_fmc_lookup_table.u_reference_2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:08:50</sys_created_on>
+            <sys_id>32c696f28746ba90fd6c0f280cbb35c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-30 03:08:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Complex - Workspace AMP20 0" name="x_1831875_amp2_0_complex" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">7ec696f28746ba90fd6c0f280cbb35c0</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_1831875_amp2_0_project_package.complex</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:08:50</sys_created_on>
+            <sys_id>36c696f28746ba90fd6c0f280cbb35c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-30 03:08:50</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Complex - Workspace AMP20 0</calculated_name>
@@ -22,19 +64,20 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 21:18:34</sys_created_on>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:08:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5350455a83f13e50d18398c6feaad3dd</sys_id>
+            <sys_id>7ec696f28746ba90fd6c0f280cbb35c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Complex - Workspace AMP20 0</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_related_x_1831875_amp2_0_complex_workspace-amp20-0</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-15 21:18:34</sys_updated_on>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-30 03:08:50</sys_updated_on>
             <sys_user/>
             <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
             <view_name/>

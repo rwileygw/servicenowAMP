@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="">7fbf3805475276106ca043ff336d4350</metric_type>
+        <name>Answer questions by clicking in the Yes or No column.</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:34:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7fbf7485475276106ca043ff336d4317</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Answer questions by clicking in the Yes or No column.</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>asmt_metric_category_7fbf7485475276106ca043ff336d4317</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:36:59</sys_updated_on>
+        <table>change_request</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=7fbf7485475276106ca043ff336d4317"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>asmt_metric_category_7fbf7485475276106ca043ff336d4317</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter/><metric_type display_value="">7fbf3805475276106ca043ff336d4350</metric_type><name>Answer questions by clicking in the Yes or No column.</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-05 20:34:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>7fbf7485475276106ca043ff336d4317</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Answer questions by clicking in the Yes or No column.</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>asmt_metric_category_7fbf7485475276106ca043ff336d4317</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-05 20:36:59</sys_updated_on><table>change_request</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=7fbf7485475276106ca043ff336d4317"/></record_update>]]></payload>
+        <payload_hash>-821830454</payload_hash>
+        <record_name>Answer questions by clicking in the Yes or No column.</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:36:59</sys_created_on>
+        <sys_id>3e3081c5475276106ca043ff336d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b8fe097490000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:36:59</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>323081c5a95276101943529f16a91fbc</update_guid>
+        <update_guid_history>323081c5a95276101943529f16a91fbc:-821830454,3e3081c5305276109ae9f86c3a9200b1:45221771,3a3081c5b4527610140c9bc376fddaa7:912273996,323081c5c45276109cade5a0ef96009d:1779326221,3bbf748521527610b214ae2b30c00030:1629432278,3fbf74858f52761085e9c7ec79e5442a:762380053,33bf74856d52761020f7b7e0aec15225:-104672172,3fbf74859c52761073ffd7abb764ac1e:-971724397,3bbf74859e527610f8490dc5227f9619:-260929178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-05 15:36:59">0f3081c5475276106ca043ff336d43c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-05 20:36:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>13c478899a1a497694895aead95824f9</sys_id>
+        <sys_metadata>7fbf7485475276106ca043ff336d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Answer questions by clicking in the Yes or No column.</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_7fbf7485475276106ca043ff336d4317</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_7fbf7485475276106ca043ff336d4317">3e3081c5475276106ca043ff336d43bc</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:36:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

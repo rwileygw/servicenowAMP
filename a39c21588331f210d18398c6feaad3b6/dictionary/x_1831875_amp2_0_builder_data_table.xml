@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9fcb56ba473d72506ca043ff336d43ae" label="Builder Data Table" max_length="40" name="x_1831875_amp2_0_builder_data_table" type="collection">
+        <element label="ActualCost" max_length="40" name="actualcost" type="integer"/>
+        <element label="Area(SF)" max_length="40" name="area_sf" type="integer"/>
+        <element label="BCI" max_length="40" name="bci" type="integer"/>
+        <element label="BldgName" max_length="40" name="bldgname" type="string"/>
+        <element label="BldgNum" max_length="40" name="bldgnum" type="string"/>
+        <element label="Building PRV" max_length="40" name="building_prv" type="string"/>
+        <element label="Category Code" max_length="100" name="category_code" type="string"/>
+        <element label="Comments" max_length="150" name="comments" type="string"/>
+        <element label="Component" max_length="100" name="component" type="string"/>
+        <element label="CompType" max_length="100" name="comptype" type="string"/>
+        <element label="CSCI" max_length="20" name="csci" type="decimal"/>
+        <element label="Design Life" max_length="40" name="design_life" type="integer"/>
+        <element label="Est WI Cost" max_length="40" name="est_wi_cost" type="integer"/>
+        <element label="Expected_Rating" max_length="40" name="expected_rating" type="integer"/>
+        <element label="FCI" max_length="40" name="fci" type="integer"/>
+        <element label="FiscalYear" max_length="40" name="fiscalyear" type="string"/>
+        <element label="INSP_DATA_COMMENTS" max_length="40" name="insp_data_comments" type="string"/>
+        <element label="Insp_Rating" max_length="40" name="insp_rating" type="integer"/>
+        <element label="InstallationCode" max_length="40" name="installationcode" type="string"/>
+        <element label="InstallationName" max_length="40" name="installationname" type="string"/>
+        <element label="InstallDate" max_length="40" name="installdate" type="integer"/>
+        <element label="LatestInspDate" max_length="40" name="latestinspdate" type="string"/>
+        <element label="Line Office" max_length="40" name="line_office" type="string"/>
+        <element default="250" label="MatEquipType" max_length="40" name="matequiptype" type="string"/>
+        <element label="ORG_NAME" max_length="40" name="org_name" type="string"/>
+        <element label="Org path" max_length="40" name="org_path" type="string"/>
+        <element label="Qty" max_length="40" name="qty" type="integer"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Remaining Design Life" max_length="40" name="remaining_design_life" type="integer"/>
+        <element label="Remaining Service Life" max_length="40" name="remaining_service_life" type="integer"/>
+        <element label="SCI" max_length="40" name="sci" type="integer"/>
+        <element label="Section_Age" max_length="40" name="section_age" type="integer"/>
+        <element label="Section Name" max_length="100" name="section_name" type="string"/>
+        <element label="SEC_ID" max_length="40" name="sec_id" type="string"/>
+        <element label="System" max_length="250" name="system" type="string"/>
+        <element label="Unit of Measure" max_length="40" name="unit_of_measure" type="string"/>
+        <element label="UoM" max_length="100" name="uom" type="string"/>
+        <element label="WorkItemID" max_length="40" name="workitemid" type="string"/>
+        <element label="Work Item Description" max_length="40" name="work_item_description" type="string"/>
+        <element label="Work Item Status" max_length="40" name="work_item_status" type="string"/>
+        <element label="Year Built" max_length="40" name="year_built" type="integer"/>
+    </element>
+</database>

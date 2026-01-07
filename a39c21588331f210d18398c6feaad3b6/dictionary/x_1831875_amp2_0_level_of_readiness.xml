@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a0fb666a83b17290d18398c6feaad3be" label="Level of Readiness" max_length="40" name="x_1831875_amp2_0_level_of_readiness" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Score" max_length="40" name="score" type="string"/>
         <element label="Level of Readiness" max_length="40" name="level_of_readiness" type="string"/>
+        <element label="Score" max_length="40" name="score" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

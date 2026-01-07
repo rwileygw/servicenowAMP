@@ -8,20 +8,22 @@
         <derived>true</derived>
         <field/>
         <label>amp20 Search Profile Default Spell Check Dictionary</label>
-        <last_derived/>
+        <last_derived>2026-01-06 05:26:57</last_derived>
         <locale>en</locale>
         <name>x_1831875_amp2_0_amp20_search_profile_default_spell_check_dictionary</name>
-        <publish_id/>
+        <publish_id>de7a481e-302b-44b1-aafc-2a5573a9f373</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d5308d5683f13e50d18398c6feaad3d9</sys_id>
         <sys_mod_count>45</sys_mod_count>
         <sys_name>x_1831875_amp2_0_amp20_search_profile_default_spell_check_dictionary</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>ais_dictionary_d5308d5683f13e50d18398c6feaad3d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

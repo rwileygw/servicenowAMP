@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ranking_factors" table="x_1831875_amp2_0_project_package" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ranking_factors</element>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:30:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ranking_factors</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_project_package_ranking_factors</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:30:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Serious Health and Safety</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:31:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:31:40</sys_updated_on>
+            <u_realm/>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Capital Improvement</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:37:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:37:44</sys_updated_on>
+            <u_realm/>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Energy &amp; Sustainable Building Capital Improvement</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:37:26</sys_updated_on>
+            <u_realm/>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Routine Health and Safety, Environmental Compliance or Facility Maintenance and Repair</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:37:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:37:11</sys_updated_on>
+            <u_realm/>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Serious Environmental Compliance</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:36:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:37:01</sys_updated_on>
+            <u_realm/>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ranking_factors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Serious Facility Maintenance, Repair or Capital Improvement</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-06 19:30:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-06 19:37:50</sys_updated_on>
+            <u_realm/>
+            <value>9</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

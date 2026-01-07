@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6d1ba6a683b17290d18398c6feaad30c" label="Minor Construction Execution Type" max_length="40" name="x_1831875_amp2_0_minor_construction_execution_type" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Comments" max_length="40" name="comments" type="string"/>
-        <element label="Multi-phase" max_length="40" name="multi_phase" type="boolean"/>
         <element label="Definition" max_length="40" name="definition" type="string"/>
         <element label="Execution" max_length="40" name="execution" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Single-Phase" sequence="0" value="single_phase"/>
-                <element inactive_on_update="false" label="Design / Build" sequence="3" value="design_build"/>
                 <element inactive_on_update="false" label="Multi-Phase" sequence="1" value="multi_phase"/>
                 <element inactive_on_update="false" label="Design" sequence="2" value="design"/>
+                <element inactive_on_update="false" label="Design / Build" sequence="3" value="design_build"/>
             </choice>
         </element>
+        <element label="Multi-phase" max_length="40" name="multi_phase" type="boolean"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

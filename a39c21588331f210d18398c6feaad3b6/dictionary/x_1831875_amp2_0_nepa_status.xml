@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="26ccae6083b9f610d18398c6feaad3c8" label="NEPA Status" max_length="40" name="x_1831875_amp2_0_nepa_status" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
         <element label="NEPA Status" max_length="40" name="nepa_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Letter Submitted" sequence="0" value="letter_submitted"/>
@@ -8,10 +11,7 @@
                 <element inactive_on_update="false" label="Letter Returned" sequence="2" value="letter_returned"/>
             </choice>
         </element>
-        <element label="Label" max_length="40" name="label" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Description" max_length="40" name="description" type="string"/>
-        <element label="Code" max_length="40" name="code" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
