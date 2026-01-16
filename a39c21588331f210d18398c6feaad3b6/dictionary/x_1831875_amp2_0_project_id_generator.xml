@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3ace38b483b57a10d18398c6feaad3ff" label="Project ID Generator" max_length="40" name="x_1831875_amp2_0_project_id_generator" text_index="true" type="collection">
-        <element label="Fiscal year" max_length="40" name="fiscal_year" type="string"/>
-        <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
-        <element label="FY" max_length="40" name="fy" type="string"/>
-        <element label="Key" max_length="40" name="key" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="yes" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Key" max_length="40" name="key" type="string" unique="true"/>
         <element label="Last Seq" max_length="40" name="last_seq" type="integer"/>
-        <element label="Last value" max_length="40" name="last_value" type="integer"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Phase suffix" max_length="40" name="phase_suffix" type="string"/>
         <element label="Reserved by" max_length="32" name="reserved_by" reference="sys_user" type="reference"/>
@@ -17,8 +14,11 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
-        <index name="index">
-            <element name="fmc"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="5" name="u_fmc" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Last number" max_length="40" name="u_last_number" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Year" max_length="4" name="u_year" type="string"/>
+        <index name="index" unique="true">
+            <element name="key"/>
         </index>
         <index name="index2">
             <element name="reserved_by"/>

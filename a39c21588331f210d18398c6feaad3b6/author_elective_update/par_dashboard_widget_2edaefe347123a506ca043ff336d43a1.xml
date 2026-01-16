@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0d35748747bdb2506ca043ff336d4393</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1jet8eb3872cgss4sd4g","filterName":"Label","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"table":"x_1831875_amp2_0_fmc_lookup_table","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_complex.u_fmc_ref","table":"x_1831875_amp2_0_property_table","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"top_layout","isDashboard":true,"id":"targets","value":[],"noDebounce":true,"propLabel":"Data to filter"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-14 03:27:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2edaefe347123a506ca043ff336d43a1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_2edaefe347123a506ca043ff336d43a1</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-14 03:46:05</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>7</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_2edaefe347123a506ca043ff336d43a1</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0d35748747bdb2506ca043ff336d4393</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1jet8eb3872cgss4sd4g","filterName":"Label","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"table":"x_1831875_amp2_0_fmc_lookup_table","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_complex.u_fmc_ref","table":"x_1831875_amp2_0_property_table","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"top_layout","isDashboard":true,"id":"targets","value":[],"noDebounce":true,"propLabel":"Data to filter"}</component_props><h>4</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-14 03:27:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>2edaefe347123a506ca043ff336d43a1</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_2edaefe347123a506ca043ff336d43a1</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-14 03:46:05</sys_updated_on><visualization/><w>7</w><widget_props/><x>7</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1036361339</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>37787cfe47d672506ca043ff336d43a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-14 03:46:05</sys_created_on>
+        <sys_id>ae2fafab47123a506ca043ff336d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bba9c515d0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-14 03:46:05</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>222fafab41123a5079a13588fc5cf427</update_guid>
+        <update_guid_history>222fafab41123a5079a13588fc5cf427:-1036361339,651cef6764123a50f8b2d210e24882e3:-1875614801,7b1ba727c3123a50e8c94e76ccdace54:-1364573640,eedaefe34c123a504109f2303e7f00a2:1422140295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-13 22:52:07">0f80b76f47123a506ca043ff336d431a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-14 03:52:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>56e7226d02bb41ba9731afeb7a666ce4</sys_id>
+        <sys_metadata>2edaefe347123a506ca043ff336d43a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_2edaefe347123a506ca043ff336d43a1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_2edaefe347123a506ca043ff336d43a1">ae2fafab47123a506ca043ff336d4327</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-14 03:52:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

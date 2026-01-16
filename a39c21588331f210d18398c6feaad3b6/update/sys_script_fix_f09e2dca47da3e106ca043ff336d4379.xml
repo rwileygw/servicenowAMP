@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Fix script to fix inheritance from FMC --&gt;Complex</description>
+        <name>inheritanceFixComplex</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord('x_1831875_amp2_0_x_amp2_fmc_complex');
+gr.query();
+while (gr.next()) {
+	if (!gr.u_name && gr.u_complex_name) {
+		gr.u_name = gr.u_complex_name;
+		gr.update();
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-09 02:41:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f09e2dca47da3e106ca043ff336d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inheritanceFixComplex</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_fix_f09e2dca47da3e106ca043ff336d4379</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-09 02:41:26</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f09e2dca47da3e106ca043ff336d4379</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-09 02:41:26</sys_created_on>
+        <sys_id>3e60b94e47da3e106ca043ff336d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-09 02:41:26</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

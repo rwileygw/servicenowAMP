@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>key</col_name_string>
+        <index_col_name element="key" name="x_1831875_amp2_0_project_id_generator">47234766477132506ca043ff336d431a</index_col_name>
+        <logical_table_name>x_1831875_amp2_0_project_id_generator</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-12 05:44:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26f6358b479af2506ca043ff336d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_id_generator</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_index_x_1831875_amp2_0_project_id_generator_key</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-12 05:44:01</sys_updated_on>
+        <table display_value="Project ID Generator" name="x_1831875_amp2_0_project_id_generator">3ace38b483b57a10d18398c6feaad3ff</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

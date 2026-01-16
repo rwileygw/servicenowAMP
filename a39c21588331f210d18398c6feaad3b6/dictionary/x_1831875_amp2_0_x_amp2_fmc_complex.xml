@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f3374ce47163e106ca043ff336d43fd" extends="x_1831875_amp2_0_fmc_lookup_table" label="Complex" max_length="40" name="x_1831875_amp2_0_x_amp2_fmc_complex" type="collection">
+        <element label="City" max_length="40" name="u_city" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex ID" max_length="32" name="u_complex_id" type="string"/>
+        <element label="Complex key" max_length="150" name="u_complex_key" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Complex name" max_length="150" name="u_complex_name" type="string"/>
+        <element label="County code" max_length="40" name="u_county_code" type="string"/>
+        <element label="FMC" max_length="32" name="u_fmc_ref" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element label="InstallationID" max_length="40" name="u_installation_id" type="string"/>
+        <element label="Installation Name" max_length="40" name="u_installation_name" type="string"/>
+        <element label="Mission Dependency" max_length="100" name="u_mission_dependency" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Relevant PPAs" max_length="150" name="u_relevant_ppas" type="string"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="u_complex_id"/>
+        </index>
+        <index name="index2">
+            <element name="u_complex_key"/>
+        </index>
+        <index name="index3">
+            <element name="u_fmc_ref"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="860d7467475eb6506ca043ff336d4334" extends="sys_import_set_row" label="Complex_RelevantPPAs" max_length="40" name="x_1831875_amp2_0_complex_relevantppas" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex ID" label="Complex ID" max_length="40" name="u_complex_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Relevant PPAs" label="Relevant PPAs" max_length="40" name="u_relevant_ppas" type="string"/>
+    </element>
+</database>

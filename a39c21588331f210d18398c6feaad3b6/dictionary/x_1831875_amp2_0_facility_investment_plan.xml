@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="024d32d483b13610d18398c6feaad345" label="Facility Investment Plan" max_length="40" name="x_1831875_amp2_0_facility_investment_plan" text_index="true" type="collection">
         <element label="Actual cost" max_length="38" name="actual_cost" type="decimal"/>
-        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
         <element label="Fiscal year" max_length="40" name="fiscal_year" type="integer"/>
         <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
         <element label="Is current year" max_length="40" name="is_current_year" type="boolean"/>
@@ -11,15 +10,12 @@
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Variance" max_length="38" name="variance" type="decimal"/>
         <index name="index">
-            <element name="complex"/>
-        </index>
-        <index name="index2">
             <element name="fmc"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="project"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

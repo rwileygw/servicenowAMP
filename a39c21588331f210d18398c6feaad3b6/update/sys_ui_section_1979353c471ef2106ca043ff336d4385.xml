@@ -448,6 +448,188 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fmc</element>
+            <position>32</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 03:49:26</sys_created_on>
+            <sys_id>fafff5c6475e3e106ca043ff336d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 03:49:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_funding_type</element>
+            <position>33</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:48:45</sys_created_on>
+            <sys_id>178b119e4716be106ca043ff336d4349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:48:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relevant_ppas</element>
+            <position>34</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:49:40</sys_created_on>
+            <sys_id>cdcb199e4716be106ca043ff336d4367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:49:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_a_fca</element>
+            <position>35</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:53:40</sys_created_on>
+            <sys_id>97ac51124756be106ca043ff336d437f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:53:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_necsass</element>
+            <position>36</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:53:40</sys_created_on>
+            <sys_id>6fac51124756be106ca043ff336d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:53:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>necsass_level</element>
+            <position>37</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:53:40</sys_created_on>
+            <sys_id>2fac51124756be106ca043ff336d43d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:53:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_a_security_assessment</element>
+            <position>38</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:53:40</sys_created_on>
+            <sys_id>2fac51124756be106ca043ff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:53:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i</element>
+            <position>39</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 19:53:41</sys_created_on>
+            <sys_id>27ac91124756be106ca043ff336d430d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 19:53:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_environmental_compliance</element>
+            <position>40</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 20:41:02</sys_created_on>
+            <sys_id>118765da4796be106ca043ff336d4356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 20:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_complex</element>
+            <position>41</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-12 02:58:28</sys_created_on>
+            <sys_id>f111d5834796f2506ca043ff336d43cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-12 02:58:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_property</element>
+            <position>42</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-12 03:00:32</sys_created_on>
+            <sys_id>ff81d5074796f2506ca043ff336d436e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-12 03:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_project_id</element>
+            <position>43</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-12 04:58:10</sys_created_on>
+            <sys_id>037ca987475af2506ca043ff336d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-12 04:58:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_project_title</element>
+            <position>44</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-12 04:58:52</sys_created_on>
+            <sys_id>81ac21c7475af2506ca043ff336d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-12 04:58:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Project Details</caption>
             <header>false</header>

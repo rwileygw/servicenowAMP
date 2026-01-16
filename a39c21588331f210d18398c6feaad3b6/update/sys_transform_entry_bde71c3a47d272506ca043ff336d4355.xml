@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Complex Property Update">dda7103a47d272506ca043ff336d432b</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[(function transformEntry(source) {
+
+  var complexId = (source.u_complex_id || '').toString().trim();
+  if (!complexId) {
+	return '';
+  }
+  var gr = new GlideRecord('x_1831875_amp2_0_x_amp2_fmc_complex');
+  gr.addQuery('sys_class_name','x_1831875_amp2_0_x_amp2_fmc_complex');
+  gr.addQuery('u_complex_id', complexId);
+  gr.setLimit(1);
+  gr.query();
+
+  if (gr.next()) {
+    return gr.getUniqueValue(); // sys_id
+  }
+
+  return '';
+})(source);
+]]></source_script>
+        <source_table>x_1831875_amp2_0_complex_property_update</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-11 04:25:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bde71c3a47d272506ca043ff336d4355</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_transform_entry_bde71c3a47d272506ca043ff336d4355</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-11 05:16:45</sys_updated_on>
+        <target_field>u_complex</target_field>
+        <target_table>x_1831875_amp2_0_property_table</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>bde71c3a47d272506ca043ff336d4355</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-11 04:25:21</sys_created_on>
+        <sys_id>e06b50fe47d272506ca043ff336d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-11 04:25:21</sys_updated_on>
+        <table>sys_transform_entry</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

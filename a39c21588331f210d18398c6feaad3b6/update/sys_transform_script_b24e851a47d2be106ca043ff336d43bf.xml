@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="PropertyTable">34b349d64792be106ca043ff336d43bd</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target) {
+
+  // 1) Get the incoming Complex ID from your staging row
+  var complexId = (source.u_complex_id || '').toString().trim();
+  if (!complexId) {
+    log.warn('Missing Complex ID on source row: ' + source.sys_id);
+    return;
+  }
+
+  // 2) Look up the Complex by its Complex ID
+  var cpx = new GlideRecord('x_1831875_amp2_0_x_amp2_fmc_complex');
+  cpx.addQuery('u_complex_id', complexId);
+  cpx.setLimit(1);
+  cpx.query();
+
+  if (cpx.next()) {
+    // 3) Set the reference on the Property record
+    target.u_complex = cpx.getUniqueValue();
+  } else {
+    log.warn('No Complex match found for Complex ID [' + complexId + '] on source row: ' + source.sys_id);
+  }
+
+})(source, map, log, target);
+
+]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-09 18:53:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b24e851a47d2be106ca043ff336d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_transform_script_b24e851a47d2be106ca043ff336d43bf</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-09 18:53:36</sys_updated_on>
+        <u_description>Populate Complex on Property Table</u_description>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b24e851a47d2be106ca043ff336d43bf</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-09 18:53:36</sys_created_on>
+        <sys_id>63ee8dd647d2be106ca043ff336d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-09 18:53:36</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a3b6329083713610d18398c6feaad31e" label="Multi-phase Project" max_length="40" name="x_1831875_amp2_0_multi_phase_project" text_index="true" type="collection">
-        <element label="Complex" max_length="32" name="complex" reference="x_1831875_amp2_0_complex" type="reference"/>
         <element label="Created from project" max_length="32" name="created_from_project" reference="x_1831875_amp2_0_project_package" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element label="FMC" max_length="32" name="fmc" reference="x_1831875_amp2_0_fmc_list" type="reference"/>
@@ -12,18 +11,15 @@
         <element label="Total Actual cost" max_length="38" name="total_actual_cost" type="decimal"/>
         <element label="Total Estimated cost" max_length="38" name="total_estimated_cost" type="decimal"/>
         <index name="index">
-            <element name="complex"/>
-        </index>
-        <index name="index2">
             <element name="created_from_project"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="fmc"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="status"/>
         </index>
-        <index name="index5">
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>

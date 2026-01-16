@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
     <sys_transform_map action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <copy_empty_fields>false</copy_empty_fields>
         <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>No</enforce_mandatory_fields>
@@ -19,7 +19,7 @@
         <sys_created_on>2026-01-06 04:50:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>41f03685475e76106ca043ff336d43a9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>UpdateFMC</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -27,7 +27,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_transform_map_41f03685475e76106ca043ff336d43a9</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-06 04:56:09</sys_updated_on>
+        <sys_updated_on>2026-01-10 05:57:38</sys_updated_on>
         <target_table>x_1831875_amp2_0_fmc_lookup_table</target_table>
     </sys_transform_map>
 </record_update>

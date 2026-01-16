@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_akc_properties" version="2" view="property_reference">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>property_name</element>
+            <list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-07 19:17:41</sys_created_on>
+            <sys_id>f841cfad479a7a106ca043ff336d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-07 19:17:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>property_id</element>
+            <list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-07 19:17:41</sys_created_on>
+            <sys_id>fc41cfad479a7a106ca043ff336d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-07 19:17:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complex_id</element>
+            <list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-07 19:17:41</sys_created_on>
+            <sys_id>f041cfad479a7a106ca043ff336d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-07 19:17:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1831875_amp2_0_akc_properties</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-07 19:17:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7041cfad479a7a106ca043ff336d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_akc_properties</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1831875_amp2_0_akc_properties_property_reference</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-07 19:17:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Property Reference" name="property_reference">f6b6bae5475a7a106ca043ff336d4361</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_list_x_1831875_amp2_0_akc_properties_property_reference</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_akc_properties" version="2" view="property_reference"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>property_name</element><list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-07 19:17:41</sys_created_on><sys_id>f841cfad479a7a106ca043ff336d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-07 19:17:41</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>property_id</element><list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-07 19:17:41</sys_created_on><sys_id>fc41cfad479a7a106ca043ff336d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-07 19:17:41</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>complex_id</element><list_id display_value="x_1831875_amp2_0_akc_properties" element="NULL" name="x_1831875_amp2_0_akc_properties" parent="NULL" relationship="NULL" sys_domain="global" view="f6b6bae5475a7a106ca043ff336d4361">7041cfad479a7a106ca043ff336d43be</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-07 19:17:41</sys_created_on><sys_id>f041cfad479a7a106ca043ff336d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-07 19:17:41</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1831875_amp2_0_akc_properties</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-07 19:17:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>7041cfad479a7a106ca043ff336d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1831875_amp2_0_akc_properties</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ui_list_x_1831875_amp2_0_akc_properties_property_reference</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-07 19:17:41</sys_updated_on><sys_user/><view display_value="Property Reference" name="property_reference">f6b6bae5475a7a106ca043ff336d4361</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1857890917</payload_hash>
+        <record_name>AKC Properties</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-07 19:17:41</sys_created_on>
+        <sys_id>bc41cfad479a7a106ca043ff336d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b99e4b5360000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-07 19:17:41</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>fc41cfad2d9a7a10bbbb3f71e90b59c0</update_guid>
+        <update_guid_history>fc41cfad2d9a7a10bbbb3f71e90b59c0:-1857890917,0e57be69975a7a10315fb664a7a2119a:-1150753909,44d6be29af5a7a100d3a132608987dd1:-1409256156,36b67e29ee5a7a10b8b788d9e1798212:1668327057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-08 22:07:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>8a3b6039f8ca4bb1a61592784c1bd051</sys_id>
+        <sys_metadata>7041cfad479a7a106ca043ff336d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_akc_properties</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="">daafa229471a7a106ca043ff336d438a</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1831875_amp2_0_akc_properties_property_reference</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1831875_amp2_0_akc_properties_property_reference">bc41cfad479a7a106ca043ff336d43c1</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-08 22:07:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

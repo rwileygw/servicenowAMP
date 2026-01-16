@@ -22,19 +22,57 @@
             <element>sys_class_name</element>
             <hint/>
             <inactive>false</inactive>
-            <label>FMC Lookup Table</label>
+            <label>Complex</label>
             <language>en</language>
             <name>x_1831875_amp2_0_fmc_lookup_table</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2025-12-30 03:03:15</sys_created_on>
+            <sys_created_on>2026-01-09 00:34:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2025-12-30 03:03:15</sys_updated_on>
+            <sys_updated_on>2026-01-09 00:34:38</sys_updated_on>
+            <u_realm/>
+            <value>x_1831875_amp2_0_x_amp2_fmc_complex</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sys_class_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FMC Lookup Table</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-30 03:03:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 00:34:38</sys_updated_on>
             <u_realm/>
             <value>x_1831875_amp2_0_fmc_lookup_table</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sys_class_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Properties</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-09 00:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-09 00:34:38</sys_updated_on>
+            <u_realm/>
+            <value>x_1831875_amp2_0_complex_properties</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="property_ref" table="x_1831875_amp2_0_project_package">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {&#13;
+&#13;
+	// Add your code here&#13;
+	return '';  // return the calculated value&#13;
+&#13;
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Property Name</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>property_ref</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1831875_amp2_0_project_package</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1831875_amp2_0_akc_properties">x_1831875_amp2_0_akc_properties</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-02 14:49:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab925c448712b2d0fd6c0f280cbb3578</sys_id>
+        <sys_name>Property Name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_property_ref</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-07 18:49:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_dictionary_x_1831875_amp2_0_project_package_property_ref</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="property_ref" table="x_1831875_amp2_0_project_package"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation>(function calculatedFieldValue(current) {&#13;
+&#13;
+	// Add your code here&#13;
+	return '';  // return the calculated value&#13;
+&#13;
+})(current);</calculation><choice/><choice_field/><choice_table/><column_label>Property Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>property_ref</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1831875_amp2_0_project_package</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1831875_amp2_0_akc_properties">x_1831875_amp2_0_akc_properties</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 14:49:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ab925c448712b2d0fd6c0f280cbb3578</sys_id><sys_name>Property Name</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_property_ref</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-07 18:49:06</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>550446542</payload_hash>
+        <record_name>Project Package.Property Name</record_name>
+        <reverted_from/>
+        <source>639b670b874a3e90fd6c0f280cbb3585</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-07 18:49:06</sys_created_on>
+        <sys_id>96bab621479a7a106ca043ff336d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b99ca8c000000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-07 18:49:06</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1abab621a59a7a10008ae55beaabeff5</update_guid>
+        <update_guid_history>1abab621a59a7a10008ae55beaabeff5:550446542,4be9baadbd5a7a104eb63eb93c99061d:1066499371,5666f229235a7a1032e3649ac8ea4fc9:2070912462,5bd5fea52d5a7a1014c7ee5be2e75b05:-1770772853,e7f332e1cb5a7a10da1d50e9db6c265d:-1711837694,03f05ea9df167a103b7e37ef1eada8bd:204771962,8df6c9801a96b2d0dbbf766e0b283386:1108861043,55910948c756b2d065ac46ae77c7fc8a:1175164787,2770c9c47756b2d06f62ec8ba5f76e80:-206339077,365d7c008856b2d059afaa85c9de2452:1171811643,940d78cc1816b2d0d6f2b36105e69e0c:-1463158327,9d6ab8c86d16b2d0a1b02df727ede44b:1434050013,d1f370cc1cd2b2d06e69d379709866c5:1234291573,4e0368406d92b2d03fdd2eeb95df6347:-616128938,3faf940c4752b2d0e0961c411154c42a:-1938976179,671a98c0a652b2d066b4032d7169b518:1175164787,730694c80a12b2d082b4850757d89ac0:-1349242417,5b0450089412b2d0004bf0f19eac007d:1175164787,1fe35cc42512b2d0312c67d5b9abccb6:1380357353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-08 22:07:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>257bd824c025468e940befa4e7ba63a4</sys_id>
+        <sys_metadata>ab925c448712b2d0fd6c0f280cbb3578</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property Name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_property_ref</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1831875_amp2_0_project_package_property_ref">96bab621479a7a106ca043ff336d43f6</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-08 22:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

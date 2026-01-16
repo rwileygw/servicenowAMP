@@ -14,35 +14,8 @@
         </element>
         <element label="Category" max_length="40" name="category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element label="Child" max_length="40" name="child" type="string"/>
-        <element label="City" max_length="32" name="city" reference="x_1831875_amp2_0_prop_inventory" type="reference" use_dependent_field="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="complex_name" dependent_on_field="complex_name" label="Complex ID" max_length="32" name="complex_id" type="string" use_dependent_field="true">
-            <choice>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="0CTE005" sequence="0" value="0CTE005"/>
-                <element dependent_value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="0AKW129" sequence="1" value="0AKW129"/>
-                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="0AKW133" sequence="2" value="0AKW133"/>
-                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="0CAW074" sequence="3" value="0CAW074"/>
-                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="0CAW232" sequence="4" value="0CAW232"/>
-                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="0FLM002" sequence="5" value="0FLM002"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="0FLM003" sequence="6" value="0FLM003"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="0MAE010" sequence="7" value="0MAE010"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="0MSM001" sequence="8" value="0MSM001"/>
-                <element dependent_value="NMFS SANDY HOOK-HIGHLANDS NJ SITE" hint="NEC" inactive_on_update="false" label="0NJE027" sequence="9" value="0NJE027"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="0ORW054" sequence="10" value="0ORW054"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="0ORW055" sequence="11" value="0ORW055"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="0RIE002" sequence="12" value="0RIE002"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="0TXC002" sequence="13" value="0TXC002"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="0WAW045" sequence="14" value="0WAW045"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="0WAW052" sequence="15" value="0WAW052"/>
-                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="0WAW142" sequence="16" value="0WAW142"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="DAK0401" sequence="17" value="DAK0401"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="DAK0443" sequence="18" value="DAK0443"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="DAK0445" sequence="19" value="DAK0445"/>
-                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="DAK0468" sequence="20" value="DAK0468"/>
-                <element dependent_value="NMFS SWFSC LA JOLLA CA SITE" hint="SWC" inactive_on_update="false" label="DCA0428" sequence="21" value="DCA0428"/>
-                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="DWA0419" sequence="22" value="DWA0419"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" inactive_on_update="false" label="0AKW134" sequence="23" value="0AKW134"/>
-            </choice>
-        </element>
+        <element label="City" max_length="32" name="city" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="complex_name" dependent_on_field="complex_name" label="Complex ID" max_length="32" name="complex_id" read_only="true" type="string" use_dependent_field="true"/>
         <element choice="2" dependent="fmc" dependent_on_field="fmc" label="Complex name" max_length="32" name="complex_name" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="AKC" inactive_on_update="false" label="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS"/>
@@ -71,7 +44,6 @@
                 <element dependent_value="NWC" inactive_on_update="false" label="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS"/>
             </choice>
         </element>
-        <element dependent="fmc" dependent_on_field="fmc" label="Complex Name" max_length="32" name="complex_ref" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference" use_dependent_field="true"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Comp ID" max_length="40" name="comp_id" type="string" use_dependent_field="true"/>
         <element audit="true" label="created from minor const" max_length="40" name="created_from_minor_const" type="boolean"/>
         <element audit="true" label="created from rol" max_length="40" name="created_from_rol" type="boolean"/>
@@ -82,17 +54,20 @@
         <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Fiscal Year" max_length="40" name="fiscal_year" type="integer"/>
         <element label="Floor" max_length="32" name="floor" reference="x_1831875_amp2_0_floor" type="reference"/>
-        <element choice="1" label="FMC" max_length="32" name="fmc" type="string">
+        <element choice="1" label="FMC Priority" max_length="40" name="fmc_priority" type="integer">
             <choice>
-                <element inactive_on_update="false" label="AKC" sequence="0" value="AKC"/>
-                <element inactive_on_update="false" label="NEC" sequence="3" value="NEC"/>
-                <element inactive_on_update="false" label="NWC" sequence="4" value="NWC"/>
-                <element inactive_on_update="false" label="OLE" sequence="8" value="OLE"/>
-                <element inactive_on_update="false" label="SEC" sequence="16" value="SEC"/>
-                <element inactive_on_update="false" label="SWC" sequence="19" value="SWC"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
             </choice>
         </element>
-        <element label="FMC Priority" max_length="40" name="fmc_priority" type="integer"/>
         <element label="Gross SqFt" max_length="32" name="gross_sqft" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element choice="3" default="no" label="Has an engineered cost estimate developed for this project?" max_length="40" name="has_an_engineered_cost_estimate_developed_for_this_project" type="choice">
             <choice>
@@ -106,7 +81,37 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
+        <element choice="3" default="no" hint="Has the submitting FMC adequately documented the Return on Investment (ROI) in its Project Justification? " label="Has the submitting FMC adequately documented the Return on Investment (ROI)?" max_length="40" name="has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="3" default="no" label="Has this project been documented in a FCA?" max_length="40" name="has_this_project_been_documented_in_a_fca" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
         <element choice="3" default="no" label="Has this project been documented in a NOAA/NMFS Survey?" max_length="40" name="has_this_project_been_documented_in_a_noaa_nmfs_survey" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" default="no" label="Has this project been documented in a Security Assessment?" max_length="40" name="has_this_project_been_documented_in_a_security_assessment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="3" default="no" label="Has this project been documented in Environmental Compliance?" max_length="40" name="has_this_project_been_documented_in_environmental_compliance" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="3" default="no" label="Has this project been documented in NECSASS?" max_length="40" name="has_this_project_been_documented_in_necsass" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -116,6 +121,13 @@
         <element audit="true" label="is deleted" max_length="40" name="is_deleted" type="boolean"/>
         <element label="Is this a Multi-phase project?" max_length="40" name="is_multi_phase" type="boolean"/>
         <element label="Mission Critical Flag" max_length="40" name="mission_critical_flag" type="string"/>
+        <element choice="3" label="NECSASS Level" max_length="40" name="necsass_level" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Level 1" sequence="0" value="level 1"/>
+                <element inactive_on_update="false" label="Level 2" sequence="1" value="level 2"/>
+                <element inactive_on_update="false" label="Level 3" sequence="2" value="level 3"/>
+            </choice>
+        </element>
         <element label="NEPA Status" max_length="40" name="nepa_status" reference="x_1831875_amp2_0_nepa_status" type="reference"/>
         <element label="NMFS Locations" max_length="32" name="nmfs_locations" reference="cmn_location" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -127,11 +139,404 @@
         <element choice="1" label="Project Classification" max_length="40" name="project_class" type="choice">
             <choice/>
         </element>
-        <element label="Project ID" max_length="40" name="project_id" read_only="true" type="string"/>
-        <element label="Project Maturity" max_length="40" name="project_maturity" type="string"/>
-        <element label="Project Need/Benefit " max_length="4000" name="project_need_benefit" type="string"/>
         <element label="Project Status" max_length="40" name="project_status" reference="x_1831875_amp2_0_project_status_lookup" type="reference"/>
+        <element active="false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="complex_name" dependent_on_field="complex_name" label="Property Name" max_length="100" name="property_name" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="COMBINE SHOP LAND MERGED INTO TRACT 50 B" value="COMBINE SHOP LAND MERGED INTO TRACT 50 B"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="COTTAGE C (FORMERLY COTTAGE M) - OLD DISPENSARY" value="COTTAGE C (FORMERLY COTTAGE M) - OLD DISPENSARY"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="COTTAGE C - OLD DISPENSARY LAND" value="COTTAGE C - OLD DISPENSARY LAND"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST FUR SEAL ROOKERY" value="EAST FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROAD TO ZAPADNI-TOLSTOI ROOKERIES" value="EAST ROAD TO ZAPADNI-TOLSTOI ROOKERIES"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- JOINT USE AREA" value="EAST ROOKERY- JOINT USE AREA"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- SOUTH JOINT USE AREA" value="EAST ROOKERY- SOUTH JOINT USE AREA"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- WEST JOINT USE AREA" value="EAST ROOKERY- WEST JOINT USE AREA"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="FUR SEAL REEF ROOKERY" value="FUR SEAL REEF ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="GARCO BLDG (TR49)" value="GARCO BLDG (TR49)"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="GARCO BUILDING LAND MERGED INTO TRACT 50 B" value="GARCO BUILDING LAND MERGED INTO TRACT 50 B"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="H - FUEL LINES" value="H - FUEL LINES"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="H - POWER LINE TO WATER PUMPS" value="H - POWER LINE TO WATER PUMPS"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="I - FRESH WATER LINE" value="I - FRESH WATER LINE"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="LUKANIN-KITOVI FUR SEAL ROOKERY" value="LUKANIN-KITOVI FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="MIDDLE ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES" value="MIDDLE ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="MIDDLE ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="MIDDLE ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC AUKE CREEK HATCHERY JUNEAU(BAY/CAKE) AK" value="NMFS AKC AUKE CREEK HATCHERY JUNEAU(BAY/CAKE) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC CARETAKER HOUSE JUNEAU(LITTLE PORT WALTER" value="NMFS AKC CARETAKER HOUSE JUNEAU(LITTLE PORT WALTER"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC FILTER BUILDING TSMRI JUNEAU AK" value="NMFS AKC FILTER BUILDING TSMRI JUNEAU AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC GENERATOR BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC GENERATOR BLDG JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC LABORATORY BUILDING TSMRI JUNEAU AK" value="NMFS AKC LABORATORY BUILDING TSMRI JUNEAU AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC MAIN BLDG JUNEAU(LITTLE PORT WALTER) AK" value="NMFS AKC MAIN BLDG JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC MAIN WAREHOUSE JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC MAIN WAREHOUSE JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC OFFICE BUILDING TSMRI JUNEAU AK" value="NMFS AKC OFFICE BUILDING TSMRI JUNEAU AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC TAG FEED BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC TAG FEED BLDG JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WEIR CABIN JUNEAU(LITTLE PORT WALTER) AK" value="NMFS AKC WEIR CABIN JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WEIR PANABODE JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC WEIR PANABODE JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WET LAB BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC WET LAB BLDG JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS ALPO PASCAGOULA MS SITE" value="NMFS ALPO PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS ANNEX OLD LABORATORY BUILDING MILFORD CT" value="NMFS ANNEX OLD LABORATORY BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS AQUA CELL BUILDING GALVESTON TX" value="NMFS AQUA CELL BUILDING GALVESTON TX"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS AQUARIUM/MAINTENANCE BUILDING WOODS HOLE MA" value="NMFS AQUARIUM/MAINTENANCE BUILDING WOODS HOLE MA"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS BIOLOGICAL PIER MILFORD CT" value="NMFS BIOLOGICAL PIER MILFORD CT"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS BIRD HOUSE JUNEAU(LITTLE PORT WALTER) AK" value="NMFS BIRD HOUSE JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS BOARD WALKS JUNEAU(LITTLE PORT WALTER) AK" value="NMFS BOARD WALKS JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BOAT HOUSE STORAGE PANAMA CITY FL" value="NMFS BOAT HOUSE STORAGE PANAMA CITY FL"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 301 SEA WATER LABORATORY GALVESTON TX" value="NMFS BUILDING 301 SEA WATER LABORATORY GALVESTON TX"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 302 RESEARCH LAB/OFFICES GALVESTON TX" value="NMFS BUILDING 302 RESEARCH LAB/OFFICES GALVESTON TX"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 305 RESEARCH LAB/OFFICES GALVESTON TX" value="NMFS BUILDING 305 RESEARCH LAB/OFFICES GALVESTON TX"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 306 SCIENTIFIC LABS/OFFICES GALVESTON TX" value="NMFS BUILDING 306 SCIENTIFIC LABS/OFFICES GALVESTON TX"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 307 RESEARCH LAB/OFFICE GALVESTON TX" value="NMFS BUILDING 307 RESEARCH LAB/OFFICE GALVESTON TX"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS CENTRAL PLANT/MAINTENANCE ARCHIVE BUILDING GALVESTON TX" value="NMFS CENTRAL PLANT/MAINTENANCE ARCHIVE BUILDING GALVESTON TX"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING MILFORD CT" value="NMFS CHEMICAL STORAGE BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING NARRAGANSETT RI" value="NMFS CHEMICAL STORAGE BUILDING NARRAGANSETT RI"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING WOODS HOLE MA" value="NMFS CHEMICAL STORAGE BUILDING WOODS HOLE MA"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS COTTAGE WOODS HOLE MA" value="NMFS COTTAGE WOODS HOLE MA"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS COVE CABIN JUNEAU(LITTLE PORT WALTER) AK" value="NMFS COVE CABIN JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DELMAS WAREHOUSE PASCAGOULA MS" value="NMFS DELMAS WAREHOUSE PASCAGOULA MS"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS DIRECTOR RESIDENCE MILFORD CT" value="NMFS DIRECTOR RESIDENCE MILFORD CT"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK 1 PIERS BULKHEAD WALL 6 MSL PANAMA CITY" value="NMFS DOCK 1 PIERS BULKHEAD WALL 6 MSL PANAMA CITY"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK 2 BULKHEAD WALL 2 MSL PANAMA CITY FL" value="NMFS DOCK 2 BULKHEAD WALL 2 MSL PANAMA CITY FL"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS DOCK HOUSE BUILDING MILFORD CT" value="NMFS DOCK HOUSE BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS DOCK JUNEAU(LITTLE PORT WALTER) AK" value="NMFS DOCK JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS DOCK KODIAK(GIBSON COVE) AK" value="NMFS DOCK KODIAK(GIBSON COVE) AK"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK PASCAGOULA MS SITE" value="NMFS DOCK PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK WAREHOUSE OFFICE (WATTS) PASCAGOULA MS" value="NMFS DOCK WAREHOUSE OFFICE (WATTS) PASCAGOULA MS"/>
+                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS FACILITY KODIAK(GIBSON COVE) AK SITE" value="NMFS FACILITY KODIAK(GIBSON COVE) AK SITE"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FISH WEIR JUNEAU(LITTLE PORT WALTER) AK" value="NMFS FISH WEIR JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FLOAT &amp; RAMP JUNEAU(LITTLE PORT WALTER) AK" value="NMFS FLOAT &amp; RAMP JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FLOATING HATCHERY JUNEAU(LITTLE PORT WALTER)" value="NMFS FLOATING HATCHERY JUNEAU(LITTLE PORT WALTER)"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GALVESTON, TX - BOAT BARN" value="NMFS GALVESTON, TX - BOAT BARN"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GALVESTON, TX TURTLE SICK BAY" value="NMFS GALVESTON, TX TURTLE SICK BAY"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS GARAGE STORAGE BUILDING MILFORD CT" value="NMFS GARAGE STORAGE BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GEAR STORAGE BUILDING PANAMA CITY FL" value="NMFS GEAR STORAGE BUILDING PANAMA CITY FL"/>
+                <element dependent_value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS HATCHERY WEIR JUNEAU(AUKE BAY/CAKE) AK SITE" value="NMFS HATCHERY WEIR JUNEAU(AUKE BAY/CAKE) AK SITE"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS HOLDING POND JUNEAU(LITTLE PORT WALTER) AK" value="NMFS HOLDING POND JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS SANDY HOOK-HIGHLANDS NJ SITE" hint="NEC" inactive_on_update="false" label="NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ" value="NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS LAB BUILDING LAND MERGED INTO TRACT 50 B" value="NMFS LAB BUILDING LAND MERGED INTO TRACT 50 B"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LAB LAND=8.5/LAGOON LANDS=140 GALVESTON TX" value="NMFS LAB LAND=8.5/LAGOON LANDS=140 GALVESTON TX"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY BUILDING 1 PANAMA CITY FL" value="NMFS LABORATORY BUILDING 1 PANAMA CITY FL"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LABORATORY MILFORD CT SITE" value="NMFS LABORATORY MILFORD CT SITE"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LABORATORY NARRAGANSETT RI SITE" value="NMFS LABORATORY NARRAGANSETT RI SITE"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY PANAMA CITY FL SITE" value="NMFS LABORATORY PANAMA CITY FL SITE"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY PASCAGOULA MS SITE" value="NMFS LABORATORY PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY REPLACEMENT BLDG PASCAGOULA MS" value="NMFS LABORATORY REPLACEMENT BLDG PASCAGOULA MS"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LAND WOODS HOLE MA" value="NMFS LAND WOODS HOLE MA"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS LENA POINT JUNEAU AK SITE" value="NMFS LENA POINT JUNEAU AK SITE"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS MAIN LAB BUILDING NARRAGANSETT RI" value="NMFS MAIN LAB BUILDING NARRAGANSETT RI"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS MAIN LABORATORY BUILDING WOODS HOLE MA" value="NMFS MAIN LABORATORY BUILDING WOODS HOLE MA"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS MODULAR OFFICE BUILDING PANAMA CITY FL" value="NMFS MODULAR OFFICE BUILDING PANAMA CITY FL"/>
+                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS MUKILTEO WA RESEARCH STATION" value="NMFS MUKILTEO WA RESEARCH STATION"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NARRAGANSETT RI MODULAR OFFICE" value="NMFS NARRAGANSETT RI MODULAR OFFICE"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEFSC BULKHEAD WOODS HOLE MA" value="NMFS NEFSC BULKHEAD WOODS HOLE MA"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEW LAB STORAGE BUILDING NARRAGANSETT RI" value="NMFS NEW LAB STORAGE BUILDING NARRAGANSETT RI"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEW MAIN LABORATORY BUILDING MILFORD CT" value="NMFS NEW MAIN LABORATORY BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC 4-BAY GARAGE HAMMOND (PT ADAMS) OR" value="NMFS NWC 4-BAY GARAGE HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA" value="NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUACULTURE LAB NAL (950) NEWPORT OR" value="NMFS NWC AQUACULTURE LAB NAL (950) NEWPORT OR"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUACULTURE LAB SITE NEWPORT OR" value="NMFS NWC AQUACULTURE LAB SITE NEWPORT OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC BEHAVIOR LAB SEATTLE (MONTLAKE) WA" value="NMFS NWC BEHAVIOR LAB SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA"/>
+                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA"/>
+                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK OZONE SYSTEM INCLUDING SHED PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK OZONE SYSTEM INCLUDING SHED PORT ORCHARD WA"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC CAPTAIN R. BARRY FISHER BLDG NEWPORT OR" value="NMFS NWC CAPTAIN R. BARRY FISHER BLDG NEWPORT OR"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC CONVERTED AFSC WET LAB NEWPORT OR" value="NMFS NWC CONVERTED AFSC WET LAB NEWPORT OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC EAST BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC EAST BLDG SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC EMERGENCY GENERATOR SHED NEWPORT OR" value="NMFS NWC EMERGENCY GENERATOR SHED NEWPORT OR"/>
+                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC FRESH WATER WELL 5 PORT ORCHARD WA" value="NMFS NWC FRESH WATER WELL 5 PORT ORCHARD WA"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC GENERATOR BLDG HAMMOND (PT ADAMS) OR" value="NMFS NWC GENERATOR BLDG HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC HAMMOND (PT ADAMS) OR" value="NMFS NWC HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC HAZMAT STORAGE BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC HAZMAT STORAGE BLDG SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LAB SITE SEATTLE (MONTLAKE) WA" value="NMFS NWC LAB SITE SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LABORATORY HAMMOND (PT ADAMS) OR" value="NMFS NWC LABORATORY HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LIBRARY SEATTLE (MONTLAKE) WA" value="NMFS NWC LIBRARY SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC MAIN STATION BLDG HAMMOND (PT ADAMS) OR" value="NMFS NWC MAIN STATION BLDG HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC MARINA SHOP HAMMOND (PT ADAMS) OR" value="NMFS NWC MARINA SHOP HAMMOND (PT ADAMS) OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC PILOT PLANT SEATTLE (MONTLAKE) WA" value="NMFS NWC PILOT PLANT SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC RESEARCH SUPPORT FAC RSF 951 NEWPORT OR" value="NMFS NWC RESEARCH SUPPORT FAC RSF 951 NEWPORT OR"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC SEAWATER RACEWAY NEWPORT OR" value="NMFS NWC SEAWATER RACEWAY NEWPORT OR"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC SOUTH BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC SOUTH BLDG SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC TOWER BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC TOWER BLDG SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC WEST BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC WEST BLDG SEATTLE (MONTLAKE) WA"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS OFFICE BLDG (TR48),-NMFS LAB/OFFICE BUILDING" value="NMFS OFFICE BLDG (TR48),-NMFS LAB/OFFICE BUILDING"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS OLD WORKSHOP BUILDING MILFORD CT" value="NMFS OLD WORKSHOP BUILDING MILFORD CT"/>
+                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE OFFICE BUILDING AND STORAGE KETCHIKAN AK" value="NMFS OLE OFFICE BUILDING AND STORAGE KETCHIKAN AK"/>
+                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE PIER KETCHIKAN AK" value="NMFS OLE PIER KETCHIKAN AK"/>
+                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE TRACT A 0.07 TIDELANDS KETCHIKAN AK SITE" value="NMFS OLE TRACT A 0.07 TIDELANDS KETCHIKAN AK SITE"/>
+                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE TRACT B 0.30 BOTTOMLANDS KETCHIKAN AK SIT" value="NMFS OLE TRACT B 0.30 BOTTOMLANDS KETCHIKAN AK SIT"/>
+                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS OLE WAREHOUSE BLDG KODIAK(GIBSON COVE) AK" value="NMFS OLE WAREHOUSE BLDG KODIAK(GIBSON COVE) AK"/>
+                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS PAINT AND OIL STORAGE BUILDING PANAMA CITY FL" value="NMFS PAINT AND OIL STORAGE BUILDING PANAMA CITY FL"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 02 MILFORD CT SITE" value="NMFS PARCEL 02 MILFORD CT SITE"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 03 MILFORD CT SITE" value="NMFS PARCEL 03 MILFORD CT SITE"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 04 MILFORD CT SITE" value="NMFS PARCEL 04 MILFORD CT SITE"/>
+                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS PIER MUKILTEO WA" value="NMFS PIER MUKILTEO WA"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PIER WOODS HOLE MA" value="NMFS PIER WOODS HOLE MA"/>
+                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS POLE BARN COVERED TEST AREA BUILDING NEWPORT OR" value="NMFS POLE BARN COVERED TEST AREA BUILDING NEWPORT OR"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PUMPHOUSE OLD WORKSHOP BUILDING 3 MILFORD CT" value="NMFS PUMPHOUSE OLD WORKSHOP BUILDING 3 MILFORD CT"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED MIDDLE DOCK PASCAGOULA MS" value="NMFS RECONSTRUCTED MIDDLE DOCK PASCAGOULA MS"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED N DOCK &amp; BULKHEAD PASCAGOULA MS" value="NMFS RECONSTRUCTED N DOCK &amp; BULKHEAD PASCAGOULA MS"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED SOUTH DOCK PASCAGOULA MS" value="NMFS RECONSTRUCTED SOUTH DOCK PASCAGOULA MS"/>
+                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS RESEARCH STATION ROAD ACCESS MUKILTEO WA SITE" value="NMFS RESEARCH STATION ROAD ACCESS MUKILTEO WA SITE"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS SEAL POOL EXHIBIT WOODS HOLE MA" value="NMFS SEAL POOL EXHIBIT WOODS HOLE MA"/>
+                <element dependent_value="NMFS SANDY HOOK-HIGHLANDS NJ SITE" hint="NEC" inactive_on_update="false" label="NMFS SEAWATER SYSTEM FOR THE JJH LAB SANDY HOOK HIGHLANDS NJ" value="NMFS SEAWATER SYSTEM FOR THE JJH LAB SANDY HOOK HIGHLANDS NJ"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEAWATER SYSTEM GALVESTON TX" value="NMFS SEAWATER SYSTEM GALVESTON TX"/>
+                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC KEY BISCAYNE FL SITE" value="NMFS SEFSC KEY BISCAYNE FL SITE"/>
+                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC MAIN BUILDING KEY BISCAYNE FL" value="NMFS SEFSC MAIN BUILDING KEY BISCAYNE FL"/>
+                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC SEA WATER SETTLING TANK KEY BISCAYNE FL" value="NMFS SEFSC SEA WATER SETTLING TANK KEY BISCAYNE FL"/>
+                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC STATISTICS BUILDING KEY BISCAYNE FL" value="NMFS SEFSC STATISTICS BUILDING KEY BISCAYNE FL"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS STAFF QTRS (TR47)" value="NMFS STAFF QTRS (TR47)"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS STAFF QUARTERS LAND" value="NMFS STAFF QUARTERS LAND"/>
+                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS STORAGE BUILDING NARRAGANSETT RI" value="NMFS STORAGE BUILDING NARRAGANSETT RI"/>
+                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC BUILDING SANTA CRUZ CA" value="NMFS SWFSC BUILDING SANTA CRUZ CA"/>
+                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC EASEMENT SANTA CRUZ CA SITE" value="NMFS SWFSC EASEMENT SANTA CRUZ CA SITE"/>
+                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC LABORATORY SEAWATER SYSTEM SANTA CRUZ" value="NMFS SWFSC LABORATORY SEAWATER SYSTEM SANTA CRUZ"/>
+                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC MCL LAB GRANITE CANYON MONTEREY CA" value="NMFS SWFSC MCL LAB GRANITE CANYON MONTEREY CA"/>
+                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC MCL MONTEREY CA SITE" value="NMFS SWFSC MCL MONTEREY CA SITE"/>
+                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC SANTA CRUZ CA SITE" value="NMFS SWFSC SANTA CRUZ CA SITE"/>
+                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC WATER STORAGE TANK MONTEREY CA" value="NMFS SWFSC WATER STORAGE TANK MONTEREY CA"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS TANK FARM BUILDING 4 MILFORD CT" value="NMFS TANK FARM BUILDING 4 MILFORD CT"/>
+                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS TIDELANDS SHORELANDS MUKILTEO WA" value="NMFS TIDELANDS SHORELANDS MUKILTEO WA"/>
+                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS TIN GARAGE MILFORD CT" value="NMFS TIN GARAGE MILFORD CT"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 1 DOCK EXP PASCAGOULA MS SITE" value="NMFS TRACT 1 DOCK EXP PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 2 PASCAGOULA MS SITE" value="NMFS TRACT 2 PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 3 PASCAGOULA MS SITE" value="NMFS TRACT 3 PASCAGOULA MS SITE"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS TSMRI WAREHOUSE JUNEAU AK" value="NMFS TSMRI WAREHOUSE JUNEAU AK"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TURTLE FACILITY BUILDING GALVESTON TX" value="NMFS TURTLE FACILITY BUILDING GALVESTON TX"/>
+                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS WAREHOUSE WOODS HOLE MA" value="NMFS WAREHOUSE WOODS HOLE MA"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WASTE WATER TREATMENT PLANT LENA PT-JUNEAU AK" value="NMFS WASTE WATER TREATMENT PLANT LENA PT-JUNEAU AK"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WET LAB ANNEX LENA POINT-JUNEAU AK" value="NMFS WET LAB ANNEX LENA POINT-JUNEAU AK"/>
+                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS WET LABORATORY BUILDING GALVESTON TX" value="NMFS WET LABORATORY BUILDING GALVESTON TX"/>
+                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WET WELL BUILDING TSMRI JUNEAU AK" value="NMFS WET WELL BUILDING TSMRI JUNEAU AK"/>
+                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WOOD METAL SHOP JUNEAU(LITTLE PORT WALTER) AK" value="NMFS WOOD METAL SHOP JUNEAU(LITTLE PORT WALTER) AK"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTH FUR SEAL ROOKERY" value="NORTH FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTH ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="NORTH ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTHEAST POINT ROOKERY" value="NORTHEAST POINT ROOKERY"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 1 2 3 MAIN LAB SHOP PORT ORCHARD WA" value="NWFSC BLDG 1 2 3 MAIN LAB SHOP PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 12 SALTWATER LAB PORT ORCHARD WA" value="NWFSC BLDG 12 SALTWATER LAB PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 14 FISH (FLUME) PORT ORCHARD WA" value="NWFSC BLDG 14 FISH (FLUME) PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 6 PATHOLOGY LAB OFFICES PORT ORCHARD" value="NWFSC BLDG 6 PATHOLOGY LAB OFFICES PORT ORCHARD"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 8 WAREHOUSE PORT ORCHARD WA" value="NWFSC BLDG 8 WAREHOUSE PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BUILDING 9 POWER &amp; GENERATOR MANCHESTER-PORT ORCHARD WA" value="NWFSC BUILDING 9 POWER &amp; GENERATOR MANCHESTER-PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC KEN CHEW HATCHERY RESEARCH BUILDING MANCHESTER-PORT ORCHARD WA" value="NWFSC KEN CHEW HATCHERY RESEARCH BUILDING MANCHESTER-PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MANCHESTER PORT ORCHARD WA" value="NWFSC MANCHESTER PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MANCHESTER TIDELANDS PORT ORCHARD WA" value="NWFSC MANCHESTER TIDELANDS PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MOORING PILES &amp; CONNECTIONS PORT ORCHARD WA" value="NWFSC MOORING PILES &amp; CONNECTIONS PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC NOOKSACK POLE BUILDING 22 MANCHESTER-PORT ORCHARD WA" value="NWFSC NOOKSACK POLE BUILDING 22 MANCHESTER-PORT ORCHARD WA"/>
+                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC RESTROOM BUILDING MANCHESTER-PORT ORCHARD WA" value="NWFSC RESTROOM BUILDING MANCHESTER-PORT ORCHARD WA"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NWS OFFICE/HOUSING UAIB (TRACT 41,T35S,R131W,SM)" value="NWS OFFICE/HOUSING UAIB (TRACT 41,T35S,R131W,SM)"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POLOVINA ROOKERY" value="POLOVINA ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POWERLINE EASEMENT BETWEEN TRACTS 43 AND 39" value="POWERLINE EASEMENT BETWEEN TRACTS 43 AND 39"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POWERLINE EASEMENT NMFS FACILITIES TO USCG" value="POWERLINE EASEMENT NMFS FACILITIES TO USCG"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="PUMP HOUSE TO FEDERAL INSTALLATIONS AND TOWN SITE" value="PUMP HOUSE TO FEDERAL INSTALLATIONS AND TOWN SITE"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="R - VEHICLE BONEYARD" value="R - VEHICLE BONEYARD"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD ACCESS EASEMENT" value="ROAD ACCESS EASEMENT"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD ACCESS TO TELEGRAPH HILL BORROW PIT" value="ROAD ACCESS TO TELEGRAPH HILL BORROW PIT"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO FRESH WATER PUMP SITE" value="ROAD TO FRESH WATER PUMP SITE"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO LAKE HILLS BORROW PIT" value="ROAD TO LAKE HILLS BORROW PIT"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO LUKANIN ROOKERY (TRACT 45,T35S,R131W,SM)" value="ROAD TO LUKANIN ROOKERY (TRACT 45,T35S,R131W,SM)"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO NORTHEAST POINT ROOKERY" value="ROAD TO NORTHEAST POINT ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO REEF ROOKERY (TRACT 39,T35S,R132W,SM)" value="ROAD TO REEF ROOKERY (TRACT 39,T35S,R132W,SM)"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="SEAL PROCESSING PLANT LAND" value="SEAL PROCESSING PLANT LAND"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="SEAL SKIN PROCESSING PLANT" value="SEAL SKIN PROCESSING PLANT"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="SOUTH ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="SOUTH ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="STARAYA ARTIL ROOKERY JOINT USE AREA" value="STARAYA ARTIL ROOKERY JOINT USE AREA"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="STARAYA/ NORTH ROOKERY - JOINT USE AREA" value="STARAYA/ NORTH ROOKERY - JOINT USE AREA"/>
+                <element dependent_value="NMFS SWFSC LA JOLLA CA SITE" hint="SWC" inactive_on_update="false" label="SW FISHERIES SCIENCE CENTER BUILDING LA JOLLA CA" value="SW FISHERIES SCIENCE CENTER BUILDING LA JOLLA CA"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="T - EAST ROOKERY RD." value="T - EAST ROOKERY RD."/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOLSTOI POINT ACCESS TO ZAPADNI - TOLSTOI ROOKERIES" value="TOLSTOI POINT ACCESS TO ZAPADNI - TOLSTOI ROOKERIES"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #1 &amp; WALKWAY" value="TOWER #1 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #2 &amp; WALKWAY" value="TOWER #2 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #3 &amp; WALKWAY" value="TOWER #3 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #4 &amp; WALKWAY" value="TOWER #4 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #5 &amp; WALKWAY" value="TOWER #5 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #6 &amp; WALKWAY" value="TOWER #6 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #7 &amp; WALKWAY" value="TOWER #7 &amp; WALKWAY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWNSITE TO ST PAUL AIRPORT (POLOVINA TURNPIKE)" value="TOWNSITE TO ST PAUL AIRPORT (POLOVINA TURNPIKE)"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TWO USCG LORAN STATION TO NWS OFFICE" value="TWO USCG LORAN STATION TO NWS OFFICE"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="U - ZAPADNI RD" value="U - ZAPADNI RD"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="V - ZAPADNI ROOKERY ROAD" value="V - ZAPADNI ROOKERY ROAD"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="W - ZAPADNI DOCK RD." value="W - ZAPADNI DOCK RD."/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WATERLINE EASEMENT IN TRACT 50 TO NMFS BLDGS" value="WATERLINE EASEMENT IN TRACT 50 TO NMFS BLDGS"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WATERLINE EASEMENT TO NWS OFFICE" value="WATERLINE EASEMENT TO NWS OFFICE"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WEST ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES" value="WEST ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES"/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="X - BORROW/SANITARY FILL RD." value="X - BORROW/SANITARY FILL RD."/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="Y - STARAYA ARTIL RD." value="Y - STARAYA ARTIL RD."/>
+                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="ZAPADNI ROOKERY" value="ZAPADNI ROOKERY"/>
+                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ZAPADNI TOLSTOI ROOKERY LAND TRACT 38" value="ZAPADNI TOLSTOI ROOKERY LAND TRACT 38"/>
+            </choice>
+        </element>
+        <element calculation="(function executeRule(current, previous /*null when async*/) {&#13;&#10;    var gr = new GlideRecord('x_1831875_amp2_0_project_package');&#13;&#10;    gr.orderByDesc('score');&#13;&#10;    gr.query();&#13;&#10;    var rank = 1;&#13;&#10;    while (gr.next()) {&#13;&#10;        gr.rank = rank;&#13;&#10;        gr.update();&#13;&#10;        rank++;&#13;&#10;    }&#13;&#10;})(current, previous);&#13;&#10;" choice="1" label="Ranking Factor" max_length="40" name="ranking_factors" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Serious Health and Safety (10)" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="Serious Facility Maintenance, Repair or Capital Improvement (9)" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="Serious Environmental Compliance (8)" sequence="2" value="8"/>
+                <element inactive_on_update="false" label="Routine Health and Safety, Environmental Compliance or Facility Maintenance and Repair (7)" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="Energy &amp; Sustainable Building Capital Improvement (5)" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Other Capital Improvement (4)" sequence="5" value="4"/>
+            </choice>
+        </element>
+        <element choice="3" default="yes" label="Recalculate on Project Change" max_length="40" name="recalculate_on_project_change" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element label="Region" max_length="32" name="region" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <element label="Relevant PPAs" max_length="40" name="relevant_ppas" type="string"/>
+        <element label="Result" max_length="40" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
+        <element label="Ranking Factor Score" max_length="15" name="risk_score" read_only="true" type="decimal"/>
+        <element default="0" label="Score" max_length="15" name="score" type="decimal"/>
+        <element label="Project Description" max_length="8000" name="short_description" type="string"/>
+        <element default="5" label="Size Score" max_length="15" name="size_score" type="decimal"/>
+        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
+        <element label="Special Initiative" max_length="40" name="special_initiative" reference="x_1831875_amp2_0_special_initiative" type="reference"/>
+        <element dependent="property_id" dependent_on_field="property_id" label="State" max_length="32" name="state" type="string" use_dependent_field="true"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="System Classification" max_length="40" name="system_classification" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="Total Project Score" max_length="40" name="total_project_score" type="string"/>
+        <element attributes="ref_qual_elements=u_fmc" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" reference_qual="javascript: 'u_fmc_ref=' + current.u_fmc" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="32" name="u_fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" reference_qual_condition="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element choice="1" label="Funding Type" max_length="150" name="u_funding_type" type="choice">
+            <choice/>
+        </element>
+        <element label="FMC Funds" max_length="38" name="u_integer_3" type="currency"/>
+        <element label="Other Funds" max_length="38" name="u_integer_4" type="currency"/>
+        <element label="Total Funds" max_length="38" name="u_integer_5" type="currency"/>
+        <element label="HQ Funds" max_length="38" name="u_integer_6" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project ID" max_length="32" name="u_project_id" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Title" max_length="150" name="u_project_title" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property" max_length="32" name="u_property" reference="x_1831875_amp2_0_property_table" reference_qual="javascript: 'u_complex=' + current.u_complex" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="FMC Severity Index" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Asset Priority Index" max_length="40" name="u_string_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mission Critical Building: Laboratory Building" sequence="0" value="25"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Office/Housing Building" sequence="1" value="15"/>
+                <element inactive_on_update="false" label="Mission Critical, Other Constructed Asset" sequence="2" value="25"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="3" value="10"/>
+                <element inactive_on_update="false" label="Mission Dependent: Laboratory Building" sequence="4" value="15"/>
+                <element inactive_on_update="false" label="Mission Dependent: Office/Housing Building" sequence="5" value="10"/>
+                <element inactive_on_update="false" label="Mission Dependent, Other Constructed Asset" sequence="6" value="10"/>
+                <element inactive_on_update="false" label="Mission Dependent: Warehouse Building" sequence="7" value="5"/>
+                <element inactive_on_update="false" label="Not Mission Dependent Building: All Buildings" sequence="8" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Proposed Funding Year" max_length="4" name="u_string_8" type="string"/>
+        <element default="5" label="Value Score" max_length="15" name="value_score" type="decimal"/>
+        <element choice="3" default="no" label="Will engineering support be required for further development on this project?" max_length="40" name="will_engineering_support_be_required_for_further_development_on_this_project" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Year Built" max_length="32" name="year_built" reference="x_1831875_amp2_0_facility" type="reference"/>
+        <index name="index">
+            <element name="asset_category"/>
+        </index>
+        <index name="index2">
+            <element name="builder_suggestion"/>
+        </index>
+        <index name="index3">
+            <element name="building"/>
+        </index>
+        <index name="index4">
+            <element name="building_number"/>
+        </index>
+        <index name="index5">
+            <element name="category"/>
+        </index>
+        <index name="index6">
+            <element name="city"/>
+        </index>
+        <index name="index7">
+            <element name="complex_id"/>
+        </index>
+        <index name="index8">
+            <element name="complex_name"/>
+        </index>
+        <index name="index9">
+            <element name="cwip_status"/>
+        </index>
+        <index name="index10">
+            <element name="facility"/>
+        </index>
+        <index name="index11">
+            <element name="fiscal_year"/>
+        </index>
+        <index name="index12">
+            <element name="floor"/>
+        </index>
+        <index name="index13">
+            <element name="gross_sqft"/>
+        </index>
+        <index name="index14">
+            <element name="nepa_status"/>
+        </index>
+        <index name="index15">
+            <element name="nmfs_locations"/>
+        </index>
+        <index name="index16">
+            <element name="output_type"/>
+        </index>
+        <index name="index17">
+            <element name="parent_multi_phase"/>
+        </index>
+        <index name="index18">
+            <element name="priority_score"/>
+        </index>
+        <index name="index19">
+            <element name="project_status"/>
+        </index>
+        <index name="index20">
+            <element name="property_name"/>
+        </index>
+        <index name="index21">
+            <element name="region"/>
+        </index>
+        <index name="index22">
+            <element name="result"/>
+        </index>
+        <index name="index23">
+            <element name="space"/>
+        </index>
+        <index name="index24">
+            <element name="special_initiative"/>
+        </index>
+        <index name="index25">
+            <element name="state"/>
+        </index>
+        <index name="index26">
+            <element name="status"/>
+        </index>
+        <index name="index27">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index28">
+            <element name="u_complex"/>
+        </index>
+        <index name="index29">
+            <element name="u_fmc"/>
+        </index>
+        <index name="index30">
+            <element name="u_property"/>
+        </index>
+        <index name="index31">
+            <element name="year_built"/>
+        </index>
+        <element label="Project Need/Benefit " max_length="4000" name="project_need_benefit" type="string"/>
+        <element label="Project ID" max_length="40" name="project_id" read_only="true" type="string"/>
+        <element label="City" max_length="150" name="prop_city" type="string" use_dependent_field="true"/>
+        <element dependent="fmc" dependent_on_field="fmc" label="Complex Name" max_length="32" name="complex_ref" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference" use_dependent_field="true"/>
         <element label="Project Title" max_length="100" name="project_title" type="string"/>
+        <element choice="1" label="FMC" max_length="32" name="fmc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AKC" sequence="0" value="AKC"/>
+                <element inactive_on_update="false" label="NEC" sequence="3" value="NEC"/>
+                <element inactive_on_update="false" label="NWC" sequence="4" value="NWC"/>
+                <element inactive_on_update="false" label="OLE" sequence="8" value="OLE"/>
+                <element inactive_on_update="false" label="SEC" sequence="16" value="SEC"/>
+                <element inactive_on_update="false" label="SWC" sequence="19" value="SWC"/>
+            </choice>
+        </element>
+        <element label="Project Maturity" max_length="40" name="project_maturity" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="property_name" dependent_on_field="property_name" label="Property ID" max_length="32" name="property_id" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="NMFS BIOLOGICAL PIER MILFORD CT" hint="NEC" inactive_on_update="false" label="0CTE0050001" value="0CTE0050001"/>
@@ -354,385 +759,17 @@
                 <element dependent_value="NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA" hint="NWC" inactive_on_update="false" label="WAW05210" value="WAW05210"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="complex_name" dependent_on_field="complex_name" label="Property Name" max_length="32" name="property_name" type="choice" use_dependent_field="true">
-            <choice>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="COMBINE SHOP LAND MERGED INTO TRACT 50 B" value="COMBINE SHOP LAND MERGED INTO TRACT 50 B"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="COTTAGE C (FORMERLY COTTAGE M) - OLD DISPENSARY" value="COTTAGE C (FORMERLY COTTAGE M) - OLD DISPENSARY"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="COTTAGE C - OLD DISPENSARY LAND" value="COTTAGE C - OLD DISPENSARY LAND"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST FUR SEAL ROOKERY" value="EAST FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROAD TO ZAPADNI-TOLSTOI ROOKERIES" value="EAST ROAD TO ZAPADNI-TOLSTOI ROOKERIES"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- JOINT USE AREA" value="EAST ROOKERY- JOINT USE AREA"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- SOUTH JOINT USE AREA" value="EAST ROOKERY- SOUTH JOINT USE AREA"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="EAST ROOKERY- WEST JOINT USE AREA" value="EAST ROOKERY- WEST JOINT USE AREA"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="FUR SEAL REEF ROOKERY" value="FUR SEAL REEF ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="GARCO BLDG (TR49)" value="GARCO BLDG (TR49)"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="GARCO BUILDING LAND MERGED INTO TRACT 50 B" value="GARCO BUILDING LAND MERGED INTO TRACT 50 B"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="H - FUEL LINES" value="H - FUEL LINES"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="H - POWER LINE TO WATER PUMPS" value="H - POWER LINE TO WATER PUMPS"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="I - FRESH WATER LINE" value="I - FRESH WATER LINE"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="LUKANIN-KITOVI FUR SEAL ROOKERY" value="LUKANIN-KITOVI FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="MIDDLE ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES" value="MIDDLE ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="MIDDLE ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="MIDDLE ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC AUKE CREEK HATCHERY JUNEAU(BAY/CAKE) AK" value="NMFS AKC AUKE CREEK HATCHERY JUNEAU(BAY/CAKE) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC CARETAKER HOUSE JUNEAU(LITTLE PORT WALTER" value="NMFS AKC CARETAKER HOUSE JUNEAU(LITTLE PORT WALTER"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC FILTER BUILDING TSMRI JUNEAU AK" value="NMFS AKC FILTER BUILDING TSMRI JUNEAU AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC GENERATOR BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC GENERATOR BLDG JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC LABORATORY BUILDING TSMRI JUNEAU AK" value="NMFS AKC LABORATORY BUILDING TSMRI JUNEAU AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC MAIN BLDG JUNEAU(LITTLE PORT WALTER) AK" value="NMFS AKC MAIN BLDG JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC MAIN WAREHOUSE JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC MAIN WAREHOUSE JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC OFFICE BUILDING TSMRI JUNEAU AK" value="NMFS AKC OFFICE BUILDING TSMRI JUNEAU AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC TAG FEED BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC TAG FEED BLDG JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WEIR CABIN JUNEAU(LITTLE PORT WALTER) AK" value="NMFS AKC WEIR CABIN JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WEIR PANABODE JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC WEIR PANABODE JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS AKC WET LAB BLDG JUNEAU(LITTLE PORT WALTER)" value="NMFS AKC WET LAB BLDG JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS ALPO PASCAGOULA MS SITE" value="NMFS ALPO PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS ANNEX OLD LABORATORY BUILDING MILFORD CT" value="NMFS ANNEX OLD LABORATORY BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS AQUA CELL BUILDING GALVESTON TX" value="NMFS AQUA CELL BUILDING GALVESTON TX"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS AQUARIUM/MAINTENANCE BUILDING WOODS HOLE MA" value="NMFS AQUARIUM/MAINTENANCE BUILDING WOODS HOLE MA"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS BIOLOGICAL PIER MILFORD CT" value="NMFS BIOLOGICAL PIER MILFORD CT"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS BIRD HOUSE JUNEAU(LITTLE PORT WALTER) AK" value="NMFS BIRD HOUSE JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS BOARD WALKS JUNEAU(LITTLE PORT WALTER) AK" value="NMFS BOARD WALKS JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BOAT HOUSE STORAGE PANAMA CITY FL" value="NMFS BOAT HOUSE STORAGE PANAMA CITY FL"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 301 SEA WATER LABORATORY GALVESTON TX" value="NMFS BUILDING 301 SEA WATER LABORATORY GALVESTON TX"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 302 RESEARCH LAB/OFFICES GALVESTON TX" value="NMFS BUILDING 302 RESEARCH LAB/OFFICES GALVESTON TX"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 305 RESEARCH LAB/OFFICES GALVESTON TX" value="NMFS BUILDING 305 RESEARCH LAB/OFFICES GALVESTON TX"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 306 SCIENTIFIC LABS/OFFICES GALVESTON TX" value="NMFS BUILDING 306 SCIENTIFIC LABS/OFFICES GALVESTON TX"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS BUILDING 307 RESEARCH LAB/OFFICE GALVESTON TX" value="NMFS BUILDING 307 RESEARCH LAB/OFFICE GALVESTON TX"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS CENTRAL PLANT/MAINTENANCE ARCHIVE BUILDING GALVESTON TX" value="NMFS CENTRAL PLANT/MAINTENANCE ARCHIVE BUILDING GALVESTON TX"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING MILFORD CT" value="NMFS CHEMICAL STORAGE BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING NARRAGANSETT RI" value="NMFS CHEMICAL STORAGE BUILDING NARRAGANSETT RI"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS CHEMICAL STORAGE BUILDING WOODS HOLE MA" value="NMFS CHEMICAL STORAGE BUILDING WOODS HOLE MA"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS COTTAGE WOODS HOLE MA" value="NMFS COTTAGE WOODS HOLE MA"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS COVE CABIN JUNEAU(LITTLE PORT WALTER) AK" value="NMFS COVE CABIN JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DELMAS WAREHOUSE PASCAGOULA MS" value="NMFS DELMAS WAREHOUSE PASCAGOULA MS"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS DIRECTOR RESIDENCE MILFORD CT" value="NMFS DIRECTOR RESIDENCE MILFORD CT"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK 1 PIERS BULKHEAD WALL 6 MSL PANAMA CITY" value="NMFS DOCK 1 PIERS BULKHEAD WALL 6 MSL PANAMA CITY"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK 2 BULKHEAD WALL 2 MSL PANAMA CITY FL" value="NMFS DOCK 2 BULKHEAD WALL 2 MSL PANAMA CITY FL"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS DOCK HOUSE BUILDING MILFORD CT" value="NMFS DOCK HOUSE BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS DOCK JUNEAU(LITTLE PORT WALTER) AK" value="NMFS DOCK JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS DOCK KODIAK(GIBSON COVE) AK" value="NMFS DOCK KODIAK(GIBSON COVE) AK"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK PASCAGOULA MS SITE" value="NMFS DOCK PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS DOCK WAREHOUSE OFFICE (WATTS) PASCAGOULA MS" value="NMFS DOCK WAREHOUSE OFFICE (WATTS) PASCAGOULA MS"/>
-                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS FACILITY KODIAK(GIBSON COVE) AK SITE" value="NMFS FACILITY KODIAK(GIBSON COVE) AK SITE"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FISH WEIR JUNEAU(LITTLE PORT WALTER) AK" value="NMFS FISH WEIR JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FLOAT &amp; RAMP JUNEAU(LITTLE PORT WALTER) AK" value="NMFS FLOAT &amp; RAMP JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS FLOATING HATCHERY JUNEAU(LITTLE PORT WALTER)" value="NMFS FLOATING HATCHERY JUNEAU(LITTLE PORT WALTER)"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GALVESTON, TX - BOAT BARN" value="NMFS GALVESTON, TX - BOAT BARN"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GALVESTON, TX TURTLE SICK BAY" value="NMFS GALVESTON, TX TURTLE SICK BAY"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS GARAGE STORAGE BUILDING MILFORD CT" value="NMFS GARAGE STORAGE BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS GEAR STORAGE BUILDING PANAMA CITY FL" value="NMFS GEAR STORAGE BUILDING PANAMA CITY FL"/>
-                <element dependent_value="NMFS AUKE BAY LABORATORY JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS HATCHERY WEIR JUNEAU(AUKE BAY/CAKE) AK SITE" value="NMFS HATCHERY WEIR JUNEAU(AUKE BAY/CAKE) AK SITE"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS HOLDING POND JUNEAU(LITTLE PORT WALTER) AK" value="NMFS HOLDING POND JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS SANDY HOOK-HIGHLANDS NJ SITE" hint="NEC" inactive_on_update="false" label="NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ" value="NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS LAB BUILDING LAND MERGED INTO TRACT 50 B" value="NMFS LAB BUILDING LAND MERGED INTO TRACT 50 B"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LAB LAND=8.5/LAGOON LANDS=140 GALVESTON TX" value="NMFS LAB LAND=8.5/LAGOON LANDS=140 GALVESTON TX"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY BUILDING 1 PANAMA CITY FL" value="NMFS LABORATORY BUILDING 1 PANAMA CITY FL"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LABORATORY MILFORD CT SITE" value="NMFS LABORATORY MILFORD CT SITE"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LABORATORY NARRAGANSETT RI SITE" value="NMFS LABORATORY NARRAGANSETT RI SITE"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY PANAMA CITY FL SITE" value="NMFS LABORATORY PANAMA CITY FL SITE"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY PASCAGOULA MS SITE" value="NMFS LABORATORY PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS LABORATORY REPLACEMENT BLDG PASCAGOULA MS" value="NMFS LABORATORY REPLACEMENT BLDG PASCAGOULA MS"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS LAND WOODS HOLE MA" value="NMFS LAND WOODS HOLE MA"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS LENA POINT JUNEAU AK SITE" value="NMFS LENA POINT JUNEAU AK SITE"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS MAIN LAB BUILDING NARRAGANSETT RI" value="NMFS MAIN LAB BUILDING NARRAGANSETT RI"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS MAIN LABORATORY BUILDING WOODS HOLE MA" value="NMFS MAIN LABORATORY BUILDING WOODS HOLE MA"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS MODULAR OFFICE BUILDING PANAMA CITY FL" value="NMFS MODULAR OFFICE BUILDING PANAMA CITY FL"/>
-                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS MUKILTEO WA RESEARCH STATION" value="NMFS MUKILTEO WA RESEARCH STATION"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NARRAGANSETT RI MODULAR OFFICE" value="NMFS NARRAGANSETT RI MODULAR OFFICE"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEFSC BULKHEAD WOODS HOLE MA" value="NMFS NEFSC BULKHEAD WOODS HOLE MA"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEW LAB STORAGE BUILDING NARRAGANSETT RI" value="NMFS NEW LAB STORAGE BUILDING NARRAGANSETT RI"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS NEW MAIN LABORATORY BUILDING MILFORD CT" value="NMFS NEW MAIN LABORATORY BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC 4-BAY GARAGE HAMMOND (PT ADAMS) OR" value="NMFS NWC 4-BAY GARAGE HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA" value="NMFS NWC AQUA LABORATORY SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUACULTURE LAB NAL (950) NEWPORT OR" value="NMFS NWC AQUACULTURE LAB NAL (950) NEWPORT OR"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC AQUACULTURE LAB SITE NEWPORT OR" value="NMFS NWC AQUACULTURE LAB SITE NEWPORT OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC BEHAVIOR LAB SEATTLE (MONTLAKE) WA" value="NMFS NWC BEHAVIOR LAB SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA"/>
-                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK HATCHERY PORT ORCHARD WA"/>
-                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC BURLEY CREEK OZONE SYSTEM INCLUDING SHED PORT ORCHARD WA" value="NMFS NWC BURLEY CREEK OZONE SYSTEM INCLUDING SHED PORT ORCHARD WA"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC CAPTAIN R. BARRY FISHER BLDG NEWPORT OR" value="NMFS NWC CAPTAIN R. BARRY FISHER BLDG NEWPORT OR"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC CONVERTED AFSC WET LAB NEWPORT OR" value="NMFS NWC CONVERTED AFSC WET LAB NEWPORT OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC EAST BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC EAST BLDG SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC EMERGENCY GENERATOR SHED NEWPORT OR" value="NMFS NWC EMERGENCY GENERATOR SHED NEWPORT OR"/>
-                <element dependent_value="NMFS HATCHERY PORT ORCHARD WA SITE" hint="NWC" inactive_on_update="false" label="NMFS NWC FRESH WATER WELL 5 PORT ORCHARD WA" value="NMFS NWC FRESH WATER WELL 5 PORT ORCHARD WA"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC GENERATOR BLDG HAMMOND (PT ADAMS) OR" value="NMFS NWC GENERATOR BLDG HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC HAMMOND (PT ADAMS) OR" value="NMFS NWC HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC HAZMAT STORAGE BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC HAZMAT STORAGE BLDG SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LAB SITE SEATTLE (MONTLAKE) WA" value="NMFS NWC LAB SITE SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LABORATORY HAMMOND (PT ADAMS) OR" value="NMFS NWC LABORATORY HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC LIBRARY SEATTLE (MONTLAKE) WA" value="NMFS NWC LIBRARY SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC MAIN STATION BLDG HAMMOND (PT ADAMS) OR" value="NMFS NWC MAIN STATION BLDG HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS HAMMOND OR CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC MARINA SHOP HAMMOND (PT ADAMS) OR" value="NMFS NWC MARINA SHOP HAMMOND (PT ADAMS) OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC PILOT PLANT SEATTLE (MONTLAKE) WA" value="NMFS NWC PILOT PLANT SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC RESEARCH SUPPORT FAC RSF 951 NEWPORT OR" value="NMFS NWC RESEARCH SUPPORT FAC RSF 951 NEWPORT OR"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC SEAWATER RACEWAY NEWPORT OR" value="NMFS NWC SEAWATER RACEWAY NEWPORT OR"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC SOUTH BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC SOUTH BLDG SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC TOWER BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC TOWER BLDG SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS MONTLAKE-SEATTLE WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS NWC WEST BLDG SEATTLE (MONTLAKE) WA" value="NMFS NWC WEST BLDG SEATTLE (MONTLAKE) WA"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS OFFICE BLDG (TR48),-NMFS LAB/OFFICE BUILDING" value="NMFS OFFICE BLDG (TR48),-NMFS LAB/OFFICE BUILDING"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS OLD WORKSHOP BUILDING MILFORD CT" value="NMFS OLD WORKSHOP BUILDING MILFORD CT"/>
-                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE OFFICE BUILDING AND STORAGE KETCHIKAN AK" value="NMFS OLE OFFICE BUILDING AND STORAGE KETCHIKAN AK"/>
-                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE PIER KETCHIKAN AK" value="NMFS OLE PIER KETCHIKAN AK"/>
-                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE TRACT A 0.07 TIDELANDS KETCHIKAN AK SITE" value="NMFS OLE TRACT A 0.07 TIDELANDS KETCHIKAN AK SITE"/>
-                <element dependent_value="NMFS OLE KETCHIKAN AK SITE" hint="OLE" inactive_on_update="false" label="NMFS OLE TRACT B 0.30 BOTTOMLANDS KETCHIKAN AK SIT" value="NMFS OLE TRACT B 0.30 BOTTOMLANDS KETCHIKAN AK SIT"/>
-                <element dependent_value="NMFS KODIAK AK (GIBSON COVE) SITE" hint="AKC" inactive_on_update="false" label="NMFS OLE WAREHOUSE BLDG KODIAK(GIBSON COVE) AK" value="NMFS OLE WAREHOUSE BLDG KODIAK(GIBSON COVE) AK"/>
-                <element dependent_value="NMFS LABORATORY PANAMA CITY FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS PAINT AND OIL STORAGE BUILDING PANAMA CITY FL" value="NMFS PAINT AND OIL STORAGE BUILDING PANAMA CITY FL"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 02 MILFORD CT SITE" value="NMFS PARCEL 02 MILFORD CT SITE"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 03 MILFORD CT SITE" value="NMFS PARCEL 03 MILFORD CT SITE"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PARCEL 04 MILFORD CT SITE" value="NMFS PARCEL 04 MILFORD CT SITE"/>
-                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS PIER MUKILTEO WA" value="NMFS PIER MUKILTEO WA"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PIER WOODS HOLE MA" value="NMFS PIER WOODS HOLE MA"/>
-                <element dependent_value="NMFS NEWPORT OR AQUACULTURE CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS POLE BARN COVERED TEST AREA BUILDING NEWPORT OR" value="NMFS POLE BARN COVERED TEST AREA BUILDING NEWPORT OR"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS PUMPHOUSE OLD WORKSHOP BUILDING 3 MILFORD CT" value="NMFS PUMPHOUSE OLD WORKSHOP BUILDING 3 MILFORD CT"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED MIDDLE DOCK PASCAGOULA MS" value="NMFS RECONSTRUCTED MIDDLE DOCK PASCAGOULA MS"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED N DOCK &amp; BULKHEAD PASCAGOULA MS" value="NMFS RECONSTRUCTED N DOCK &amp; BULKHEAD PASCAGOULA MS"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS RECONSTRUCTED SOUTH DOCK PASCAGOULA MS" value="NMFS RECONSTRUCTED SOUTH DOCK PASCAGOULA MS"/>
-                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS RESEARCH STATION ROAD ACCESS MUKILTEO WA SITE" value="NMFS RESEARCH STATION ROAD ACCESS MUKILTEO WA SITE"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS SEAL POOL EXHIBIT WOODS HOLE MA" value="NMFS SEAL POOL EXHIBIT WOODS HOLE MA"/>
-                <element dependent_value="NMFS SANDY HOOK-HIGHLANDS NJ SITE" hint="NEC" inactive_on_update="false" label="NMFS SEAWATER SYSTEM FOR THE JJH LAB SANDY HOOK HIGHLANDS NJ" value="NMFS SEAWATER SYSTEM FOR THE JJH LAB SANDY HOOK HIGHLANDS NJ"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEAWATER SYSTEM GALVESTON TX" value="NMFS SEAWATER SYSTEM GALVESTON TX"/>
-                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC KEY BISCAYNE FL SITE" value="NMFS SEFSC KEY BISCAYNE FL SITE"/>
-                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC MAIN BUILDING KEY BISCAYNE FL" value="NMFS SEFSC MAIN BUILDING KEY BISCAYNE FL"/>
-                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC SEA WATER SETTLING TANK KEY BISCAYNE FL" value="NMFS SEFSC SEA WATER SETTLING TANK KEY BISCAYNE FL"/>
-                <element dependent_value="NMFS SEFSC KEY BISCAYNE FL CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS SEFSC STATISTICS BUILDING KEY BISCAYNE FL" value="NMFS SEFSC STATISTICS BUILDING KEY BISCAYNE FL"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS STAFF QTRS (TR47)" value="NMFS STAFF QTRS (TR47)"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS STAFF QUARTERS LAND" value="NMFS STAFF QUARTERS LAND"/>
-                <element dependent_value="NMFS NARRAGANSETT LABORATORY CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS STORAGE BUILDING NARRAGANSETT RI" value="NMFS STORAGE BUILDING NARRAGANSETT RI"/>
-                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC BUILDING SANTA CRUZ CA" value="NMFS SWFSC BUILDING SANTA CRUZ CA"/>
-                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC EASEMENT SANTA CRUZ CA SITE" value="NMFS SWFSC EASEMENT SANTA CRUZ CA SITE"/>
-                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC LABORATORY SEAWATER SYSTEM SANTA CRUZ" value="NMFS SWFSC LABORATORY SEAWATER SYSTEM SANTA CRUZ"/>
-                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC MCL LAB GRANITE CANYON MONTEREY CA" value="NMFS SWFSC MCL LAB GRANITE CANYON MONTEREY CA"/>
-                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC MCL MONTEREY CA SITE" value="NMFS SWFSC MCL MONTEREY CA SITE"/>
-                <element dependent_value="NMFS SWFSC SANTA CRUZ" hint="SWC" inactive_on_update="false" label="NMFS SWFSC SANTA CRUZ CA SITE" value="NMFS SWFSC SANTA CRUZ CA SITE"/>
-                <element dependent_value="NMFS MONTEREY CA SITE" hint="SWC" inactive_on_update="false" label="NMFS SWFSC WATER STORAGE TANK MONTEREY CA" value="NMFS SWFSC WATER STORAGE TANK MONTEREY CA"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS TANK FARM BUILDING 4 MILFORD CT" value="NMFS TANK FARM BUILDING 4 MILFORD CT"/>
-                <element dependent_value="NMFS MUKILTEO WA CAMPUS" hint="NWC" inactive_on_update="false" label="NMFS TIDELANDS SHORELANDS MUKILTEO WA" value="NMFS TIDELANDS SHORELANDS MUKILTEO WA"/>
-                <element dependent_value="NMFS BIOLOGICAL LAB MILFORD CT CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS TIN GARAGE MILFORD CT" value="NMFS TIN GARAGE MILFORD CT"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 1 DOCK EXP PASCAGOULA MS SITE" value="NMFS TRACT 1 DOCK EXP PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 2 PASCAGOULA MS SITE" value="NMFS TRACT 2 PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS PASCAGOULA MS LAB CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TRACT 3 PASCAGOULA MS SITE" value="NMFS TRACT 3 PASCAGOULA MS SITE"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS TSMRI WAREHOUSE JUNEAU AK" value="NMFS TSMRI WAREHOUSE JUNEAU AK"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS TURTLE FACILITY BUILDING GALVESTON TX" value="NMFS TURTLE FACILITY BUILDING GALVESTON TX"/>
-                <element dependent_value="NMFS NEFSC WOODS HOLE MA CAMPUS" hint="NEC" inactive_on_update="false" label="NMFS WAREHOUSE WOODS HOLE MA" value="NMFS WAREHOUSE WOODS HOLE MA"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WASTE WATER TREATMENT PLANT LENA PT-JUNEAU AK" value="NMFS WASTE WATER TREATMENT PLANT LENA PT-JUNEAU AK"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WET LAB ANNEX LENA POINT-JUNEAU AK" value="NMFS WET LAB ANNEX LENA POINT-JUNEAU AK"/>
-                <element dependent_value="NMFS SEFC LABORATORY GALVESTON TX CAMPUS" hint="SEC" inactive_on_update="false" label="NMFS WET LABORATORY BUILDING GALVESTON TX" value="NMFS WET LABORATORY BUILDING GALVESTON TX"/>
-                <element dependent_value="NMFS LENA POINT-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WET WELL BUILDING TSMRI JUNEAU AK" value="NMFS WET WELL BUILDING TSMRI JUNEAU AK"/>
-                <element dependent_value="NMFS LITTLE PORT WALTER-JUNEAU AK CAMPUS" hint="AKC" inactive_on_update="false" label="NMFS WOOD METAL SHOP JUNEAU(LITTLE PORT WALTER) AK" value="NMFS WOOD METAL SHOP JUNEAU(LITTLE PORT WALTER) AK"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTH FUR SEAL ROOKERY" value="NORTH FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTH ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="NORTH ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NORTHEAST POINT ROOKERY" value="NORTHEAST POINT ROOKERY"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 1 2 3 MAIN LAB SHOP PORT ORCHARD WA" value="NWFSC BLDG 1 2 3 MAIN LAB SHOP PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 12 SALTWATER LAB PORT ORCHARD WA" value="NWFSC BLDG 12 SALTWATER LAB PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 14 FISH (FLUME) PORT ORCHARD WA" value="NWFSC BLDG 14 FISH (FLUME) PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 6 PATHOLOGY LAB OFFICES PORT ORCHARD" value="NWFSC BLDG 6 PATHOLOGY LAB OFFICES PORT ORCHARD"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BLDG 8 WAREHOUSE PORT ORCHARD WA" value="NWFSC BLDG 8 WAREHOUSE PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC BUILDING 9 POWER &amp; GENERATOR MANCHESTER-PORT ORCHARD WA" value="NWFSC BUILDING 9 POWER &amp; GENERATOR MANCHESTER-PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC KEN CHEW HATCHERY RESEARCH BUILDING MANCHESTER-PORT ORCHARD WA" value="NWFSC KEN CHEW HATCHERY RESEARCH BUILDING MANCHESTER-PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MANCHESTER PORT ORCHARD WA" value="NWFSC MANCHESTER PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MANCHESTER TIDELANDS PORT ORCHARD WA" value="NWFSC MANCHESTER TIDELANDS PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC MOORING PILES &amp; CONNECTIONS PORT ORCHARD WA" value="NWFSC MOORING PILES &amp; CONNECTIONS PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC NOOKSACK POLE BUILDING 22 MANCHESTER-PORT ORCHARD WA" value="NWFSC NOOKSACK POLE BUILDING 22 MANCHESTER-PORT ORCHARD WA"/>
-                <element dependent_value="NWFSC MANCHESTER-PORT ORCHARD WA CAMPUS" hint="NWC" inactive_on_update="false" label="NWFSC RESTROOM BUILDING MANCHESTER-PORT ORCHARD WA" value="NWFSC RESTROOM BUILDING MANCHESTER-PORT ORCHARD WA"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="NWS OFFICE/HOUSING UAIB (TRACT 41,T35S,R131W,SM)" value="NWS OFFICE/HOUSING UAIB (TRACT 41,T35S,R131W,SM)"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POLOVINA ROOKERY" value="POLOVINA ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POWERLINE EASEMENT BETWEEN TRACTS 43 AND 39" value="POWERLINE EASEMENT BETWEEN TRACTS 43 AND 39"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="POWERLINE EASEMENT NMFS FACILITIES TO USCG" value="POWERLINE EASEMENT NMFS FACILITIES TO USCG"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="PUMP HOUSE TO FEDERAL INSTALLATIONS AND TOWN SITE" value="PUMP HOUSE TO FEDERAL INSTALLATIONS AND TOWN SITE"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="R - VEHICLE BONEYARD" value="R - VEHICLE BONEYARD"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD ACCESS EASEMENT" value="ROAD ACCESS EASEMENT"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD ACCESS TO TELEGRAPH HILL BORROW PIT" value="ROAD ACCESS TO TELEGRAPH HILL BORROW PIT"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO FRESH WATER PUMP SITE" value="ROAD TO FRESH WATER PUMP SITE"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO LAKE HILLS BORROW PIT" value="ROAD TO LAKE HILLS BORROW PIT"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO LUKANIN ROOKERY (TRACT 45,T35S,R131W,SM)" value="ROAD TO LUKANIN ROOKERY (TRACT 45,T35S,R131W,SM)"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO NORTHEAST POINT ROOKERY" value="ROAD TO NORTHEAST POINT ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ROAD TO REEF ROOKERY (TRACT 39,T35S,R132W,SM)" value="ROAD TO REEF ROOKERY (TRACT 39,T35S,R132W,SM)"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="SEAL PROCESSING PLANT LAND" value="SEAL PROCESSING PLANT LAND"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="SEAL SKIN PROCESSING PLANT" value="SEAL SKIN PROCESSING PLANT"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="SOUTH ROAD TO THE POLOVINA FUR SEAL ROOKERY" value="SOUTH ROAD TO THE POLOVINA FUR SEAL ROOKERY"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="STARAYA ARTIL ROOKERY JOINT USE AREA" value="STARAYA ARTIL ROOKERY JOINT USE AREA"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="STARAYA/ NORTH ROOKERY - JOINT USE AREA" value="STARAYA/ NORTH ROOKERY - JOINT USE AREA"/>
-                <element dependent_value="NMFS SWFSC LA JOLLA CA SITE" hint="SWC" inactive_on_update="false" label="SW FISHERIES SCIENCE CENTER BUILDING LA JOLLA CA" value="SW FISHERIES SCIENCE CENTER BUILDING LA JOLLA CA"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="T - EAST ROOKERY RD." value="T - EAST ROOKERY RD."/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOLSTOI POINT ACCESS TO ZAPADNI - TOLSTOI ROOKERIES" value="TOLSTOI POINT ACCESS TO ZAPADNI - TOLSTOI ROOKERIES"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #1 &amp; WALKWAY" value="TOWER #1 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #2 &amp; WALKWAY" value="TOWER #2 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #3 &amp; WALKWAY" value="TOWER #3 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #4 &amp; WALKWAY" value="TOWER #4 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #5 &amp; WALKWAY" value="TOWER #5 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #6 &amp; WALKWAY" value="TOWER #6 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWER #7 &amp; WALKWAY" value="TOWER #7 &amp; WALKWAY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TOWNSITE TO ST PAUL AIRPORT (POLOVINA TURNPIKE)" value="TOWNSITE TO ST PAUL AIRPORT (POLOVINA TURNPIKE)"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="TWO USCG LORAN STATION TO NWS OFFICE" value="TWO USCG LORAN STATION TO NWS OFFICE"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="U - ZAPADNI RD" value="U - ZAPADNI RD"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="V - ZAPADNI ROOKERY ROAD" value="V - ZAPADNI ROOKERY ROAD"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="W - ZAPADNI DOCK RD." value="W - ZAPADNI DOCK RD."/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WATERLINE EASEMENT IN TRACT 50 TO NMFS BLDGS" value="WATERLINE EASEMENT IN TRACT 50 TO NMFS BLDGS"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WATERLINE EASEMENT TO NWS OFFICE" value="WATERLINE EASEMENT TO NWS OFFICE"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="WEST ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES" value="WEST ACCESS ROAD TO ZAPADNI - TOLSTOI ROOKERIES"/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="X - BORROW/SANITARY FILL RD." value="X - BORROW/SANITARY FILL RD."/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="Y - STARAYA ARTIL RD." value="Y - STARAYA ARTIL RD."/>
-                <element dependent_value="NMFS ST. GEORGE AK CAMPUS" hint="AKC" inactive_on_update="false" label="ZAPADNI ROOKERY" value="ZAPADNI ROOKERY"/>
-                <element dependent_value="NMFS ST. PAUL AK CAMPUS" hint="AKC" inactive_on_update="false" label="ZAPADNI TOLSTOI ROOKERY LAND TRACT 38" value="ZAPADNI TOLSTOI ROOKERY LAND TRACT 38"/>
-            </choice>
-        </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="fmc" dependent_on_field="fmc" label="Property Ref" max_length="32" name="property_ref" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference" use_dependent_field="true"/>
-        <element label="City" max_length="150" name="prop_city" type="string" use_dependent_field="true"/>
-        <element calculation="(function executeRule(current, previous /*null when async*/) {&#13;&#10;    var gr = new GlideRecord('x_1831875_amp2_0_project_package');&#13;&#10;    gr.orderByDesc('score');&#13;&#10;    gr.query();&#13;&#10;    var rank = 1;&#13;&#10;    while (gr.next()) {&#13;&#10;        gr.rank = rank;&#13;&#10;        gr.update();&#13;&#10;        rank++;&#13;&#10;    }&#13;&#10;})(current, previous);&#13;&#10;" choice="3" label="Ranking Factor Score" max_length="40" name="ranking_factors" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="Energy &amp; Sustainable Building Capital Improvement" value="5"/>
-                <element inactive_on_update="false" label="Other Capital Improvement" value="4"/>
-                <element inactive_on_update="false" label="Routine Health and Safety, Environmental Compliance or Facility Maintenance and Repair" value="7"/>
-                <element inactive_on_update="false" label="Serious Environmental Compliance" value="8"/>
-                <element inactive_on_update="false" label="Serious Facility Maintenance, Repair or Capital Improvement" value="9"/>
-                <element inactive_on_update="false" label="Serious Health and Safety" value="10"/>
-            </choice>
-        </element>
-        <element choice="3" default="yes" label="Recalculate on Project Change" max_length="40" name="recalculate_on_project_change" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
-            </choice>
-        </element>
-        <element label="Region" max_length="32" name="region" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element label="Result" max_length="40" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
-        <element default="5" label="Risk Score" max_length="15" name="risk_score" type="decimal"/>
-        <element default="0" label="Score" max_length="15" name="score" type="decimal"/>
-        <element label="Project Description" max_length="4000" name="short_description" type="string"/>
-        <element default="5" label="Size Score" max_length="15" name="size_score" type="decimal"/>
-        <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
-        <element label="Special Initiative" max_length="40" name="special_initiative" reference="x_1831875_amp2_0_special_initiative" type="reference"/>
-        <element dependent="property_id" dependent_on_field="property_id" label="State" max_length="32" name="state" type="string" use_dependent_field="true"/>
-        <element label="Status" max_length="40" name="status" type="string"/>
-        <element label="System Classification" max_length="40" name="system_classification" type="string"/>
-        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
-        <element label="Title" max_length="255" name="title" type="string"/>
-        <element label="Total Project Score" max_length="40" name="total_project_score" type="string"/>
-        <element label="FMC Funds" max_length="40" name="u_integer_3" type="integer"/>
-        <element label="Other Funds" max_length="40" name="u_integer_4" type="integer"/>
-        <element label="Total Funds" max_length="40" name="u_integer_5" type="integer"/>
-        <element label="HQ Funds" max_length="40" name="u_integer_6" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="ORG Code" max_length="40" name="u_string_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="FMC Severity Index" max_length="40" name="u_string_2" type="choice">
-            <choice/>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="25" label="Asset Priority Index" max_length="40" name="u_string_7" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Mission Critical Building: Laboratory Building" sequence="0" value="25"/>
-                <element inactive_on_update="false" label="Mission Critical Building: Office/Housing Building" sequence="1" value="15"/>
-                <element inactive_on_update="false" label="Mission Critical" sequence="2" value="Mission Critical"/>
-                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="4" value="10"/>
-                <element inactive_on_update="false" label="Mission Dependent: Warehouse Building" sequence="8" value="5"/>
-                <element inactive_on_update="false" label="Not Mission Dependent Building: All Buildings" sequence="9" value="0"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Proposed Funding Year" max_length="40" name="u_string_8" type="string"/>
-        <element default="5" label="Value Score" max_length="15" name="value_score" type="decimal"/>
-        <element choice="3" default="no" label="Will engineering support be required for further development on this project?" max_length="40" name="will_engineering_support_be_required_for_further_development_on_this_project" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-            </choice>
-        </element>
-        <element label="Year Built" max_length="32" name="year_built" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <index name="index">
-            <element name="asset_category"/>
-        </index>
-        <index name="index2">
-            <element name="builder_suggestion"/>
-        </index>
-        <index name="index3">
-            <element name="building"/>
-        </index>
-        <index name="index4">
-            <element name="building_number"/>
-        </index>
-        <index name="index5">
-            <element name="category"/>
-        </index>
-        <index name="index6">
-            <element name="city"/>
-        </index>
-        <index name="index7">
-            <element name="complex_id"/>
-        </index>
-        <index name="index8">
-            <element name="complex_name"/>
+        <index name="index22">
+            <element name="prop_city"/>
         </index>
         <index name="index9">
             <element name="complex_ref"/>
         </index>
-        <index name="index10">
-            <element name="cwip_status"/>
-        </index>
-        <index name="index11">
-            <element name="facility"/>
-        </index>
-        <index name="index12">
-            <element name="fiscal_year"/>
-        </index>
-        <index name="index13">
-            <element name="floor"/>
-        </index>
         <index name="index14">
             <element name="fmc"/>
         </index>
-        <index name="index15">
-            <element name="gross_sqft"/>
-        </index>
-        <index name="index16">
-            <element name="nepa_status"/>
-        </index>
-        <index name="index17">
-            <element name="nmfs_locations"/>
-        </index>
-        <index name="index18">
-            <element name="output_type"/>
-        </index>
-        <index name="index19">
-            <element name="parent_multi_phase"/>
-        </index>
-        <index name="index20">
-            <element name="priority_score"/>
-        </index>
-        <index name="index21">
-            <element name="project_status"/>
-        </index>
-        <index name="index22">
-            <element name="prop_city"/>
-        </index>
         <index name="index23">
             <element name="property_id"/>
-        </index>
-        <index name="index24">
-            <element name="property_name"/>
-        </index>
-        <index name="index25">
-            <element name="property_ref"/>
-        </index>
-        <index name="index26">
-            <element name="region"/>
-        </index>
-        <index name="index27">
-            <element name="result"/>
-        </index>
-        <index name="index28">
-            <element name="space"/>
-        </index>
-        <index name="index29">
-            <element name="special_initiative"/>
-        </index>
-        <index name="index30">
-            <element name="state"/>
-        </index>
-        <index name="index31">
-            <element name="status"/>
-        </index>
-        <index name="index32">
-            <element name="sys_class_name"/>
-        </index>
-        <index name="index33">
-            <element name="year_built"/>
         </index>
     </element>
 </database>

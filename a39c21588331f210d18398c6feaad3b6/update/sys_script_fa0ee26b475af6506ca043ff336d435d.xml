@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1831875_amp2_0_project_package</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Reset Project ID Gen on Delete</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    //Only run if Project ID exists
+    if (current.u_project_id.nil())
+        return;
+
+    var pid = (current.u_project_id + '');
+    var parts = pid.split('-');
+    if (parts.length < 3)
+        return;
+
+    var fmc = (parts[0] || '').trim();
+    var year = (parts[1] || '').trim();
+    if (!fmc || !year)
+        return;
+
+    var key = fmc + '-' + year; //AKC-26
+
+    var PROJECT_TABLE = 'x_1831875_amp2_0_project_package';
+    var GEN_TABLE = 'x_1831875_amp2_0_project_id_generator';
+
+    //Find the highest remaining Project ID for this key excluding record being deleted
+    var maxSeq = 0;
+    var gr = new GlideRecord(PROJECT_TABLE);
+    gr.addQuery('u_project_id', 'STARTSWITH', key + '-');
+    gr.addQuery('sys_id', '!=', current.sys_id);
+    gr.orderByDesc('u_project_id'); //works bc seq is zero-padded
+    gr.setLimit(1);
+    gr.query();
+
+    if (gr.next()) {
+        //Parse the last segment
+        var remainingPid = (gr.u_project_id + '').trim();
+        var p2 = remainingPid.split('-');
+        if (p2.length >= 3) {
+            var seqStr = (p2[2] || '').trim();
+            var n = parseInt(seqStr, 10);
+            if (!isNaN(n))
+                maxSeq = n;
+
+        }
+
+
+    }
+    var gen = new GlideRecord(GEN_TABLE);
+    gen.addQuery('key', key);
+    gen.setLimit(1);
+    gen.query();
+
+    if (gen.next()) {
+        if (maxSeq <= 0) {
+            //no remaining records for this key so reset to allow seq startover
+            gen.deleteRecord();
+        } else {
+            gen.u_last_number = maxSeq;
+            gen.update();
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-13 23:29:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fa0ee26b475af6506ca043ff336d435d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reset Project ID Gen on Delete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_fa0ee26b475af6506ca043ff336d435d</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-13 23:50:28</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>fa0ee26b475af6506ca043ff336d435d</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-13 23:29:18</sys_created_on>
+        <sys_id>c564f627479af6506ca043ff336d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-13 23:29:18</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

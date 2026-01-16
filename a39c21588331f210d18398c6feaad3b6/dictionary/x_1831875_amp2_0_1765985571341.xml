@@ -36,6 +36,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Field_Office" label="Field_Office" max_length="40" name="u_field_office" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Final_End_Date" label="Final_End_Date" max_length="40" name="u_final_end_date" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Fixed" label="Fixed" max_length="40" name="u_fixed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FOIA_Exemption" label="FOIA_Exemption" max_length="40" name="u_foia_exemption" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Full_Time" label="Full_Time" max_length="40" name="u_full_time" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Funded_Vacancies" label="Funded_Vacancies" max_length="40" name="u_funded_vacancies" type="string"/>

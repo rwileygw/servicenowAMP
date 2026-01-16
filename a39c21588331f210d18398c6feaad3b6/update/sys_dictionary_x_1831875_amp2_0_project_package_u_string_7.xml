@@ -11,7 +11,7 @@
         <column_label>Asset Priority Index</column_label>
         <comments/>
         <create_roles/>
-        <default_value>25</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -55,7 +55,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_u_string_7</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-06 20:36:45</sys_updated_on>
+        <sys_updated_on>2026-01-14 17:35:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

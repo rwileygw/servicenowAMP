@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">8d35748747bdb2506ca043ff336d4398</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
-        <component_props>{"table":"x_1831875_amp2_0_fmc_lookup_table","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"NEC Complex List","columns":"","query":"active=true^fmc=NEC","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"listTitle","value":"NEC Complex List","noDebounce":true,"propLabel":"Title"}</component_props>
+        <component_props>{"table":"x_1831875_amp2_0_x_amp2_fmc_complex","columnPreferenceKey":"","fixedQuery":"u_fmc_ref=0600550a471a3e106ca043ff336d4376","followFilters":true,"listTitle":"NEC Complex List","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"fixedQuery","value":"u_fmc_ref=0600550a471a3e106ca043ff336d4376","noDebounce":true,"propLabel":"fixed filter"}</component_props>
         <h>21</h>
         <name/>
         <stored_component/>
@@ -12,7 +12,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>acb315c887d6b2d0fd6c0f280cbb35ed</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -21,11 +21,11 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>par_dashboard_widget_acb315c887d6b2d0fd6c0f280cbb35ed</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-02 19:53:13</sys_updated_on>
+        <sys_updated_on>2026-01-14 03:20:58</sys_updated_on>
         <visualization/>
-        <w>13</w>
+        <w>6</w>
         <widget_props/>
-        <x>35</x>
+        <x>42</x>
         <y>0</y>
     </par_dashboard_widget>
 </record_update>
