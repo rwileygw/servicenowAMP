@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1831875_amp2_0_project_package</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate Total Funds</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    function toInt(v) {
+		if (v === null || v === undefined || v ==='') return 0;
+		var n = parseInt(v, 10);
+		return isNaN(n) ? 0 : n;
+	}
+    current.u_total_funds =
+	toInt(current.u_fmc_funds) +
+	toInt(current.u_hq_funds) +
+	toInt(current.u_other_funds);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-16 22:29:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>af324e2847e272906ca043ff336d4373</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Calculate Total Funds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_af324e2847e272906ca043ff336d4373</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-17 03:51:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>af324e2847e272906ca043ff336d4373</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-16 22:29:15</sys_created_on>
+        <sys_id>e2638ee447e272906ca043ff336d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-16 22:29:15</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -66,6 +66,16 @@
                 <element inactive_on_update="false" label="8" sequence="7" value="8"/>
                 <element inactive_on_update="false" label="9" sequence="8" value="9"/>
                 <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="18" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="19" value="20"/>
             </choice>
         </element>
         <element label="Gross SqFt" max_length="32" name="gross_sqft" reference="x_1831875_amp2_0_facility" type="reference"/>
@@ -85,6 +95,12 @@
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Has this project been documented in any other study?" max_length="40" name="has_this_project_been_documented_in_any_other_study" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
             </choice>
         </element>
         <element choice="3" default="no" label="Has this project been documented in a FCA?" max_length="40" name="has_this_project_been_documented_in_a_fca" type="choice" use_dependent_field="true">
@@ -111,7 +127,7 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="3" default="no" label="Has this project been documented in NECSASS?" max_length="40" name="has_this_project_been_documented_in_necsass" type="choice" use_dependent_field="true">
+        <element choice="3" default="no" label="Has this project been documented in NECSAS?" max_length="40" name="has_this_project_been_documented_in_necsass" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -121,7 +137,7 @@
         <element audit="true" label="is deleted" max_length="40" name="is_deleted" type="boolean"/>
         <element label="Is this a Multi-phase project?" max_length="40" name="is_multi_phase" type="boolean"/>
         <element label="Mission Critical Flag" max_length="40" name="mission_critical_flag" type="string"/>
-        <element choice="3" label="NECSASS Level" max_length="40" name="necsass_level" type="choice" use_dependent_field="true">
+        <element choice="3" label="NECSAS Level" max_length="40" name="necsass_level" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Level 1" sequence="0" value="level 1"/>
                 <element inactive_on_update="false" label="Level 2" sequence="1" value="level 2"/>
@@ -394,14 +410,14 @@
         <element label="Title" max_length="255" name="title" type="string"/>
         <element label="Total Project Score" max_length="40" name="total_project_score" type="string"/>
         <element attributes="ref_qual_elements=u_fmc" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" reference_qual="javascript: 'u_fmc_ref=' + current.u_fmc" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Identify the documented study and year below." max_length="250" name="u_documented_study" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="32" name="u_fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" reference_qual_condition="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC Funds" max_length="38" name="u_fmc_funds" type="decimal"/>
         <element choice="1" label="Funding Type" max_length="150" name="u_funding_type" type="choice">
             <choice/>
         </element>
-        <element label="FMC Funds" max_length="38" name="u_integer_3" type="currency"/>
-        <element label="Other Funds" max_length="38" name="u_integer_4" type="currency"/>
-        <element label="Total Funds" max_length="38" name="u_integer_5" type="currency"/>
-        <element label="HQ Funds" max_length="38" name="u_integer_6" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="HQ Funds" max_length="38" name="u_hq_funds" type="decimal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Other Funds" max_length="38" name="u_other_funds" type="decimal"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project ID" max_length="32" name="u_project_id" read_only="true" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Title" max_length="150" name="u_project_title" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property" max_length="32" name="u_property" reference="x_1831875_amp2_0_property_table" reference_qual="javascript: 'u_complex=' + current.u_complex" type="reference" use_reference_qualifier="advanced"/>
@@ -409,17 +425,27 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Asset Priority Index" max_length="40" name="u_string_7" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mission Critical Building: Laboratory Building" sequence="0" value="25"/>
-                <element inactive_on_update="false" label="Mission Critical Building: Office/Housing Building" sequence="1" value="15"/>
-                <element inactive_on_update="false" label="Mission Critical, Other Constructed Asset" sequence="2" value="25"/>
-                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="3" value="10"/>
-                <element inactive_on_update="false" label="Mission Dependent: Laboratory Building" sequence="4" value="15"/>
-                <element inactive_on_update="false" label="Mission Dependent: Office/Housing Building" sequence="5" value="10"/>
-                <element inactive_on_update="false" label="Mission Dependent, Other Constructed Asset" sequence="6" value="10"/>
-                <element inactive_on_update="false" label="Mission Dependent: Warehouse Building" sequence="7" value="5"/>
-                <element inactive_on_update="false" label="Not Mission Dependent Building: All Buildings" sequence="8" value="0"/>
+                <element inactive_on_update="false" label="Mission Dependent: Warehouse Building" sequence="1" value="5"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Laboratory Building" sequence="2" value="25"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Office/Housing Building" sequence="2" value="15"/>
+                <element inactive_on_update="false" label="Not Mission Dependent Building: All Buildings" sequence="3" value="0"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Office/Housing Building" sequence="4" value="15"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="4" value="10"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="5" value="10"/>
+                <element inactive_on_update="false" label="Mission Critical Building: Warehouse Building" sequence="6" value="10"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Proposed Funding Year" max_length="4" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Proposed Funding Year" max_length="4" name="u_string_8" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FY 2026" sequence="0" value="FY 2026"/>
+                <element inactive_on_update="false" label="FY 2027" sequence="1" value="FY 2027"/>
+                <element inactive_on_update="false" label="FY 2028" sequence="2" value="FY 2028"/>
+                <element inactive_on_update="false" label="FY 2029" sequence="3" value="FY 2029"/>
+                <element inactive_on_update="false" label="FY 2030" sequence="4" value="FY 2030"/>
+                <element inactive_on_update="false" label="FY 2031" sequence="5" value="FY 2031"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Funds" max_length="38" name="u_total_funds" read_only="true" type="decimal"/>
         <element default="5" label="Value Score" max_length="15" name="value_score" type="decimal"/>
         <element choice="3" default="no" label="Will engineering support be required for further development on this project?" max_length="40" name="will_engineering_support_be_required_for_further_development_on_this_project" type="choice">
             <choice>
