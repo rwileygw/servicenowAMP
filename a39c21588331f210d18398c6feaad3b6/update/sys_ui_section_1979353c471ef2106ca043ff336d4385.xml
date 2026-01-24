@@ -714,6 +714,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prop_funding_year</element>
+            <position>51</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-22 13:59:28</sys_created_on>
+            <sys_id>75484f5a87aab210fd6c0f280cbb3571</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-22 13:59:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_project_approval_state</element>
+            <position>52</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-23 21:20:36</sys_created_on>
+            <sys_id>25d6f57287227610fd6c0f280cbb354d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-23 21:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Project Details</caption>
             <header>false</header>

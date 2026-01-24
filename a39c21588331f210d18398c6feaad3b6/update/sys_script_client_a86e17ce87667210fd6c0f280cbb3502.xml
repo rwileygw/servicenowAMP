@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Engineered cost estimate - annotation for reminder to attach projects estimated cost estimate if selected 'Yes'</description>
+        <field>has_an_engineered_cost_estimate_developed_for_this_project</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Engineered Cost Estimate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var isYes = (newValue === 'yes' || newValue === 'true' || newValue === '1');
+
+    //Engineer cost estimate field to anchor annotation
+    var anchorField = 'has_an_engineered_cost_estimate_developed_for_this_project';
+
+    //Clear any existing message first(prevents dupes)
+    g_form.hideFieldMsg(anchorField, true);
+
+    if (isYes) {
+        g_form.showFieldMsg(
+            anchorField,
+            'Please attach the Engineered Cost Estimate related to this project.', 'info', true
+        );
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-21 21:00:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a86e17ce87667210fd6c0f280cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Engineered Cost Estimate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_client_a86e17ce87667210fd6c0f280cbb3502</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-21 21:00:25</sys_updated_on>
+        <table>x_1831875_amp2_0_project_package</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

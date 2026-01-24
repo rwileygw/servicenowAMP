@@ -13,15 +13,15 @@
         <sys_created_on>2025-12-15 21:17:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7120055661f13e505e996ae427841cda</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>AMP2.0</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AMP2 Workspace</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_page_registry_7120055661f13e505e996ae427841cda</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 21:17:39</sys_updated_on>
-        <title>AMP2.0</title>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-22 16:07:16</sys_updated_on>
+        <title>AMP2 Workspace</title>
     </sys_ux_page_registry>
 </record_update>

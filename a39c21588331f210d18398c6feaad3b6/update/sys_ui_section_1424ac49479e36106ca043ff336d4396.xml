@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Project Documentation Status" section_id="1424ac49479e36106ca043ff336d4396" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="workspace-amp20-0">
+    <sys_ui_section caption="Project Documentation Status" section_id="1424ac49479e36106ca043ff336d4396" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="amp2_workspace">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>a16e3a68476a72906ca043ff336d4365</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>01d22f52876eb210fd6c0f280cbb3516</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <text>Please select the questions that apply:</text>
-            <type display_value="Blank - Static">523cec261b208110ffd8ecace54bcb1a</type>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>656e3a68476a72906ca043ff336d4365</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>c1d22f52876eb210fd6c0f280cbb3516</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <text>Has the submitting FMC adequately documented the Return on Investment (ROI) in its Project Justification? </text>
-            <type display_value="Blank - Static">523cec261b208110ffd8ecace54bcb1a</type>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>a16e3a68476a72906ca043ff336d4365</element>
+            <element>01d22f52876eb210fd6c0f280cbb3516</element>
             <position>0</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4370</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb352f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -40,13 +40,13 @@
             <element>has_this_project_been_documented_in_a_fca</element>
             <position>1</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4370</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb352f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -54,13 +54,13 @@
             <element>has_this_project_been_documented_in_environmental_compliance</element>
             <position>2</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4371</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3530</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -68,13 +68,13 @@
             <element>has_this_project_been_documented_in_a_security_assessment</element>
             <position>3</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4371</sys_id>
+            <sys_created_on>2026-01-22 15:55:28</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3530</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -82,13 +82,13 @@
             <element>has_this_project_been_documented_in_necsass</element>
             <position>4</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4372</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3531</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -96,27 +96,27 @@
             <element>necsass_level</element>
             <position>5</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4372</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3531</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>656e3a68476a72906ca043ff336d4365</element>
+            <element>c1d22f52876eb210fd6c0f280cbb3516</element>
             <position>6</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4373</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3532</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -124,13 +124,13 @@
             <element>has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i</element>
             <position>7</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4373</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3532</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -138,13 +138,13 @@
             <element>has_a_statement_of_work_sow_been_developed_for_this_project</element>
             <position>8</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4374</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3533</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -152,13 +152,13 @@
             <element>will_engineering_support_be_required_for_further_development_on_this_project</element>
             <position>9</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4374</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3533</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,13 +166,13 @@
             <element>has_an_engineered_cost_estimate_developed_for_this_project</element>
             <position>10</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4375</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3534</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -180,13 +180,13 @@
             <element>has_this_project_been_documented_in_any_other_study</element>
             <position>11</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e96e3a68476a72906ca043ff336d4375</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3534</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -194,13 +194,41 @@
             <element>u_documented_study</element>
             <position>12</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-17 02:46:57</sys_created_on>
-            <sys_id>e16e3a68476a72906ca043ff336d4376</sys_id>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3535</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-17 02:46:57</sys_updated_on>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>energy_efficiency</element>
+            <position>13</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>8dd22f52876eb210fd6c0f280cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_for_roi</element>
+            <position>14</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-22 15:55:29</sys_created_on>
+            <sys_id>85d22f52876eb210fd6c0f280cbb3536</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">1424ac49479e36106ca043ff336d4396</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-22 15:55:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -227,7 +255,7 @@
             <sys_updated_on>2026-01-16 19:46:17</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
+            <view display_value="AMP2 Workspace" name="amp2_workspace">bd20055692f13e50932400cb109d5ece</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

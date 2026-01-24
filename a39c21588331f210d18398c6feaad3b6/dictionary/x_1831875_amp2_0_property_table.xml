@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6c51c99e4752be106ca043ff336d4315" label="Property table" max_length="40" name="x_1831875_amp2_0_property_table" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property Common Name" max_length="255" name="prop_common_name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="City" max_length="32" name="u_city" type="string"/>
         <element label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" type="reference"/>
         <element label="Complex Id" max_length="40" name="u_complex_id_string" type="string"/>
         <element label="County code" max_length="32" name="u_county_code" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Display label" max_length="255" name="u_display_label" type="string"/>
         <element label="Mission Dependency" max_length="300" name="u_mission_dependency" type="string"/>
         <element label="Property Id" max_length="32" name="u_property_id" type="string"/>
-        <element display="true" label="Property name" max_length="200" name="u_property_name" type="string"/>
+        <element label="Property name" max_length="200" name="u_property_name" type="string"/>
         <element label="Property status" max_length="150" name="u_property_status" type="string"/>
         <element label="State" max_length="12" name="u_state" type="string"/>
         <element label="Zip" max_length="10" name="u_zip" type="string"/>

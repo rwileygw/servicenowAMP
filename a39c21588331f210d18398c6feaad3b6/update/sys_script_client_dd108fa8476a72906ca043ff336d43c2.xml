@@ -11,30 +11,38 @@
         <name>Calculate Total Funds - HQ</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading) return;
-    
-    function toInt(v) {
-        if (!v) return 0;
-        //remove commas, dollar signs, spaces
-        v = ('' + v).replace(/[^0-9\-]/g, '');
-        var n = parseInt(v, 10);
-        return isNan(n) ? 0 : n;
+  if (isLoading || isTemplate) return;
 
-    }
-    var fmc = toInt(g_form.getValue('u_fmc_funds'));
-    var hq = toInt(g_form.getValue('u_hq_funds'));
-    var other = toInt(g_form.getValue('u_other_funds'));
+  function toNumber(fieldName) {
+    var v = g_form.getValue(fieldName);
 
-    g_form, setValue('u_total_funds', fmc + hq + other);
+    // Treat blank/null as 0
+    if (!v) return 0;
 
-}]]></script>
+    // Remove commas, currency symbols, spaces, etc. (keep digits, dot, minus)
+    v = ('' + v).replace(/[^0-9.\-]/g, '');
+
+    var n = parseInt(v);
+    return isNaN(n) ? 0 : n;
+  }
+
+  var fmc   = toNumber('u_fmc_funds');
+  var hq    = toNumber('u_hq_funds');
+  var other = toNumber('u_other_funds');
+
+  var total = fmc + hq + other;
+
+  g_form.setValue('u_total_funds', total); }
+
+
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-17 02:54:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>dd108fa8476a72906ca043ff336d43c2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Calculate Total Funds - HQ</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -43,7 +51,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_script_client_dd108fa8476a72906ca043ff336d43c2</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-17 03:22:36</sys_updated_on>
+        <sys_updated_on>2026-01-23 02:47:22</sys_updated_on>
         <table>x_1831875_amp2_0_project_package</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -8,7 +8,7 @@
         <macroponent display_value="Project Package Record Page">5d4005d683f13e50d18398c6feaad331</macroponent>
         <macroponent_config/>
         <name>Project Package Record Page</name>
-        <order>100</order>
+        <order>1</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
@@ -20,7 +20,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>fd4045d683f13e50d18398c6feaad343</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Project Package Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -28,7 +28,7 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_screen_fd4045d683f13e50d18398c6feaad343</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 21:18:11</sys_updated_on>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-22 16:12:07</sys_updated_on>
     </sys_ux_screen>
 </record_update>

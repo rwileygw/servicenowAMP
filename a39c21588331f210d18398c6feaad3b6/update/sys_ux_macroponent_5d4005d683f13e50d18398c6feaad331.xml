@@ -4422,6 +4422,65 @@
                         "type": "EVENT"
                     }
                 ]
+            },
+            {
+                "eventMappingId": "cmkqddyhhjfaabbycddjiibjklrbbjjx",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FIELD_VALUE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "targetId": "cmkqddyhhjfaabbydddjiibddddetdlm",
+                        "type": "DATABROKER_OP",
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "fieldName": "u_total_funds",
+                                    "value": "",
+                                    "displayValue": ""
+                                }
+                            },
+                            "operationName": "RECORD#GFORM_SET_VALUE",
+                            "parentResourceId": "record"
+                        },
+                        "clientScript": null,
+                        "conditional": null,
+                        "broker": null
+                    },
+                    {
+                        "targetId": "cmkqjjjjccxjaabbzbbddjiibntmpjjzjii",
+                        "type": "DATABROKER_OP",
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "fieldName": "u_total_funds",
+                                    "value": "",
+                                    "displayValue": ""
+                                }
+                            },
+                            "operationName": "RECORD#GFORM_SET_VALUE",
+                            "parentResourceId": "record"
+                        },
+                        "clientScript": null,
+                        "conditional": null,
+                        "broker": null
+                    }
+                ],
+                "sourceEventDefinition": {
+                    "id": null,
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FIELD_VALUE_CHANGED",
+                    "type": "UXEVENT"
+                }
             }
         ],
         "inputValues": {
@@ -4577,6 +4636,71 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "elementId": "look_up_a_single_record_1",
+        "elementLabel": "Look up a single record 1",
+        "readEvaluationMode": "EAGER",
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1831875_amp2_0_project_package"
+            },
+            "recordId": {
+                "type": "CONTEXT_BINDING",
+                "binding": {
+                    "category": "props",
+                    "address": [
+                        "sysId"
+                    ]
+                }
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "u_fmc_funds,u_hq_funds,u_other_funds,u_total_funds"
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "eventMappings": []
+    },
+    {
+        "elementId": "update_total_funds",
+        "elementLabel": "Update Total Funds",
+        "readEvaluationMode": "EXPLICIT",
+        "definition": {
+            "id": "9b4b978353211010cbc2ddeeff7b1245",
+            "type": "GRAPHQL"
+        },
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "eventMappings": []
     }
 ]</data>
         <description/>
@@ -4816,67 +4940,51 @@
 ]</props>
         <required_translations>[ {
   "message" : "Activity",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Attachment",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Cancel",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Compose",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Continue?",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Custom Close Confirmation",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Details",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Editable record form and list of record activities",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Editable record form only",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "List of record activities and input fields for posting work notes or comments",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Record History",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Record not found",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "RelatedList",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Security constraints prevent access to requested page",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Template",
-  "code" : "",
   "comment" : ""
 }, {
   "message" : "Yes",
-  "code" : "",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -4886,20 +4994,32 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties>[]</state_properties>
+        <state_properties>[
+    {
+        "fieldType": "number",
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": 0
+        },
+        "name": "totalFunds",
+        "shape": "",
+        "valueType": "number"
+    }
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:18:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5d4005d683f13e50d18398c6feaad331</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Project Package Record Page</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_macroponent_5d4005d683f13e50d18398c6feaad331</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 21:18:11</sys_updated_on>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-23 02:25:54</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

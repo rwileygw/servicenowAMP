@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1831875_amp2_0_property_table</collection>
+        <condition/>
+        <description>This populates the new display label field on the property table.</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Display Property Common</name>
+        <onclick/>
+        <order>120</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var common = (current.prop_common_name || '').toString().trim();
+    var official = (current.u_property_name || '').toString().trim();
+
+    if (common && official && common !== official) {
+        current.u_display_label = common + '(' + official + ')';
+    } else if (common) {
+        current.u_display_label = common;
+    } else {
+        current.u_display_label = official;
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-21 20:31:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e776df0287667210fd6c0f280cbb35a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Display Property Common</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_e776df0287667210fd6c0f280cbb35a7</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-21 21:29:48</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e776df0287667210fd6c0f280cbb35a7</id>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-21 20:31:31</sys_created_on>
+        <sys_id>b268d7c287667210fd6c0f280cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-21 20:31:31</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

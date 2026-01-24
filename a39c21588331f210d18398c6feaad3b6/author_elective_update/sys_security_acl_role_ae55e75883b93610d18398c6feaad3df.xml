@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-10 04:11:33</sys_created_on>
+        <sys_id>ae55e75883b93610d18398c6feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_status.x_1831875_amp2_0.user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_security_acl display_value="x_1831875_amp2_0_project_status">2255e75883b93610d18398c6feaad3da</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ae55e75883b93610d18398c6feaad3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-10 04:11:33</sys_updated_on>
+        <sys_user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_security_acl_role_ae55e75883b93610d18398c6feaad3df</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-10 04:11:33</sys_created_on>
+        <sys_id>ae55e75883b93610d18398c6feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_status.x_1831875_amp2_0.user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_security_acl display_value="x_1831875_amp2_0_project_status">2255e75883b93610d18398c6feaad3da</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ae55e75883b93610d18398c6feaad3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-10 04:11:33</sys_updated_on>
+        <sys_user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1587478487</payload_hash>
+        <record_name>x_1831875_amp2_0_project_status.x_1831875_amp2_0.user</record_name>
+        <reverted_from/>
+        <source>c7138b26477132506ca043ff336d439d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-17 01:31:29</sys_created_on>
+        <sys_id>c6d3036e477132506ca043ff336d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b29ef08740000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-17 01:31:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>86d3036eea713250233f326084a589a3</update_guid>
+        <update_guid_history>86d3036eea713250233f326084a589a3:-1587478487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-23 15:51:03">60107df287ee3610fd6c0f280cbb352e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 20:51:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>79992cb0758b435c9824715239ec8fa4</sys_id>
+        <sys_metadata>ae55e75883b93610d18398c6feaad3df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_status.x_1831875_amp2_0.user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="">2255e75883b93610d18398c6feaad3da</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ae55e75883b93610d18398c6feaad3df</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ae55e75883b93610d18398c6feaad3df">c6d3036e477132506ca043ff336d43a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 20:51:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

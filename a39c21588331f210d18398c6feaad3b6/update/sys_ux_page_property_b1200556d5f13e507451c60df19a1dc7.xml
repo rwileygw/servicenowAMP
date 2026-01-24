@@ -3,7 +3,7 @@
         <choices/>
         <description/>
         <name>chrome_footer</name>
-        <page display_value="AMP2.0">7120055661f13e505e996ae427841cda</page>
+        <page display_value="AMP2 Workspace">7120055661f13e505e996ae427841cda</page>
         <required_translations>[ ]</required_translations>
         <route/>
         <suffix/>
@@ -14,18 +14,23 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>b1200556d5f13e507451c60df19a1dc7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>chrome_footer</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_page_property_b1200556d5f13e507451c60df19a1dc7</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 21:17:40</sys_updated_on>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-22 16:07:16</sys_updated_on>
         <type>json</type>
-        <unique_name>x_1831875_amp2_0.7120055661f13e505e996ae427841cda.root.chrome_footer</unique_name>
-        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+        <unique_name>x_1831875_amp2_0.7120055661f13e505e996ae427841cda.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "footer_topbar_options": {},
+        "footer_bar_options": {}
+    }
+}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=b1200556d5f13e507451c60df19a1dc7"/>
 </record_update>
