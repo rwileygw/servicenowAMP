@@ -23,7 +23,7 @@
         <sys_created_on>2025-12-17 17:14:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a37bd67a473d72506ca043ff336d4388</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>FMC Lookup Table</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -31,9 +31,9 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_db_object_a37bd67a473d72506ca043ff336d4388</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2025-12-31 03:34:22</sys_updated_on>
+        <sys_updated_on>2026-01-30 19:08:47</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_1831875_amp2_0.fmc_lookup_table_user" name="x_1831875_amp2_0.fmc_lookup_table_user">5f9bd67a473d72506ca043ff336d438c</user_role>
+        <user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

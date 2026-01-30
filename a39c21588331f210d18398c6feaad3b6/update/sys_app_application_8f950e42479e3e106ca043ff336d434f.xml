@@ -7,14 +7,14 @@
         <hint/>
         <name>amp</name>
         <order>100</order>
-        <roles>x_1831875_amp2_0.admin,x_1831875_amp2_0.user</roles>
+        <roles>x_1831875_amp2_0.admin,x_1831875_amp2_0.user,x_1831875_amp2_0.akc_properties_user,workspace_user,x_1831875_amp2_0.amp_choice_table_user,x_1831875_amp2_0.asset_piriority_index_user,x_1831875_amp2_0.builder_data_table_user,x_1831875_amp2_0.bundle_member_user,x_1831875_amp2_0.complex_user,x_1831875_amp2_0.fmc_lookup_table_user,x_1831875_amp2_0.fmc_rep,x_1831875_amp2_0.omb_rep,x_1831875_amp2_0.project_approval_state_user,x_1831875_amp2_0.project_score_user,x_1831875_amp2_0.properties_user,x_1831875_amp2_0.property_inventory_user,x_1831875_amp2_0.property_table_user,x_1831875_amp2_0.rpie_crosswalk_user,x_1831875_amp2_0.rpv_room_data_user,x_1831875_amp2_0.work_orders_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-09 04:14:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8f950e42479e3e106ca043ff336d434f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>AMP</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -23,7 +23,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_app_application_8f950e42479e3e106ca043ff336d434f</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-09 04:15:06</sys_updated_on>
+        <sys_updated_on>2026-01-30 18:26:16</sys_updated_on>
         <title>AMP</title>
         <view_name/>
     </sys_app_application>

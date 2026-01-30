@@ -23,7 +23,7 @@
         <sys_created_on>2026-01-07 05:40:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1926042947d23a106ca043ff336d43a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AMP Choice Table</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -31,9 +31,9 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_db_object_1926042947d23a106ca043ff336d43a0</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-07 05:40:34</sys_updated_on>
+        <sys_updated_on>2026-01-30 19:20:21</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_1831875_amp2_0.amp_choice_table_user" name="x_1831875_amp2_0.amp_choice_table_user">e336082947d23a106ca043ff336d4321</user_role>
+        <user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
