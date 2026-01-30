@@ -22,7 +22,7 @@
             <element>energy_efficiency</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Yes</label>
+            <label>&lt;25%</label>
             <language>en</language>
             <name>x_1831875_amp2_0_project_package</name>
             <sequence>0</sequence>
@@ -30,18 +30,18 @@
             <sys_created_by>ryann.wiley</sys_created_by>
             <sys_created_on>2026-01-21 01:50:38</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-21 01:50:38</sys_updated_on>
+            <sys_updated_on>2026-01-27 23:16:21</sys_updated_on>
             <u_realm/>
-            <value>yes</value>
+            <value>&lt;25%</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>energy_efficiency</element>
             <hint/>
             <inactive>false</inactive>
-            <label>No</label>
+            <label>25-50%</label>
             <language>en</language>
             <name>x_1831875_amp2_0_project_package</name>
             <sequence>1</sequence>
@@ -49,11 +49,49 @@
             <sys_created_by>ryann.wiley</sys_created_by>
             <sys_created_on>2026-01-21 01:50:38</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-21 01:50:38</sys_updated_on>
+            <sys_updated_on>2026-01-27 23:16:07</sys_updated_on>
             <u_realm/>
-            <value>no</value>
+            <value>25-50%</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>energy_efficiency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>50-75%</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-27 23:15:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-27 23:16:35</sys_updated_on>
+            <u_realm/>
+            <value>50-75%</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>energy_efficiency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>&gt;75%</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-27 23:15:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-27 23:16:39</sys_updated_on>
+            <u_realm/>
+            <value>&gt;75%</value>
         </sys_choice>
     </sys_choice>
 </record_update>

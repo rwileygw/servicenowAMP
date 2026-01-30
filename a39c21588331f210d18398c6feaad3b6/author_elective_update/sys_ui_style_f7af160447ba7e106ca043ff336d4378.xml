@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>total_project_score</element>
+        <name>x_1831875_amp2_0_project_package</name>
+        <style>text-align:left;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-27 21:33:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f7af160447ba7e106ca043ff336d4378</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ui_style_f7af160447ba7e106ca043ff336d4378</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-27 21:50:52</sys_updated_on>
+        <themed_style/>
+        <u_show_on_form>false</u_show_on_form>
+        <value/>
+    </sys_ui_style>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_style_f7af160447ba7e106ca043ff336d4378</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>total_project_score</element><name>x_1831875_amp2_0_project_package</name><style>text-align:left;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-27 21:33:05</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f7af160447ba7e106ca043ff336d4378</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1831875_amp2_0_project_package</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ui_style_f7af160447ba7e106ca043ff336d4378</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-27 21:50:52</sys_updated_on><themed_style/><u_show_on_form>false</u_show_on_form><value/></sys_ui_style></record_update>]]></payload>
+        <payload_hash>-1215843752</payload_hash>
+        <record_name>x_1831875_amp2_0_project_package</record_name>
+        <reverted_from/>
+        <source>a132637e87aa7610fd6c0f280cbb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-27 21:50:52</sys_created_on>
+        <sys_id>7f142a8847ba7e106ca043ff336d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c0170235b0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-27 21:50:52</sys_updated_on>
+        <type>Style</type>
+        <update_guid>73142a8806ba7e10cda9a3bfcdaffd83</update_guid>
+        <update_guid_history>73142a8806ba7e10cda9a3bfcdaffd83:-1215843752,91a06e4416ba7e108126c09e2ae2ffdf:920532365,af00220418ba7e10d4466674321ed7ad:-1215843752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-27 21:51:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>47391dc4fbe445f8952c0491e35ebea1</sys_id>
+        <sys_metadata>f7af160447ba7e106ca043ff336d4378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_style_f7af160447ba7e106ca043ff336d4378</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_f7af160447ba7e106ca043ff336d4378">7f142a8847ba7e106ca043ff336d4383</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-27 21:51:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

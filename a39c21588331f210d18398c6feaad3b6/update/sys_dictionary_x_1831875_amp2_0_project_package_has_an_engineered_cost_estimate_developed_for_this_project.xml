@@ -13,7 +13,7 @@
         <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Has an Engineered Cost Estimate been developed for this project?</column_label>
+        <column_label>Has an Independent Government Cost Estimate been developed for this project?</column_label>
         <comments/>
         <create_roles/>
         <default_value>no</default_value>
@@ -53,14 +53,14 @@
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-06 20:06:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_name>Has an Engineered Cost Estimate been developed for this project?</sys_name>
+        <sys_name>Has an Independent Government Cost Estimate been developed for this project?</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_has_an_engineered_cost_estimate_developed_for_this_project</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-21 01:23:28</sys_updated_on>
+        <sys_updated_on>2026-01-27 21:17:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

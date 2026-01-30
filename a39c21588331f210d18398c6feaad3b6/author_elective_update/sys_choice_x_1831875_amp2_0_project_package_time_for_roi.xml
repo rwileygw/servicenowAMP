@@ -22,7 +22,7 @@
             <element>time_for_roi</element>
             <hint/>
             <inactive>false</inactive>
-            <label>&lt; 5 years</label>
+            <label>&lt;5 years</label>
             <language>en</language>
             <name>x_1831875_amp2_0_project_package</name>
             <sequence>0</sequence>
@@ -30,18 +30,18 @@
             <sys_created_by>ryann.wiley</sys_created_by>
             <sys_created_on>2026-01-21 01:51:53</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-21 20:41:29</sys_updated_on>
+            <sys_updated_on>2026-01-27 23:20:05</sys_updated_on>
             <u_realm/>
-            <value>&lt; 5 years</value>
+            <value>&lt;5 years</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>time_for_roi</element>
             <hint/>
             <inactive>false</inactive>
-            <label>5 - 10 years</label>
+            <label>5-10 years</label>
             <language>en</language>
             <name>x_1831875_amp2_0_project_package</name>
             <sequence>1</sequence>
@@ -49,18 +49,18 @@
             <sys_created_by>ryann.wiley</sys_created_by>
             <sys_created_on>2026-01-21 01:51:53</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-21 20:41:42</sys_updated_on>
+            <sys_updated_on>2026-01-27 23:20:10</sys_updated_on>
             <u_realm/>
-            <value>5 - 10 years</value>
+            <value>5-10 years</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>time_for_roi</element>
             <hint/>
             <inactive>false</inactive>
-            <label>&gt; 10 years</label>
+            <label>&gt;10 years</label>
             <language>en</language>
             <name>x_1831875_amp2_0_project_package</name>
             <sequence>2</sequence>
@@ -68,11 +68,11 @@
             <sys_created_by>ryann.wiley</sys_created_by>
             <sys_created_on>2026-01-21 01:51:53</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-21 20:41:54</sys_updated_on>
+            <sys_updated_on>2026-01-27 23:20:16</sys_updated_on>
             <u_realm/>
-            <value>&gt; 10 years</value>
+            <value>&gt;10 years</value>
         </sys_choice>
     </sys_choice>
 </record_update>

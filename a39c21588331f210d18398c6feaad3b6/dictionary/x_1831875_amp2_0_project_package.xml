@@ -50,10 +50,12 @@
         <element audit="true" label="current round" max_length="40" name="current_round" type="integer"/>
         <element label="CWIP Status" max_length="40" name="cwip_status" reference="x_1831875_amp2_0_cwip_status" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
-        <element choice="3" default="yes" label="Is this an energy efficiency project?" max_length="40" name="energy_efficiency" type="choice">
+        <element choice="1" label="What percentage of this project results in a ROI due to Energy Savings?" max_length="40" name="energy_efficiency" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="&lt;25%" sequence="0" value="&lt;25%"/>
+                <element inactive_on_update="false" label="25-50%" sequence="1" value="25-50%"/>
+                <element inactive_on_update="false" label="50-75%" sequence="2" value="50-75%"/>
+                <element inactive_on_update="false" label="&gt;75%" sequence="3" value="&gt;75%"/>
             </choice>
         </element>
         <element label="Estimated Cost" max_length="38" name="estimated_cost" type="decimal"/>
@@ -85,7 +87,7 @@
             </choice>
         </element>
         <element label="Gross SqFt" max_length="32" name="gross_sqft" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element choice="3" default="no" label="Has an Engineered Cost Estimate been developed for this project?" max_length="40" name="has_an_engineered_cost_estimate_developed_for_this_project" type="choice">
+        <element choice="3" default="no" label="Has an Independent Government Cost Estimate been developed for this project?" max_length="40" name="has_an_engineered_cost_estimate_developed_for_this_project" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -142,7 +144,6 @@
         <element audit="true" label="is archived" max_length="40" name="is_archived" type="boolean"/>
         <element audit="true" label="is deleted" max_length="40" name="is_deleted" type="boolean"/>
         <element label="Is this a Multi-phase project?" max_length="40" name="is_multi_phase" type="boolean"/>
-        <element label="Mission Critical Flag" max_length="40" name="mission_critical_flag" type="string"/>
         <element choice="3" label="NECSAS Level" max_length="40" name="necsass_level" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Level 1" sequence="0" value="level 1"/>
@@ -151,7 +152,6 @@
             </choice>
         </element>
         <element label="NEPA Status" max_length="40" name="nepa_status" reference="x_1831875_amp2_0_nepa_status" type="reference"/>
-        <element label="NMFS Locations" max_length="32" name="nmfs_locations" reference="cmn_location" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="OMB Priority" max_length="40" name="omb_priority" type="integer"/>
         <element label="Output Type" max_length="40" name="output_type" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
@@ -416,15 +416,15 @@
         <element label="Status" max_length="40" name="status" type="string"/>
         <element label="System Classification" max_length="40" name="system_classification" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
-        <element choice="3" default="&lt; 5 years" label="What is the estimated time for ROI?" max_length="40" name="time_for_roi" type="choice">
+        <element choice="3" default="&lt;5 years" label="What is the estimated ROI?" max_length="40" name="time_for_roi" type="choice">
             <choice>
-                <element inactive_on_update="false" label="&lt; 5 years" sequence="0" value="&lt; 5 years"/>
-                <element inactive_on_update="false" label="5 - 10 years" sequence="1" value="5 - 10 years"/>
-                <element inactive_on_update="false" label="&gt; 10 years" sequence="2" value="&gt; 10 years"/>
+                <element inactive_on_update="false" label="&lt;5 years" sequence="0" value="&lt;5 years"/>
+                <element inactive_on_update="false" label="5-10 years" sequence="1" value="5-10 years"/>
+                <element inactive_on_update="false" label="&gt;10 years" sequence="2" value="&gt;10 years"/>
             </choice>
         </element>
         <element label="Title" max_length="255" name="title" type="string"/>
-        <element attributes="text-align=right" label="Total Project Score" max_length="100" name="total_project_score" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Project Score" max_length="100" name="total_project_score" read_only="true" type="string"/>
         <element attributes="ref_qual_elements=u_fmc" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" reference_qual="javascript: 'u_fmc_ref=' + current.u_fmc" type="reference" use_reference_qualifier="advanced"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Identify the documented study and year below." max_length="250" name="u_documented_study" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="32" name="u_fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" reference_qual_condition="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
@@ -514,57 +514,54 @@
             <element name="nepa_status"/>
         </index>
         <index name="index15">
-            <element name="nmfs_locations"/>
-        </index>
-        <index name="index16">
             <element name="output_type"/>
         </index>
-        <index name="index17">
+        <index name="index16">
             <element name="parent_multi_phase"/>
         </index>
-        <index name="index18">
+        <index name="index17">
             <element name="priority_score"/>
         </index>
-        <index name="index19">
+        <index name="index18">
             <element name="project_status"/>
         </index>
-        <index name="index20">
+        <index name="index19">
             <element name="property_name"/>
         </index>
-        <index name="index21">
+        <index name="index20">
             <element name="region"/>
         </index>
-        <index name="index22">
+        <index name="index21">
             <element name="result"/>
         </index>
-        <index name="index23">
+        <index name="index22">
             <element name="space"/>
         </index>
-        <index name="index24">
+        <index name="index23">
             <element name="special_initiative"/>
         </index>
-        <index name="index25">
+        <index name="index24">
             <element name="state"/>
         </index>
-        <index name="index26">
+        <index name="index25">
             <element name="status"/>
         </index>
-        <index name="index27">
+        <index name="index26">
             <element name="sys_class_name"/>
         </index>
-        <index name="index28">
+        <index name="index27">
             <element name="u_complex"/>
         </index>
-        <index name="index29">
+        <index name="index28">
             <element name="u_fmc"/>
         </index>
-        <index name="index30">
+        <index name="index29">
             <element name="u_project_approval_state"/>
         </index>
-        <index name="index31">
+        <index name="index30">
             <element name="u_property"/>
         </index>
-        <index name="index32">
+        <index name="index31">
             <element name="year_built"/>
         </index>
         <element label="Project Need/Benefit " max_length="4000" name="project_need_benefit" type="string"/>
