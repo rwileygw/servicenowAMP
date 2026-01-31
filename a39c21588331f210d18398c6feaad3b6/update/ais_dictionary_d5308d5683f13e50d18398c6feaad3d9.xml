@@ -8,12 +8,12 @@
         <derived>true</derived>
         <field/>
         <label>amp20 Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2026-01-12 09:26:57</last_derived>
+        <last_derived>2026-01-31 04:30:14</last_derived>
         <locale>en</locale>
         <name>x_1831875_amp2_0_amp20_search_profile_default_spell_check_dictionary</name>
-        <publish_id>ab9eeaf8-fc2d-4664-9d07-3e4cb4aeff36</publish_id>
+        <publish_id>cdac77a7-b68a-4077-abf9-f4a53c68b5f3</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:53</sys_created_on>

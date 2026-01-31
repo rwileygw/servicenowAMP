@@ -11,7 +11,7 @@
         <parent_macroponent display_value="Left Navigation">44df2e3247fd72506ca043ff336d43a1</parent_macroponent>
         <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
         <route_type>kb_template_selector_modal</route_type>
-        <screen_type display_value="Knowledge Article Template Selector Modal">9068fdfd532001105264ddeeff7b1282</screen_type>
+        <screen_type display_value="">9068fdfd532001105264ddeeff7b1282</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2025-12-17 18:42:28</sys_created_on>

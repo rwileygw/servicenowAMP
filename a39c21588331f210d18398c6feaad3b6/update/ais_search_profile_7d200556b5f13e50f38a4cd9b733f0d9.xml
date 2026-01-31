@@ -7,9 +7,9 @@
         <genius_result_assembly/>
         <label>amp20 Search Profile</label>
         <name>x_1831875_amp2_0_vcomdmxb_search_profile</name>
-        <publish_id>60d5e473-2f93-4da6-83d3-747f8c63947b</publish_id>
+        <publish_id>a796228b-7136-4369-9127-31bc475910dd</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:39</sys_created_on>

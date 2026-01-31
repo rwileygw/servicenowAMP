@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="AMP2.0">2e60c1da83f13e50d18398c6feaad33c</dashboard>
-        <experience display_value="AMP2.0">7120055661f13e505e996ae427841cda</experience>
+        <experience display_value="AMP2 Workspace">7120055661f13e505e996ae427841cda</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:18:49</sys_created_on>

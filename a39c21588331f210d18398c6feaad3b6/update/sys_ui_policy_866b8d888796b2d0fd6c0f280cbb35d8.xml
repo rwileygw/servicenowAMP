@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>false</active>
-        <conditions table="x_1831875_amp2_0_project_package">complex_ref.complex_nameISNOTEMPTY<item endquery="false" field="complex_ref.complex_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-        </conditions>
+        <conditions table="x_1831875_amp2_0_project_package">complex_ref.complex_nameISNOTEMPTY</conditions>
         <description/>
         <global>true</global>
         <inherit>false</inherit>

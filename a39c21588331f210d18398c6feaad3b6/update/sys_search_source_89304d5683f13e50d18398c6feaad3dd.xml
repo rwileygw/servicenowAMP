@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
     <sys_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1831875_amp2_0_project_id_generator">active=true</condition>
+        <condition table="x_1831875_amp2_0_project_id_generator">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
         <group/>
         <name>AMP2.0 - x_1831875_amp2_0_project_id_generator</name>
         <roles/>

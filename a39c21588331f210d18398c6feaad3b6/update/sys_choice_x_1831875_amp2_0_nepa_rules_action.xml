@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_1831875_amp2_0_nepa_rules" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <name>x_1831875_amp2_0_nepa_rules</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-11 04:08:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>77c65341477232106ca043ff336d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>action</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_nepa_rules_action</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-11 04:08:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warn</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_nepa_rules</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-11 04:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c398534d47b232106ca043ff336d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-11 04:08:58</sys_updated_on>
+            <u_realm/>
+            <value>warn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Block</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_nepa_rules</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-11 04:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4398534d47b232106ca043ff336d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-11 04:08:58</sys_updated_on>
+            <u_realm/>
+            <value>block</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GenerateDoc</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_nepa_rules</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-11 04:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8798934d47b232106ca043ff336d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-11 04:08:58</sys_updated_on>
+            <u_realm/>
+            <value>generatedoc</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

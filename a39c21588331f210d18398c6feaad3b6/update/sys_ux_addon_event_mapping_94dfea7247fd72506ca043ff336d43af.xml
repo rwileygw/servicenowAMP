@@ -6,7 +6,7 @@
         <name>Open Article Template Selector Modal on Knowledge List</name>
         <parent_macroponent display_value="Left Navigation">44df2e3247fd72506ca043ff336d43a1</parent_macroponent>
         <source_component/>
-        <source_da display_value="open_article_template_selector">85ad09be535b10108ce6ddeeff7b120e</source_da>
+        <source_da display_value="">85ad09be535b10108ce6ddeeff7b120e</source_da>
         <source_element_id>list</source_element_id>
         <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
