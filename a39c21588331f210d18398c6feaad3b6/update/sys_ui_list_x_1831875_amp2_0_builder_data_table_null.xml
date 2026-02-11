@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_builder_data_table" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bldgname</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bldgnum</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_prv</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>installationcode</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>installationname</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>system</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>section_age</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0290659a8732f610fd6c0f280cbb35b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>year_built</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>workitemid</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_item_status</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_item_description</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>uom</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0290659a8732f610fd6c0f280cbb35ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>unit_of_measure</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>region</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>qty</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>org_path</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>org_name</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>matequiptype</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>line_office</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>latestinspdate</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0290659a8732f610fd6c0f280cbb35bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>installdate</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>insp_rating</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>insp_data_comments</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fiscalyear</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fci</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>expected_rating</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>est_wi_cost</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>design_life</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0290659a8732f610fd6c0f280cbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>csci</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>section_name</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sec_id</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sci</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>remaining_service_life</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>38</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>remaining_design_life</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>39</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0290659a8732f610fd6c0f280cbb35c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actualcost</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>40</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8690659a8732f610fd6c0f280cbb35c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>area_sf</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>41</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0e90659a8732f610fd6c0f280cbb35c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bci</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>42</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8290659a8732f610fd6c0f280cbb35c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category_code</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>43</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0a90659a8732f610fd6c0f280cbb35c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>44</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8e90659a8732f610fd6c0f280cbb35c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>component</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>45</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>0690659a8732f610fd6c0f280cbb35c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comptype</element>
+            <list_id display_value="x_1831875_amp2_0_builder_data_table" element="NULL" name="x_1831875_amp2_0_builder_data_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8690659a8732f610fd6c0f280cbb359a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>46</position>
+            <sum>false</sum>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_id>8a90659a8732f610fd6c0f280cbb35c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1831875_amp2_0_builder_data_table</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 16:42:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>8690659a8732f610fd6c0f280cbb359a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_builder_data_table</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1831875_amp2_0_builder_data_table_null</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 16:42:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

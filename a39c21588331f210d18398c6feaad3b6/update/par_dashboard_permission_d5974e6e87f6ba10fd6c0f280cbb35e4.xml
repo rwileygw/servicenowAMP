@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Project Dashboard">7c35708747bdb2506ca043ff336d432a</dashboard>
+        <group display_value="AMP2 Admins" name="AMP2 Admins">d971ba42877e3610fd6c0f280cbb35ce</group>
+        <owner>false</owner>
+        <role/>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-04 14:11:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d5974e6e87f6ba10fd6c0f280cbb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-04 14:11:00</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

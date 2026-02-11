@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="INSERT_OR_UPDATE">
+        <customization>{
+  "colors": [
+    {
+      "id": "isSecondaryColorUpdated",
+      "value": true,
+      "type": "secondary_color_updated"
+    },
+    {
+      "id": "--now-color_background--tertiary",
+      "value": "229, 231, 231",
+      "type": "color_hook_overridden"
+    },
+    {
+      "id": "--now-color_border--primary",
+      "value": "179, 194, 203",
+      "type": "color_hook_overridden"
+    },
+    {
+      "id": "--now-color_divider--primary",
+      "value": "172, 210, 214",
+      "type": "color_hook_overridden"
+    },
+    {
+      "id": "--now-color_divider--secondary",
+      "value": "192, 220, 240",
+      "type": "color_hook_overridden"
+    }
+  ],
+  "feedback": [],
+  "groupName": "",
+  "imagery": [],
+  "initialValues": {}
+}</customization>
+        <name>AMP2.0</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-04 15:39:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>56eb5666873eba10fd6c0f280cbb3543</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>AMP2.0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_56eb5666873eba10fd6c0f280cbb3543</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-04 15:55:38</sys_updated_on>
+        <theme display_value="AMP2.0">0eeb9266873eba10fd6c0f280cbb353a</theme>
+    </sys_ux_theme_customization>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1831875_amp2_0_builder_data_table" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Builder Data Table - Default view" name="x_1831875_amp2_0_builder_data_table" related_list="NULL" sys_domain="global" view="Default view">f37e395687b6f610fd6c0f280cbb355d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1831875_amp2_0_project_package.u_builder_ref</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 18:52:49</sys_created_on>
+            <sys_id>f77e395687b6f610fd6c0f280cbb355e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 18:52:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Builder Data Table - Default view" name="x_1831875_amp2_0_builder_data_table" related_list="NULL" sys_domain="global" view="Default view">f37e395687b6f610fd6c0f280cbb355d</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1831875_amp2_0_property_table.builder_reference</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 18:52:49</sys_created_on>
+            <sys_id>7f7e395687b6f610fd6c0f280cbb355e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 18:52:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Builder Data Table - Default view</calculated_name>
+            <filter/>
+            <name>x_1831875_amp2_0_builder_data_table</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-02-03 18:52:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f37e395687b6f610fd6c0f280cbb355d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Builder Data Table - Default view</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_related_x_1831875_amp2_0_builder_data_table_null</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-02-03 18:52:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
