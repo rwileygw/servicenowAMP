@@ -5,6 +5,7 @@
         <description>Default user role</description>
         <elevated_privilege>false</elevated_privilege>
         <encryption_context/>
+        <federated_id>MDTjHWe6SEkpYkOfw5LDQudc1IU4Yuq+bBbAbNGYKjw=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <limit_concurrent_sessions>false</limit_concurrent_sessions>

@@ -5007,6 +5007,7 @@
         "valueType": "number"
     }
 ]</state_properties>
+        <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-29 17:25:15</sys_created_on>

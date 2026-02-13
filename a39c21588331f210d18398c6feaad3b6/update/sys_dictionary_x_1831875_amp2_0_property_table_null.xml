@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1831875_amp2_0_property_table">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>hasLabels=true</attributes>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {
 

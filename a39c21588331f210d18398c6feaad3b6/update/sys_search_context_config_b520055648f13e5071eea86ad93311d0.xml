@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
     <sys_search_context_config action="INSERT_OR_UPDATE">
         <application_id display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application_id>
+        <attachment_limit>5</attachment_limit>
         <collapse_attachment>false</collapse_attachment>
         <enable_exact_match>true</enable_exact_match>
         <evam_definition display_value="">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
@@ -12,6 +13,7 @@
         <search_engine>ai_search</search_engine>
         <search_profile display_value="amp20 Search Profile">7d200556b5f13e50f38a4cd9b733f0d9</search_profile>
         <search_results_limit>10</search_results_limit>
+        <show_disabled_facets>false</show_disabled_facets>
         <show_tab_counts>true</show_tab_counts>
         <spell_check>true</spell_check>
         <suggestions_to_show_limit>10</suggestions_to_show_limit>

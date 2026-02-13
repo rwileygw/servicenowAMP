@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="NextExperience">c8ae7e45732130107d804c9885f6a7a5</analytics_channel>
+        <application_name>AMP2 Workspace</application_name>
+        <bucket_document_id>7120055661f13e505e996ae427841cda</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sys_ux_page_registry</bucket_table_name>
+        <bucket_type/>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1831875_amp2_0.sys_ux_page_registry.7120055661f13e505e996ae427841cda</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-02 14:08:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6bb3b3b5877ab210fd6c0f280cbb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP2 Workspace</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_analytics_bucket_6bb3b3b5877ab210fd6c0f280cbb3532</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-02 14:08:07</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

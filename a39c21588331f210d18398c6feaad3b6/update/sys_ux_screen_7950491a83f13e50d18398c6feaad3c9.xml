@@ -4,6 +4,7 @@
         <app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
         <macroponent display_value="Reviewer Comment Archive Record Page">2d50491a83f13e50d18398c6feaad368</macroponent>
         <macroponent_config/>

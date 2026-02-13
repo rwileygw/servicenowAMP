@@ -7,7 +7,7 @@
         <hint/>
         <name>Work Orders</name>
         <order>100</order>
-        <roles>x_1831875_amp2_0.work_orders_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2025-12-17 17:14:51</sys_created_on>

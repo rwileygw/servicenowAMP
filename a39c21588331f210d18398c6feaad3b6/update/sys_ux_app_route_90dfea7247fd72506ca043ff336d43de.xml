@@ -5,6 +5,7 @@
         <extension_point/>
         <fields>table,sysId,pageTitle,pageSubTitle,useDomain</fields>
         <icon/>
+        <interoperable>false</interoperable>
         <name>Interceptor</name>
         <optional_parameters/>
         <order>0</order>

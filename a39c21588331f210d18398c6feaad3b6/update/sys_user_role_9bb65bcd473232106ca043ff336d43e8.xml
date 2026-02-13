@@ -5,6 +5,7 @@
         <description>Default admin role</description>
         <elevated_privilege>false</elevated_privilege>
         <encryption_context/>
+        <federated_id>KPT0klAc32Zu8FjIyWMfL68m+mE4Fhj/2xI/0CECyJI=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <limit_concurrent_sessions>false</limit_concurrent_sessions>
