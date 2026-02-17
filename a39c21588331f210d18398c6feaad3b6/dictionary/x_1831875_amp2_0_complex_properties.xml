@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="298ab40e47563e106ca043ff336d430d" extends="x_1831875_amp2_0_x_amp2_fmc_complex" label="Properties" max_length="40" name="x_1831875_amp2_0_complex_properties" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" mandatory="true" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property ID" max_length="32" name="u_property_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property name" max_length="150" name="u_property_name" type="string"/>
+        <index name="index">
+            <element name="u_complex"/>
+        </index>
+    </element>
+</database>

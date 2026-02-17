@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9779493d47223a906ca043ff336d4381" extends="sys_import_set_row" label="AMP_PropertyNickname" max_length="40" name="x_1831875_amp2_0_amp_propertynickname" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property ID" label="Property ID" max_length="40" name="u_property_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property name" label="Property name" max_length="70" name="u_property_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property nickname" label="Property nickname" max_length="61" name="u_property_nickname" type="string"/>
+    </element>
+</database>

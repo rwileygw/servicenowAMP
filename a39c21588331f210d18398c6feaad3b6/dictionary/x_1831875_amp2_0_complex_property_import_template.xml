@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d12bb80a8776f210fd6c0f280cbb35bf" extends="sys_import_set_row" label="Complex Property Import Template" max_length="40" name="x_1831875_amp2_0_complex_property_import_template" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition_Method" label="Acquisition_Method" max_length="40" name="u_acquisition_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address_Line_1" label="Address_Line_1" max_length="40" name="u_address_line_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bureau/Line_Office" label="Bureau/Line_Office" max_length="40" name="u_bureau_line_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex_ID" label="Complex_ID" max_length="40" name="u_complex_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Name" label="Complex Name" max_length="42" name="u_complex_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Complex Nickname" label="Complex Nickname" max_length="40" name="u_complex_nickname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County_Code" label="County_Code" max_length="40" name="u_county_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date_Acquired" label="Date_Acquired" max_length="40" name="u_date_acquired" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation ID" label="Installation ID" max_length="40" name="u_installation_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Name" label="Installation Name" max_length="54" name="u_installation_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Legal_Interest" label="Legal_Interest" max_length="40" name="u_legal_interest" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property ID" label="Property ID" max_length="40" name="u_property_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Name" label="Property Name" max_length="70" name="u_property_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Nickname" label="Property Nickname" max_length="40" name="u_property_nickname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property_Status" label="Property_Status" max_length="40" name="u_property_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source_of_Space" label="Source_of_Space" max_length="40" name="u_source_of_space" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip" label="Zip" max_length="40" name="u_zip" type="string"/>
+    </element>
+</database>

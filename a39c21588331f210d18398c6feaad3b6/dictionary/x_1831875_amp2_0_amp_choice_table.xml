@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1926042947d23a106ca043ff336d43a0" label="AMP Choice Table" max_length="40" name="x_1831875_amp2_0_amp_choice_table" type="collection">
+        <element label="Dependent value" max_length="200" name="dependent_value" type="string"/>
+        <element label="Element" max_length="80" name="element" type="string"/>
+        <element label="Hint" max_length="255" name="hint" type="string"/>
+        <element label="Inactive" max_length="40" name="inactive" type="boolean"/>
+        <element label="Label" max_length="100" name="label" type="string"/>
+        <element choice="1" default="javascript:new HelpDeskHelper().setInitialHelpDesk();" label="Realm" max_length="40" name="realm" type="choice">
+            <choice/>
+        </element>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Synonyms" max_length="4001" name="synonyms" type="string"/>
+        <element label="Table" max_length="80" name="table" type="string"/>
+        <element label="Value" max_length="4000" name="value" type="string"/>
+    </element>
+</database>

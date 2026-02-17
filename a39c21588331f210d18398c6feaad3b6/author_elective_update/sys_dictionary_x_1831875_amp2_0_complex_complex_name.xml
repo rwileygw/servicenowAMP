@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="complex_name" table="x_1831875_amp2_0_complex">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>2</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Complex name</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>complex_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_1831875_amp2_0_complex</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-12 02:03:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c23cf26477132506ca043ff336d43ec</sys_id>
+        <sys_name>Complex name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_complex_name</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-29 21:38:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_dictionary_x_1831875_amp2_0_complex_complex_name</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="complex_name" table="x_1831875_amp2_0_complex"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>2</choice><choice_field/><choice_table/><column_label>Complex name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>complex_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_1831875_amp2_0_complex</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-12 02:03:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7c23cf26477132506ca043ff336d43ec</sys_id><sys_name>Complex name</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_complex_name</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2025-12-29 21:38:19</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1383362956</payload_hash>
+        <record_name>Complex.Complex name</record_name>
+        <reverted_from/>
+        <source>8fb90baa47b132506ca043ff336d4397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-29 21:38:20</sys_created_on>
+        <sys_id>252b8d76874e7a90fd6c0f280cbb3509</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b6c0c3d170000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-29 21:38:20</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>292b8d769c4e7a9024088acdc60d4d08</update_guid>
+        <update_guid_history>292b8d769c4e7a9024088acdc60d4d08:-1383362956,920bcd76764e7a907b95c01ca12736c3:-716937391,7eda49766d4e7a903eaf03194c84c3c7:-739304032,24f0a16e19c23a90cb3a90635da74443:-1383362956,1dbbd162b3c23a90f5a3c6d9f91130a7:-716937391,02329d625e823a90995ee8a32f1cb806:-739304032,2fb191629d823a9044fde40e1fa7f44f:-1383362956,0faf456e75423a90cfbd51175917d245:-32059819,ca9f056eb3423a90a6d8c2428c981e35:-704368267,06fb542bd1b5b650dda1bb59f8f01a87:1813817707,1f6b14e785b5b650c23450cc1334d5eb:1465405455,b0bc88eba535b650b035d1b893ef8c8d:-377471889,0a4c8cabd135b65017093389cba97507:1813817707,23cb046b3035b6504f2c58ed4d5ba1af:433131729,85938b6ad971325003406f84ef406cab:0,8d938b6ab5713250113ea5eba879f1a6:247981654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-12 14:52:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>a1c4e83336ee484c8264dc80ef9c9c24</sys_id>
+        <sys_metadata>7c23cf26477132506ca043ff336d43ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complex name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="">4e7a198583317e10d18398c6feaad358</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_complex_name</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1831875_amp2_0_complex_complex_name">252b8d76874e7a90fd6c0f280cbb3509</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-12 14:52:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

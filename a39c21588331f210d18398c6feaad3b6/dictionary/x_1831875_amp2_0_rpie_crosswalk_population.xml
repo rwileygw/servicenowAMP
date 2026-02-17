@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b6966b364775b2506ca043ff336d43f9" extends="sys_import_set_row" label="RPIE Crosswalk Population" max_length="40" name="x_1831875_amp2_0_rpie_crosswalk_population" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ActualCost" label="ActualCost" max_length="40" name="u_actualcost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=added to BUILDER" label="added to BUILDER" max_length="40" name="u_added_to_builder" type="string"/>
+        <element attributes="import_attribute_name=Area(SF)" label="Area(SF)" max_length="40" name="u_area_sf_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AT" label="AT" max_length="40" name="u_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BCI" label="BCI" max_length="40" name="u_bci" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BldgName" label="BldgName" max_length="82" name="u_bldgname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BldgNum" label="BldgNum" max_length="40" name="u_bldgnum" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building PRV" label="Building PRV" max_length="40" name="u_building_prv" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category Code" label="Category Code" max_length="54" name="u_category_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CBF/MM comment" label="CBF/MM comment" max_length="159" name="u_cbf_mm_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="491" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Component" label="Component" max_length="40" name="u_component" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CompType" label="CompType" max_length="98" name="u_comptype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CSCI" label="CSCI" max_length="40" name="u_csci" type="string"/>
+        <element attributes="import_attribute_name=Design Life" label="Design Life" max_length="40" name="u_design_life" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Est WI Cost" label="Est WI Cost" max_length="40" name="u_est_wi_cost" type="string"/>
+        <element attributes="import_attribute_name=Expected_Rating" label="Expected_Rating" max_length="40" name="u_expected_rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FCI" label="FCI" max_length="40" name="u_fci" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FiscalYear" label="FiscalYear" max_length="40" name="u_fiscalyear" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INSP_DATA_COMMENTS" label="INSP_DATA_COMMENTS" max_length="675" name="u_insp_data_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Insp_Rating" label="Insp_Rating" max_length="40" name="u_insp_rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=InstallationCode" label="InstallationCode" max_length="40" name="u_installationcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=InstallationName" label="InstallationName" max_length="44" name="u_installationname" type="string"/>
+        <element attributes="import_attribute_name=InstallDate" label="InstallDate" max_length="40" name="u_installdate" type="integer"/>
+        <element attributes="import_attribute_name=LatestInspDate" label="LatestInspDate" max_length="40" name="u_latestinspdate" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Line Office" label="Line Office" max_length="40" name="u_line_office" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MatEquipType" label="MatEquipType" max_length="55" name="u_matequiptype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ORG_NAME" label="ORG_NAME" max_length="40" name="u_org_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=org_path" label="org_path" max_length="168" name="u_org_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Qty" label="Qty" max_length="40" name="u_qty" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=Remaining Design Life" label="Remaining Design Life" max_length="40" name="u_remaining_design_life" type="integer"/>
+        <element attributes="import_attribute_name=Remaining Service Life" label="Remaining Service Life" max_length="40" name="u_remaining_service_life" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RPIE Tag 2" label="RPIE Tag 2" max_length="1560" name="u_rpie_tag_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RPIE Tag(s)" label="RPIE Tag(s)" max_length="2458" name="u_rpie_tag_s_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SCI" label="SCI" max_length="40" name="u_sci" type="string"/>
+        <element attributes="import_attribute_name=Section_Age" label="Section_Age" max_length="40" name="u_section_age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Section Name" label="Section Name" max_length="49" name="u_section_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SEC_ID" label="SEC_ID" max_length="40" name="u_sec_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System" label="System" max_length="40" name="u_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unit of Measure" label="Unit of Measure" max_length="40" name="u_unit_of_measure" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UoM" label="UoM" max_length="40" name="u_uom" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WorkItemID" label="WorkItemID" max_length="40" name="u_workitemid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Item Description" label="Work Item Description" max_length="187" name="u_work_item_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Item Status" label="Work Item Status" max_length="40" name="u_work_item_status" type="string"/>
+        <element attributes="import_attribute_name=Year Built" label="Year Built" max_length="40" name="u_year_built" type="integer"/>
+    </element>
+</database>

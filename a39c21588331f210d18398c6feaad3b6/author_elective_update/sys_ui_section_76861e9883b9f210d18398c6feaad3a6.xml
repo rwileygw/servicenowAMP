@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="76861e9883b9f210d18398c6feaad3a6" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2111c9088756b2d0fd6c0f280cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_ref</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2911c9088756b2d0fd6c0f280cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_ref.complex_name</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2111c9088756b2d0fd6c0f280cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_ref.complex_id</element>
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2911c9088756b2d0fd6c0f280cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_ref.property_name</element>
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2111c9088756b2d0fd6c0f280cbb3586</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>property_name</element>
+            <position>5</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2911c9088756b2d0fd6c0f280cbb3586</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>property_ref</element>
+            <position>6</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2111c9088756b2d0fd6c0f280cbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_ref.region</element>
+            <position>7</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+            <sys_id>2911c9088756b2d0fd6c0f280cbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-09 22:27:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>76861e9883b9f210d18398c6feaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_76861e9883b9f210d18398c6feaad3a6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-09 22:27:14</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_76861e9883b9f210d18398c6feaad3a6</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="76861e9883b9f210d18398c6feaad3a6" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>fmc</element><position>0</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2111c9088756b2d0fd6c0f280cbb3584</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complex_ref</element><position>1</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2911c9088756b2d0fd6c0f280cbb3584</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complex_ref.complex_name</element><position>2</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2111c9088756b2d0fd6c0f280cbb3585</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complex_ref.complex_id</element><position>3</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2911c9088756b2d0fd6c0f280cbb3585</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complex_ref.property_name</element><position>4</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2111c9088756b2d0fd6c0f280cbb3586</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>property_name</element><position>5</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2911c9088756b2d0fd6c0f280cbb3586</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>property_ref</element><position>6</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2111c9088756b2d0fd6c0f280cbb3587</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complex_ref.region</element><position>7</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-02 18:06:46</sys_created_on><sys_id>2911c9088756b2d0fd6c0f280cbb3587</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">76861e9883b9f210d18398c6feaad3a6</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-02 18:06:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1831875_amp2_0_project_package</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-09 22:27:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>76861e9883b9f210d18398c6feaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1831875_amp2_0_project_package</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ui_section_76861e9883b9f210d18398c6feaad3a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-09 22:27:14</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1338028861</payload_hash>
+        <record_name>Project Package</record_name>
+        <reverted_from/>
+        <source>34aba70f874a3e90fd6c0f280cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-02 18:06:46</sys_created_on>
+        <sys_id>2111c9088756b2d0fd6c0f280cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b7fe3fd4b0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-02 18:06:46</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a511c9088756b2d0ab275dd825d28e89</update_guid>
+        <update_guid_history>a511c9088756b2d0ab275dd825d28e89:-1338028861,3b70c9c44756b2d08db690230c5e03a0:737206719,a5cf38843456b2d0676c5bda8837293e:-1548508210,a86f70042156b2d02e56ea9392b70aa7:246412770,696ab8c85d16b2d08dd7ace2ad82215e:-1353588377,4922708c62d2b2d03cdbbb92718ad915:-711663633,4e4b2c4050d2b2d0f834e76a153c8617:-1924448531,9af6a888e292b2d086273f2ef53987e0:554700406,3faf940c2752b2d013754ddd1a53baa3:246412770,e33b1444b452b2d0ff340f3c4c4b90ba:-926738400,fb1a98c09052b2d0b1e933cfc93ea95c:-1532799148,0bd6d08cf712b2d0a860ee559adee6b9:-124034757,3e66980cfe12b2d0597f36624c197ed7:289508437,bf0694c87c12b2d07b233e2947829ae5:-124034757,53151c48ce12b2d09f763b6e1eb9109d:1489484959,4fe35cc44a12b2d0bb1a0a6b530b83a7:1826757203,24ef04403b12b2d00599c2407667000a:845725190,e51162374f0672d053113ffff3582b67:1762055255,62d0aaf3760672d0f6c7949d795e51ae:253081104,127022f3ce0672d0af62cf859021c39e:1597036437,6a1f1a33e80672d067b1ca7a2b6acf5e:-2114044875,27dd56bf55c272d07c938b1703b2af93:1364062884,a69c1a3b01c272d0ed9af31f0e601564:-1591643631,a2db16b391c272d03a2b6ecb1504b3a2:-752639848,3f2adafbfd8272d0d8ff6dfd354cf8c6:-312640541,ec09de7bee8272d00f5445a734cec10c:1114429359,2ec7d2f7928272d0ddbe0887da07e695:-165098421,2d7796f7f38272d0b57cb26984fb6a1b:112170823,74f656b79b8272d0b76c7b6e33055db1:806973330,4fb6de774e8272d0ffde553bcd6e30fb:-807098251,9c941ab3b08272d05f9434e2ccacbd0a:154123003,a92f3fcf3bca3e900aa9ffaa2d40ae86:54619770,25e566c7ff823e90c74300d61acce0ff:1713470024,db25e287e3823e90e48f8fb97c8d5fea:930228158,34732e4334823e90ab390ece3bb5ba70:173151063,dc7a1ec3de423e90eb2c868cb87b5e40:1970950881,254a1ac3b3423e90d751ab44dd50b33d:-893918081,41460543e50afa9005209e524642daca:-855949120,18b58103620afa9068681a0205e7a9f8:-1406496957,8fd3414f6bc6fa907e3ff05c64882a55:493089094,b6db163e6346ba90cc02b9d05579e69a:-1277596464,0eab9efa0546ba9083864521f34723d6:1069125353,2b558dea89023a908268fddc5e16fce7:-1277596464,71f01ce35075b65070fede7828ee49a1:-2506690,d7d0d8e3d575b6506eb6d9cffd079fbe:220822192,bcc203765f71b250613c5f08037c16c6:1146736437,70e30f6eec713250b319cecae20f4844:-2072549341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-05 06:08:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>33a06a5369d74f01846880abc4ef07b1</sys_id>
+        <sys_metadata>76861e9883b9f210d18398c6feaad3a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_76861e9883b9f210d18398c6feaad3a6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_76861e9883b9f210d18398c6feaad3a6">2111c9088756b2d0fd6c0f280cbb358a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-05 06:08:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

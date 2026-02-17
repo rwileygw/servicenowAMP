@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 04:57:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d09fa2be87c6ba90fd6c0f280cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a Project.Users with 'itil' role</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d09fa2be87c6ba90fd6c0f280cbb35fb</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 04:57:04</sys_updated_on>
+        <user_criteria display_value="Users with 'itil' role">02cee9d2db40101004d77a6139961952</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_d09fa2be87c6ba90fd6c0f280cbb35fb</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2025-12-30 04:57:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d09fa2be87c6ba90fd6c0f280cbb35fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create a Project.Users with 'itil' role</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_d09fa2be87c6ba90fd6c0f280cbb35fb</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2025-12-30 04:57:04</sys_updated_on><user_criteria display_value="Users with 'itil' role">02cee9d2db40101004d77a6139961952</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>764323072</payload_hash>
+        <record_name>Create a Project.Users with 'itil' role</record_name>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 04:57:03</sys_created_on>
+        <sys_id>c0722305477632106ca043ff336d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c126968110000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:57:03</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>087223054c763210a6a3972d6ec9e0c3</update_guid>
+        <update_guid_history>087223054c763210a6a3972d6ec9e0c3:764323072,79485f81beb23210378a48857eb0ecad:339949917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-02-13 09:57:13">9e78e4a5470f7a106ca043ff336d4383</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-13 14:57:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>1a46b5950c224b9ca34dbf3b12de32b1</sys_id>
+        <sys_metadata>d09fa2be87c6ba90fd6c0f280cbb35fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a Project.Users with 'itil' role</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d09fa2be87c6ba90fd6c0f280cbb35fb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_d09fa2be87c6ba90fd6c0f280cbb35fb">c0722305477632106ca043ff336d43c4</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-13 14:57:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

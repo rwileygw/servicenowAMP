@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="a37bd67a473d72506ca043ff336d4388" label="FMC Lookup Table" max_length="40" name="x_1831875_amp2_0_fmc_lookup_table" read_roles="x_1831875_amp2_0.admin" type="collection">
+        <element label="Acquisition Method" max_length="40" name="acquisition_method" type="string"/>
+        <element label="Legal Interest" max_length="40" name="legal_interest" type="string"/>
+        <element label="Portfolio" max_length="40" name="portfolio" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Reporting Bureau" max_length="40" name="reporting_bureau" type="string"/>
+        <element label="RMO" max_length="40" name="rmo" type="string"/>
+        <element label="Source of Space" max_length="40" name="source_of_space" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" read_only="true" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="sys_id imp" max_length="100" name="sys_id_imp" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC sys_id" max_length="32" name="u_fmc" read_only="true" type="string"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="63c6c4a947d23a106ca043ff336d439b" extends="sys_import_set_row" label="Imp Tmpl X 1831875 Amp2 0 Amp Choice Table" max_length="40" name="u_imp_tmpl_x_1831875_amp2_0_amp_choice_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dependent value" label="Dependent value" max_length="70" name="u_dependent_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hint" label="Hint" max_length="40" name="u_hint" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Label" label="Label" max_length="86" name="u_label" type="string"/>
+        <element attributes="import_attribute_name=Sequence" label="Sequence" max_length="40" name="u_sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Table" label="Table" max_length="50" name="u_table" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Value" label="Value" max_length="70" name="u_value" type="string"/>
+    </element>
+</database>

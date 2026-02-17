@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>NewPropertyTable</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1831875_amp2_0_newpropertytable</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-10 06:26:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3c7d6f9a4716fe106ca043ff336d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewPropertyTable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_app_module_3c7d6f9a4716fe106ca043ff336d433b</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-10 06:26:11</sys_updated_on>
+        <timeline_page/>
+        <title>NewPropertyTable</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_app_module_3c7d6f9a4716fe106ca043ff336d433b</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>NewPropertyTable</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1831875_amp2_0_newpropertytable</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-01-10 06:26:11</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>3c7d6f9a4716fe106ca043ff336d433b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NewPropertyTable</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_app_module_3c7d6f9a4716fe106ca043ff336d433b</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-01-10 06:26:11</sys_updated_on><timeline_page/><title>NewPropertyTable</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1355290857</payload_hash>
+        <record_name>NewPropertyTable</record_name>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 04:35:17</sys_created_on>
+        <sys_id>417dd345473632106ca043ff336d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c125578330000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:35:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>857dd34502363210051d486cac69ee54</update_guid>
+        <update_guid_history>857dd34502363210051d486cac69ee54:-1355290857,75485f81d5b23210a98357ebfb9421eb:741614981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-02-02 23:37:07">15aab6ce87be3610fd6c0f280cbb354b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-03 04:37:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>48c60120d0184480a28ed027ab9c1000</sys_id>
+        <sys_metadata>3c7d6f9a4716fe106ca043ff336d433b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewPropertyTable</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_app_module_3c7d6f9a4716fe106ca043ff336d433b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3c7d6f9a4716fe106ca043ff336d433b">417dd345473632106ca043ff336d4355</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-03 04:37:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

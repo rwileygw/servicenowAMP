@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="fd60c99a83f13e50d18398c6feaad378" sys_domain="global" table="x_1831875_amp2_0_project_status" version="3" view="workspace-amp20-0">
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_status</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 21:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd60c99a83f13e50d18398c6feaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_status</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_fd60c99a83f13e50d18398c6feaad378</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 21:18:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_fd60c99a83f13e50d18398c6feaad378</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="fd60c99a83f13e50d18398c6feaad378" sys_domain="global" table="x_1831875_amp2_0_project_status" version="3" view="workspace-amp20-0">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_status</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 21:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd60c99a83f13e50d18398c6feaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_status</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_fd60c99a83f13e50d18398c6feaad378</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 21:18:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>510571002</payload_hash>
+        <record_name>Project Status</record_name>
+        <reverted_from/>
+        <source>c7138b26477132506ca043ff336d439d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-17 01:31:45</sys_created_on>
+        <sys_id>86e3cf6e477132506ca043ff336d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b29ef47930000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-17 01:31:45</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>46e3cf6ee371325086f95cc1ebd82aa0</update_guid>
+        <update_guid_history>46e3cf6ee371325086f95cc1ebd82aa0:510571002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 20:51:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>239a9ae6641a4c36856509e299631244</sys_id>
+        <sys_metadata>fd60c99a83f13e50d18398c6feaad378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_status</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="">fd55675883b93610d18398c6feaad3c1</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_fd60c99a83f13e50d18398c6feaad378</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_fd60c99a83f13e50d18398c6feaad378">86e3cf6e477132506ca043ff336d43a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 20:51:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

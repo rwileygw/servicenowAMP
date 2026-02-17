@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent display_value="Estimated Cost Line Record Page">8740c9d683f13e50d18398c6feaad3f9</macroponent>
+        <macroponent_config/>
+        <name>Estimated Cost Line Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1831875_amp2_0_estimated_cost_line</screen_condition>
+        <screen_type display_value="Record">bd20055699f13e50fca31f8d6640a7cd</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:18:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03400dd683f13e50d18398c6feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Estimated Cost Line Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_screen_03400dd683f13e50d18398c6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:18:17</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=03400dd683f13e50d18398c6feaad31c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ux_screen_03400dd683f13e50d18398c6feaad31c</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent display_value="Estimated Cost Line Record Page">8740c9d683f13e50d18398c6feaad3f9</macroponent>
+        <macroponent_config/>
+        <name>Estimated Cost Line Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1831875_amp2_0_estimated_cost_line</screen_condition>
+        <screen_type display_value="Record">bd20055699f13e50fca31f8d6640a7cd</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:18:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03400dd683f13e50d18398c6feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Estimated Cost Line Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_screen_03400dd683f13e50d18398c6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:18:17</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=03400dd683f13e50d18398c6feaad31c"/>
+</record_update>]]></payload>
+        <payload_hash>1562159311</payload_hash>
+        <record_name>Estimated Cost Line Record Page</record_name>
+        <reverted_from/>
+        <source>12f706be477972506ca043ff336d43fd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-17 15:53:00</sys_created_on>
+        <sys_id>7509ceb647b972506ca043ff336d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b2d03c4640000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-17 15:53:00</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>3109ceb61bb97250d49f6ccbb0a7e3e5</update_guid>
+        <update_guid_history>3109ceb61bb97250d49f6ccbb0a7e3e5:0,997ed3a2f47532508c15997dfd681d84:-1367827267,b36dd322f9753250eb8e61fc8fb14e1b:-71178266,11f30bae52713250b302dd3209300ead:1562159311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-02 18:58:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>48c6b76e44a14236ba1c3237e0362f01</sys_id>
+        <sys_metadata>03400dd683f13e50d18398c6feaad31c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Estimated Cost Line Record Page</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_03400dd683f13e50d18398c6feaad31c</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_03400dd683f13e50d18398c6feaad31c">7509ceb647b972506ca043ff336d43e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-02 18:58:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

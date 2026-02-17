@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="DELETE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Complex Table</name>
+        <retention_policy/>
+        <source>x_1831875_amp2_0_complex</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:17:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de30419683f13e50d18398c6feaad384</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Complex Table</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>ais_datasource_de30419683f13e50d18398c6feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:17:57</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>ais_datasource_de30419683f13e50d18398c6feaad384</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource"><ais_datasource action="INSERT_OR_UPDATE"><active>true</active><conflict>false</conflict><filter/><force_late_binding>false</force_late_binding><name>Complex Table</name><retention_policy/><source>x_1831875_amp2_0_complex</source><sys_class_name>ais_datasource</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-15 21:17:57</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>de30419683f13e50d18398c6feaad384</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Complex Table</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>ais_datasource_de30419683f13e50d18398c6feaad384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-15 21:17:57</sys_updated_on><type>internal</type></ais_datasource></record_update>]]></payload>
+        <payload_hash>416745456</payload_hash>
+        <record_name>Complex Table</record_name>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 05:02:32</sys_created_on>
+        <sys_id>98b367c5477632106ca043ff336d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c126e6ac50000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 05:02:32</sys_updated_on>
+        <type>AI Search Indexed Source</type>
+        <update_guid>dcb367c5a1763210c83e5c9ace010570</update_guid>
+        <update_guid_history>dcb367c5a1763210c83e5c9ace010570:416745456,c4489b8185b2321029e1789104eac414:1095806160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-31 03:00:04">385c8499873a3210fd6c0f280cbb3596</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-31 08:00:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ais_datasource">ais_datasource</sys_db_object>
+        <sys_id>01ea942a49c141ef8115e7382a5d4399</sys_id>
+        <sys_metadata>de30419683f13e50d18398c6feaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complex Table</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>ais_datasource_de30419683f13e50d18398c6feaad384</sys_update_name>
+        <sys_update_version display_value="ais_datasource_de30419683f13e50d18398c6feaad384">98b367c5477632106ca043ff336d4371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-31 08:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

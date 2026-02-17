@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="37ad2b83878a3e90fd6c0f280cbb35ef" extends="cmn_location" label="NMFS Locations" max_length="40" name="x_1831875_amp2_0_nmfs_locations" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="FMC" max_length="5" name="fmc" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>

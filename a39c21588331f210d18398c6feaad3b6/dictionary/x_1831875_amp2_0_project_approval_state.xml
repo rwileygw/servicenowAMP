@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4640b97687ee3610fd6c0f280cbb3593" label="Project Approval State" max_length="40" name="x_1831875_amp2_0_project_approval_state" type="collection">
+        <element label="List order" max_length="40" name="u_list_order" type="string"/>
+        <element label="Status ID" max_length="40" name="u_status_id" type="string"/>
+        <element label="Status name" max_length="100" name="u_status_name" type="string"/>
+    </element>
+</database>

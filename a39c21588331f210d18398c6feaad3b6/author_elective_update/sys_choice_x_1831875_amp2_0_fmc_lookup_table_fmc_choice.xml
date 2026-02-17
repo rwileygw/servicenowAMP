@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="fmc_choice" table="x_1831875_amp2_0_fmc_lookup_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>fmc_choice</element>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>fmc_choice</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_fmc_lookup_table_fmc_choice</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NEC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>NEC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NWC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>NWC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>AKC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SWC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>SWC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>SEC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIP</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>SIP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GAR</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>GAR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OHC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>OHC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OLE</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>OLE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AKR</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>AKR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WCR</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>WCR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SER</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>SER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PIC</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>PIC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fmc_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PIR</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_fmc_lookup_table</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-31 16:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-31 16:59:21</sys_updated_on>
+            <u_realm/>
+            <value>PIR</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

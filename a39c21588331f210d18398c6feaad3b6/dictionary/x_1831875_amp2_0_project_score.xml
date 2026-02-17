@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b07ccdc9479276106ca043ff336d43f8" label="Project Score" max_length="40" name="x_1831875_amp2_0_project_score" type="collection">
+        <element label="Criteria" max_length="32" name="criteria" reference="x_1831875_amp2_0_scoring_criteria" type="reference"/>
+        <element label="Project" max_length="32" name="project" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Score" max_length="40" name="score" type="integer"/>
+        <element label="Weighted Score" max_length="40" name="weighted_score" type="string"/>
+        <index name="index">
+            <element name="criteria"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

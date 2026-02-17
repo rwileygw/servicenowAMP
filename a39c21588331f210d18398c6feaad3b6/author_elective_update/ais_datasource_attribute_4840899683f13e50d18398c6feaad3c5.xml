@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_attribute">
+    <ais_datasource_attribute action="DELETE">
+        <attribute display_value="index_attachments">2dd8f14753320010ffaaddeeff7b1293</attribute>
+        <datasource display_value="Project Status Table">c040899683f13e50d18398c6feaad3c4</datasource>
+        <source>x_1831875_amp2_0_project_status</source>
+        <sys_class_name>ais_datasource_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:18:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4840899683f13e50d18398c6feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>ais_datasource_attribute_4840899683f13e50d18398c6feaad3c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:18:04</sys_updated_on>
+        <value>false</value>
+    </ais_datasource_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>ais_datasource_attribute_4840899683f13e50d18398c6feaad3c5</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_attribute"><ais_datasource_attribute action="INSERT_OR_UPDATE"><attribute display_value="index_attachments">2dd8f14753320010ffaaddeeff7b1293</attribute><datasource display_value="Project Status Table">c040899683f13e50d18398c6feaad3c4</datasource><source>x_1831875_amp2_0_project_status</source><sys_class_name>ais_datasource_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-15 21:18:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4840899683f13e50d18398c6feaad3c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>ais_datasource_attribute_4840899683f13e50d18398c6feaad3c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-15 21:18:04</sys_updated_on><value>false</value></ais_datasource_attribute></record_update>]]></payload>
+        <payload_hash>42801403</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 04:37:20</sys_created_on>
+        <sys_id>1fed17c5473632106ca043ff336d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c12575a3c0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:37:20</sys_updated_on>
+        <type>AI Search Indexed Source Attribute</type>
+        <update_guid>53ed17c52f36321052de3766c6250af1</update_guid>
+        <update_guid_history>53ed17c52f36321052de3766c6250af1:42801403,04485b819eb23210277e34bc04dd0584:250930755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-31 03:00:03">645c8499873a3210fd6c0f280cbb3524</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-31 08:00:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ais_datasource_attribute">ais_datasource_attribute</sys_db_object>
+        <sys_id>6392e3009efa40c08fc2a2271c02ca40</sys_id>
+        <sys_metadata>4840899683f13e50d18398c6feaad3c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>ais_datasource_attribute_4840899683f13e50d18398c6feaad3c5</sys_update_name>
+        <sys_update_version display_value="ais_datasource_attribute_4840899683f13e50d18398c6feaad3c5">1fed17c5473632106ca043ff336d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-31 08:00:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

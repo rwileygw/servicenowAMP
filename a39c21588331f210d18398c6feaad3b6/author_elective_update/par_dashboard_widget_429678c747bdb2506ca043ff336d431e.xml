@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">90b315c887d6b2d0fd6c0f280cbb35df</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"active=true","id":"798de58687723610fd6c0f280cbb359b","isDatabaseView":false,"preferredVisualizations":[],"sourceType":"table","tableOrViewName":"x_1831875_amp2_0_rpv_room_data"}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":20,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":true,"showColumnSorting":true,"followFilters":true,"groupByField":"","showLinks":true,"showViewAll":true,"showInlineEditing":true,"table":"x_1831875_amp2_0_rpv_room_data","headerTitle":"RPV Room Data","columns":"fmc,fac_code,complex_name,complex_id,building_service_area,comment,fy,functionality_flag,property_name,prop_id,space_type,sustainment_requirement,tenant_area","showBorder":true}</component_props>
+        <h>21</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-18 04:31:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>429678c747bdb2506ca043ff336d431e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_429678c747bdb2506ca043ff336d431e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-02-02 23:00:11</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_429678c747bdb2506ca043ff336d431e</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">90b315c887d6b2d0fd6c0f280cbb35df</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"active=true","id":"798de58687723610fd6c0f280cbb359b","isDatabaseView":false,"preferredVisualizations":[],"sourceType":"table","tableOrViewName":"x_1831875_amp2_0_rpv_room_data"}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":20,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":true,"showColumnSorting":true,"followFilters":true,"groupByField":"","showLinks":true,"showViewAll":true,"showInlineEditing":true,"table":"x_1831875_amp2_0_rpv_room_data","headerTitle":"RPV Room Data","columns":"fmc,fac_code,complex_name,complex_id,building_service_area,comment,fy,functionality_flag,property_name,prop_id,space_type,sustainment_requirement,tenant_area","showBorder":true}</component_props><h>21</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2025-12-18 04:31:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>429678c747bdb2506ca043ff336d431e</sys_id><sys_mod_count>10</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_429678c747bdb2506ca043ff336d431e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-02-02 23:00:11</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-183244158</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3dd6f8c14c3030001b32b3c299db18fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-02-02 23:00:11</sys_created_on>
+        <sys_id>318de58687723610fd6c0f280cbb35a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c2095c3cd0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-02-02 23:00:11</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>7d8de5861d72361008d9371bcce3829e</update_guid>
+        <update_guid_history>7d8de5861d72361008d9371bcce3829e:-183244158,afad93859f363210b861a473d5d1895b:-294726456,2d485f81e5b23210d84cf4933ab3083e:-1349420210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-02-03 13:08:06">3c44751a8736f610fd6c0f280cbb354a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-02-03 18:08:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>b849c1f6f11848c6b9c511b375b49de4</sys_id>
+        <sys_metadata>429678c747bdb2506ca043ff336d431e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_429678c747bdb2506ca043ff336d431e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_429678c747bdb2506ca043ff336d431e">318de58687723610fd6c0f280cbb35a0</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-02-03 18:08:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

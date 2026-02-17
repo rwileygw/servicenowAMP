@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="fmc_complex" table="x_1831875_amp2_0_complex">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>FMC Complex</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fmc_complex</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1831875_amp2_0_complex</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1831875_amp2_0_fmc_lookup_table">x_1831875_amp2_0_fmc_lookup_table</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-19 15:48:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>75ead0a747b5b6506ca043ff336d43c3</sys_id>
+        <sys_name>FMC Complex</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_fmc_complex</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 22:01:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_dictionary_x_1831875_amp2_0_complex_fmc_complex</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="fmc_complex" table="x_1831875_amp2_0_complex"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation><choice/><choice_field/><choice_table/><column_label>FMC Complex</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>fmc_complex</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1831875_amp2_0_complex</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1831875_amp2_0_fmc_lookup_table">x_1831875_amp2_0_fmc_lookup_table</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2025-12-19 15:48:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>75ead0a747b5b6506ca043ff336d43c3</sys_id><sys_name>FMC Complex</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_fmc_complex</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2025-12-30 22:01:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1072043237</payload_hash>
+        <record_name>Complex.FMC Complex</record_name>
+        <reverted_from/>
+        <source>8fb90baa47b132506ca043ff336d4397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2025-12-30 22:01:56</sys_created_on>
+        <sys_id>452ad2c387423e90fd6c0f280cbb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b714835ac0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2025-12-30 22:01:56</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>492a9603a1423e90686880b991edc932</update_guid>
+        <update_guid_history>492a9603a1423e90686880b991edc932:-1072043237,cba89e4fd7023e9083869bd91b042874:-2032611118,ce032432874a7a903c6660b6c67c6dd3:1976362506,cee2a032864a7a90ae344ef4b588817c:-2032611118,c11b18a720b5b6501e1668c257f41072:-1072043237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-12 14:52:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>8f41533ddafa4b489cbff707a2617f10</sys_id>
+        <sys_metadata>75ead0a747b5b6506ca043ff336d43c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FMC Complex</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="">4e7a198583317e10d18398c6feaad358</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1831875_amp2_0_complex_fmc_complex</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1831875_amp2_0_complex_fmc_complex">452ad2c387423e90fd6c0f280cbb3562</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-12 14:52:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

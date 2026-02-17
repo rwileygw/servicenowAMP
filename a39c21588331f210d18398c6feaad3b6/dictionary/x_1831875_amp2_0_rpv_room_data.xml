@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d3b1e3a473d72506ca043ff336d43a8" label="RPV Room Data" max_length="40" name="x_1831875_amp2_0_rpv_room_data" type="collection">
+        <element label="ACF" max_length="40" name="acf" type="string"/>
+        <element label="Area" max_length="40" name="area" type="string"/>
+        <element label="Building Allocation Ratio" max_length="40" name="building_allocation_ratio" type="string"/>
+        <element label="Building Amenity And Service Area" max_length="40" name="building_amenity_and_service_area" type="string"/>
+        <element label="Building Amenity Area" max_length="40" name="building_amenity_area" type="string"/>
+        <element label="Building Service Area" max_length="40" name="building_service_area" type="string"/>
+        <element label="Comment" max_length="40" name="comment" type="string"/>
+        <element label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element label="Complex Id" max_length="40" name="complex_id" type="string"/>
+        <element label="Complex Name" max_length="40" name="complex_name" type="string"/>
+        <element label="Complex Nickname" max_length="40" name="complex_nickname" type="string"/>
+        <element label="FAC Code" max_length="40" name="fac_code" type="string"/>
+        <element label="FAC Desc" max_length="40" name="fac_desc" type="string"/>
+        <element label="Floor Allocation" max_length="40" name="floor_allocation" type="string"/>
+        <element label="Floor Allocation Ratio" max_length="40" name="floor_allocation_ratio" type="string"/>
+        <element label="Floor Level" max_length="40" name="floor_level" type="string"/>
+        <element label="Floor Service Area" max_length="40" name="floor_service_area" type="string"/>
+        <element label="Floor Usable  Area" max_length="40" name="floor_usable_area" type="string"/>
+        <element label="FMC" max_length="40" name="fmc" type="string"/>
+        <element label="Functionality Flag" max_length="40" name="functionality_flag" type="string"/>
+        <element label="FY" max_length="40" name="fy" type="string"/>
+        <element label="GSA SDM Room Name" max_length="40" name="gsa_sdm_room_name" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element label="Occupant Area" max_length="40" name="occupant_area" type="string"/>
+        <element label="Ownership" max_length="40" name="ownership" type="string"/>
+        <element label="Percent Use" max_length="40" name="percent_use" type="string"/>
+        <element label="Predominant Use" max_length="40" name="predominant_use" type="string"/>
+        <element label="Predom Use Type" max_length="40" name="predom_use_type" type="string"/>
+        <element label="Primary Occupant" max_length="40" name="primary_occupant" type="string"/>
+        <element label="Property Name" max_length="40" name="property_name" type="string"/>
+        <element label="Property Nickname" max_length="40" name="property_nickname" type="string"/>
+        <element label="Prop ID" max_length="40" name="prop_id" type="string"/>
+        <element label="Rentable Area" max_length="40" name="rentable_area" type="string"/>
+        <element label="Room Number (Onsite)" max_length="40" name="room_number_onsite" type="string"/>
+        <element label="Room Number (Plans)" max_length="40" name="room_number_plans" type="string"/>
+        <element label="Space Type" max_length="40" name="space_type" type="string"/>
+        <element label="SUC" max_length="40" name="suc" type="string"/>
+        <element label="Sustainment Requirement" max_length="40" name="sustainment_requirement" type="string"/>
+        <element label="Tenant Ancillary Area" max_length="40" name="tenant_ancillary_area" type="string"/>
+        <element label="Tenant Area" max_length="40" name="tenant_area" type="string"/>
+        <element label="UOM" max_length="40" name="uom" type="string"/>
+        <element label="Vacant?" max_length="40" name="vacant" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>

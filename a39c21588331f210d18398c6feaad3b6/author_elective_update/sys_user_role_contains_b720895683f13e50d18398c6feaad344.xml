@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_1831875_amp2_0.fmc_rep" name="x_1831875_amp2_0.fmc_rep">d5be0d4183bd3e10d18398c6feaad312</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:17:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b720895683f13e50d18398c6feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1831875_amp2_0.fmc_rep</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_contains_b720895683f13e50d18398c6feaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:17:47</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_user_role_contains_b720895683f13e50d18398c6feaad344</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains><role display_value="x_1831875_amp2_0.fmc_rep" name="x_1831875_amp2_0.fmc_rep">d5be0d4183bd3e10d18398c6feaad312</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-15 21:17:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b720895683f13e50d18398c6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_name>canvas_user.x_1831875_amp2_0.fmc_rep</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_user_role_contains_b720895683f13e50d18398c6feaad344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-15 21:17:47</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-881733088</payload_hash>
+        <record_name>canvas_user.x_1831875_amp2_0.fmc_rep</record_name>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 04:53:49</sys_created_on>
+        <sys_id>78b16381477632106ca043ff336d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c126672d00000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:53:49</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>bcb163816e7632102921a3cc998d33fc</update_guid>
+        <update_guid_history>bcb163816e7632102921a3cc998d33fc:-881733088,4088dbc99db232104a416cc75cd275f2:2034225694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 04:15:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>5178b974098047849427577d2339e784</sys_id>
+        <sys_metadata>b720895683f13e50d18398c6feaad344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1831875_amp2_0.fmc_rep</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_b720895683f13e50d18398c6feaad344</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_b720895683f13e50d18398c6feaad344">78b16381477632106ca043ff336d43fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 04:15:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
