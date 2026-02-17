@@ -3,7 +3,7 @@
         <element label="Acquisition Method" max_length="40" name="acquisition_method" type="string"/>
         <element label="Legal Interest" max_length="40" name="legal_interest" type="string"/>
         <element label="Portfolio" max_length="40" name="portfolio" type="string"/>
-        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Region" max_length="60" name="region" type="string"/>
         <element label="Reporting Bureau" max_length="40" name="reporting_bureau" type="string"/>
         <element label="RMO" max_length="40" name="rmo" type="string"/>
         <element label="Source of Space" max_length="40" name="source_of_space" type="string"/>
