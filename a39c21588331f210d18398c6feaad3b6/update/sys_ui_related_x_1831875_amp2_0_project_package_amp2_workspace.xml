@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_1831875_amp2_0_project_package" version="2" view="amp2_workspace">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Project Package - AMP2 Workspace" name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">74b2e1528772f610fd6c0f280cbb35b2</list_id>
+            <list_id display_value="Project Package - AMP2 Workspace" name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">8985b90487c84f90fd6c0f280cbb3533</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_1831875_amp2_0_builder_data_table.project_package_reference</related_list>
+            <related_list>REL:fe18fe8c47b3b2106ca043ff336d43f5</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-03 16:51:22</sys_created_on>
-            <sys_id>f0b2a5528772f610fd6c0f280cbb3553</sys_id>
+            <sys_created_on>2026-03-30 21:45:43</sys_created_on>
+            <sys_id>4185b90487c84f90fd6c0f280cbb3536</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-03 16:51:22</sys_updated_on>
+            <sys_updated_on>2026-03-30 21:45:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Project Package - AMP2 Workspace" name="x_1831875_amp2_0_project_package" related_list="NULL" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">8985b90487c84f90fd6c0f280cbb3533</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1831875_amp2_0_project_intake_task.u_project_package</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-30 21:45:43</sys_created_on>
+            <sys_id>cd85b90487c84f90fd6c0f280cbb3536</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-30 21:45:43</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Project Package - AMP2 Workspace</calculated_name>
@@ -23,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-03 16:51:22</sys_created_on>
+            <sys_created_on>2026-03-30 21:45:43</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>74b2e1528772f610fd6c0f280cbb35b2</sys_id>
+            <sys_id>8985b90487c84f90fd6c0f280cbb3533</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Project Package - AMP2 Workspace</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -35,7 +49,7 @@
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_related_x_1831875_amp2_0_project_package_amp2_workspace</sys_update_name>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-03 16:51:22</sys_updated_on>
+            <sys_updated_on>2026-03-30 21:45:43</sys_updated_on>
             <sys_user/>
             <view display_value="AMP2 Workspace" name="amp2_workspace">bd20055692f13e50932400cb109d5ece</view>
             <view_name/>

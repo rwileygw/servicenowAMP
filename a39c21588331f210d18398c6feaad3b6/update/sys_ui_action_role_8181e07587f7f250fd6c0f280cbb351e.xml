@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-03-23 16:11:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8181e07587f7f250fd6c0f280cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Project Package.x_1831875_amp2_0.user</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_ui_action display_value="Submit Project Package">4d2ecb4847f7b2106ca043ff336d4329</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_8181e07587f7f250fd6c0f280cbb351e</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-03-23 16:11:19</sys_updated_on>
+        <sys_user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

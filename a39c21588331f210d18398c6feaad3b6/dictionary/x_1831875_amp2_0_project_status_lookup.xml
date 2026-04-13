@@ -4,22 +4,31 @@
         <element label="Status ID" max_length="40" name="status_id" type="string"/>
         <element choice="1" display="true" label="Status Name" max_length="100" name="status_name" type="choice">
             <choice>
-                <element inactive_on_update="false" label="DRAFT" value="DRAFT"/>
-                <element inactive_on_update="false" label="PROPOSED BY SITE REP" sequence="0" value="PROPOSED_BY_SITE_REP"/>
-                <element inactive_on_update="false" label="PROPOSED BY FMC" sequence="1" value="PROPOSED_BY_FMC"/>
-                <element inactive_on_update="false" label="Approved by OMI Chief" sequence="2" value="approved_by_omi_chief"/>
-                <element inactive_on_update="false" label="Accepted by HQ" sequence="3" value="accepted_by_hq"/>
-                <element inactive_on_update="false" label="Approved by Facility Council" sequence="4" value="approved_by_facility_council"/>
-                <element inactive_on_update="false" label="Awaiting Funds" sequence="5" value="awaiting_funds"/>
-                <element inactive_on_update="false" label="Funds Transferred from HQ" sequence="6" value="funds_transferred_from_hq"/>
-                <element inactive_on_update="false" label="In Procurement" sequence="7" value="in_procurement"/>
-                <element inactive_on_update="false" label="Out to Bid" sequence="8" value="out_to_bid"/>
-                <element inactive_on_update="false" label="Awarded" sequence="9" value="awarded"/>
-                <element inactive_on_update="false" label="Completed" sequence="10" value="completed"/>
-                <element inactive_on_update="false" label="Deferment Requested" sequence="11" value="deferment_requested"/>
-                <element inactive_on_update="false" label="Deletion Requested" sequence="12" value="deletion_requested"/>
-                <element inactive_on_update="false" label="Canceled" sequence="13" value="canceled"/>
-                <element inactive_on_update="false" label="Deleted" sequence="14" value="deleted"/>
+                <element inactive_on_update="false" label="ACCEPTED BY HQ" sequence="0" value="ACCEPTED BY HQ"/>
+                <element inactive="true" inactive_on_update="true" label="APPROVED BY OMI CHIEF" sequence="0" value="APPROVED BY OMI CHIEF"/>
+                <element inactive="true" inactive_on_update="true" label="ACCEPTED BY HQ" sequence="1" value="ACCEPTED BY HQ"/>
+                <element inactive_on_update="false" label="APPROVED BY FACILITY COUNCIL" sequence="1" value="APPROVED BY FACILITY COUNCIL"/>
+                <element inactive="true" inactive_on_update="true" label="APPROVED BY FACILITY COUNCIL" sequence="2" value="APPROVED BY FACILITY COUNCIL"/>
+                <element inactive_on_update="false" label="APPROVED BY OMI CHIEF" sequence="2" value="APPROVED BY OMI CHIEF"/>
+                <element inactive_on_update="false" label="AWAITING FUNDS" sequence="3" value="AWAITING FUNDS"/>
+                <element inactive="true" inactive_on_update="true" label="AWAITING FUNDS" sequence="3" value="AWAITING FUNDS"/>
+                <element inactive="true" inactive_on_update="true" label="FUNDS TRANSFERRED FROM HQ" sequence="4" value="FUNDS TRANSFERRED FROM HQ"/>
+                <element inactive="true" inactive_on_update="true" label="IN PROCUREMENT" sequence="5" value="IN PROCUREMENT"/>
+                <element inactive="true" inactive_on_update="true" label="OUT TO BID" sequence="6" value="OUT TO BID"/>
+                <element inactive="true" inactive_on_update="true" label="AWARDED" sequence="7" value="AWARDED"/>
+                <element inactive_on_update="false" label="DEFERMENT REQUESTED" sequence="7" value="DEFERMENT REQUESTED"/>
+                <element inactive="true" inactive_on_update="true" label="COMPLETED" sequence="8" value="COMPLETED"/>
+                <element inactive_on_update="false" label="DELETION REQUESTED" sequence="8" value="DELETION REQUESTED"/>
+                <element inactive="true" inactive_on_update="true" label="DEFERMENT REQUESTED" sequence="9" value="DEFERMENT REQUESTED"/>
+                <element inactive_on_update="false" label="DRAFT" sequence="9" value="DRAFT"/>
+                <element inactive="true" inactive_on_update="true" label="DELETION REQUESTED" sequence="10" value="DELETION REQUESTED"/>
+                <element inactive_on_update="false" label="FUNDS TRANSFERRED FROM HQ" sequence="10" value="FUNDS TRANSFERRED FROM HQ"/>
+                <element inactive="true" inactive_on_update="true" label="CANCELED" sequence="11" value="CANCELED"/>
+                <element inactive_on_update="false" label="IN PROCUREMENT" sequence="11" value="IN PROCUREMENT"/>
+                <element inactive="true" inactive_on_update="true" label="Deleted" sequence="12" value="deleted"/>
+                <element inactive_on_update="false" label="OUT TO BID" sequence="12" value="OUT TO BID"/>
+                <element inactive_on_update="false" label="PROPOSED BY FMC" sequence="13" value="PROPOSED_BY_FMC"/>
+                <element inactive_on_update="false" label="PROPOSED BY SITE REP" sequence="14" value="PROPOSED_BY_SITE_REP"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>

@@ -14,7 +14,7 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo/>
-        <menu display_value="AMP2">8f950e42479e3e106ca043ff336d434f</menu>
+        <menu display_value="AMP2.0">8f950e42479e3e106ca043ff336d434f</menu>
         <name>AMP2.0</name>
         <package_json/>
         <private>false</private>
@@ -32,13 +32,13 @@
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2025-12-09 19:24:04</sys_created_on>
         <sys_id>a39c21588331f210d18398c6feaad3b6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-02-17 21:04:15</sys_updated_on>
+        <sys_updated_on>2026-04-07 19:10:58</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role/>
+        <user_role display_value="x_1831875_amp2_0.user" name="x_1831875_amp2_0.user">e39c61588331f210d18398c6feaad3a4</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.1</version>

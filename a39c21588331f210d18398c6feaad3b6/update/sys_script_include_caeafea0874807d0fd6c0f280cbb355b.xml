@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1831875_amp2_0.AMPFmcDynamicFilter</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AMPFmcDynamicFilter</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AMPFmcDynamicFilter = Class.create();
+AMPFmcDynamicFilter.prototype = {
+    getUserFMCs: function() {
+        var userId = gs.getUserID();
+        var fmcList = [];
+        if (gs.hasRole('x_1831875_amp2_0.super_user')) {
+            return '';
+        }
+        var gr = new GlideRecord('x_1821875_amp2_0_user_fmc_access');
+        gr.addQuery('u_user', userId);
+        gr.addQuery('u_active ', true);
+        gr.addQuery();
+
+        while (gr.next()) {
+            fmcList.push(gr.getValue('u_fmc'));
+
+        }
+        return fmcList.join(',');
+    },
+
+    type: 'AMPFmcDynamicFilter'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 16:10:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>caeafea0874807d0fd6c0f280cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMPFmcDynamicFilter</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_include_caeafea0874807d0fd6c0f280cbb355b</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-01 16:10:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

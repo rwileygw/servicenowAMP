@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>FMC Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="FMC Home">a6168c3887c447d0fd6c0f280cbb3552</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>fmc-home</route_type>
+        <screen_type display_value="Home">b120055696f13e50ebf02f091bb939cf</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 17:36:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1ef89c8d87880bd0fd6c0f280cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FMC Home</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_app_route_1ef89c8d87880bd0fd6c0f280cbb3501</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 17:36:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ux_app_route_1ef89c8d87880bd0fd6c0f280cbb3501</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>FMC Home</name><optional_parameters/><order>0</order><parent_macroponent display_value="FMC Home">a6168c3887c447d0fd6c0f280cbb3552</parent_macroponent><parent_macroponent_composition_element_id/><route_type>fmc-home</route_type><screen_type display_value="Home">b120055696f13e50ebf02f091bb939cf</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-04-02 17:36:29</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1ef89c8d87880bd0fd6c0f280cbb3501</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FMC Home</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ux_app_route_1ef89c8d87880bd0fd6c0f280cbb3501</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-02 17:36:29</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>1287631672</payload_hash>
+        <record_name>FMC Home</record_name>
+        <reverted_from/>
+        <source>cce75b2c878c07d0fd6c0f280cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 17:36:29</sys_created_on>
+        <sys_id>1b39d8cd87880bd0fd6c0f280cbb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4f449a3b0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 17:36:29</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>1f3998cd09880bd00dd8f8ea59b96e1c</update_guid>
+        <update_guid_history>1f3998cd09880bd00dd8f8ea59b96e1c:1287631672</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 17:37:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>3358b3a365714e0390fc2154a4b78a01</sys_id>
+        <sys_metadata>1ef89c8d87880bd0fd6c0f280cbb3501</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FMC Home</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_1ef89c8d87880bd0fd6c0f280cbb3501</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_1ef89c8d87880bd0fd6c0f280cbb3501">1b39d8cd87880bd0fd6c0f280cbb35f6</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 17:37:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

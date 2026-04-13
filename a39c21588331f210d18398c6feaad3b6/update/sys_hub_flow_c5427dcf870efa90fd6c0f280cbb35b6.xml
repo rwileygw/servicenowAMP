@@ -20,7 +20,7 @@
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
-        <name>AMP Project Flow</name>
+        <name>Project Package Submission Approval</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -38,8 +38,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c5427dcf870efa90fd6c0f280cbb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>AMP Project Flow</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Project Package Submission Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -47,11 +47,11 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_hub_flow_c5427dcf870efa90fd6c0f280cbb35b6</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2025-12-30 19:07:43</sys_updated_on>
+        <sys_updated_on>2026-03-03 22:08:48</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record/>
+        <version_record>edd7fe5747db7e906ca043ff336d437a</version_record>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=c5427dcf870efa90fd6c0f280cbb35b6"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c5427dcf870efa90fd6c0f280cbb35b6"/>

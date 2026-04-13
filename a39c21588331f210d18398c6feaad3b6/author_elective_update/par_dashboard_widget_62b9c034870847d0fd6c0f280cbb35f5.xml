@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">e2b9c034870847d0fd6c0f280cbb35f1</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"836005da83f13e50d18398c6feaad3c3","dataCategories":["trend","group","simple"]}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"h12leqw1","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":true,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":100,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_1831875_amp2_0_project_package","headerTitle":"","columns":"u_project_id,u_project_title,total_project_score,u_property,u_property.u_property_id,u_complex,u_complex.u_complex_id,u_complex.u_relevant_ppas,u_total_funds,risk_score,project_status,ranking_factors"}</component_props>
+        <h>45</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:50:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>62b9c034870847d0fd6c0f280cbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_62b9c034870847d0fd6c0f280cbb35f5</sys_update_name>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-01 21:50:14</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_62b9c034870847d0fd6c0f280cbb35f5</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">e2b9c034870847d0fd6c0f280cbb35f1</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"836005da83f13e50d18398c6feaad3c3","dataCategories":["trend","group","simple"]}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"h12leqw1","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":true,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":100,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_1831875_amp2_0_project_package","headerTitle":"","columns":"u_project_id,u_project_title,total_project_score,u_property,u_property.u_property_id,u_complex,u_complex.u_complex_id,u_complex.u_relevant_ppas,u_total_funds,risk_score,project_status,ranking_factors"}</component_props><h>45</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ben.davis</sys_created_by><sys_created_on>2026-04-01 21:50:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>62b9c034870847d0fd6c0f280cbb35f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_62b9c034870847d0fd6c0f280cbb35f5</sys_update_name><sys_updated_by>ben.davis</sys_updated_by><sys_updated_on>2026-04-01 21:50:14</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1605922892</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c7afc724874c07d0fd6c0f280cbb3579</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:50:14</sys_created_on>
+        <sys_id>62b9c034870847d0fd6c0f280cbb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4b068fe90000001</sys_recorded_at>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-01 21:50:14</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>eeb9c0343a0847d0a8e5cf4d9341eef7</update_guid>
+        <update_guid_history>eeb9c0343a0847d0a8e5cf4d9341eef7:-1605922892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-01 17:50:15">beb94434870847d0fd6c0f280cbb355c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:50:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>27ab760fe3e44cc1840978b44d33a361</sys_id>
+        <sys_metadata>62b9c034870847d0fd6c0f280cbb35f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_62b9c034870847d0fd6c0f280cbb35f5</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_62b9c034870847d0fd6c0f280cbb35f5">62b9c034870847d0fd6c0f280cbb35f9</sys_update_version>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-01 21:50:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

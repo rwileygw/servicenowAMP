@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="AMP2.0 Dashboard">2e60c1da83f13e50d18398c6feaad33c</dashboard>
+        <name>New Tab 47</name>
+        <order>4</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 19:29:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3ff2f4cd470ccfd06ca043ff336d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 47</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_tab_3ff2f4cd470ccfd06ca043ff336d43a7</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:29:01</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_tab_3ff2f4cd470ccfd06ca043ff336d43a7</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="AMP2.0 Dashboard">2e60c1da83f13e50d18398c6feaad33c</dashboard><name>New Tab 47</name><order>4</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-04-02 19:29:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>3ff2f4cd470ccfd06ca043ff336d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 47</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_tab_3ff2f4cd470ccfd06ca043ff336d43a7</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-02 19:29:01</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>-1490254228</payload_hash>
+        <record_name>New Tab 47</record_name>
+        <reverted_from/>
+        <source>6f3ed441870c0bd0fd6c0f280cbb3543</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 19:29:01</sys_created_on>
+        <sys_id>fff2f4cd470ccfd06ca043ff336d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4faba2840000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:29:01</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>7ff2f4cd800ccfd0c3bbf4846fd8dca9</update_guid>
+        <update_guid_history>7ff2f4cd800ccfd0c3bbf4846fd8dca9:-1490254228</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-02 15:29:08">190378cd470ccfd06ca043ff336d43e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 19:29:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>1b859e15da3840bc864b309784ad21b1</sys_id>
+        <sys_metadata>3ff2f4cd470ccfd06ca043ff336d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 47</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_3ff2f4cd470ccfd06ca043ff336d43a7</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_3ff2f4cd470ccfd06ca043ff336d43a7">fff2f4cd470ccfd06ca043ff336d43aa</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:29:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

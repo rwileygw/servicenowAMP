@@ -366,6 +366,10 @@
                     "category": "session"
                 },
                 "type": "CONTEXT_BINDING"
+            },
+            "drilldownToCoreUI": {
+                "type": "JSON_LITERAL",
+                "value": false
             }
         },
         "slot": null,
@@ -475,7 +479,7 @@
         <sys_created_on>2025-12-15 21:17:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b520055675f13e50a995c0772e02f1c8</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -483,6 +487,6 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_macroponent_b520055675f13e50a995c0772e02f1c8</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-02-04 18:41:44</sys_updated_on>
+        <sys_updated_on>2026-04-02 15:33:44</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace_AMP2</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-31 04:14:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0fa8db4d47b232106ca043ff336d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace AMP2</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ui_view_0fa8db4d47b232106ca043ff336d43b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:14:23</sys_updated_on>
+        <title>Workspace AMP2</title>
+        <user/>
+    </sys_ui_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_view_0fa8db4d47b232106ca043ff336d43b0</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace_AMP2</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-31 04:14:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0fa8db4d47b232106ca043ff336d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace AMP2</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ui_view_0fa8db4d47b232106ca043ff336d43b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:14:23</sys_updated_on>
+        <title>Workspace AMP2</title>
+        <user/>
+    </sys_ui_view>
+</record_update>]]></payload>
+        <payload_hash>1001429431</payload_hash>
+        <record_name>Workspace AMP2</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:30:40</sys_created_on>
+        <sys_id>8b2fe7aa47a732106ca043ff336d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9c58f50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:30:40</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>c32fe7aa7ea73210085e17eeb1056e78</update_guid>
+        <update_guid_history>c32fe7aa7ea73210085e17eeb1056e78:0,13e1f8bf5ecbb690b16562ea58106b23:1007963215,8adc93c1b836321063ba2c0cd7112dc9:1007963215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-18 05:08:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>301fa505d3104338a1cd22de008ecb61</sys_id>
+        <sys_metadata>0fa8db4d47b232106ca043ff336d43b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace AMP2</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_view_0fa8db4d47b232106ca043ff336d43b0</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_0fa8db4d47b232106ca043ff336d43b0">8b2fe7aa47a732106ca043ff336d4378</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-18 05:08:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

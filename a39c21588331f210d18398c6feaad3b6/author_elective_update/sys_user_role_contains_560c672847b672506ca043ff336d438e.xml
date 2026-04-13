@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="canvas_admin" name="canvas_admin">9706354bc713330072b211d4d8c260be</contains>
+        <role display_value="x_1831875_amp2_0.admin" name="x_1831875_amp2_0.admin">9bb65bcd473232106ca043ff336d43e8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-29 16:22:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>560c672847b672506ca043ff336d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_admin.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_contains_560c672847b672506ca043ff336d438e</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-29 16:22:01</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_user_role_contains_560c672847b672506ca043ff336d438e</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_admin" name="canvas_admin">9706354bc713330072b211d4d8c260be</contains>
+        <role display_value="x_1831875_amp2_0.admin" name="x_1831875_amp2_0.admin">9bb65bcd473232106ca043ff336d43e8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-29 16:22:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>560c672847b672506ca043ff336d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_admin.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_contains_560c672847b672506ca043ff336d438e</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-29 16:22:01</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>-325531137</payload_hash>
+        <record_name>canvas_admin.x_1831875_amp2_0.admin</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:32:06</sys_created_on>
+        <sys_id>088fef2247e732106ca043ff336d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9da8940000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:32:06</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>408fef221be73210607d743e4abd1d3d</update_guid>
+        <update_guid_history>408fef221be73210607d743e4abd1d3d:0,fbbd67a2df273210ae16c48db5c60251:-1808564782,62cf2c37b9cbb690f8fda21b0272d7a4:72906087,f03e1f09063632102ebca9883c378548:72906087,f378dbc90db23210132a42059f04eddf:482081452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-07 20:51:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>7fab5e5c29d544c0a4f5d4a55652d790</sys_id>
+        <sys_metadata>560c672847b672506ca043ff336d438e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_admin.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_560c672847b672506ca043ff336d438e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_560c672847b672506ca043ff336d438e">088fef2247e732106ca043ff336d433d</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-07 20:51:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

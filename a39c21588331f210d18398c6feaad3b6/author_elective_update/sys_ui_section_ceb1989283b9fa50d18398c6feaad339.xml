@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Real Property Information" section_id="ceb1989283b9fa50d18398c6feaad339" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Project_Input_Form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility.facility_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>49a96daa83753290d18398c6feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_built.year_constructed</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c5a96daa83753290d18398c6feaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status.status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>45a96daa83753290d18398c6feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mission_critical_flag</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c1a96daa83753290d18398c6feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>41a96daa83753290d18398c6feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building.construction_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>cda96daa83753290d18398c6feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gross_sqft.sqft</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>4da96daa83753290d18398c6feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_category.category_label</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c9a96daa83753290d18398c6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Real Property Information</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 17:54:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ceb1989283b9fa50d18398c6feaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_ceb1989283b9fa50d18398c6feaad339</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 17:54:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Project Input Form" name="Project_Input_Form">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_ceb1989283b9fa50d18398c6feaad339</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Real Property Information" section_id="ceb1989283b9fa50d18398c6feaad339" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Project_Input_Form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility.facility_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>49a96daa83753290d18398c6feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_built.year_constructed</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c5a96daa83753290d18398c6feaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status.status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>45a96daa83753290d18398c6feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mission_critical_flag</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c1a96daa83753290d18398c6feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>41a96daa83753290d18398c6feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building.construction_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>cda96daa83753290d18398c6feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gross_sqft.sqft</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>4da96daa83753290d18398c6feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_category.category_label</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_id>c9a96daa83753290d18398c6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Real Property Information" display_value="Real Property Information" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">ceb1989283b9fa50d18398c6feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Real Property Information</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 17:54:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ceb1989283b9fa50d18398c6feaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_ceb1989283b9fa50d18398c6feaad339</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 17:54:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Project Input Form" name="Project_Input_Form">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1839507158</payload_hash>
+        <record_name>Project Package</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:32:02</sys_created_on>
+        <sys_id>0f7feb2247e732106ca043ff336d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9d98490000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:32:02</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>477feb22e6e7321034c52bb29395a995</update_guid>
+        <update_guid_history>477feb22e6e7321034c52bb29395a995:0,72b13c7f83cbb6901b005a567aa17878:-137799050,b7622305497632109ec3a5a0167ebf2e:-137799050,17789bc977b23210a9835fd25fa0df1e:-1839507158</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-16 00:38:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>356e6562514c40a0bad498b560339484</sys_id>
+        <sys_metadata>ceb1989283b9fa50d18398c6feaad339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ceb1989283b9fa50d18398c6feaad339</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ceb1989283b9fa50d18398c6feaad339">0f7feb2247e732106ca043ff336d4395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-16 00:38:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

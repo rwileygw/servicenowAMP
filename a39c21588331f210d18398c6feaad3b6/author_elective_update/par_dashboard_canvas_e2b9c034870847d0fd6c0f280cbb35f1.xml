@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="AMP FMC Dashboard">66b9c034870847d0fd6c0f280cbb359d</dashboard>
+        <dashboard_tab display_value="Project List">aeb9c034870847d0fd6c0f280cbb35e0</dashboard_tab>
+        <layout>[{"sys_id":"f6b90434870847d0fd6c0f280cbb358d","x":0,"y":0,"w":48,"h":45,"component_id":"7ff373544303121093711347efb8f23c","component_props":"{\"dataSources\":[{\"isDatabaseView\":false,\"allowRealTime\":true,\"label\":\"Project Package\",\"sourceType\":\"table\",\"tableOrViewName\":\"x_1831875_amp2_0_project_package\",\"filterQuery\":\"\",\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"id\":\"836005da83f13e50d18398c6feaad3c3\",\"dataCategories\":[\"trend\",\"group\",\"simple\"]}],\"additionalGroupByConfig\":[],\"allowAdditionalGroupByPerMetric\":false,\"componentId\":\"h12leqw1\",\"contextMenuActions\":[],\"description\":\"\",\"emptyStateAlignment\":\"vertical-centered\",\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateHeading\":\"No data available.\",\"emptyStateHeadingLevel\":3,\"emptyStateIllustration\":\"no-data\",\"enableCustomEmptyState\":false,\"enableDrilldown\":true,\"enableRealTimeUpdate\":false,\"filterConfigurations\":\"@state.parFilters\",\"headingLevel\":2,\"metrics\":[{\"aggregateFunction\":\"COUNT\",\"axisId\":\"primary\",\"dataSource\":\"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==\",\"numberFormat\":{\"customFormat\":false}}],\"showAdditionalGroupBySelector\":false,\"showFilterIcon\":true,\"showHeaderSeparator\":true,\"showHeader\":true,\"showLoadingIndicator\":false,\"wrapTitle\":true,\"parFilter\":\"\",\"parFilterConfig\":[],\"allowListPagination\":true,\"columnLimit\":0,\"limit\":100,\"maxCharLimit\":4000,\"columnPreferenceKey\":\"\",\"bareBorder\":false,\"wrapCellContent\":\"useLineBreaksUserPref\",\"showPersonalization\":true,\"hideDotwalk\":false,\"showColumnReorder\":false,\"showColumnGrouping\":false,\"showColumnResizing\":false,\"showColumnFiltering\":false,\"showColumnSorting\":true,\"followFilters\":true,\"showLinks\":true,\"showViewAll\":true,\"showInlineEditing\":false,\"table\":\"x_1831875_amp2_0_project_package\",\"headerTitle\":\"\",\"columns\":\"u_project_id,u_project_title,total_project_score,u_property,u_property.u_property_id,u_complex,u_complex.u_complex_id,u_complex.u_relevant_ppas,u_total_funds,risk_score,project_status,ranking_factors\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:50:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e2b9c034870847d0fd6c0f280cbb35f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_canvas_e2b9c034870847d0fd6c0f280cbb35f1</sys_update_name>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-02 03:16:04</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_canvas_e2b9c034870847d0fd6c0f280cbb35f1</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="AMP FMC Dashboard">66b9c034870847d0fd6c0f280cbb359d</dashboard><dashboard_tab display_value="Project List">aeb9c034870847d0fd6c0f280cbb35e0</dashboard_tab><layout>[{"sys_id":"f6b90434870847d0fd6c0f280cbb358d","x":0,"y":0,"w":48,"h":45,"component_id":"7ff373544303121093711347efb8f23c","component_props":"{\"dataSources\":[{\"isDatabaseView\":false,\"allowRealTime\":true,\"label\":\"Project Package\",\"sourceType\":\"table\",\"tableOrViewName\":\"x_1831875_amp2_0_project_package\",\"filterQuery\":\"\",\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"id\":\"836005da83f13e50d18398c6feaad3c3\",\"dataCategories\":[\"trend\",\"group\",\"simple\"]}],\"additionalGroupByConfig\":[],\"allowAdditionalGroupByPerMetric\":false,\"componentId\":\"h12leqw1\",\"contextMenuActions\":[],\"description\":\"\",\"emptyStateAlignment\":\"vertical-centered\",\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateHeading\":\"No data available.\",\"emptyStateHeadingLevel\":3,\"emptyStateIllustration\":\"no-data\",\"enableCustomEmptyState\":false,\"enableDrilldown\":true,\"enableRealTimeUpdate\":false,\"filterConfigurations\":\"@state.parFilters\",\"headingLevel\":2,\"metrics\":[{\"aggregateFunction\":\"COUNT\",\"axisId\":\"primary\",\"dataSource\":\"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==\",\"numberFormat\":{\"customFormat\":false}}],\"showAdditionalGroupBySelector\":false,\"showFilterIcon\":true,\"showHeaderSeparator\":true,\"showHeader\":true,\"showLoadingIndicator\":false,\"wrapTitle\":true,\"parFilter\":\"\",\"parFilterConfig\":[],\"allowListPagination\":true,\"columnLimit\":0,\"limit\":100,\"maxCharLimit\":4000,\"columnPreferenceKey\":\"\",\"bareBorder\":false,\"wrapCellContent\":\"useLineBreaksUserPref\",\"showPersonalization\":true,\"hideDotwalk\":false,\"showColumnReorder\":false,\"showColumnGrouping\":false,\"showColumnResizing\":false,\"showColumnFiltering\":false,\"showColumnSorting\":true,\"followFilters\":true,\"showLinks\":true,\"showViewAll\":true,\"showInlineEditing\":false,\"table\":\"x_1831875_amp2_0_project_package\",\"headerTitle\":\"\",\"columns\":\"u_project_id,u_project_title,total_project_score,u_property,u_property.u_property_id,u_complex,u_complex.u_complex_id,u_complex.u_relevant_ppas,u_total_funds,risk_score,project_status,ranking_factors\"}","can_edit":true}]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>ben.davis</sys_created_by><sys_created_on>2026-04-01 21:50:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>e2b9c034870847d0fd6c0f280cbb35f1</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_canvas_e2b9c034870847d0fd6c0f280cbb35f1</sys_update_name><sys_updated_by>ben.davis</sys_updated_by><sys_updated_on>2026-04-02 03:16:04</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-502394577</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cce75b2c878c07d0fd6c0f280cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-02 03:16:04</sys_created_on>
+        <sys_id>e3441d7c870487d0fd6c0f280cbb358c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>19d4c30deda0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 03:24:52</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>af441d7c8a0487d0e907b2dbfdb49d8a</update_guid>
+        <update_guid_history>af441d7c8a0487d0e907b2dbfdb49d8a:-502394577,efdfc570c30487d01747125f630dc388:910729762,4fb944344d0847d0f72597fce96777f9:-2145231836,66b9c034e20847d065ffec6e021995f3:246834657</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-02 12:28:37">59b9408187080bd0fd6c0f280cbb3531</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-02 16:28:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>86d811494bfe458a9759375be075ef91</sys_id>
+        <sys_metadata>e2b9c034870847d0fd6c0f280cbb35f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_e2b9c034870847d0fd6c0f280cbb35f1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_e2b9c034870847d0fd6c0f280cbb35f1">e3441d7c870487d0fd6c0f280cbb358c</sys_update_version>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-02 16:28:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

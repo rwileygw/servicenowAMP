@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="de865e9883b9f210d18398c6feaad348" label="Project Package" max_length="40" name="x_1831875_amp2_0_project_package" text_index="true" type="collection">
+    <element audit="true" db_object_id="de865e9883b9f210d18398c6feaad348" label="Project Package" max_length="40" name="x_1831875_amp2_0_project_package" text_index="true" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual Cost" max_length="38" name="actual_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approvals" max_length="32" name="approvals" reference="sysapproval_approver" type="reference"/>
         <element label="Asset Category" max_length="32" name="asset_category" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element label="Building" max_length="32" name="building" reference="x_1831875_amp2_0_prop_inventory" type="reference"/>
         <element label="Building Number" max_length="32" name="building_number" reference="x_1831875_amp2_0_prop_inventory" type="reference"/>
@@ -44,7 +45,6 @@
             </choice>
         </element>
         <element dependent="fmc" dependent_on_field="fmc" label="Complex Name" max_length="32" name="complex_ref" reference="x_1831875_amp2_0_fmc_lookup_table" type="reference" use_dependent_field="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Comp ID" max_length="40" name="comp_id" type="string" use_dependent_field="true"/>
         <element audit="true" label="created from minor const" max_length="40" name="created_from_minor_const" type="boolean"/>
         <element audit="true" label="created from rol" max_length="40" name="created_from_rol" type="boolean"/>
         <element audit="true" label="current round" max_length="40" name="current_round" type="integer"/>
@@ -62,16 +62,6 @@
         <element label="Facility" max_length="32" name="facility" reference="x_1831875_amp2_0_facility" type="reference"/>
         <element label="Fiscal Year" max_length="40" name="fiscal_year" type="integer"/>
         <element label="Floor" max_length="32" name="floor" reference="x_1831875_amp2_0_floor" type="reference"/>
-        <element choice="1" label="FMC" max_length="32" name="fmc" type="string">
-            <choice>
-                <element inactive_on_update="false" label="AKC" sequence="0" value="AKC"/>
-                <element inactive_on_update="false" label="NEC" sequence="3" value="NEC"/>
-                <element inactive_on_update="false" label="NWC" sequence="4" value="NWC"/>
-                <element inactive_on_update="false" label="OLE" sequence="8" value="OLE"/>
-                <element inactive_on_update="false" label="SEC" sequence="16" value="SEC"/>
-                <element inactive_on_update="false" label="SWC" sequence="19" value="SWC"/>
-            </choice>
-        </element>
         <element choice="1" label="FMC Priority" max_length="40" name="fmc_priority" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
@@ -96,20 +86,19 @@
                 <element inactive_on_update="false" label="20" sequence="19" value="20"/>
             </choice>
         </element>
-        <element label="Gross SqFt" max_length="32" name="gross_sqft" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element choice="3" default="no" label="Has an Independent Government Cost Estimate been developed for this project?" max_length="40" name="has_an_engineered_cost_estimate_developed_for_this_project" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has an Independent Government Cost Estimate been developed for this project?" max_length="40" name="has_an_engineered_cost_estimate_developed_for_this_project" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="3" default="no" label="Has a Statement of Work (SOW) been developed for this project?" max_length="40" name="has_a_statement_of_work_sow_been_developed_for_this_project" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has a Statement of Work (SOW) been developed for this project?" max_length="40" name="has_a_statement_of_work_sow_been_developed_for_this_project" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="3" default="no" hint="Has the submitting FMC adequately documented the Return on Investment (ROI) in its Project Justification? " label="Has the submitting FMC adequately documented the Return on Investment (ROI)?" max_length="40" name="has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" hint="Has the submitting FMC adequately documented the Return on Investment (ROI) in its Project Justification? " label="Has the submitting FMC adequately documented the Return on Investment (ROI)?" max_length="40" name="has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -121,7 +110,7 @@
                 <element inactive_on_update="false" label="No" sequence="1"/>
             </choice>
         </element>
-        <element choice="3" default="no" label="Has this project been documented in a FCA?" max_length="40" name="has_this_project_been_documented_in_a_fca" type="choice" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has this project been documented in a FCA?" max_length="40" name="has_this_project_been_documented_in_a_fca" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -133,13 +122,13 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="3" default="no" label="Has this project been documented in an ATRA Security Assessment?" max_length="40" name="has_this_project_been_documented_in_a_security_assessment" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has this project been documented in an ATRA Security Assessment?" max_length="40" name="has_this_project_been_documented_in_a_security_assessment" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element choice="3" default="no" label="Has this project been documented in Environmental Compliance?" max_length="40" name="has_this_project_been_documented_in_environmental_compliance" type="choice" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has this project been documented in Environmental Compliance?" max_length="40" name="has_this_project_been_documented_in_environmental_compliance" type="choice" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -168,15 +157,34 @@
         <element label="Parent" max_length="40" name="parent" type="string"/>
         <element label="Parent Multi-phase" max_length="40" name="parent_multi_phase" reference="x_1831875_amp2_0_multi_phase_project" type="reference"/>
         <element label="Priority" max_length="38" name="priority_score" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project Approval State" max_length="40" name="project_approval_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0"/>
+                <element inactive_on_update="false" label="Approved" sequence="1"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2"/>
+            </choice>
+        </element>
         <element choice="1" label="Project Classification" max_length="40" name="project_class" type="choice">
             <choice/>
         </element>
-        <element label="Project ID" max_length="40" name="project_id" read_only="true" type="string"/>
         <element label="Project Maturity" max_length="40" name="project_maturity" type="string"/>
         <element label="Project Need/Benefit" max_length="4000" name="project_need_benefit" type="string"/>
-        <element label="Project Execution Status" max_length="40" name="project_status" reference="x_1831875_amp2_0_project_status_lookup" type="reference"/>
-        <element label="Project Title" max_length="100" name="project_title" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="property_name" dependent_on_field="property_name" label="Property ID" max_length="32" name="property_id" type="choice" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project Execution Status" max_length="40" name="project_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AWAITING FUNDS" value="awaiting funds"/>
+                <element inactive_on_update="false" label="AWARDED" value="awarded"/>
+                <element inactive_on_update="false" label="CANCELED" value="canceled"/>
+                <element inactive_on_update="false" label="COMPLETED" value="completed"/>
+                <element inactive_on_update="false" label="DEFERMENT REQUESTED" value="deferment requested"/>
+                <element inactive_on_update="false" label="DEFERRED" value="deferred"/>
+                <element inactive_on_update="false" label="DELETED" value="deleted"/>
+                <element inactive_on_update="false" label="DELETION REQUESTED" value="deletion requested"/>
+                <element inactive_on_update="false" label="FUNDS TRANSFERRED FROM HQ" value="funds transferred from hq"/>
+                <element inactive_on_update="false" label="IN PROCUREMENT" value="in procurement"/>
+                <element inactive_on_update="false" label="OUT TO BID" value="out to bid"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="property_name" dependent_on_field="property_name" label="Property ID" max_length="32" name="property_id" reference="x_1831875_amp2_0_property_table" type="reference" use_dependent_field="true">
             <choice>
                 <element dependent_value="NMFS BIOLOGICAL PIER MILFORD CT" hint="NEC" inactive_on_update="false" label="0CTE0050001" value="0CTE0050001"/>
                 <element dependent_value="NMFS JAMES J HOWARD MARINE SCIENCES LABORATORY SANDY HOOK HIGHLANDS NJ" hint="NEC" inactive_on_update="false" label="0NJE0270001" value="0NJE0270001"/>
@@ -624,7 +632,7 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Prop Funding Year" max_length="32" name="prop_funding_year" type="choice">
             <choice/>
         </element>
-        <element calculation="(function executeRule(current, previous /*null when async*/) {&#13;&#10;    var gr = new GlideRecord('x_1831875_amp2_0_project_package');&#13;&#10;    gr.orderByDesc('score');&#13;&#10;    gr.query();&#13;&#10;    var rank = 1;&#13;&#10;    while (gr.next()) {&#13;&#10;        gr.rank = rank;&#13;&#10;        gr.update();&#13;&#10;        rank++;&#13;&#10;    }&#13;&#10;})(current, previous);" choice="1" label="Ranking Factor" max_length="40" name="ranking_factors" type="integer">
+        <element attributes="edge_encryption_enabled=true" calculation="(function executeRule(current, previous /*null when async*/) {&#13;&#10;    var gr = new GlideRecord('x_1831875_amp2_0_project_package');&#13;&#10;    gr.orderByDesc('score');&#13;&#10;    gr.query();&#13;&#10;    var rank = 1;&#13;&#10;    while (gr.next()) {&#13;&#10;        gr.rank = rank;&#13;&#10;        gr.update();&#13;&#10;        rank++;&#13;&#10;    }&#13;&#10;})(current, previous);" choice="1" label="Ranking Factor" max_length="40" name="ranking_factors" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Serious Health and Safety (10)" sequence="0" value="10"/>
                 <element inactive_on_update="false" label="Serious Facility Maintenance, Repair or Capital Improvement (9)" sequence="1" value="9"/>
@@ -641,16 +649,12 @@
             </choice>
         </element>
         <element label="Region" max_length="32" name="region" reference="x_1831875_amp2_0_facility" type="reference"/>
-        <element label="Relevant PPAs" max_length="40" name="relevant_ppas" type="string"/>
         <element label="Result" max_length="40" name="result" reference="x_1831875_amp2_0_category_output_result" type="reference"/>
         <element label="Ranking Factor Score" max_length="15" name="risk_score" read_only="true" type="decimal"/>
-        <element default="0" label="Score" max_length="15" name="score" type="decimal"/>
         <element label="Project Description" max_length="8000" name="short_description" type="string"/>
-        <element default="5" label="Size Score" max_length="15" name="size_score" type="decimal"/>
         <element label="Space" max_length="32" name="space" reference="x_1831875_amp2_0_space" type="reference"/>
         <element label="Special Initiative" max_length="40" name="special_initiative" reference="x_1831875_amp2_0_special_initiative" type="reference"/>
         <element dependent="property_id" dependent_on_field="property_id" label="State" max_length="32" name="state" type="string" use_dependent_field="true"/>
-        <element label="Status" max_length="40" name="status" type="string"/>
         <element label="System Classification" max_length="40" name="system_classification" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element choice="3" default="&lt;5 years" label="What is the estimated ROI?" max_length="40" name="time_for_roi" type="choice">
@@ -660,23 +664,43 @@
                 <element inactive_on_update="false" label="&gt;10 years" sequence="2" value="&gt;10 years"/>
             </choice>
         </element>
-        <element label="Title" max_length="255" name="title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Total Project Score" max_length="100" name="total_project_score" read_only="true" type="string"/>
+        <element label="Approval History" max_length="40" name="u_approval_history" type="journal"/>
+        <element label="Approval Stage" max_length="40" name="u_approval_stage" type="string"/>
+        <element label="Assigned to" max_length="150" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Builder reference" max_length="32" name="u_builder_ref" reference="x_1831875_amp2_0_builder_data_table" type="reference"/>
-        <element attributes="ref_qual_elements=u_fmc" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" reference_qual="javascript: 'u_fmc_ref=' + current.u_fmc" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Comments" max_length="4000" name="u_comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_qual_elements=u_fmc" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" reference_cascade_rule="clear" reference_qual="javascript: 'u_fmc_ref=' + current.u_fmc" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Current Approval Group" max_length="32" name="u_current_approval_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Current Stage" max_length="40" name="u_current_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0"/>
+                <element inactive_on_update="false" label="FMC Review" sequence="1"/>
+                <element inactive_on_update="false" label="OMI Review" sequence="2"/>
+                <element inactive_on_update="false" label="HQ Review" sequence="3"/>
+                <element inactive_on_update="false" label="Complete" sequence="4"/>
+            </choice>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Identify the documented study and year below." max_length="250" name="u_documented_study" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="32" name="u_fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" reference_qual_condition="sys_class_name=x_1831875_amp2_0_fmc_lookup_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC" max_length="32" name="u_fmc" reference="x_1831875_amp2_0_fmc_lookup_table" reference_qual="sys_class_name=x_1831875_amp2_0_fmc_lookup_table^EQ" reference_qual_condition="sys_class_name=x_1831875_amp2_0_fmc_lookup_table^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="FMC Approver" max_length="32" name="u_fmc_approver" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="FMC Funds" max_length="38" name="u_fmc_funds" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Fully Approved" max_length="20" name="u_fully_approved" type="boolean"/>
         <element choice="1" label="Funding Type" max_length="150" name="u_funding_type" type="choice">
             <choice/>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="HQ Funds" max_length="38" name="u_hq_funds" type="decimal"/>
+        <element label="Last Approval Action" max_length="150" name="u_last_approval_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="MB Approver" max_length="32" name="u_mb_approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="OMI Approver" max_length="32" name="u_omi_approver" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Other Funds" max_length="38" name="u_other_funds" type="decimal"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Approval State" max_length="32" name="u_project_approval_state" read_only="true" reference="x_1831875_amp2_0_project_approval_state" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project ID" max_length="32" name="u_project_id" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Project ID" max_length="32" name="u_project_id" read_only="true" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Title" max_length="300" name="u_project_title" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property" max_length="32" name="u_property" reference="x_1831875_amp2_0_property_table" reference_qual="javascript: 'u_complex=' + current.u_complex" type="reference" use_reference_qualifier="advanced"/>
-        <element attributes="edge_encryption_enabled=true" label="FMC Severity Index" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Property" max_length="32" name="u_property" reference="x_1831875_amp2_0_property_table" reference_cascade_rule="clear" reference_qual="javascript: 'u_complex=' + current.u_complex" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Rejection Comments" max_length="4000" name="u_rejection_reason" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Returned for rework" max_length="40" name="u_returned_for_rework" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Asset Priority Index" max_length="40" name="u_string_7" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mission Critical Building: Laboratory Building" sequence="0" value="25"/>
@@ -692,7 +716,6 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Proposed Funding Year" max_length="8" name="u_string_8" type="choice">
             <choice>
-                <element inactive_on_update="false" label="FY 2026" sequence="0" value="FY 2026"/>
                 <element inactive_on_update="false" label="FY 2027" sequence="1" value="FY 2027"/>
                 <element inactive_on_update="false" label="FY 2028" sequence="2" value="FY 2028"/>
                 <element inactive_on_update="false" label="FY 2029" sequence="3" value="FY 2029"/>
@@ -700,9 +723,36 @@
                 <element inactive_on_update="false" label="FY 2031" sequence="5" value="FY 2031"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Submission in Progress" max_length="40" name="u_submission_in_progress" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Draft" label="Submission Status" max_length="40" name="u_submission_state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned" value="return info"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="FMC Pending" sequence="2" value="fmc pending"/>
+                <element inactive_on_update="false" label="FMC Approved" sequence="3" value="fmc approved"/>
+                <element inactive_on_update="false" label="OMI Pending" sequence="5" value="omi pending"/>
+                <element inactive_on_update="false" label="OMI Approved" sequence="6" value="omi approved"/>
+                <element inactive_on_update="false" label="HQ Pending" sequence="8" value="hq pending"/>
+                <element inactive_on_update="false" label="HQ Approved" sequence="9" value="hq approved"/>
+                <element inactive_on_update="false" label="Approved" sequence="11" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="12" value="rejected"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="13" value="withdrawn"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Submission Type" max_length="40" name="u_submission_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FMC Representative" value="fmc_representative"/>
+                <element inactive_on_update="false" label="OMI Representative" value="omi_representative"/>
+                <element inactive_on_update="false" label="Site Representative" value="site_representative"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Submitted by" max_length="32" name="u_submitted_by" read_only="true" reference="sys_user" type="string"/>
+        <element label="Submitted on" max_length="50" name="u_submitted_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Submitter" max_length="32" name="u_submitter" read_only="true" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Funds" max_length="38" name="u_total_funds" read_only="true" type="decimal"/>
-        <element default="5" label="Value Score" max_length="15" name="value_score" type="decimal"/>
-        <element choice="3" default="no" label="Will engineering support be required for further development on this project?" max_length="40" name="will_engineering_support_be_required_for_further_development_on_this_project" type="choice">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Access" max_length="32" name="u_user_access" reference="x_1831875_amp2_0_user_fmc_access" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Will engineering support be required for further development on this project?" max_length="40" name="will_engineering_support_be_required_for_further_development_on_this_project" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -710,25 +760,25 @@
         </element>
         <element label="Year Built" max_length="32" name="year_built" reference="x_1831875_amp2_0_facility" type="reference"/>
         <index name="index">
-            <element name="asset_category"/>
+            <element name="approvals"/>
         </index>
         <index name="index2">
-            <element name="building"/>
+            <element name="asset_category"/>
         </index>
         <index name="index3">
-            <element name="building_number"/>
+            <element name="state"/>
         </index>
         <index name="index4">
-            <element name="category"/>
-        </index>
-        <index name="index5">
             <element name="city"/>
         </index>
+        <index name="index5">
+            <element name="building"/>
+        </index>
         <index name="index6">
-            <element name="complex_id"/>
+            <element name="building_number"/>
         </index>
         <index name="index7">
-            <element name="complex_name"/>
+            <element name="category"/>
         </index>
         <index name="index8">
             <element name="complex_ref"/>
@@ -740,82 +790,97 @@
             <element name="facility"/>
         </index>
         <index name="index11">
-            <element name="fiscal_year"/>
-        </index>
-        <index name="index12">
             <element name="floor"/>
         </index>
+        <index name="index12">
+            <element name="fiscal_year"/>
+        </index>
         <index name="index13">
-            <element name="fmc"/>
+            <element name="complex_name"/>
         </index>
         <index name="index14">
-            <element name="gross_sqft"/>
+            <element name="complex_id"/>
         </index>
         <index name="index15">
-            <element name="nepa_status"/>
-        </index>
-        <index name="index16">
-            <element name="output_type"/>
-        </index>
-        <index name="index17">
-            <element name="parent_multi_phase"/>
-        </index>
-        <index name="index18">
-            <element name="priority_score"/>
-        </index>
-        <index name="index19" unique="true">
-            <element name="project_id"/>
-        </index>
-        <index name="index20">
-            <element name="project_status"/>
-        </index>
-        <index name="index21">
             <element name="prop_city"/>
         </index>
-        <index name="index22">
-            <element name="property_id"/>
+        <index name="index16">
+            <element name="nepa_status"/>
         </index>
-        <index name="index23">
-            <element name="property_name"/>
+        <index name="index17">
+            <element name="output_type"/>
         </index>
-        <index name="index24">
+        <index name="index18">
+            <element name="parent_multi_phase"/>
+        </index>
+        <index name="index19">
+            <element name="project_status"/>
+        </index>
+        <index name="index20">
             <element name="region"/>
         </index>
-        <index name="index25">
+        <index name="index21">
             <element name="result"/>
         </index>
-        <index name="index26">
+        <index name="index22">
             <element name="space"/>
         </index>
-        <index name="index27">
+        <index name="index23">
             <element name="special_initiative"/>
         </index>
-        <index name="index28">
-            <element name="state"/>
-        </index>
-        <index name="index29">
-            <element name="status"/>
-        </index>
-        <index name="index30">
+        <index name="index24">
             <element name="sys_class_name"/>
         </index>
-        <index name="index31">
+        <index name="index25">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index26">
             <element name="u_builder_ref"/>
         </index>
-        <index name="index32">
+        <index name="index27">
             <element name="u_complex"/>
         </index>
-        <index name="index33">
+        <index name="index28">
+            <element name="u_current_approval_group"/>
+        </index>
+        <index name="index29">
             <element name="u_fmc"/>
         </index>
-        <index name="index34">
+        <index name="index30">
+            <element name="u_fmc_approver"/>
+        </index>
+        <index name="index31">
+            <element name="u_mb_approver"/>
+        </index>
+        <index name="index32">
+            <element name="u_omi_approver"/>
+        </index>
+        <index name="index33">
             <element name="u_project_approval_state"/>
         </index>
-        <index name="index35">
+        <index name="index34">
             <element name="u_property"/>
         </index>
+        <index name="index35">
+            <element name="u_submitter"/>
+        </index>
         <index name="index36">
+            <element name="u_user_access"/>
+        </index>
+        <index name="index37">
+            <element name="priority_score"/>
+        </index>
+        <index name="index38">
+            <element name="property_id"/>
+        </index>
+        <index name="index39">
             <element name="year_built"/>
+        </index>
+        <index name="index40">
+            <element name="u_submitted_by"/>
+        </index>
+        <index name="index41">
+            <element name="property_name"/>
         </index>
     </element>
 </database>

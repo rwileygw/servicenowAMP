@@ -2,10 +2,10 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="project_status" table="x_1831875_amp2_0_project_package">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Project Execution Status</column_label>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1831875_amp2_0_project_package</name>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1831875_amp2_0_project_status_lookup">x_1831875_amp2_0_project_status_lookup</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -55,7 +55,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_project_status</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-23 21:21:24</sys_updated_on>
+        <sys_updated_on>2026-03-27 19:06:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

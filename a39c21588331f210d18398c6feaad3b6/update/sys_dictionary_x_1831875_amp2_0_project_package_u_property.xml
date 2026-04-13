@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_property" table="x_1831875_amp2_0_project_package">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {&#13;
 &#13;
@@ -41,7 +41,7 @@
         <read_only>false</read_only>
         <read_roles/>
         <reference display_value="" name="x_1831875_amp2_0_property_table">x_1831875_amp2_0_property_table</reference>
-        <reference_cascade_rule/>
+        <reference_cascade_rule>clear</reference_cascade_rule>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>javascript: 'u_complex=' + current.u_complex</reference_qual>
@@ -60,7 +60,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_dictionary_x_1831875_amp2_0_project_package_u_property</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-02-11 16:46:11</sys_updated_on>
+        <sys_updated_on>2026-03-12 18:50:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

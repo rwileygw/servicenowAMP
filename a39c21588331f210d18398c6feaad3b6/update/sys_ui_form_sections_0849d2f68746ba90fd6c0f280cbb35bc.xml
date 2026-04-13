@@ -3,15 +3,67 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-05 06:08:31</sys_created_on>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>9579353c471ef2106ca043ff336d43e6</sys_id>
+            <sys_id>a715982387573a90fd6c0f280cbb3512</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">0849d2f68746ba90fd6c0f280cbb35bc</sys_ui_form>
             <sys_ui_section caption="Project Details" display_value="Project Details" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">1979353c471ef2106ca043ff336d4385</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-05 06:08:31</sys_updated_on>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a315982387573a90fd6c0f280cbb3514</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">0849d2f68746ba90fd6c0f280cbb35bc</sys_ui_form>
+            <sys_ui_section caption="Project Justification" display_value="Project Justification" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">af15582387573a90fd6c0f280cbb3584</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2b15982387573a90fd6c0f280cbb351b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">0849d2f68746ba90fd6c0f280cbb35bc</sys_ui_form>
+            <sys_ui_section caption="Estimated Funds" display_value="Estimated Funds" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">2b15582387573a90fd6c0f280cbb3586</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2b15982387573a90fd6c0f280cbb352f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">0849d2f68746ba90fd6c0f280cbb35bc</sys_ui_form>
+            <sys_ui_section caption="Project Documentation Status" display_value="Project Documentation Status" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">6b15582387573a90fd6c0f280cbb3594</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7b15982387573a90fd6c0f280cbb3537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1831875_amp2_0_project_package" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">0849d2f68746ba90fd6c0f280cbb35bc</sys_ui_form>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1831875_amp2_0_project_package</name>

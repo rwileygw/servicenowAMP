@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Compliance" section_id="999718eb87573a90fd6c0f280cbb3591" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Workspace_Approval">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_a_fca</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>e59758eb87573a90fd6c0f280cbb359a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_a_security_assessment</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>659758eb87573a90fd6c0f280cbb359b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_this_project_been_documented_in_environmental_compliance</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>e19758eb87573a90fd6c0f280cbb359c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_an_engineered_cost_estimate_developed_for_this_project</element>
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>619758eb87573a90fd6c0f280cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_a_statement_of_work_sow_been_developed_for_this_project</element>
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>ed9758eb87573a90fd6c0f280cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_engineering_support_be_required_for_further_development_on_this_project</element>
+            <position>5</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>6d9758eb87573a90fd6c0f280cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_submitting_fmc_adequately_documented_the_return_on_investment_roi_in_i</element>
+            <position>6</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:07:00</sys_created_on>
+            <sys_id>e99758eb87573a90fd6c0f280cbb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">999718eb87573a90fd6c0f280cbb3591</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Compliance</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 05:06:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>999718eb87573a90fd6c0f280cbb3591</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_999718eb87573a90fd6c0f280cbb3591</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 05:06:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Approval" name="Workspace_Approval">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

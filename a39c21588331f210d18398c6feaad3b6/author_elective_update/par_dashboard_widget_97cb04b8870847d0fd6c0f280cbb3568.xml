@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">22b90434870847d0fd6c0f280cbb350a</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"showZero":true,"rangesConfig":{},"colorConfig":{"type":"singleColor","values":[{"color":"681e59a0ff88621090efffffffffffc2","metric":"ZEdGaWJHVjRYekU0TXpFNE56VmZZVzF3TWw4d1gzQnliMnBsWTNSZmNHRmphMkZuWlRFM056VXdPREF6Tmpnd09ERT0xNzc1MDgwMzY5MTM0","rules":[]}]},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=fmc pending^u_submitterDYNAMICa02a9f1e1bed6110ffd8ecace54bcb8c","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE4MzE4NzVfYW1wMl8wX3Byb2plY3RfcGFja2FnZTE3NzUwODAzNjgwODE=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"My Approvals","headingLevel":2,"description":"","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE4MzE4NzVfYW1wMl8wX3Byb2plY3RfcGFja2FnZTE3NzUwODAzNjgwODE=","id":"ZEdGaWJHVjRYekU0TXpFNE56VmZZVzF3TWw4d1gzQnliMnBsWTNSZmNHRmphMkZuWlRFM056VXdPREF6Tmpnd09ERT0xNzc1MDgwMzY5MTM0","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"headerColor":null,"titleColor":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9msfnnkf","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{"colorDetails":{"681e59a0ff88621090efffffffffffc2":[{"sysId":"681e59a0ff88621090efffffffffffc2","defaultColor":"228,35,56","cssCustomProperty":"--now-color_alert--critical-2"}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"colors":{}}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:59:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>97cb04b8870847d0fd6c0f280cbb3568</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_97cb04b8870847d0fd6c0f280cbb3568</sys_update_name>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-01 22:00:42</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <widget_props/>
+        <x>39</x>
+        <y>26</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_97cb04b8870847d0fd6c0f280cbb3568</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">22b90434870847d0fd6c0f280cbb350a</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"showZero":true,"rangesConfig":{},"colorConfig":{"type":"singleColor","values":[{"color":"681e59a0ff88621090efffffffffffc2","metric":"ZEdGaWJHVjRYekU0TXpFNE56VmZZVzF3TWw4d1gzQnliMnBsWTNSZmNHRmphMkZuWlRFM056VXdPREF6Tmpnd09ERT0xNzc1MDgwMzY5MTM0","rules":[]}]},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=fmc pending^u_submitterDYNAMICa02a9f1e1bed6110ffd8ecace54bcb8c","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE4MzE4NzVfYW1wMl8wX3Byb2plY3RfcGFja2FnZTE3NzUwODAzNjgwODE=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"My Approvals","headingLevel":2,"description":"","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE4MzE4NzVfYW1wMl8wX3Byb2plY3RfcGFja2FnZTE3NzUwODAzNjgwODE=","id":"ZEdGaWJHVjRYekU0TXpFNE56VmZZVzF3TWw4d1gzQnliMnBsWTNSZmNHRmphMkZuWlRFM056VXdPREF6Tmpnd09ERT0xNzc1MDgwMzY5MTM0","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"headerColor":null,"titleColor":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9msfnnkf","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{"colorDetails":{"681e59a0ff88621090efffffffffffc2":[{"sysId":"681e59a0ff88621090efffffffffffc2","defaultColor":"228,35,56","cssCustomProperty":"--now-color_alert--critical-2"}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"colors":{}}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ben.davis</sys_created_by><sys_created_on>2026-04-01 21:59:18</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>97cb04b8870847d0fd6c0f280cbb3568</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_97cb04b8870847d0fd6c0f280cbb3568</sys_update_name><sys_updated_by>ben.davis</sys_updated_by><sys_updated_on>2026-04-01 22:00:42</sys_updated_on><visualization/><w>9</w><widget_props/><x>39</x><y>26</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1655533092</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c7afc724874c07d0fd6c0f280cbb3579</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 22:00:42</sys_created_on>
+        <sys_id>8c2cc0f8870847d0fd6c0f280cbb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4b1025f90000001</sys_recorded_at>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-01 22:00:42</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>482cc0f8aa0847d079a326d67ea307f2</update_guid>
+        <update_guid_history>482cc0f8aa0847d079a326d67ea307f2:-1655533092,1fcb04b8130847d0e42bbd16079d136a:1590855932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-01 23:13:33">76b3513c870487d0fd6c0f280cbb3511</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-02 03:13:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0a796d550e4e4460910b7424fcb1f100</sys_id>
+        <sys_metadata>97cb04b8870847d0fd6c0f280cbb3568</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_97cb04b8870847d0fd6c0f280cbb3568</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_97cb04b8870847d0fd6c0f280cbb3568">8c2cc0f8870847d0fd6c0f280cbb35f3</sys_update_version>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-02 03:13:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

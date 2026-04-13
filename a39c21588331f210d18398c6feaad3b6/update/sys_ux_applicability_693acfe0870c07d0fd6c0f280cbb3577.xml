@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1831875_amp2_0.AMP FMC Representatives</api_name>
+        <description/>
+        <name>AMP FMC Representatives</name>
+        <role_names>x_1831875_amp2_0.fmc_approver</role_names>
+        <roles>e39c61588331f210d18398c6feaad3a4,7d9ced9087c403d0fd6c0f280cbb3509,477b6821474f7a106ca043ff336d43a1</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 17:13:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>693acfe0870c07d0fd6c0f280cbb3577</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AMP FMC Representatives</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_applicability_693acfe0870c07d0fd6c0f280cbb3577</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 16:25:34</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

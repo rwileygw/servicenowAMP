@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="293baca5470f7a106ca043ff336d4326" extends="task" label="Project Intake Task" max_length="40" name="x_1831875_amp2_0_project_intake_task" type="collection"/>
+    <element audit="true" db_object_id="293baca5470f7a106ca043ff336d4326" extends="task" label="Project Rework Task" max_length="40" name="x_1831875_amp2_0_project_intake_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project Package" max_length="32" name="u_project_package" reference="x_1831875_amp2_0_project_package" type="reference"/>
+        <element label="Submitter" max_length="40" name="u_project_submitter" type="string"/>
+    </element>
 </database>

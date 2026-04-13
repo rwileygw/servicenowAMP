@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Estimated Funds" section_id="68f1be7647fd72506ca043ff336d4392" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="AMP_Workspace_">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:51:47</sys_created_on>
+            <sys_id>20f1be7647fd72506ca043ff336d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Estimated Funds" display_value="Estimated Funds" name="x_1831875_amp2_0_project_package" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">68f1be7647fd72506ca043ff336d4392</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:51:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Estimated Funds</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:51:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>68f1be7647fd72506ca043ff336d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_68f1be7647fd72506ca043ff336d4392</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:51:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="AMP Workspace " name="AMP_Workspace_">28f17e7647fd72506ca043ff336d436e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_68f1be7647fd72506ca043ff336d4392</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Estimated Funds" section_id="68f1be7647fd72506ca043ff336d4392" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="AMP_Workspace_">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:51:47</sys_created_on>
+            <sys_id>20f1be7647fd72506ca043ff336d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Estimated Funds" display_value="Estimated Funds" name="x_1831875_amp2_0_project_package" sys_domain="global" view="28f17e7647fd72506ca043ff336d436e">68f1be7647fd72506ca043ff336d4392</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:51:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Estimated Funds</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:51:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>68f1be7647fd72506ca043ff336d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_68f1be7647fd72506ca043ff336d4392</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:51:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="AMP Workspace " name="AMP_Workspace_">28f17e7647fd72506ca043ff336d436e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1037174945</payload_hash>
+        <record_name>Project Package</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:31:55</sys_created_on>
+        <sys_id>d97fe32247e732106ca043ff336d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9d7cd70000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:31:55</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>157fe3228ae732106aba1330b3e4f7e7</update_guid>
+        <update_guid_history>157fe3228ae732106aba1330b3e4f7e7:0,29bda3622c273210a356225a3ac3c3fb:388802114,0eb1b87f15cbb690e8cc90e65c092a9d:783279647,c79edb89b1363210d131bfa1fba7e2b5:783279647,427897c9d1b23210383f9a8f7f0f5e27:-1037174945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-03-16 00:37:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>9e64bf115c3e40a8b5d1583d8bd4bfe9</sys_id>
+        <sys_metadata>68f1be7647fd72506ca043ff336d4392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_68f1be7647fd72506ca043ff336d4392</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_68f1be7647fd72506ca043ff336d4392">d97fe32247e732106ca043ff336d43e7</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-03-16 00:37:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

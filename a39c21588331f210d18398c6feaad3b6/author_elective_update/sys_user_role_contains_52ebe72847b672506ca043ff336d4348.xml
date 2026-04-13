@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="workspace_user" name="workspace_user">3bf8d5b65344130084acddeeff7b122b</contains>
+        <role display_value="x_1831875_amp2_0.admin" name="x_1831875_amp2_0.admin">9bb65bcd473232106ca043ff336d43e8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-29 16:21:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52ebe72847b672506ca043ff336d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace_user.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_contains_52ebe72847b672506ca043ff336d4348</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-29 16:21:29</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_user_role_contains_52ebe72847b672506ca043ff336d4348</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="workspace_user" name="workspace_user">3bf8d5b65344130084acddeeff7b122b</contains>
+        <role display_value="x_1831875_amp2_0.admin" name="x_1831875_amp2_0.admin">9bb65bcd473232106ca043ff336d43e8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-29 16:21:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52ebe72847b672506ca043ff336d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace_user.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_user_role_contains_52ebe72847b672506ca043ff336d4348</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-29 16:21:29</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>554257597</payload_hash>
+        <record_name>workspace_user.x_1831875_amp2_0.admin</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:32:06</sys_created_on>
+        <sys_id>cc8fef2247e732106ca043ff336d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9da8790000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:32:06</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>088fef22d5e732105cb782be1610fd2b</update_guid>
+        <update_guid_history>088fef22d5e732105cb782be1610fd2b:0,a3bd27a25327321013043ef2b8d45aba:1272815956,a2cf2c37a0cbb69009131f70984244a0:-808511767,d43e9b0965363210b81d66294a753b70:-808511767,f378dbc962b2321036d8d3954ac93bdc:-719124950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-07 20:51:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>6c5446d2354e4b29af7ab019c0ec8f91</sys_id>
+        <sys_metadata>52ebe72847b672506ca043ff336d4348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace_user.x_1831875_amp2_0.admin</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_52ebe72847b672506ca043ff336d4348</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_52ebe72847b672506ca043ff336d4348">cc8fef2247e732106ca043ff336d432b</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-07 20:51:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

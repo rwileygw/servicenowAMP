@@ -4,11 +4,11 @@
             <is_plain_text>false</is_plain_text>
             <name/>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-02 22:44:08</sys_created_on>
-            <sys_id>66d92d8a87323610fd6c0f280cbb354c</sys_id>
+            <sys_created_on>2026-03-26 18:10:29</sys_created_on>
+            <sys_id>89ed9cf647b7f2906ca043ff336d432d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-02 22:44:08</sys_updated_on>
+            <sys_updated_on>2026-03-26 18:10:29</sys_updated_on>
             <text>&lt;p&gt;TOTAL PROJECT SCORE: [Calculation: (.35 API) + (.65 RF Score) + (25 pt. for Completed SOW) + (25 pt. for Engineering Study/Cost Estimate) + (50 pt. Energy Project with 5-year ROI) = Total Project Score]&lt;/p&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
@@ -16,13 +16,13 @@
             <element>ranking_factors</element>
             <position>0</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-02 22:44:08</sys_created_on>
-            <sys_id>26d92d8a87323610fd6c0f280cbb354d</sys_id>
+            <sys_created_on>2026-03-26 18:10:29</sys_created_on>
+            <sys_id>8ded9cf647b7f2906ca043ff336d4335</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="ded9e98a87323610fd6c0f280cbb35a5">62d9e98a87323610fd6c0f280cbb35e5</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-02 22:44:08</sys_updated_on>
+            <sys_updated_on>2026-03-26 18:10:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -30,27 +30,27 @@
             <element>risk_score</element>
             <position>1</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-02 22:44:08</sys_created_on>
-            <sys_id>a2d92d8a87323610fd6c0f280cbb354e</sys_id>
+            <sys_created_on>2026-03-26 18:10:29</sys_created_on>
+            <sys_id>0ded9cf647b7f2906ca043ff336d4336</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="ded9e98a87323610fd6c0f280cbb35a5">62d9e98a87323610fd6c0f280cbb35e5</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-02 22:44:08</sys_updated_on>
+            <sys_updated_on>2026-03-26 18:10:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>66d92d8a87323610fd6c0f280cbb354c</element>
+            <element>89ed9cf647b7f2906ca043ff336d432d</element>
             <position>2</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-02 22:44:08</sys_created_on>
-            <sys_id>22d92d8a87323610fd6c0f280cbb354f</sys_id>
+            <sys_created_on>2026-03-26 18:10:29</sys_created_on>
+            <sys_id>89ed9cf647b7f2906ca043ff336d4337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="ded9e98a87323610fd6c0f280cbb35a5">62d9e98a87323610fd6c0f280cbb35e5</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-02 22:44:08</sys_updated_on>
+            <sys_updated_on>2026-03-26 18:10:29</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -58,13 +58,13 @@
             <element>total_project_score</element>
             <position>3</position>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-02-02 22:44:08</sys_created_on>
-            <sys_id>aed92d8a87323610fd6c0f280cbb354f</sys_id>
+            <sys_created_on>2026-03-26 18:10:29</sys_created_on>
+            <sys_id>09ed9cf647b7f2906ca043ff336d4338</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="ded9e98a87323610fd6c0f280cbb35a5">62d9e98a87323610fd6c0f280cbb35e5</sys_ui_section>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-02-02 22:44:08</sys_updated_on>
+            <sys_updated_on>2026-03-26 18:10:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

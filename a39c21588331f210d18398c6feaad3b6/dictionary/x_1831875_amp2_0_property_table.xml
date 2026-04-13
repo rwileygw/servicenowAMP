@@ -3,6 +3,8 @@
         <element label="Builder Reference" max_length="32" name="builder_reference" reference="x_1831875_amp2_0_builder_data_table" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Property Common Name" max_length="255" name="prop_common_name" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Asset Priority Index" max_length="200" name="u_asset_priority_index" read_only="true" read_roles="x_1831875_amp2_0.admin,x_1831875_amp2_0.user,x_1831875_amp2_0.project_intake_task_user" type="string"/>
+        <element label="Asset Priority Value" max_length="50" name="u_asset_priority_value" type="string"/>
         <element label="City" max_length="32" name="u_city" type="string"/>
         <element label="Complex" max_length="32" name="u_complex" reference="x_1831875_amp2_0_x_amp2_fmc_complex" type="reference"/>
         <element label="Complex Id" max_length="40" name="u_complex_id_string" type="string"/>

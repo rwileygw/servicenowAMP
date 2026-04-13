@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Scoring" section_id="e315582387573a90fd6c0f280cbb3596" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <name/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>917f9076470403506ca043ff336d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <text>TOTAL PROJECT SCORE: [Calculation: (.35 API) + (.65 RF Score) + (25 pt. for Completed SOW) + (25 pt. for Engineering Study/Cost Estimate) + (50 pt. Energy Project with 5-year ROI) = Total Project Score]</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <name/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>d57f9076470403506ca043ff336d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <text>Total Project Score will calculate on Save.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ranking_factors</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>517f9076470403506ca043ff336d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_score</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>dd7f9076470403506ca043ff336d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>917f9076470403506ca043ff336d43a2</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>5d7f9076470403506ca043ff336d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_project_score</element>
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>d97f9076470403506ca043ff336d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d57f9076470403506ca043ff336d43a2</element>
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-08 04:33:01</sys_created_on>
+            <sys_id>597f9076470403506ca043ff336d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Scoring" display_value="Project Scoring" name="x_1831875_amp2_0_project_package" sys_domain="global" view="Default view">e315582387573a90fd6c0f280cbb3596</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-08 04:33:01</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Scoring</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-04 04:56:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e315582387573a90fd6c0f280cbb3596</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_e315582387573a90fd6c0f280cbb3596</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-04 04:56:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
