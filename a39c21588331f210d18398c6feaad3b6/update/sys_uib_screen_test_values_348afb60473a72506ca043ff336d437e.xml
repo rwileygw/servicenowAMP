@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
         <macroponent_config>{
     "029f04e053610110ac9bddeeff7b1294": {
         "activityLogs": null,
         "detailsContext": null,
         "fields": null,
-        "isMappedToAppShell": true,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "d1bf323197a7bed48881bb7de053af15",
+        "inputTable": "x_1831875_amp2_0_project_package",
         "screen": null,
-        "shouldSuppressGlobalEvents": true,
+        "selectedTabIndex": null,
         "userPrefs": null,
-        "view": "workspace-amp20-0"
+        "overrideAppContextConfigIds": false,
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "ribbonConfigId": "b9200556e8f13e502be9d8fffa3b11c6",
+        "delayRecommendationFetching": "",
+        "sysparmView": null,
+        "shouldSuppressGlobalEvents": true,
+        "isMappedToAppShell": false
     },
     "table": "x_1831875_amp2_0_project_package",
-    "sysId": "786f9e544736fe106ca043ff336d4381"
+    "sysId": "c824d37597e7fed48881bb7de053af94",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTab": null,
+    "activityLogs": "",
+    "screen": "",
+    "fields": "",
+    "userPrefs": "",
+    "selectedTabIndex": null,
+    "sysparmView": null
 }</macroponent_config>
         <screen display_value="Project Package - Workspace Default">f48afb60473a72506ca043ff336d4375</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
@@ -20,7 +41,7 @@
         <sys_created_on>2026-01-29 17:25:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>348afb60473a72506ca043ff336d437e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
@@ -28,6 +49,6 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_348afb60473a72506ca043ff336d437e</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-29 17:33:43</sys_updated_on>
+        <sys_updated_on>2026-03-19 13:46:32</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

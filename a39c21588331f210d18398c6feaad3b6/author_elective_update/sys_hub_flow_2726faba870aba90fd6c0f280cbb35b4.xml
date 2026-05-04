@@ -50,6 +50,7 @@
         <sys_updated_on>2025-12-30 05:25:57</sys_updated_on>
         <type>flow</type>
         <version>2</version>
+        <version_record/>
     </sys_hub_flow>
     <sys_variable_value action="DELETE" query="document_key=2726faba870aba90fd6c0f280cbb35b4"/>
     <sys_hub_flow_stage action="DELETE" query="flow=2726faba870aba90fd6c0f280cbb35b4"/>

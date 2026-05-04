@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_a6168c3887c447d0fd6c0f280cbb3552</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Link to destination Relay (New Home default)</label>
+        <props>[
+    {
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "Route type",
+        "name": "route"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Route fields",
+        "name": "fields"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Optionals parameters",
+        "name": "params"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Remove previous URL from browser history",
+        "name": "redirect"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Load in background (advanced)",
+        "name": "passiveNavigation"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Title (advanced)",
+        "name": "title"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Multi-instance field (advanced)",
+        "name": "multiInstField"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Sub-navigation route (advanced)",
+        "name": "targetRoute"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "External URL object",
+        "name": "external"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 21:34:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6168c3887c447d0fd6c0f280cbb35e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (New Home default)</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_ux_event_f6168c3887c447d0fd6c0f280cbb35e6</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-01 21:34:24</sys_updated_on>
+    </sys_ux_event>
+</record_update>

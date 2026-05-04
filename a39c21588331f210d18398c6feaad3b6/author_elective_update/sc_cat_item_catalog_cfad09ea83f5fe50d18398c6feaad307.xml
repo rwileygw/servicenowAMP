@@ -45,7 +45,7 @@
         <update_guid_history>dd9f22729c0abe90a6222bb06eaf6a49:295672540,88d80a36bbb97250cbc582f21519fdd7:0,575e2136a2b572506e7c4c028df2b554:740381113,68c34fea9971325076712ae9695b1f58:100877544</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2025-12-29 23:57:08">d99f2272470abe906ca043ff336d434c</sys_audit_delete>
+        <sys_audit_delete display_value="">d99f2272470abe906ca043ff336d434c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-30 04:57:09</sys_created_on>
@@ -56,7 +56,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Technical Catalog.Create a Project</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
-        <sys_parent display_value="Create a Project">3b4a016283f5fe50d18398c6feaad366</sys_parent>
+        <sys_parent display_value="">3b4a016283f5fe50d18398c6feaad366</sys_parent>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>

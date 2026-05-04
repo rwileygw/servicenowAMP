@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "c824d37597e7fed48881bb7de053af94",
+        "inputTable": "x_1831875_amp2_0_project_package",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null,
+        "overrideAppContextConfigIds": false,
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "ribbonConfigId": "b9200556e8f13e502be9d8fffa3b11c6",
+        "delayRecommendationFetching": "",
+        "sysparmView": null,
+        "shouldSuppressGlobalEvents": true,
+        "isMappedToAppShell": false
+    },
+    "sysId": "431a697c874887d0fd6c0f280cbb353f",
+    "edit": null
+}</macroponent_config>
+        <screen display_value="FMC Home">72168c3887c447d0fd6c0f280cbb35f4</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 21:34:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8716cc3887c447d0fd6c0f280cbb350f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_8716cc3887c447d0fd6c0f280cbb350f</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:59:48</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

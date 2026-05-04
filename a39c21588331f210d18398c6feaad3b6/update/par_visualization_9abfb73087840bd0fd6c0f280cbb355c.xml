@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <data_source/>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>AMP Projects Returned</name>
+        <properties>{"scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=return info","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"tablex_1831875_amp2_0_project_package1765833527835","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Projects Returned","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"tablex_1831875_amp2_0_project_package1765833527835","id":"tablex_1831875_amp2_0_project_package17658335278351765833527841","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"colorDetails":{"0c2b2cd75b712110e5ba6e8a1d81c7ba":[{"sysId":"0c2b2cd75b712110e5ba6e8a1d81c7ba","defaultColor":"10,184,217","cssCustomProperty":""}],"40a589b3d7332100fa6c0c12ce610354":[{"sysId":"40a589b3d7332100fa6c0c12ce610354","defaultColor":"255,54,82","cssCustomProperty":""}]},"paletteDetails":{"4566db19d7100200b96d45a3ce610319":[{"sysId":"699919c9d7500200b96d45a3ce6103b8","defaultColor":"8,81,156","cssCustomProperty":""},{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"777919c9d7500200b96d45a3ce6103b6","defaultColor":"107,174,214","cssCustomProperty":""},{"sysId":"fc79d145d7500200b96d45a3ce61031c","defaultColor":"189,215,231","cssCustomProperty":""},{"sysId":"3869d145d7500200b96d45a3ce61031b","defaultColor":"239,243,255","cssCustomProperty":""}],"eed2d719d7100200b96d45a3ce6103e9":[{"sysId":"1c995dc9d7500200b96d45a3ce61039e","defaultColor":"33,113,181","cssCustomProperty":""},{"sysId":"777919c9d7500200b96d45a3ce6103b6","defaultColor":"107,174,214","cssCustomProperty":""},{"sysId":"fc79d145d7500200b96d45a3ce61031c","defaultColor":"189,215,231","cssCustomProperty":""},{"sysId":"3869d145d7500200b96d45a3ce61031b","defaultColor":"239,243,255","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"componentId":"g1g9ybel","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","dataPassthrough":[{"order":0,"response":{"metadata":{"format":{"unitFormat":"{0}"},"timeZone":"SESSION","aggregateBy":4,"metricId":"tablex_1831875_amp2_0_project_package17658335278351765833527841","filterQuery":"u_submission_state=return info","dataSourceLabel":"Project Package","dataSourceType":"table","eventData":{"aiFeatureSupported":{"aiCanvas":false,"aiAnalyticsExplorationSkill":false},"table":"x_1831875_amp2_0_project_package","query":"u_submission_state=return info"},"realTime":{"channelId":"/vis/count/7854d3a0878c07d0fd6c0f280cbb3530"},"aggregateFunction":"COUNT"},"data":[["value"],["2"]]}}]}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 15:45:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>9abfb73087840bd0fd6c0f280cbb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP Projects Returned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_visualization_9abfb73087840bd0fd6c0f280cbb355c</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:45:01</sys_updated_on>
+        <title/>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>

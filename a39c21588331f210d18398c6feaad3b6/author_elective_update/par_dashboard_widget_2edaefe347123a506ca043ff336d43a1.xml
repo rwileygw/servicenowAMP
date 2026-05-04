@@ -56,7 +56,7 @@
         <update_guid_history>222fafab41123a5079a13588fc5cf427:-1036361339,651cef6764123a50f8b2d210e24882e3:-1875614801,7b1ba727c3123a50e8c94e76ccdace54:-1364573640,eedaefe34c123a504109f2303e7f00a2:1422140295</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-01-13 22:52:07">0f80b76f47123a506ca043ff336d431a</sys_audit_delete>
+        <sys_audit_delete display_value="">0f80b76f47123a506ca043ff336d431a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-14 03:52:07</sys_created_on>

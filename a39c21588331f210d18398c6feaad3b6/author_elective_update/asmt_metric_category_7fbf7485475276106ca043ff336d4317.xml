@@ -58,7 +58,7 @@
         <update_guid_history>323081c5a95276101943529f16a91fbc:-821830454,3e3081c5305276109ae9f86c3a9200b1:45221771,3a3081c5b4527610140c9bc376fddaa7:912273996,323081c5c45276109cade5a0ef96009d:1779326221,3bbf748521527610b214ae2b30c00030:1629432278,3fbf74858f52761085e9c7ec79e5442a:762380053,33bf74856d52761020f7b7e0aec15225:-104672172,3fbf74859c52761073ffd7abb764ac1e:-971724397,3bbf74859e527610f8490dc5227f9619:-260929178</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-01-05 15:36:59">0f3081c5475276106ca043ff336d43c2</sys_audit_delete>
+        <sys_audit_delete display_value="">0f3081c5475276106ca043ff336d43c2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-05 20:36:59</sys_created_on>

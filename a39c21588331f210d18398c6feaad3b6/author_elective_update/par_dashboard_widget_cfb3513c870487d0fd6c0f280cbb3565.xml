@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">abdfc570870487d0fd6c0f280cbb3527</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=omi pending","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"tablex_1831875_amp2_0_project_package1765833527835","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"OMI Pending","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"tablex_1831875_amp2_0_project_package1765833527835","id":"tablex_1831875_amp2_0_project_package17658335278351765833527841","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"paletteDetails":{"467fc319d7100200b96d45a3ce610342":[{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"d67919c9d7500200b96d45a3ce6103b5","defaultColor":"158,202,225","cssCustomProperty":""},{"sysId":"ca695189d7500200b96d45a3ce6103b1","defaultColor":"222,235,247","cssCustomProperty":""}],"4566db19d7100200b96d45a3ce610319":[{"sysId":"699919c9d7500200b96d45a3ce6103b8","defaultColor":"8,81,156","cssCustomProperty":""},{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"777919c9d7500200b96d45a3ce6103b6","defaultColor":"107,174,214","cssCustomProperty":""},{"sysId":"fc79d145d7500200b96d45a3ce61031c","defaultColor":"189,215,231","cssCustomProperty":""},{"sysId":"3869d145d7500200b96d45a3ce61031b","defaultColor":"239,243,255","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}},"colorDetails":{"0c2b2cd75b712110e5ba6e8a1d81c7ba":[{"sysId":"0c2b2cd75b712110e5ba6e8a1d81c7ba","defaultColor":"10,184,217","cssCustomProperty":""}],"681e59a0ff88621090efffffffffffc2":[{"sysId":"681e59a0ff88621090efffffffffffc2","defaultColor":"228,35,56","cssCustomProperty":"--now-color_alert--critical-2"}]},"additionalGroupByLabels":[{"label":"Component","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjMyODA3OTk=","dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"component"},{"label":"BldgName","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjMyODA3OTk=","dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"bldgname"},{"label":"CompType","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"comptype"}]},"componentId":"g1g9ybel","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","rangesConfig":{}}</component_props>
+        <h>15</h>
+        <name>AMP OMI Pending</name>
+        <stored_component display_value="AMP OMI Pending">cd1525bc870887d0fd6c0f280cbb3584</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-02 03:13:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cfb3513c870487d0fd6c0f280cbb3565</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AMP OMI Pending</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_cfb3513c870487d0fd6c0f280cbb3565</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:29:57</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>34</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_cfb3513c870487d0fd6c0f280cbb3565</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">abdfc570870487d0fd6c0f280cbb3527</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=omi pending","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"tablex_1831875_amp2_0_project_package1765833527835","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"OMI Pending","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"tablex_1831875_amp2_0_project_package1765833527835","id":"tablex_1831875_amp2_0_project_package17658335278351765833527841","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"paletteDetails":{"467fc319d7100200b96d45a3ce610342":[{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"d67919c9d7500200b96d45a3ce6103b5","defaultColor":"158,202,225","cssCustomProperty":""},{"sysId":"ca695189d7500200b96d45a3ce6103b1","defaultColor":"222,235,247","cssCustomProperty":""}],"4566db19d7100200b96d45a3ce610319":[{"sysId":"699919c9d7500200b96d45a3ce6103b8","defaultColor":"8,81,156","cssCustomProperty":""},{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"777919c9d7500200b96d45a3ce6103b6","defaultColor":"107,174,214","cssCustomProperty":""},{"sysId":"fc79d145d7500200b96d45a3ce61031c","defaultColor":"189,215,231","cssCustomProperty":""},{"sysId":"3869d145d7500200b96d45a3ce61031b","defaultColor":"239,243,255","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}},"colorDetails":{"0c2b2cd75b712110e5ba6e8a1d81c7ba":[{"sysId":"0c2b2cd75b712110e5ba6e8a1d81c7ba","defaultColor":"10,184,217","cssCustomProperty":""}],"681e59a0ff88621090efffffffffffc2":[{"sysId":"681e59a0ff88621090efffffffffffc2","defaultColor":"228,35,56","cssCustomProperty":"--now-color_alert--critical-2"}]},"additionalGroupByLabels":[{"label":"Component","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjMyODA3OTk=","dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"component"},{"label":"BldgName","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjMyODA3OTk=","dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"bldgname"},{"label":"CompType","datasourceIds":["dGFibGV4XzE4MzE4NzVfYW1wMl8wX2J1aWxkZXJfZGF0YV90YWJsZTE3NjgzNjI1MzI0Nzc="],"id":"comptype"}]},"componentId":"g1g9ybel","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","rangesConfig":{}}</component_props><h>15</h><name>AMP OMI Pending</name><stored_component display_value="AMP OMI Pending">cd1525bc870887d0fd6c0f280cbb3584</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ben.davis</sys_created_by><sys_created_on>2026-04-02 03:13:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>cfb3513c870487d0fd6c0f280cbb3565</sys_id><sys_mod_count>2</sys_mod_count><sys_name>AMP OMI Pending</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_cfb3513c870487d0fd6c0f280cbb3565</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-02 04:29:57</sys_updated_on><visualization/><w>6</w><widget_props/><x>34</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>870206316</payload_hash>
+        <record_name>AMP OMI Pending</record_name>
+        <reverted_from/>
+        <source>cce75b2c878c07d0fd6c0f280cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 04:29:57</sys_created_on>
+        <sys_id>3535adbc870887d0fd6c0f280cbb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4c7484640000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:29:57</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>fd35adbc250887d08fc088b0c21bf67f</update_guid>
+        <update_guid_history>fd35adbc250887d08fc088b0c21bf67f:870206316,a2055dfcd80487d033eea8fa45d8b2de:729757452,43b3513c3b0487d01b261d873b2e2168:1628259807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-02 12:28:37">5db9008187080bd0fd6c0f280cbb35c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 16:28:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>16e676fbb88f4d7e8a23ce0c8da19151</sys_id>
+        <sys_metadata>cfb3513c870487d0fd6c0f280cbb3565</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP OMI Pending</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_cfb3513c870487d0fd6c0f280cbb3565</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_cfb3513c870487d0fd6c0f280cbb3565">3535adbc870887d0fd6c0f280cbb3581</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 16:28:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

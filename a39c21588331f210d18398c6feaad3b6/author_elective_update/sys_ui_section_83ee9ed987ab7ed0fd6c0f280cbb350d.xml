@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="x_1831875_amp2_0_property_table" section_id="83ee9ed987ab7ed0fd6c0f280cbb350d" sys_domain="global" table="x_1831875_amp2_0_property_table" version="3" view="AMP_Workspace_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_property_name</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>02206add87ab7ed0fd6c0f280cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>0a206add87ab7ed0fd6c0f280cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_property_id</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>86206add87ab7ed0fd6c0f280cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>06206add87ab7ed0fd6c0f280cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>82206add87ab7ed0fd6c0f280cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>02206add87ab7ed0fd6c0f280cbb3536</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_complex</element>
+            <position>6</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>8e206add87ab7ed0fd6c0f280cbb3536</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zip</element>
+            <position>7</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>0e206add87ab7ed0fd6c0f280cbb3537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_county_code</element>
+            <position>8</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>8a206add87ab7ed0fd6c0f280cbb3538</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>0a206add87ab7ed0fd6c0f280cbb3539</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mission_dependency</element>
+            <position>10</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>86206add87ab7ed0fd6c0f280cbb353a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_property_status</element>
+            <position>11</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>06206add87ab7ed0fd6c0f280cbb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_complex_id_string</element>
+            <position>12</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>82206add87ab7ed0fd6c0f280cbb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prop_common_name</element>
+            <position>13</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>02206add87ab7ed0fd6c0f280cbb353d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_display_label</element>
+            <position>14</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>8e206add87ab7ed0fd6c0f280cbb353d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>0e206add87ab7ed0fd6c0f280cbb353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>builder_reference</element>
+            <position>16</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>8a206add87ab7ed0fd6c0f280cbb353f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>0a206add87ab7ed0fd6c0f280cbb3540</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_installation_id</element>
+            <position>18</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>86206add87ab7ed0fd6c0f280cbb3541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>06206add87ab7ed0fd6c0f280cbb3542</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_installation_name</element>
+            <position>20</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>82206add87ab7ed0fd6c0f280cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset_priority_index</element>
+            <position>21</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:33:02</sys_created_on>
+            <sys_id>02206add87ab7ed0fd6c0f280cbb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:33:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>x_1831875_amp2_0_property_table</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_property_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-10 01:27:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>83ee9ed987ab7ed0fd6c0f280cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_property_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_83ee9ed987ab7ed0fd6c0f280cbb350d</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-10 01:27:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="AMP Workspace View" name="AMP_Workspace_View">b2ee9ed987ab7ed0fd6c0f280cbb3504</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_83ee9ed987ab7ed0fd6c0f280cbb350d</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="x_1831875_amp2_0_property_table" section_id="83ee9ed987ab7ed0fd6c0f280cbb350d" sys_domain="global" table="x_1831875_amp2_0_property_table" version="3" view="AMP_Workspace_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_property_name</element><position>0</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>02206add87ab7ed0fd6c0f280cbb3531</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>0a206add87ab7ed0fd6c0f280cbb3532</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_property_id</element><position>2</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>86206add87ab7ed0fd6c0f280cbb3533</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_city</element><position>3</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>06206add87ab7ed0fd6c0f280cbb3534</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>4</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>82206add87ab7ed0fd6c0f280cbb3535</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>02206add87ab7ed0fd6c0f280cbb3536</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_complex</element><position>6</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>8e206add87ab7ed0fd6c0f280cbb3536</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_zip</element><position>7</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>0e206add87ab7ed0fd6c0f280cbb3537</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_county_code</element><position>8</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>8a206add87ab7ed0fd6c0f280cbb3538</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>9</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>0a206add87ab7ed0fd6c0f280cbb3539</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_mission_dependency</element><position>10</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>86206add87ab7ed0fd6c0f280cbb353a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_property_status</element><position>11</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>06206add87ab7ed0fd6c0f280cbb353b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_complex_id_string</element><position>12</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>82206add87ab7ed0fd6c0f280cbb353c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>prop_common_name</element><position>13</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>02206add87ab7ed0fd6c0f280cbb353d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_display_label</element><position>14</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>8e206add87ab7ed0fd6c0f280cbb353d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>15</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>0e206add87ab7ed0fd6c0f280cbb353e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>builder_reference</element><position>16</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>8a206add87ab7ed0fd6c0f280cbb353f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>17</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>0a206add87ab7ed0fd6c0f280cbb3540</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_installation_id</element><position>18</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>86206add87ab7ed0fd6c0f280cbb3541</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>19</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>06206add87ab7ed0fd6c0f280cbb3542</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_installation_name</element><position>20</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>82206add87ab7ed0fd6c0f280cbb3543</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_asset_priority_index</element><position>21</position><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:33:02</sys_created_on><sys_id>02206add87ab7ed0fd6c0f280cbb3544</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1831875_amp2_0_property_table" display_value="x_1831875_amp2_0_property_table" name="x_1831875_amp2_0_property_table" sys_domain="global" view="b2ee9ed987ab7ed0fd6c0f280cbb3504">83ee9ed987ab7ed0fd6c0f280cbb350d</sys_ui_section><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>x_1831875_amp2_0_property_table</caption><header>false</header><name>x_1831875_amp2_0_property_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-10 01:27:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>83ee9ed987ab7ed0fd6c0f280cbb350d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1831875_amp2_0_property_table</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>sys_ui_section_83ee9ed987ab7ed0fd6c0f280cbb350d</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-03-10 01:27:38</sys_updated_on><sys_user/><title>false</title><view display_value="AMP Workspace View" name="AMP_Workspace_View">b2ee9ed987ab7ed0fd6c0f280cbb3504</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>174468306</payload_hash>
+        <record_name>Property table</record_name>
+        <reverted_from/>
+        <source>b40dc95787a7f610fd6c0f280cbb35f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-03-16 00:37:59</sys_created_on>
+        <sys_id>821d499787a7f610fd6c0f280cbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cf41409f80000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-03-16 00:37:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4e206addadab7ed0524b707548670c55</update_guid>
+        <update_guid_history>4e206addadab7ed0524b707548670c55:174468306,c3ee9ed919ab7ed082bad185c2e1081f:-1347049035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-03-18 05:07:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0035c9071d9b4ec0811a5eb9bdbba400</sys_id>
+        <sys_metadata>83ee9ed987ab7ed0fd6c0f280cbb350d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_property_table</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Property table">6c51c99e4752be106ca043ff336d4315</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_83ee9ed987ab7ed0fd6c0f280cbb350d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_83ee9ed987ab7ed0fd6c0f280cbb350d">821d499787a7f610fd6c0f280cbb35f4</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-03-18 05:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

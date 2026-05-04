@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <base_dashboard display_value="AMP2.0 Dashboard">2e60c1da83f13e50d18398c6feaad33c</base_dashboard>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>AMP FMC Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 14:12:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>aff02eec878007d0fd6c0f280cbb35f3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AMP FMC Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_aff02eec878007d0fd6c0f280cbb35f3</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-01 17:09:22</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_aff02eec878007d0fd6c0f280cbb35f3</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><base_dashboard display_value="AMP2.0 Dashboard">2e60c1da83f13e50d18398c6feaad33c</base_dashboard><certified>false</certified><description/><experience/><grid>48</grid><name>AMP FMC Dashboard</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-04-01 14:12:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>aff02eec878007d0fd6c0f280cbb35f3</sys_id><sys_mod_count>7</sys_mod_count><sys_name>AMP FMC Dashboard</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_aff02eec878007d0fd6c0f280cbb35f3</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-01 17:09:22</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>-497649724</payload_hash>
+        <record_name>AMP FMC Dashboard</record_name>
+        <reverted_from/>
+        <source>a0ed153087377a10fd6c0f280cbb358f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-01 17:09:22</sys_created_on>
+        <sys_id>50790b60870c07d0fd6c0f280cbb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4a056bc20000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-01 17:09:22</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>1c790b60520c07d059ebb1efeda553e2</update_guid>
+        <update_guid_history>1c790b60520c07d059ebb1efeda553e2:-497649724,e7f02eecc88007d08098587a670eecf6:-963874236</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-01 23:32:55">2e281d38874487d0fd6c0f280cbb3501</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-02 03:32:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>39be151a611e4356914edaab55a4b4e4</sys_id>
+        <sys_metadata>aff02eec878007d0fd6c0f280cbb35f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP FMC Dashboard</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_aff02eec878007d0fd6c0f280cbb35f3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_aff02eec878007d0fd6c0f280cbb35f3">50790b60870c07d0fd6c0f280cbb35e4</sys_update_version>
+        <sys_updated_by>ben.davis</sys_updated_by>
+        <sys_updated_on>2026-04-02 03:32:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Remove NMFS from Complex Name field</description>
+        <name>Remove NMFS from Complex Name</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[(function() {
+    var table = 'x_1831875_amp2_0_x_amp2_fmc_complex'; //update if needed
+    var field = 'u_complex_name';
+
+    var gr = new GlideRecord(table);
+    gr.addQuery(field, 'STARTSWITH', 'NMFS');
+    gr.query();
+
+    var count = 0;
+
+    while (gr.next()) {
+        var original = gr.getValue(field);
+
+        //remove NMFS + dash + whitespace
+        var cleaned = original.replace(/^NMFS\s*[--]?\s*/i, '').trim();
+
+        if (cleaned !== original) {
+            gr.setValue(field, cleaned);
+            gr.update();
+            count++;
+
+            gs.info('[NMFS CLEANUP][COMPLEX]' + original + ' -> ' + cleaned);
+        }
+
+    }
+    gs.info('NMFS cleanup completed for Complex. Records updated: ' + count);
+
+})();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-02-06 18:34:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5fe61d9b87f2f250fd6c0f280cbb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove NMFS from Complex Name</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_fix_5fe61d9b87f2f250fd6c0f280cbb3597</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-02-06 18:34:29</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

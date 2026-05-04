@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Rework Task" section_id="c4de14fa47b7f2906ca043ff336d4389" sys_domain="global" table="x_1831875_amp2_0_project_intake_task" version="3" view="amp2_workspace">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <name/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:09</sys_created_on>
+            <sys_id>da947130874c87d0fd6c0f280cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:09</sys_updated_on>
+            <text>&lt;p&gt;&lt;span style="font-size: 11pt;"&gt;Please make the requested changes to the project record before closing the task. To close this task, select&amp;nbsp;&lt;strong&gt;Closed Complete&lt;/strong&gt;&amp;nbsp;from the &lt;strong&gt;State&lt;/strong&gt; dropdown above and save the record.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_project_package</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>1e947130874c87d0fd6c0f280cbb3521</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>9a947130874c87d0fd6c0f280cbb3522</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>da947130874c87d0fd6c0f280cbb3504</element>
+            <position>2</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>1a947130874c87d0fd6c0f280cbb3523</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>96947130874c87d0fd6c0f280cbb3524</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>16947130874c87d0fd6c0f280cbb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>5</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>92947130874c87d0fd6c0f280cbb3526</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>6</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>56947130874c87d0fd6c0f280cbb354c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>d2947130874c87d0fd6c0f280cbb354d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>52947130874c87d0fd6c0f280cbb354e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-04-02 05:37:10</sys_created_on>
+            <sys_id>de947130874c87d0fd6c0f280cbb354e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Rework Task" display_value="Project Rework Task" name="x_1831875_amp2_0_project_intake_task" sys_domain="global" view="bd20055692f13e50932400cb109d5ece">c4de14fa47b7f2906ca043ff336d4389</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-04-02 05:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Rework Task</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_intake_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-26 18:14:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c4de14fa47b7f2906ca043ff336d4389</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_intake_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_c4de14fa47b7f2906ca043ff336d4389</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-26 18:15:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="AMP2 Workspace" name="amp2_workspace">bd20055692f13e50932400cb109d5ece</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

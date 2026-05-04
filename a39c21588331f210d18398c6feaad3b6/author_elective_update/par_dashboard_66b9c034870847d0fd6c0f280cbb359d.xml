@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>false</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>AMP INACTIVE</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>ben.davis</sys_created_by>
+        <sys_created_on>2026-04-01 21:50:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>66b9c034870847d0fd6c0f280cbb359d</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>AMP INACTIVE</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_66b9c034870847d0fd6c0f280cbb359d</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:51:34</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_66b9c034870847d0fd6c0f280cbb359d</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>false</active><base_dashboard/><certified>false</certified><description/><experience/><grid>48</grid><name>AMP INACTIVE</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>ben.davis</sys_created_by><sys_created_on>2026-04-01 21:50:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>66b9c034870847d0fd6c0f280cbb359d</sys_id><sys_mod_count>25</sys_mod_count><sys_name>AMP INACTIVE</sys_name><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_66b9c034870847d0fd6c0f280cbb359d</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-02 15:51:34</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>1981819181</payload_hash>
+        <record_name>AMP INACTIVE</record_name>
+        <reverted_from/>
+        <source>cce75b2c878c07d0fd6c0f280cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 15:51:34</sys_created_on>
+        <sys_id>9a31808587840bd0fd6c0f280cbb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4ee48bca0000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:51:34</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>56318085c7840bd061d236e1c3efea8f</update_guid>
+        <update_guid_history>56318085c7840bd061d236e1c3efea8f:1981819181,142ba930c38887d08c41b0e516338a51:1260035699,84651d30394487d0e4b78770c81a5e58:-1472038306,eab9c0345c0847d0064435ab4eb497a0:-1472038306</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-02 12:28:37">cdb98c4187080bd0fd6c0f280cbb35ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 16:28:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>308ade0a5d3b47f4a873c180ae10f191</sys_id>
+        <sys_metadata>66b9c034870847d0fd6c0f280cbb359d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMP INACTIVE</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_66b9c034870847d0fd6c0f280cbb359d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_66b9c034870847d0fd6c0f280cbb359d">9a31808587840bd0fd6c0f280cbb3590</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 16:28:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

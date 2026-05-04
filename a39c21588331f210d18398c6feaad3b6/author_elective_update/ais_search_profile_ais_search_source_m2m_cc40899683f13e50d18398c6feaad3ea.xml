@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="DELETE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="amp20 Search Profile">7d200556b5f13e50f38a4cd9b733f0d9</profile>
+        <search_source display_value="Project Status">4040899683f13e50d18398c6feaad3e6</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 21:18:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cc40899683f13e50d18398c6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amp20 Search Profile.Project Status</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_cc40899683f13e50d18398c6feaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:18:04</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>ais_search_profile_ais_search_source_m2m_cc40899683f13e50d18398c6feaad3ea</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m"><ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE"><exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results><exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results><exclude_in_regular_search>false</exclude_in_regular_search><profile display_value="amp20 Search Profile">7d200556b5f13e50f38a4cd9b733f0d9</profile><search_source display_value="Project Status">4040899683f13e50d18398c6feaad3e6</search_source><sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-15 21:18:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>cc40899683f13e50d18398c6feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>amp20 Search Profile.Project Status</sys_name><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>ais_search_profile_ais_search_source_m2m_cc40899683f13e50d18398c6feaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-15 21:18:04</sys_updated_on></ais_search_profile_ais_search_source_m2m></record_update>]]></payload>
+        <payload_hash>1258056995</payload_hash>
+        <record_name>amp20 Search Profile.Project Status</record_name>
+        <reverted_from/>
+        <source>0a2c5741473632106ca043ff336d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-01-31 04:57:01</sys_created_on>
+        <sys_id>ab62efc1477632106ca043ff336d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c12695d440000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-01-31 04:57:01</sys_updated_on>
+        <type>AI Search Search Profile Search Source M</type>
+        <update_guid>ef62efc17f7632100f82d143da2eff6a</update_guid>
+        <update_guid_history>ef62efc17f7632100f82d143da2eff6a:1258056995,2048db812bb232106f49ced590d90748:1799597529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-31 03:00:01">dc5c4499873a3210fd6c0f280cbb3596</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-31 08:00:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ais_search_profile_ais_search_source_m2m">ais_search_profile_ais_search_source_m2m</sys_db_object>
+        <sys_id>17023cec17a7400e8272294c90674551</sys_id>
+        <sys_metadata>cc40899683f13e50d18398c6feaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amp20 Search Profile.Project Status</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_cc40899683f13e50d18398c6feaad3ea</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_cc40899683f13e50d18398c6feaad3ea">ab62efc1477632106ca043ff336d436b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-31 08:00:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

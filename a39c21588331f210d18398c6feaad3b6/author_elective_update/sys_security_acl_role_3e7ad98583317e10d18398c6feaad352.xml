@@ -60,7 +60,7 @@
         <update_guid_history>74d30f2e0f71325037141f859331fb21:-1552466246</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-01-12 09:54:02">abd4b303475a36506ca043ff336d4376</sys_audit_delete>
+        <sys_audit_delete display_value="">abd4b303475a36506ca043ff336d4376</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-12 14:54:02</sys_created_on>
@@ -71,7 +71,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1831875_amp2_0_complex.x_1831875_amp2_0.admin</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
-        <sys_parent display_value="">be7a998583317e10d18398c6feaad3dc</sys_parent>
+        <sys_parent display_value="x_1831875_amp2_0_complex">be7a998583317e10d18398c6feaad3dc</sys_parent>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>

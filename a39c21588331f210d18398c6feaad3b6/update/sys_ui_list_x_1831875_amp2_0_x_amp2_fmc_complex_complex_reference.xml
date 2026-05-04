@@ -2,33 +2,18 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1831875_amp2_0_x_amp2_fmc_complex" version="2" view="complex_reference">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_fmc_ref</element>
-            <list_id display_value="x_1831875_amp2_0_x_amp2_fmc_complex" element="NULL" name="x_1831875_amp2_0_x_amp2_fmc_complex" parent="NULL" relationship="NULL" sys_domain="global" view="252d842f4735b6506ca043ff336d438f">537e15cb47d6f2506ca043ff336d43e7</list_id>
+            <element>comp_common_name</element>
+            <list_id display_value="x_1831875_amp2_0_x_amp2_fmc_complex" element="NULL" name="x_1831875_amp2_0_x_amp2_fmc_complex" parent="NULL" relationship="NULL" sys_domain="global" view="252d842f4735b6506ca043ff336d438f">dacbe50287723610fd6c0f280cbb35ec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-12 03:57:02</sys_created_on>
-            <sys_id>9f7e15cb47d6f2506ca043ff336d43e7</sys_id>
+            <sys_created_on>2026-02-02 22:52:35</sys_created_on>
+            <sys_id>5ecbe50287723610fd6c0f280cbb35ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-12 03:57:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_fmc_ref.u_name</element>
-            <list_id display_value="x_1831875_amp2_0_x_amp2_fmc_complex" element="NULL" name="x_1831875_amp2_0_x_amp2_fmc_complex" parent="NULL" relationship="NULL" sys_domain="global" view="252d842f4735b6506ca043ff336d438f">537e15cb47d6f2506ca043ff336d43e7</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-12 03:57:02</sys_created_on>
-            <sys_id>937e15cb47d6f2506ca043ff336d43e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-12 03:57:02</sys_updated_on>
+            <sys_updated_on>2026-02-02 22:52:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -42,10 +27,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ryann.wiley</sys_created_by>
-            <sys_created_on>2026-01-12 03:57:02</sys_created_on>
+            <sys_created_on>2026-02-02 22:52:35</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>537e15cb47d6f2506ca043ff336d43e7</sys_id>
+            <sys_id>dacbe50287723610fd6c0f280cbb35ec</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1831875_amp2_0_x_amp2_fmc_complex</sys_name>
             <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -54,7 +39,7 @@
             <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
             <sys_update_name>sys_ui_list_x_1831875_amp2_0_x_amp2_fmc_complex_complex_reference</sys_update_name>
             <sys_updated_by>ryann.wiley</sys_updated_by>
-            <sys_updated_on>2026-01-12 03:57:02</sys_updated_on>
+            <sys_updated_on>2026-02-02 22:52:35</sys_updated_on>
             <sys_user/>
             <view display_value="Complex Reference" name="complex_reference">252d842f4735b6506ca043ff336d438f</view>
             <view_name/>

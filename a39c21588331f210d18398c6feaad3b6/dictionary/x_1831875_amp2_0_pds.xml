@@ -32,18 +32,24 @@
         <element label="Status" max_length="40" name="status" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
-            <element name="complex_name"/>
+            <element name="complex_id"/>
         </index>
         <index name="index2">
-            <element name="property_id"/>
+            <element name="complex_name"/>
         </index>
         <index name="index3">
-            <element name="property_name"/>
+            <element name="fmc"/>
         </index>
         <index name="index4">
-            <element name="region"/>
+            <element name="property_id"/>
         </index>
         <index name="index5">
+            <element name="property_name"/>
+        </index>
+        <index name="index6">
+            <element name="region"/>
+        </index>
+        <index name="index7">
             <element name="sys_class_name"/>
         </index>
     </element>

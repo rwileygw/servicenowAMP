@@ -98,7 +98,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-15 21:18:38</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace AMP20 0" name="workspace-amp20-0">bd20055692f13e50932400cb109d5ece</view>
+            <view display_value="AMP2 Workspace" name="amp2_workspace">bd20055692f13e50932400cb109d5ece</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

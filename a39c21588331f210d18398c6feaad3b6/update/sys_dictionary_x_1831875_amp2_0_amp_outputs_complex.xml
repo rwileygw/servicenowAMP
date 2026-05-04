@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1831875_amp2_0_complex">x_1831875_amp2_0_complex</reference>
+        <reference display_value="">x_1831875_amp2_0_complex</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>

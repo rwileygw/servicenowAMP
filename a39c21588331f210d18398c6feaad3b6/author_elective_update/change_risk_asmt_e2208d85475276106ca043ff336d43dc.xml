@@ -89,7 +89,7 @@
         <update_guid_history>2a208d85ec5276103398a8e5a641eadd:38653115</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-01-05 15:36:59">033081c5475276106ca043ff336d43d1</sys_audit_delete>
+        <sys_audit_delete display_value="">033081c5475276106ca043ff336d43d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-05 20:36:59</sys_created_on>

@@ -12,6 +12,7 @@
         <script>'fmc='+gs.getRecord().getValue('fmc')</script>
         <script_reference_id/>
         <script_reference_table/>
+        <secondary_script/>
         <sys_class_name>sys_filter_option_dynamic</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2025-12-30 23:11:42</sys_created_on>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Project Identity" section_id="5081cc9e83b5fa50d18398c6feaad3e2" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Project_Input_Form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:57</sys_created_on>
+            <sys_id>71e2fef647fd72506ca043ff336d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:57</sys_created_on>
+            <sys_id>bde2fef647fd72506ca043ff336d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Project Identity</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>5081cc9e83b5fa50d18398c6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Project Input Form" name="Project_Input_Form">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Identity" section_id="5081cc9e83b5fa50d18398c6feaad3e2" sys_domain="global" table="x_1831875_amp2_0_project_package" version="3" view="Project_Input_Form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fmc</element>
+            <position>0</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:57</sys_created_on>
+            <sys_id>71e2fef647fd72506ca043ff336d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2025-12-17 18:55:57</sys_created_on>
+            <sys_id>bde2fef647fd72506ca043ff336d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Identity" display_value="Project Identity" name="x_1831875_amp2_0_project_package" sys_domain="global" view="1881cc9e83b5fa50d18398c6feaad38c">5081cc9e83b5fa50d18398c6feaad3e2</sys_ui_section>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2025-12-17 18:55:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Identity</caption>
+            <header>false</header>
+            <name>x_1831875_amp2_0_project_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-16 18:57:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>5081cc9e83b5fa50d18398c6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1831875_amp2_0_project_package</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-16 18:57:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Project Input Form" name="Project_Input_Form">1881cc9e83b5fa50d18398c6feaad38c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1995774592</payload_hash>
+        <record_name>Project Package</record_name>
+        <reverted_from/>
+        <source>f32def6647e332106ca043ff336d4319</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-03-14 04:31:54</sys_created_on>
+        <sys_id>497fa32247e732106ca043ff336d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cea9d782b0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-14 04:31:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>817fa32255e732100a6892a6c20610da</update_guid>
+        <update_guid_history>817fa32255e732100a6892a6c20610da:0,82b1b87f8acbb690adcba1f85ebc470a:-778396670,e8fdd7c5293632103d8be159efafd3c1:-778396670,317857c910b232100d8882a54b1be1ce:-1995774592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-16 00:37:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4cb628f1c7ad417cad10f6dc80cc9e71</sys_id>
+        <sys_metadata>5081cc9e83b5fa50d18398c6feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1831875_amp2_0_project_package</sys_name>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent display_value="Project Package">de865e9883b9f210d18398c6feaad348</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5081cc9e83b5fa50d18398c6feaad3e2">497fa32247e732106ca043ff336d43da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-16 00:37:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

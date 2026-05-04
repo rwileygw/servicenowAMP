@@ -1,10 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
+    {
+        "definition": {
+            "id": "d37ce8abca89d02905fed903c8e34d8e",
+            "type": "MACROPONENT"
+        },
+        "elementLabel": "Button 1",
+        "elementId": "button_1",
+        "eventMappings": [
+            {
+                "eventMappingId": "tmBccXPccuAkEejjQQBElGQeeddddLV",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "id": null,
+                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "targetId": "FhbbvNeehhljCUxPjjhiiBSqffcccVffq",
+                        "type": "EVENT",
+                        "declarativeAction": null,
+                        "event": {
+                            "sysId": "b120055642f13e50750af52a7b1071c8",
+                            "payload": {
+                                "type": "MAP_CONTAINER",
+                                "container": {
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "record"
+                                    },
+                                    "fields": {
+                                        "type": "MAP_CONTAINER",
+                                        "container": {
+                                            "table": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "x_1831875_amp2_0_project_package"
+                                            },
+                                            "sysId": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "-1"
+                                            }
+                                        }
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                }
+                            },
+                            "apiName": "x_1831875_amp2_0.NAV_ITEM_SELECTED_RELAY_b520055675f13e50a995c0772e02f1c8"
+                        },
+                        "operation": null,
+                        "clientScript": null,
+                        "clientTransformScript": "",
+                        "conditional": null,
+                        "broker": null
+                    }
+                ]
+            }
+        ],
+        "propertyValues": {
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "message": "New Project",
+                    "comment": ""
+                }
+            },
+            "variant": {
+                "type": "JSON_LITERAL",
+                "value": "secondary"
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            },
+            "disabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "icon": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "animatedIcon": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "tooltipContent": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "message": "Enter a label",
+                    "comment": ""
+                }
+            },
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "landmark": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "slot": null,
+        "styles": {}
+    },
     {
         "definition": {
             "id": "f552e6a932780394b6f06c14071aa115",
@@ -220,6 +366,10 @@
                     "category": "session"
                 },
                 "type": "CONTEXT_BINDING"
+            },
+            "drilldownToCoreUI": {
+                "type": "JSON_LITERAL",
+                "value": false
             }
         },
         "slot": null,
@@ -235,7 +385,7 @@
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors/>
+        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -246,6 +396,16 @@
         "isInline": null,
         "items": [
             {
+                "element_id": "button_1",
+                "styles": {
+                    "padding-top": "var(--now-scalable-space--xl)",
+                    "flex": "1 0 auto",
+                    "padding-right": "var(--now-scalable-space--xl)",
+                    "margin-right": "var(--now-scalable-space--3xl)",
+                    "align-self": "flex-end"
+                }
+            },
+            {
                 "element_id": "dashboard",
                 "styles": {}
             }
@@ -253,14 +413,19 @@
         "root": null,
         "rules": null,
         "styles": {
-            "grid-gap": "var(--now-static-space--lg)",
-            "grid-template-areas": "\"main\"",
-            "grid-template-columns": "1fr",
-            "grid-template-rows": "minmax(400px,auto)",
-            "height": "100%"
+            "padding-right": "1px",
+            "padding-bottom": "1px",
+            "margin-top": "var(--now-scalable-space--xxs)",
+            "padding-left": "1px",
+            "padding-top": "1px",
+            "height": "100%",
+            "justify-content": "space-evenly",
+            "gap": "1px",
+            "display": "flex",
+            "flex-direction": "column"
         },
         "templateId": "28bde4cd53431010e6bcddeeff7b12cc",
-        "type": "grid"
+        "type": "flex"
     },
     "version": "3.0.0"
 }</layout>
@@ -293,26 +458,35 @@
         "valueType": "string"
     }
 ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Enter a label",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Project",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
         <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 21:17:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b520055675f13e50a995c0772e02f1c8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_macroponent_b520055675f13e50a995c0772e02f1c8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 21:18:50</sys_updated_on>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:33:44</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -4,9 +4,43 @@
         <app_config display_value="AMP2.0 App Config">bd2005565ff13e50907d80a997ce96d8</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <event_mappings/>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
         <macroponent display_value="Project Package - Workspace Default">ac8afb60473a72506ca043ff336d4357</macroponent>
-        <macroponent_config/>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
         <name>Project Package - Workspace Default</name>
         <order>1</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
@@ -20,7 +54,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f48afb60473a72506ca043ff336d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Project Package - Workspace Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -29,6 +63,6 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_ux_screen_f48afb60473a72506ca043ff336d4375</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-29 17:25:16</sys_updated_on>
+        <sys_updated_on>2026-03-19 14:07:30</sys_updated_on>
     </sys_ux_screen>
 </record_update>

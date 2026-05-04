@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">bcf92b3c87400bd0fd6c0f280cbb3557</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"showZero":true,"rangesConfig":{},"colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVnplWE5oY0hCeWIzWmhiRjloY0hCeWIzWmxjakUzTnpVd09Ua3lNRFl6TWpVPTE3NzUwOTkyMDc1MTU=","rules":[]}]},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Approval","sourceType":"table","tableOrViewName":"sysapproval_approver","filterQuery":"approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^approval_reasonLIKEFMC^ORapproval_reasonLIKEomi^ORapproval_reasonLIKEhq^state=requested","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3NzUwOTkyMDYzMjU=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headerTitle":"My Project Approvals","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3NzUwOTkyMDYzMjU=","id":"ZEdGaWJHVnplWE5oY0hCeWIzWmhiRjloY0hCeWIzWmxjakUzTnpVd09Ua3lNRFl6TWpVPTE3NzUwOTkyMDc1MTU=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9msfnnkf","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{"colorDetails":{"0c2b2cd75b712110e5ba6e8a1d81c7ba":[{"sysId":"0c2b2cd75b712110e5ba6e8a1d81c7ba","defaultColor":"10,184,217","cssCustomProperty":""}]},"paletteDetails":{"4566db19d7100200b96d45a3ce610319":[{"sysId":"699919c9d7500200b96d45a3ce6103b8","defaultColor":"8,81,156","cssCustomProperty":""},{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"777919c9d7500200b96d45a3ce6103b6","defaultColor":"107,174,214","cssCustomProperty":""},{"sysId":"fc79d145d7500200b96d45a3ce61031c","defaultColor":"189,215,231","cssCustomProperty":""},{"sysId":"3869d145d7500200b96d45a3ce61031b","defaultColor":"239,243,255","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"colors":{},"filterConfigurations":[]}</component_props>
+        <h>16</h>
+        <name>My Project Approvals</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 14:09:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8df92b3c87400bd0fd6c0f280cbb35db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Project Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_8df92b3c87400bd0fd6c0f280cbb35db</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 20:21:23</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <widget_props/>
+        <x>17</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

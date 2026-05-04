@@ -5,6 +5,8 @@
         <columns>u_project_id,u_project_title,u_integer_5,u_property.u_property_name,u_property.u_property_id,u_property.u_mission_dependency,u_property.u_zip,u_property.u_state,u_property.u_city</columns>
         <condition/>
         <configuration display_value="AMP2.0_menu_config">7220c55683f13e50d18398c6feaad359</configuration>
+        <enable_infinite_scroll>false</enable_infinite_scroll>
+        <fixed_query/>
         <group_by_column/>
         <groups/>
         <hide_cell_filter>false</hide_cell_filter>
@@ -50,6 +52,7 @@
         <highlight_content_color/>
         <highlight_content_pattern/>
         <list_attributes/>
+        <live_updates>off</live_updates>
         <max_characters>4000</max_characters>
         <order>50</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>

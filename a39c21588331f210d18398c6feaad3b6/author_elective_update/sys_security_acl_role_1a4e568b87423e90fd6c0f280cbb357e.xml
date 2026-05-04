@@ -45,7 +45,7 @@
         <update_guid_history>5e4e568b2d423e905c5e03c88bde9c9a:-2135723066</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2025-12-30 17:28:26">1130ae4f87423e90fd6c0f280cbb3515</sys_audit_delete>
+        <sys_audit_delete display_value="">1130ae4f87423e90fd6c0f280cbb3515</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2025-12-30 22:28:26</sys_created_on>

@@ -2,7 +2,7 @@
     <sys_index action="INSERT_OR_UPDATE">
         <access_method>btree</access_method>
         <col_name_string>project_id</col_name_string>
-        <index_col_name>2c23cf26477132506ca043ff336d4395</index_col_name>
+        <index_col_name element="project_id" name="x_1831875_amp2_0_project_package">0eb617cd473232106ca043ff336d434b</index_col_name>
         <logical_table_name>x_1831875_amp2_0_project_package</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>system</sys_created_by>

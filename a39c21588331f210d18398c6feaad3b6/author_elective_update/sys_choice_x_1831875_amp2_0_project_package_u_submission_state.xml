@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_submission_state" table="x_1831875_amp2_0_project_package" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_submission_state</element>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-03 22:00:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_submission_state</sys_name>
+            <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+            <sys_update_name>sys_choice_x_1831875_amp2_0_project_package_u_submission_state</sys_update_name>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-03 22:00:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Returned</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-03 22:00:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:43:45</sys_updated_on>
+            <u_realm/>
+            <value>return info</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-03 22:00:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:43:57</sys_updated_on>
+            <u_realm/>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-03 22:00:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:02</sys_updated_on>
+            <u_realm/>
+            <value>submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FMC Pending</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:39:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:09</sys_updated_on>
+            <u_realm/>
+            <value>fmc pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FMC Approved</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:39:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:17</sys_updated_on>
+            <u_realm/>
+            <value>fmc approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OMI Pending</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:40:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:32</sys_updated_on>
+            <u_realm/>
+            <value>omi pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OMI Approved</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:35</sys_updated_on>
+            <u_realm/>
+            <value>omi approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQ Pending</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:41:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:51</sys_updated_on>
+            <u_realm/>
+            <value>hq pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQ Approved</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:44:56</sys_updated_on>
+            <u_realm/>
+            <value>hq approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:45:09</sys_updated_on>
+            <u_realm/>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-03 22:00:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:45:43</sys_updated_on>
+            <u_realm/>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_submission_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Withdrawn</label>
+            <language>en</language>
+            <name>x_1831875_amp2_0_project_package</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>ryann.wiley</sys_created_by>
+            <sys_created_on>2026-03-17 04:43:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryann.wiley</sys_updated_by>
+            <sys_updated_on>2026-03-17 04:45:57</sys_updated_on>
+            <u_realm/>
+            <value>withdrawn</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

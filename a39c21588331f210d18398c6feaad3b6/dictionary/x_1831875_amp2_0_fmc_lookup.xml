@@ -44,6 +44,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Final End Date" label="Final End Date" max_length="40" name="u_final_end_date" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Fixed" label="Fixed" max_length="40" name="u_fixed" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC" label="FMC" max_length="40" name="u_fmc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FMC sys_id" label="FMC sys_id" max_length="40" name="u_fmc_sys_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FOIA Exemption" label="FOIA Exemption" max_length="40" name="u_foia_exemption" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Time" label="Full Time" max_length="40" name="u_full_time" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Funded Vacancies" label="Funded Vacancies" max_length="40" name="u_funded_vacancies" type="string"/>
@@ -68,6 +69,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Mission Dependency" label="Mission Dependency" max_length="40" name="u_mission_dependency" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Designation" label="Multi-Property Designation" max_length="40" name="u_multi_property_designation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Multi-Property Lease" label="Multi-Property Lease" max_length="40" name="u_multi_property_lease" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Book Value" label="Net Book Value" max_length="40" name="u_net_book_value" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Net Proceeds" label="Net Proceeds" max_length="40" name="u_net_proceeds" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Object Class" label="Object Class" max_length="40" name="u_object_class" type="string"/>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">43c3a5b8870887d0fd6c0f280cbb3544</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=approved","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"tablex_1831875_amp2_0_project_package1765833527835","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Projects Fully Approved","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"tablex_1831875_amp2_0_project_package1765833527835","id":"tablex_1831875_amp2_0_project_package17658335278351765833527841","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"paletteDetails":{"467fc319d7100200b96d45a3ce610342":[{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"d67919c9d7500200b96d45a3ce6103b5","defaultColor":"158,202,225","cssCustomProperty":""},{"sysId":"ca695189d7500200b96d45a3ce6103b1","defaultColor":"222,235,247","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"componentId":"g1g9ybel","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT"}</component_props>
+        <h>16</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-03-26 19:15:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>efcca87e477bf2906ca043ff336d4311</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_update_name>par_dashboard_widget_efcca87e477bf2906ca043ff336d4311</sys_update_name>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:23:46</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>26</x>
+        <y>16</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</application>
+        <comments/>
+        <file_path/>
+        <instance_id>277b2d65dbf7cc1025011bbc32961966</instance_id>
+        <instance_name>nsdeskdev</instance_name>
+        <name>par_dashboard_widget_efcca87e477bf2906ca043ff336d4311</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">43c3a5b8870887d0fd6c0f280cbb3544</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Package","sourceType":"table","tableOrViewName":"x_1831875_amp2_0_project_package","filterQuery":"u_submission_state=approved","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"tablex_1831875_amp2_0_project_package1765833527835","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Projects Fully Approved","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"tablex_1831875_amp2_0_project_package1765833527835","id":"tablex_1831875_amp2_0_project_package17658335278351765833527841","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"paletteDetails":{"467fc319d7100200b96d45a3ce610342":[{"sysId":"8f895dc9d7500200b96d45a3ce61039d","defaultColor":"49,130,189","cssCustomProperty":""},{"sysId":"d67919c9d7500200b96d45a3ce6103b5","defaultColor":"158,202,225","cssCustomProperty":""},{"sysId":"ca695189d7500200b96d45a3ce6103b1","defaultColor":"222,235,247","cssCustomProperty":""}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"componentId":"g1g9ybel","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT"}</component_props><h>16</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ryann.wiley</sys_created_by><sys_created_on>2026-03-26 19:15:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>efcca87e477bf2906ca043ff336d4311</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope><sys_update_name>par_dashboard_widget_efcca87e477bf2906ca043ff336d4311</sys_update_name><sys_updated_by>ryann.wiley</sys_updated_by><sys_updated_on>2026-04-02 04:23:46</sys_updated_on><visualization/><w>7</w><widget_props/><x>26</x><y>16</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>2081503075</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cce75b2c878c07d0fd6c0f280cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 04:23:46</sys_created_on>
+        <sys_id>9fc3a5b8870887d0fd6c0f280cbb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4c6eda250000001</sys_recorded_at>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:23:46</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>5bc3a5b8d70887d093e08b9f675026a7</update_guid>
+        <update_guid_history>5bc3a5b8d70887d093e08b9f675026a7:2081503075,7b33a138d80887d0361dbbe3c55178e4:-1168670398,afcca87e587bf2904f94211aaaf53a13:-1890501722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-04-02 00:24:04">e7d3a9b8870887d0fd6c0f280cbb3550</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryann.wiley</sys_created_by>
+        <sys_created_on>2026-04-02 04:24:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>56dc4e4b0e804764b1e40e12033a6339</sys_id>
+        <sys_metadata>efcca87e477bf2906ca043ff336d4311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">08a977a4ad7d4f1cab12239157777c69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_efcca87e477bf2906ca043ff336d4311</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_efcca87e477bf2906ca043ff336d4311">9fc3a5b8870887d0fd6c0f280cbb35a8</sys_update_version>
+        <sys_updated_by>ryann.wiley</sys_updated_by>
+        <sys_updated_on>2026-04-02 04:24:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

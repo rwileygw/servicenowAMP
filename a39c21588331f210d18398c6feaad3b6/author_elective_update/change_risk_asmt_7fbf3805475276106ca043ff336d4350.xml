@@ -89,7 +89,7 @@
         <update_guid_history>61dffc056f527610c2dd0a6f6c08cc7f:-48473181,09dff48544527610f7acf5de3fe1f3b6:-956962730,b3bf3805b452761000a88fcafe6dff53:1845208430</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-01-05 15:36:58">ba304d85475276106ca043ff336d4315</sys_audit_delete>
+        <sys_audit_delete display_value="">ba304d85475276106ca043ff336d4315</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ryann.wiley</sys_created_by>
         <sys_created_on>2026-01-05 20:36:59</sys_created_on>

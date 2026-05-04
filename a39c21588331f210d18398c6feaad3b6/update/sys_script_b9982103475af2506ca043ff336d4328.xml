@@ -8,7 +8,7 @@
         <action_name/>
         <action_query>false</action_query>
         <action_run_at>server</action_run_at>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -34,6 +34,10 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous) {
+	gs.info('Project ID BR running for record: ' + current.sys_id);
+	gs.info('u_project_id = ' + current.u_project_id);
+	gs.info('u_fmc = ' + current.u_fmc);
+	gs.info('u_fmc display = ' + current.getDisplayValue('u_fmc'));
 
     //Generate if empty
     if (!current.u_project_id.nil())
@@ -45,10 +49,13 @@
 
     var fmc = current.getDisplayValue('u_fmc').toString().trim();
 
-    var year = new GlideDateTime()
-        .getYearLocalTime()
-        .toString()
-        .slice(-2);
+    //var year = new GlideDateTime()
+        //.getYearLocalTime()
+        //.toString()
+        //.slice(-2);
+
+	//temo override until widget built	
+	var year = '27';
 
     var key = fmc + '-' + year;
 
@@ -107,7 +114,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b9982103475af2506ca043ff336d4328</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Project ID Generator</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMP2.0" source="x_1831875_amp2_0">a39c21588331f210d18398c6feaad3b6</sys_package>
@@ -116,7 +123,7 @@
         <sys_scope display_value="AMP2.0">a39c21588331f210d18398c6feaad3b6</sys_scope>
         <sys_update_name>sys_script_b9982103475af2506ca043ff336d4328</sys_update_name>
         <sys_updated_by>ryann.wiley</sys_updated_by>
-        <sys_updated_on>2026-01-13 19:12:45</sys_updated_on>
+        <sys_updated_on>2026-03-19 15:29:48</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

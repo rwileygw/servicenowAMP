@@ -3,7 +3,7 @@
         <choices/>
         <description>sys_ux_applicability sys_id for Workspace audience</description>
         <name>wbApplicabilityConfigId</name>
-        <page display_value="AMP2.0">7120055661f13e505e996ae427841cda</page>
+        <page display_value="AMP2 Workspace">7120055661f13e505e996ae427841cda</page>
         <required_translations/>
         <route/>
         <suffix/>
